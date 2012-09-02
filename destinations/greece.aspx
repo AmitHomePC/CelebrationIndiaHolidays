@@ -9,8 +9,11 @@
     
     </asp:ScriptManager>
     
-<ajaxToolkit:TabContainer ID="Countrycontainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
-    <ajaxToolkit:TabPanel ID="map" runat="server" HeaderText="Map">
+<ajaxToolkit:TabContainer ID="Greececontainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+
+<%--GreeceZ--%>
+<ajaxToolkit:TabPanel ID="Greecemap" runat="server" HeaderText="GreeceMap">
+<%--GreeceMapZ--%>        
         <HeaderTemplate>
             <div class="tabs">Map</div>
         </HeaderTemplate>
@@ -20,8 +23,9 @@
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="weather" runat="server" HeaderText="weather">
-        <HeaderTemplate>
+<ajaxToolkit:TabPanel ID="Greeceweather" runat="server" HeaderText="Greeceweather">
+<%--GreeceWeatherZ--%>        
+<HeaderTemplate>
             <div class="tabs">Weather</div>
         </HeaderTemplate>
         <ContentTemplate>
@@ -44,7 +48,8 @@ Read more: http://www.lonelyplanet.com/greece/weather#ixzz24mnLcGYm
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="Airfare" runat="server" HeaderText="Airfare">
+<ajaxToolkit:TabPanel ID="GreeceAirfare" runat="server" HeaderText="GreeceAirfare">
+<%--GreeceAirfareZ--%>        
         <HeaderTemplate>
             <div class="tabs">Airfare</div>
         </HeaderTemplate>
@@ -59,14 +64,17 @@ Read more: http://www.lonelyplanet.com/greece/weather#ixzz24mnLcGYm
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="Visa" runat="server" HeaderText="Visa">
-        <HeaderTemplate>
+<ajaxToolkit:TabPanel ID="GreeceVisa" runat="server" HeaderText="GreeceVisa">
+<%--GreeceVisaZ--%>        
+<HeaderTemplate>
             <div class="tabs">Visa</div>
         </HeaderTemplate>
         <ContentTemplate>
             <div class="visa">
-            <ajaxToolkit:TabContainer ID="Visacontainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
-                <ajaxToolkit:TabPanel ID="visafees" runat="server" HeaderText="visafees">
+            <ajaxToolkit:TabContainer ID="GreeceVisacontainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+<%--GreeceVisatabZ--%>          
+                <ajaxToolkit:TabPanel ID="Greecevisafees" runat="server" HeaderText="Greecevisafees">
+<%--GreeceVisaFeesz--%>          
                     <HeaderTemplate>
                         <div class="subtabs">Visa Fees</div>
                     </HeaderTemplate>
@@ -298,7 +306,8 @@ Rs 30000/-
                        </div>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
-                <ajaxToolkit:TabPanel ID="visadocuments" runat="server" HeaderText="visadocuments">
+                <ajaxToolkit:TabPanel ID="Greecevisadocuments" runat="server" HeaderText="Greecevisadocuments">
+<%--GreeceVisaDocumentsZ--%>          
                     <HeaderTemplate>
                         <div class="subtabs">Required Documents</div>
                     </HeaderTemplate>
@@ -437,7 +446,8 @@ Application can be submitted only 90 days prior to departure.
                        </div>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
-                <ajaxToolkit:TabPanel ID="visadownload" runat="server" HeaderText="visadownload">
+                <ajaxToolkit:TabPanel ID="Greecevisadownload" runat="server" HeaderText="Greecevisadownload">
+<%--GreeceVisaDownloadZ--%>          
                     <HeaderTemplate>
                         <div class="subtabs">Download Application</div>
                     </HeaderTemplate>
@@ -575,7 +585,8 @@ OR
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-     <ajaxToolkit:TabPanel ID="Sightseeing2" runat="server" HeaderText="Sightseeing2">
+<ajaxToolkit:TabPanel ID="GreeceSightseeing" runat="server" HeaderText="GreeceSightseeing">
+<%--GreeceSightseeingZ--%>          
         <HeaderTemplate>
             <div class="tabs">Sightseeing
             </div>
@@ -669,47 +680,1114 @@ OR
 </div>            
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="Cities" runat="server" HeaderText="Cities">
+<ajaxToolkit:TabPanel ID="GreeceCities" runat="server" HeaderText="GreeceCities">
+<%--GreeceCitiesZ--%>          
         <HeaderTemplate>
             <div class="tabs">Cities</div>
         </HeaderTemplate>
         <ContentTemplate>
             <div class="cities">
-                <ajaxToolkit:TabContainer ID="CitiesContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+                <ajaxToolkit:TabContainer ID="GreeceCitiesContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+                    <%--AthensZ--%>
                     <ajaxToolkit:TabPanel ID="Athens" runat="server" HeaderText="Athens">
                         <HeaderTemplate>
                             <div class="subtabs">Athens</div>
                         </HeaderTemplate>
                         <ContentTemplate>
                             <div class="cities">
-                            <ajaxToolkit:TabContainer ID="citytabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
-                                <ajaxToolkit:TabPanel ID="cityoverview" runat="server" HeaderText="cityoverview">
+                            <ajaxToolkit:TabContainer ID="athenstabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+                                <ajaxToolkit:TabPanel ID="athensoverview" runat="server" HeaderText="athensoverview">
                                     <HeaderTemplate>
                                         <div class="sublevel2tabs">Overview</div>
                                     </HeaderTemplate>
                                     <ContentTemplate>
-                                        <div class="cities">Overview
+                                        <div class="cities">
+                                            <img src="Images/Greece/athens.jpg" /><br />
+                                            The Greek capital is undergoing a radical period of urban renewal that did not stop with the 2004 Olympics. The magnificent Acropolis, crowned by the iconic Parthenon temple, rises above the city, watching the sprawling modern metropolis evolve. Athens is now a conspicuously wealthier, more sophisticated cosmopolitan city. The shift is evident in a gradual gentrification and the new art and leisure precincts around town, and in the lifestyles of the hedonistic, trend-conscious Athenians. Stylish new restaurants, shops and revamped hotels continue to open.Perhaps the most significant change is in the historic centre, virtually unrecognisable since cars were banished, with most significant ancient sites linked in what has become Europe’s longest and arguably most stunning pedestrian promenade. This huge archaeological park has reconciled past and present, with the city’s cultural and social life once again taking place around the ancient monuments and surrounding neighbourhoods. Athens remains a city of contradictions, as frustrating as it is seductive. It is the oldest city in Europe, yet still in a state of transition. It’s one of Europe’s safest and liveliest cities – a heady mix of grunge and grace with an undeniable urban soul.
+Most visitors will leave impressed with its vibrant street life and relaxed lifestyle, where people take time out for endless coffees and evening strolls, dine out until late and enjoy the city’s nightlife, long after the rest of Europe has gone to bed. Athenians are the first to debate and lament their city’s many shortcomings – but most wouldn’t live anywhere else.
                                         </div>
                                     </ContentTemplate>
                                 </ajaxToolkit:TabPanel>
-                                <ajaxToolkit:TabPanel ID="citysightseeing" runat="server" HeaderText="citysightseeing">
+                                <ajaxToolkit:TabPanel ID="athenssightseeing" runat="server" HeaderText="athenssightseeing">
                                     <HeaderTemplate>
                                         <div class="sublevel2tabs">Things To Do
                                         </div>
                                     </HeaderTemplate>
                                     <ContentTemplate>
                                         <div class="cities">Things To Do
+<p>
+<h3>1.Theater of Dionysos (Theatro Dionyssou)</h3>
+Dionysiou Areopagitou Street, Athens 105 58, Greece<br /><br />
+    <img src="Images/Greece/greeceathensTheaterofDionysos.jpg" /><br />
+since it's already part of the ticket you bought to see the Acropolis, go check it out. You can get an overhead 
+view from the Acropolis. It is One of two ampitheaters at Acropolis. If you are climbing or descending the back 
+side of Acropolis, stop and look. 
+<h3>2. Odeum of Herodes Atticus (Odeion / Irodion) </h3>
+Odos Dionissiou Areopayitou, Athens, Greece<br /><br />
+<img src="Images/Greece/greeceathensOdeumofHerodesAtticus.jpg" /><br />
+You walk pass this theatre on the way up to the Acropolis. 
+If you enter the Acropole from the southeast, it's one of the first things you see.
+This is definitely a cool sight as you ascend or descend from Acropolis.
+<h3>3.Temple of Athena Nike</h3>
+Athens 10558, Greece<br /><br />
+    <img src="Images/Greece/greeceathenstempleofathenanike.jpg" /><br />
+Small building on the right as you enter the acropolis. The earliest Ionic building on the Acropolis, this small temple of the goddess of 
+victory depicts assemblies of the gods and Greek battles against the Barbarians and the Boeotians. download an 
+audio tour from Rick Steve's Audio Europe and hear the history while visiting the site. It is a free app.<a href="https://play.google.com/store/apps/details?id=com.treemolabs.apps.rsae" >For Android</a>
+<a href="http://itunes.apple.com/us/app/rick-steves-audio-europe/id414357125?mt=8">For Iphone</a>
+<h3>4.Acropolis (Akropolis)</h3>
+Dionysiou Areopagitou Street, Athens 10558, Greece<br /><br />
+    <img src="Images/Greece/greece-athens-akropolis.jpg" /><br />
+Definitely try to get to the Acropolis as soon as it opens at 8am to beat the heat and crowds. Be sure to ask 
+someone at your hotel or someone on the street when you get close to save yourself from wandering around in vain 
+and cursing your map! Also, bring plenty of water as you won't see any public water 
+fountains and the drinks near the entrance are expensive. Keep your combination entrance ticket (12€) for other 
+sites in Athens. Allocate four hours to this site. It is a walk up, plus endless temples and sites to visit on top of the 
+Acropolis, plus the walk down. Take your time to enjoy. This place is really historic but it's in the midst of a 
+rebuild. Walk down to the Agora (NW side) and around to the Plaka.
+<h3>5. Parthenon (Parthenonas)</h3>
+Acropolis | Top of Dionyssiou Areopagitou, Athens 10558, Greece<br />
+Entry Fee: 12 Euro<br /><br />
+    <img src="Images/Greece/greeceathensparthenon.jpg" /><br />
+The place is simply breathtaking. Make sure to wear comfortable shoes, as there are many stairs and slippery 
+stones. The ruins are amazing. The swarming masses are all there by 10.00 by which time you should be departing. 
+<h3>6.Erechtheion</h3>
+Athens 10558, Greece<br /><br />
+    <img src="Images/Greece/greeceathensErechtheion.jpg" /><br />
+the second largest temple on the Acropolis has a complex and unique structure, including its famous Porch of the 
+Caraytis with statues of six graceful maidens on the south side and a four-pillared porch with six Ionic columns 
+on the north side.Parthenon Is right next to it. Recommend listening to Rick Steve's tour guide as you walk along!
+<h3>7.Agora</h3>
+Northwest of the Acropolis base, Athens 999-20, Greece<br /><br />
+    <img src="Images/Greece/greeceathensagora.jpg" /><br />
+These ruins, located in the heart of modern Athens, were once the site of the marketplace in ancient times, a 
+political, cultural and economic center of the ancient world. This area is an ancient city area with the ruins of 
+agora, the Temple of Hephaestas and the Stoa of Attalos, which is the museum that houses some artifacts
+<h3>8.Temple of Hephaestus ( Theison )</h3>
+Agora, Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathenstempleofHephaestus.jpg" /><br />
+Just a walk futher down from the Acropolis. Nice cafes and restaurants around. Again, go early in the morning.
+The Temple of Hephaestus is located inside the larger area of the Ancient Agora. This whole area is worth a visit. 
+As mentioned before....good walking shoes and go early. 
+<h3>9.The Acropolis Museum</h3>
+Dionysiou Areopagitou 15 | Makrigianni District, Athens 11742, Greece<br />
+Entry Fee : 5 Euro<br /><br />
+<img src="Images/Greece/greeceathensacropolis1.jpg" /><br />
+Walking over the glass floor and seeing the ruins beneath was an awesome experience.<br /> 
+The cafe - restaurant is very good and cheap. And of course, this is in te top 3 museums in Greece (as of 
+historical importance).
+The installations are amazing. The reconstructed Acropolis on the third floor makes a great deal more sense 
+if you watch the movie on the second floor before heading up.
+The 3D movie finishes around 1pm.
+<h3>10.Panathenaic Stadium (Panathinaiko Stadio)</h3>
+Vassileos Konstantinou Avenue, Athens 999-20, Greece<br />
+Entry Fees : 3 Euro<br /><br />
+    <img src="Images/Greece/greeceathensPanathenaicStadium.jpg" /><br />
+Great historic site from the original Olympics in 1896. Entry Fee includes a headset with a 20 min history of the 
+site. Most people just take photos from the southern end of the stadium where you can see in uninhibited. Its 
+incredible to think that this entire stadium is built from marble but every brick and step is. Its really 
+something to behold. The bus stops right in front of the stadium, so it is easy to get to.
+<h3>11.Filopappos Hill</h3>
+Southwest of the Acropolis, Athens, Greece<br /><br />
+<img src="Images/Greece/greeceathensFilopapposHill.jpg" /><br />
+This hill is a favorite for weekending Athenians who come here to picnic and admire the breathaking views on 
+Akropolis, the best pictures of Akropolis without the disadvantages. The funicular is fun too which takes you up 
+the hill. The restaurant at the top is lovely, The food is good and the views over the city are astounding.
+you get the whole of the Acropolis complex plus the town - Loumbardiaris church and exceptional walks.
+<h3>12.Mt. Lycabettus (Likavitos)</h3>
+Athens 99920, Greece<br /><br />
+    <img src="Images/Greece/greeceathensMountLycabettus.jpg" /><br />
+This is a "sleeper" location. Take a taxi to the site and ask them to wait for you. It is the highest location 
+within the Athens area. A small cog driven tram takes you up to the Chapel area, where you enjoy a full panaroma 
+of Athens. You can also visit the Chapel. Nice view of athens especially at night!!take the train ( teleferic) 
+from kolonaki, or walk your way there!! if you want a top view of the city of Athens: go up Likavitos. There is a 
+funiculair but it is quite expensive and uses a tunnel so you won't capture the view. To go up you can take a taxi 
+to the theater on the north side of the hill. From there it's a short walk to the top. Great to escape the crowds!
+As you come down there are some lovely cafes who offer refreshemnt at reasonable prices and the church on the top 
+makes a lovely centrepiece. If you're in Athens, even for a short visit, don't leave without going to the top of 
+Lycabettus Hill - you get a stunning 360 view of Athens and the Acropolis site which you'll remember for a long time.
+If possible, stay for sunset and after dark as you'll see Athens city transform and light up in the dark, including 
+the Acropolis.The restaurant at the top is a nice experience to have, although food is average.
+
+If you're planning to make your way here via public transport, be careful not to follow the tourist maps too 
+strictly as the start point for the cable car isn't quite where the map shows the cable car starting from.
+Tram to the top costs 7 euro round trip. Be up there when the sun comes down, giving a warm color to the city. 
+Then it gets dark and you see the city with the lights on. At night visitors (most by car) are couples but also 
+families and groups of friends. Ok, if you go really late, after midnight that is, probably you will find more 
+couples - but in a romantic mood :) There is a canteen there where you could buy chips, beverages, beers etc, but 
+nothing special. What's special is the little church on the top of Lycabettus. It's a bit of a walk to reach it, 
+as it can not be reached by car, but it worth it. Better go to the church while there is still some day light, 
+afterwards it is not impossible but a little more difficilt to walk the path
+<h3>13.Temple of Olympian Zeus (Stiles Olymbiou Dios / Olymbion)</h3>
+At Leoforos Vas. Olgas and Amalias and easily seen from the street, Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathenstempleofolympianzeus.jpg" />
+Don't be fooled into thinking that you can see all from the gates. Yes you can to a certain degree but it is 
+really worth the visit inside to see these amazing columns up close. Why travel all the way to Greece and not go 
+inside? There is a very cheap entrance fee as well - a couple of euros. You really do get a "feel" about this place. 
+It is mystical and magical. There are some ancient ruins of roman baths just inside the entrance gate to view too.
+I loved seeing this site. A short walk from Tomb of Unknown Soldier and Gov't gardens. Go to the Temple and look 
+up at the Acropolis. Also, great shots from Parthenon down to the temple. A lot of people may tell you that there 
+is no need to go in and see these staggering columns because there are plenty of vantage points to take pictures 
+etc from outside the gates. You really should go in and see them though. To stand beneath them and look up at them 
+is an unforgettable experience. It's very hard to imagine how men could have built such things 2000+ years ago. 
+You can buy a collective ticket that allows you entrance to the Acropolis, Roman Agora, Ancient Agora, and 
+the Temple of Olympian Zeus for 12 Euros. You could easily see all of these attractions in 2 days and they are all 
+worth seeing
+<h3>14.Tomb of the Unknown Soldier & Parliament Building</h3>
+Constitution Square, Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathenstomboftheunknownsoldier.jpg" /><br />
+See the changing of the guard on the hour here, wonderful! There is a lead militant who speaks to the crowd in 
+greek and english. Can take pictures during the ceremony, and with the individual guard at their house after. Go 
+Sunday morning at 10am for official changing with military band.
+<h3>15.Adrianou Street</h3>
+Adrianou Street, Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathensadrianoustreet.jpg" /><br />
+Adrianou street is a must see in Athens. walk this lovely street several times in different hours. 
+Adrianou and Kydatheneon Streets are the two main streets of the historical famouse Plaka district. 
+Adrianou street starts in Monastiraki flea market towards the roman agora and after the Hadrian Library on the 
+ancient way under the Acropolis. The street is full of tavernaes, cafe shops and restaurants, many small shops - 
+you can find here almost everything . We advice you not to buy in the first shop. Look and compare prices which 
+are flexible.
+<h3>16.Lake Vouliagmeni</h3>
+Possidonos Avenue, Athens, Greece<br /><br />
+<img src="Images/Greece/greeceathensvouliagmenilake.jpg" /><br />
+The scenery is beautiful and they serve nice coffee! try the iced coffee drink that everyone recommends, it is indeed 
+nice and strong. You can take the Express E2 bus from Syntagma or bus 14/15 from Glyfada. This takes about 1 hr. 
+The Lake is supposed to be 22 degrees but it feels a lot colder than that, but still warmer than the sea. It costs 
+8 Euro to get in and well worth it, to use the shower (with hairdryer!) loungers. You can order food from the 
+waiters, who have to go out to get it from near by, this makes it a bit more expensive, but it is really nice food.
+The lake has those fish that you go to a spa for to eat the dead skin off your feet. So as you get in via the 
+steps be prepared to be tickled!! The lake is used by elderly greeks who come down in their robes, swimming caps &
+googles, it is very good entertainment.
+<h3>17.Kifissia</h3>
+Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathenskifissiashoppingstreet.jpg" />
+Kifissia is a leafy, modern, upscale northern suburb of Athens. it is home to the Varsos Kifissia 
+bakery/patisserie/cafe/blast from the past. A Must visit is Varsos which has innumerable sweet delicacies 
+Other than that it is more in the realm of "advanced" Athens, a side trip after the big ticket items 
+(Acropolis, etc.) In addition, if you are in Athens in the summer and have maxed out on the heat and the hordes, 
+Kifissia is a nice place to chill out away from the polluted downtown air. In the past, when it was a distinctly 
+separate village, Athenians went there for the cooler weather (it is at a somewhat higher altitude than the big 
+city). kifissia is home to many international brand name outlets with prices to match. There are various cafes 
+were the young and beautiful come to see and be seen over a typical cold frappe coffee. There are also various 
+restaurants serving Greek and international fare. We have never been there at the right time, but there is a 
+yearly Kifissia flower show, said to be the largest in Greece, held at the park across the street from the metro 
+station in spring (April-May). Probably beautiful. Getting there, as they say, is half the fun. 
+We recommend taking the green metro line to the last stop called, of course, Kifissia. It is about 35 minutes 
+from Omonia and for most of the journey the train travels above ground giving you a tour of various neighborhoods 
+en route, including the contemporary Olympic stadium (a glimpse). It is suggested not to drive your own car from 
+Athens to Kifissia, or taking a taxi, as the traffic is always heavy and at times completely jammed. Let the metro
+do the work for you. Couture shops, elegant cafe shops and 3-4 nice restaurants to eat. You will find all 
+expensive shops here such as Luis Vuitton, Gucci etc. Actually Kifissia is a shopping village... full of green 
+trees and fresh air. You can have fantastic pasta at La Pasteria and very good souvlaki at Mythos. If you walk up
+ on Drosini street you will find Tzitzikas & Mermigas with fantastic modern Greek cuisine.
+A great suburb, accessed by bus from top of syntagma square E14/X14 or the metro on the green line within 30-45minutes. It's a chance for people to see a different, more upmarket Athens. Things to do include, bars, restaurunts, TGI Fridays, Applesbees, shops for shopping, paved walking areas, bowling/pool, a church, sheesha bar,open-air cinemas etc. Kiffisia is also joined with Kefalari which some of the things mentioned above are at- If your visiting Athens, I highly reccomened to see this different side to Athens, most people who visit don't and it's a shame
+
+<h3>18.Gazi</h3>
+Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathensgazi.JPG" /><br />
+Gazi is an area near to tghe center of athens. Use the metro (blue line) to reach the area in KERAMIKOS station. 
+There you can find some really good and cozy restaurants for dinner (15 - 30€) such us "spitakia" or "mamacas", 
+and same tavernas (10 - 20€) such us "gazoxori" where yoy can taste traditional food and drink like ouzo and raki!
+There you can find interesting bars with every kind of music for examble "44*" or "gazaki" for rock music, 
+"socialista" for dance musik with tango or latin nights, "tapas" for spanish music, drink, coctail and tapas..! 
+Gazi is also a gay friendly area with many safe, amusing bars. Ask if during your trip, takes place a festival 
+in "technopolis", so you can see a live sjow on the stage there! There are also in winter the "bouzoukia" .. open 
+at 24.00 and close 06.00 in the morning! Its a place you must visit .. and a place that also improve the night 
+life for greeks! Dirty, scary and looks like small Eastern European village, Monastiraki's night life is much more
+vibrant, interesting and foreigners friendly:) The Bars look okay, the people are very young, hundreds of little 
+greek teens on Bikes everywhere, went on April 2012 Easter night, was not impressed, left after 30 minutes back to Monastiraki TAF (The Art Foundation) Pub which was amazingly cool!
+Especially if you are gay/lesbian traveller, not the area is by no means exclusively gay. Every night here is a 
+party with a very vibrant atmosphere, centering around the Kerameikos metro station, and the party goes all night 
+long. Within 3 blocks you can find straight and gay bars (or mixed), late night eateries, coffeeshops, street food 
+vendors, gay saunas and late night dance clubs. If you are a younger traveller or someone that enjoys the 
+nightlife, THIS IS THE PLACE.
+<h3>19.Kolonaki</h3>
+Athens 10673, Greece<br /><br />
+    <img src="Images/Greece/greeceathenskolonaki.jpg" /><br />
+Kolonaki is a very well known area only 5 to 10 minutes away from the center of Athens. From the beginning of the 
+previous century it was supposed to be the area that rich and famous people of Athens were leaving in traditional 
+blocks.Now is an area which is connected by two big roads of Athens, Akadimias Str. and Basilis Sofias Str.
+The area is full of shops with brands from clothes, shoes etc., bars, clubs and restaurants. Most of them are a 
+little bit expensive especially the stores. It has an amazing nightlife but parking there is a huge problem almost 
+every time of the day especially during weekends which becomes one of the biggest centers of Athens nightlife.
+Kolonaki square is very well now but unfortunately not so good in appearance and not so attractive.
+If money is not a problem, this is one of the areas to be (another is Glyfada). And the central square is the 
+place to see and to be seen. Nice shops and completely different from the nearby Plaka. The streets around the 
+Kolonaki square are perfect for shopping , walking, and drinking coffee especially on a sunny day. Nightlife is 
+high level in all bars in this square
+<h3>20.Monastiraki</h3>
+Monastiraki, Athens, Greece<br /><br />
+<img src="Images/Greece/greeceathensmonastirakisquare.jpg" /><br />
+It is very sympatic place to visit, small streets, small shops, charming.Recommended to try the Ice-Cream 
+place. Monastiraki is the place to stay and be. Everything is within walking distance - the Acropolis, Agora, 
+shopping, flea markets, restaurants and cafe's. Great people watching too! You must visit Monastiraki if you are 
+in Athens. Right under Acropolic it self, Monastiraki gives you the old spirit of Greece. Always crouded with 
+joyfull people it gives you feeling of mistery. Visit the taverns all over the place, with very nice stuff and 
+fair prices.This is a buzzing place to visit at night. Lots of bars and restaurants to choose from
+“Great Restaurant-Euxapis (Pleasure)” If you want an experience and not just a meal, go to this restaurant. The 
+staff will do everything within their power to make you feel welcome, relaxed and satisfied. Get treated to extras 
+during the meal as well as wonderful hospitality, friendship and generosity. You will not regret the time spent here.
+<h3>21.Psiri</h3>
+off Ermou Street, Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathenspsiri.jpg" /><br />
+So this is one of the best places in Athens. You can find anything. Bars, theatres, vintage furniture, restaurants,
+ tavernas, coffee shops, absolutely anything. It's full of life, not strictly tourists, but mostly locals and you 
+can get an idea of the actual city life, or better put, of what people do when they go out. The small shops, 
+taverns, theater give this place a real spirit of Athens. Great coffee places, nice people everywhere. Great for a 
+morning or late evening walk. This is the trendy area to go to for night clubs and bars and basically 
+street-party-like behaviour. It only wakes up around midnight, but the clubs are open until dawn!
+Go there in the evening - you will think you are in the wrong area. Just walk the lanes and you will find great 
+restuarants, quaint bars, fabulous graphetti and great little shops. The is cheaper than the Plaka and much less 
+touristy - it is a new area now well known to locals for it's bars, nightlife and food- don't miss this area!
+First thing you have to know is that, originally, Psyrri was a working man's district, then it acquired a 
+red-light reputation. Then it became a dump. Then it became "the" gentrification project of the decade, and now 
+it's a very pleasant and rather hip place. We lived there for a while. But the gentrification has happened in a 
+rather uneven fashion, and there are still a few less appetizing streets left. Don't let that deter you: there is 
+lots and lots of cool stuff, especially after 6 pm. Lots of good restaurants and bars. There even is a 24/7 bakery!
+THE place for real greek nightlife. walk around and find your "cup of tea". from low key bars to crowded nightclub, 
+you name it! As you can understand...after 23.00hrs comes the real fun, after all this is greece. must visit is
+the creamy pie store in the main square of psiri.
+<h3>22.Hadrian's Arch (Pili tou Adrianou)</h3>
+On Leoforos Amalias, Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathensHadriansArch.jpg" /><br />
+Seeing Hadrian's Arch is really about getting a photo of it. It is on a busy corner, so getting a picture of it 
+with no cars in front of it is challenging. The arch is down the street from the National Garden and across the 
+street from the Plaka. If you're in this area at all, it's almost a shame not to see it.
+<h3>23,Flisvos Marina</h3>
+17561 Paleo Faliro, Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathensflisvosmarina.jpg" /><br />
+Relax in laid-back cafes and tavernas grouped around this charming yacht marina.nice to walk by the sea, and this 
+new marina offers an unforgettable experience. Surrounded by restaurants, cafes, bars, nightclubs, open-air cinemas, 
+and shops, it is like a paradise so close to the city centre. Accessible by both bus and tram services, it can be 
+described as a new centre for the city, as far as leisure and entertainment is concerned! 
+<h3>24.Vouliagmeni Beach</h3>
+Athens, Greece<br /><br />
+    <img src="Images/Greece/greeceathensvoulabeach.jpg" /><br />
+the price is variable depending on the day (4 euro during the week and 5 at weekends and holidays). the sunbeds 
+are 2 euros each or 4 euros depending on which day you go. the beach is exceptionally clean and there are plenty 
+of staff who will gladly fetch drinks or snacks for you. the sunbeds are very comfy. the waters clean and clear. 
+a perfect place to chill. What can a beach do in Plaka? Vouliagmeni beach is about three kms, the joining beach of 
+Kavouri is free. Parking can be a bit of a hustle and Sundays is one of the fights of Heracles. The sea is a blue 
+flag awarded by the EU so it has very clean waters. Only weekdays.
+
+<h3>Main tour of the major ancient sites of Athens</h3>
+Start a the Acropolis Metro station and walk half a block with the Acropolis museum on your left. It might be a 
+good idea to buy two small bottles of water from the food shops across from the Metro station and to have breakfast 
+there (if you haven' had it at the hotel), or buy a cheese pie to eat as you walk. Turn left on Dionysiou 
+Areopagitou street. We'll reserve the Acropolis Museum visit for later in the day when its air conditioned rooms 
+would be a welcome relief for the mid-day sun, so head for the Acropolis itself now that the sun is still low on 
+the horizon.<br />
+On your right hand side you will see the entrance to the Acropolis Archaeological site. Pay for your ticket and 
+walk up the foot path that takes you through the Theatre of Dionysus (the place where Theatre reached it's zenith 
+in Ancient Athens) and the back of the Odeon of Herodes Atticus. The Odeon is a later, Roman era addition 
+(10min walk).<br />
+From there walk up the precarious footpath and the Propylaea to enter the top of the Acropolis. On the Acropolis, 
+you can find a water fountain and toilets at the southeast end of the rock but shade and other amenities are not 
+available until you exit the Archaeological site. Refill you water bottles there.Exit the Acropolis and head west 
+towards the Areios Pagos (feel free to ascent the rock through the stairs for good views of the Acropolis and the 
+Agora below). You will see that this is the main entrance and ticket booth to the Acropolis, and there is a gift 
+shop, and benches to rest under the trees shade. If your water bottles are empty, you should be able to buy water 
+in this area. We recommend not to spend too much time here because our tour just started. Walk northwest on 
+Theonas road to find the entrance to the Agora of Athens. <br />
+The Agora (meaning "marketplace") was the heart of Ancient Athens, and the place of exchanging goods and ideas. 
+You will be walking a dirt path that in Classical antiquity was the sacred Panathenaic Way. On a low hill, 
+diagonally to your left you will see the Hephaisteion temple, so follow the footpaths to it and return to the 
+Agora Museum. You can probably be finished with the museum visit in about fifteen or twenty minutes, and when you 
+are done exit on Adrianou street (this portion of tour: about 45min).<br />
+Here you'll have the option to skip the Kerameikos portion of this tour. If you decide to skip Kerameikos you will 
+be shaving about one hour off this tour. Kerameikos is a major Archaeological site since it encloses the defensive 
+walls and the cemetery of Classical Athens, but given the other sites and museums included here, it's not a 
+"must-see" venue.Having said that, if you enjoy ancient ruins and museums, and especially if the main thrust of 
+your visit to Greece is to study the ancient culture, When you reach the Thesion Metro (HSAP) station turn to the 
+right toward the archaeological site. Once again, leave the museum next to the entrance for last. There is a 
+restroom and a water fountain at the Museum. <br />
+Once finished with your Kerameikos walking tour, head back toward Thesion Metro station again. Here you will have 
+the option of hopping on the train to reach the next stop: Monastiraki station which is closer to our next 
+Archaeological site. Another option would be to use the Metro from Thesion to get back to the Acropolis museum by 
+skipping Hadrian's Library and the Roman Agora.<br />
+But if you still have the time, the next part of this tour would take you through a good city walking territory, 
+and coincides with parts of our sightseeing tour of Monastiraki, so we recommend following our tour on foot.<br />
+Monastiraki and lunch<br />
+If you started the tour early in the morning, you are probably ready for lunch just about now, and you should be 
+in the right place. As you walk through Adrianou street pick one of the outdoor restaurants right next to the 
+ancient ruins to have your lunch and a drink, then keep walking east until you reach our next archaeological site. 
+It might be a good idea to use the restaurant restroom facilities before you head to our next two sites. Buy 
+bottled water at the kiosks right across from the Hadrian's Library site as soon as you get there.<br />
+Hadrian's Library and Roman Agora (or Forum)<br />
+For perspective, both Hadrian's Library and the Roman Agora are later addition to the city, built by the Romans 
+about 400 years after the Parthenon and the Hephaisteion were built. Both ancient sites can be visited in about 
+half hour. Hadrian's Library is right next to the busy Monastiraki Metro station and it's visible through the 
+imposing reconstructed facade and columns. It was built by the philhellene Roman emperor Hadrian in 132 CE to 
+house papyrus books and to revitalize the already declining intellectual centrality of post-Classical Athens. In 
+it's grounds, you will see the foundation outlines of their churches that were built on the library's ruins 
+between 500 and 1200 CE. Again for perspective, that's over a millennium after the Parthenon was built.
+<br />
+Tower of Winds<br />
+The Roman Agora was built after the Roman empire established rule over Greece to differentiate their market from 
+the ancient Athenian one. It was built on the site of an earlier Hellenistic center, and the most notable 
+attraction is the Tower of Winds or Horologion (time-teller). The Tower of Winds is an octagonal marble building 
+that stands intact since the 2nd century BCE. It was originally built to house a water clock and to act as a 
+weather vane. The relief statues that surround the top of the tower depict the eight wind directions.<br />
+
+The walk toward the Acropolis Museum<br />
+the next twenty minutes will take you through a pleasant, flat, and "touristy" part of town. If you don't want to 
+walk through other wandering tourists, you can walk back to Monastiraki station to ride the Metro to the Acropolis 
+Museum, or you can walk up the district of Plaka for less crowded sightseeing through the residential area. If you 
+choose this latter option, keep in mind that the walk will be uphill and if you keep the Acropolis to your right 
+you'll eventually end up at the Acropolis museum.<br />
+<br />
+Lysicrates Monument<br />
+Continuing with our tour, you will be walking through Adrianou street - the oldest continuously used road of 
+Athens that dates to the Classical era and beyond. It would take you about 15 or 20 minutes to reach the Acropolis 
+Museum from the Roman Agora.<br />
+When you reach Lysikratous street turn to your right toward the Monument of Lysicrates, and then left (it's easier 
+walking down through the park where the monument is rather than walking on the busy street traffic). The Monument of 
+Lysicrates was financed by a wealthy citizen of Ancient Athens who also sponsored musical performances at the 
+Theatre of Dionysus you saw earlier at the Acropolis. Lysicrates built it to commemorate his sponsored performance's 
+winning first price in 335/334 BCE.<br />
+last stop is The Acropolis Museum
+
+
+
+</p>
                                         </div>
                                     </ContentTemplate>
                                 </ajaxToolkit:TabPanel>
-                                <ajaxToolkit:TabPanel ID="cityhotels" runat="server" HeaderText="cityhotels">
+                                <ajaxToolkit:TabPanel ID="athenshotels" runat="server" HeaderText="athenshotels">
                                     <HeaderTemplate>
-                                        <div class="sublevel2tabs">Hotels
+                                        <div class="sublevel2tabs"> Hotels
+
+<%--    <ajaxToolkit:TabContainer ID="TabContainer1" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+    <ajaxToolkit:TabPanel ID="TabPanel1" runat="server" HeaderText="apartments">
+        <HeaderTemplate>
+            <div class="sublevel3tabs">Apartments</div>
+        </HeaderTemplate>
+        <ContentTemplate>
+            <div class="cities">
+                
+            </div>
+        </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    </ajaxToolkit:TabContainer>--%>
                                         </div>
                                     </HeaderTemplate>
                                     <ContentTemplate>
                                         <div class="cities">
-<h3>Cape Sounio, Grecotel Exclusive Resort 4 stars (INR 10300 Per Night Breakfast Included)</h3><br /><p>67 Km Athens Sounio Road, Sounio, 19500 Greece‎1800 102 3346</p>
+<ajaxToolkit:TabContainer ID="athensHotelscontainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+    <ajaxToolkit:TabPanel ID="AthensApartments" runat="server" HeaderText="Athensapartments">
+        <HeaderTemplate>
+            <div class="sublevel3tabs">Apartments</div>
+        </HeaderTemplate>
+        <ContentTemplate>
+            <div class="cities">
+ 
+            </div>
+        </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="AthensBudgetHotel" runat="server" HeaderText="AthensBudgetHotel">
+<%--under 5k hotels--%>
+        <HeaderTemplate>
+            <div class="sublevel3tabs">Budget Hotels</div>
+        </HeaderTemplate>
+        <ContentTemplate>
+            <div class="cities">
+<p><h3>Hôtel Semiramis</h3>Bp 525 Rte De Casablanca, 40.000 Marrakech<br /></p>
+                <img src="Images/Greece/greece-athens-Semiramis.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis2.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis3.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis4.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis5.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis6.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis7.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis8.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis9.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis10.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis11.jpg" />
+                <img src="Images/Greece/greece-athens-Semiramis12.jpg" /><br />
+The Semiramis is set in 4-hectare park planted with palm trees, just 10 minutes from the Jamaâ El Fna Square. It features an outdoor swimming pool and a spa.<br />
+
+Decorated in traditional Moroccan colours, the guest rooms at Semiramis are spacious and feature a private balcony. Each is air-conditioned and has free Wi-Fi access and a TV with satellite channels.<br />
+
+Le Chellah restaurant serves traditional cuisine. Next to the swimming pool, both La Strada and L’Oasis serve Mediterranean dishes. The hotel’s Bar Aladin opens onto the gardens and serves a range of drinks.<br />
+
+Additional facilities at Semiramis include a meeting room, fitness centre and spa with a steam bath and massages. Guests may also play tennis or volley ball and dance the night away in the nightclub.<br />
+
+The hotel is easily accessed from Marrakech International Airport, 15 minutes away. The city centre is a 10-minute drive away and private parking is free on site.<br />
+
+Hotel Rooms: 180<br />
+Opening onto the internal courtyard with plants, this room has air conditioning, a minibar, satellite TV and Wi-Fi. It features a balcony.<br />
+
+Room Facilities: Balcony, Garden View, Telephone, Satellite Channels, Safety Deposit Box, Air Conditioning, Heating, Bath, Hairdryer, Free toiletries, Toilet, Bathroom, Minibar<br />
+
+Room Size:  20 square metres<br />
+Bed Size(s): 1 Double<br />
+Taxes: EUR 2.60 city tax per person per night is excluded.<br />
+
+<p><h3>Centrotel Hotel </h3>
+Paioniou 11Α, 10440 Athens ( INR 3500 No Meals )<br />
+    <img src="Images/Greece/greece-athens-centrotel.jpg" />
+    <img src="Images/Greece/greece-athens-centrotel2.jpg" />
+    <img src="Images/Greece/greece-athens-centrotel3.jpg" />
+    <img src="Images/Greece/greece-athens-centrotel4.jpg" />
+    <img src="Images/Greece/greece-athens-centrotel5.jpg" />
+Located in the center of Athens, just 500 metres from Larissis Station, Centrotel Hotel offers modern accommodation with hydro-massage facilities and free wireless internet.<br />
+
+Rooms at Centrotel Hotel are well-appointed and modern in design. They are air-conditioned and they include hydro-massage bathtub, satellite TV and refrigerator. Most Centrotel rooms offer balconies with views of the city.<br />
+
+Situated only 300 metres from the train station of Victoria and 500 metres from Larissis Railway Station, with access to the metro and the suburban railway, hotel Centrotel is an excellent base for exploring Athens. Free private underground parking is available.<br />
+
+Hotel Rooms: 50<br />
+Please note that this room does not have a balcony and faces the back of the building.<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Heating, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Telephone, Radio, Satellite Channels, Refrigerator, Wake Up Service/Alarm Clock<br />
+
+Room Size:  18 square metres<br />
+Bed Size(s): 1 Double<br />
+
+
+</p>
+<p><h3>Jason Inn ( INR 4200 Breakfast Included )</h3>12 Ag. Assomaton Street, Psiri, 105 53 Athens<br />
+    <img src="Images/Greece/greece-athens-jasoninn.jpg" />
+    <img src="Images/Greece/greece-athens-jasoninn2.jpg" />
+    <img src="Images/Greece/greece-athens-jasoninn3.jpg" />
+    <img src="Images/Greece/greece-athens-jasoninn4.jpg" />
+    <img src="Images/Greece/greece-athens-jasoninn5.jpg" />
+    <img src="Images/Greece/greece-athens-jasoninn6.jpg" /><br />
+
+Within a 10-minute walk from Athens Old Town, Jason Inn offers a rich breakfast in its rooftop restaurant with amazing views over the Acropolis. The Metro is at 100 metres.<br />
+
+Each air-conditioned room is equipped with a satellite TV and minibar. All units have en suite facilities and a hairdryer. Free Wi-Fi is available.<br />
+
+In the warm months, a breakfast buffet is served on the rooftop terrace with views of the Parthenon. The restaurant serves international and Mediterranean dishes during lunch and dinner. Guests can have drinks and coffee at the bar.<br />
+
+Psyri is a lively entertainment area with lots of bars, cafés and restaurants. Jason Inn is within 400 metres from ancient Kerameikos site. Syntagma Square and the Acropolis are just 1 km away.<br />
+
+Hotel Rooms: 57<br />
+Air-conditioned room with free Wi-Fi, satellite TV and minibar. Includes soundproofed windows, direct dial telephone, safety box and hairdryer.<br />
+
+Room Facilities: Balcony, Telephone, Satellite Channels, Safety Deposit Box, Air Conditioning, Shower, Hairdryer, Toilet, Bathroom, Minibar<br />
+
+Room Size:  18 square metres<br />
+Bed Size(s): 2 Single<br />
+</p>
+<p><h3>Areos Hotel Bouboulinas  (INR4600 Breakfast Included)</h3>19, Athens 10682, Greece<br />
+    <img src="Images/Greece/greece-athens-areos.jpg" />
+    <img src="Images/Greece/greece-athens-areos2.jpg" />
+    <img src="Images/Greece/greece-athens-areos3.jpg" />
+    <img src="Images/Greece/greece-athens-areos4.jpg" />
+    <img src="Images/Greece/greece-athens-areos5.jpg" />
+    <img src="Images/Greece/greece-athens-areos6.jpg" />
+    <img src="Images/Greece/greece-athens-areos7.jpg" />
+    <img src="Images/Greece/greece-athens-areos8.jpg" />
+    <br />
+This new boutique hotel in Athens city centre is situated next to Areos Park. It features a lounge bar and non-smoking rooms with flat-screen TV and free Wi-Fi.<br />
+
+The modern and stylish rooms of the Hotel Areos feature parquet floors, earthy colours and luxury fittings. They all come equipped with air conditioning and minibar.<br />
+
+Buffet breakfast is served each morning and can be ordered through room service. Hotel Areos has a stylish and cosy café bar, while at the restaurant guests can sample Mediterranean cuisine.<br />
+
+Hotel Areos’s 24-hour front desk offers tourist information and can arrange for car rental.<br />
+
+Areos Hotel is 5 minutes' walk from Victoria Metro Station and the National Archaeological Museum. The Athens Sightseeing public bus line stops a 5-minute walk from the hotel and connects to the Acropolis, Plaka, the National Gallery, the Benaki Museum and 16 other destinations.<br />
+
+Hotel Rooms: 38<br />
+Features wooden surfaces and earthy colors that match the elegant wallpaper. All rooms have air conditioning, wired internet, refrigerator, hairdryer, TV and telephone.<br />
+
+Room Facilities: Balcony, Telephone, Satellite Channels, Flat-screen TV, Air Conditioning, Desk, Heating, Wooden / Parquet floor, Hairdryer, Free toiletries, Toilet, Bathroom, Slippers, Bath or Shower, Minibar, Wake Up Service/Alarm Clock<br />
+
+Room Size:  25 square metres<br />
+Bed Size(s): 1 Double<br />
+</p>  
+<p><h3>Athens Center Square (INR 4600 Breakfast Included)</h3><br />15, Aristogitonos Street & Athinas | Monastiraki/ Psyri, Athens 10552, Greece<br />
+    <img src="Images/Greece/greece-athens-centersquare.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare2.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare3.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare4.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare5.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare6.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare7.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare8.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare9.jpg" />
+    <img src="Images/Greece/greece-athens-centersquare10.jpg" />
+<br />
+With stunning rooftop views of the Acropolis, this boutique hotel offers stylish accommodation with free Wi-Fi, conveniently close to Monastiraki Metro Station and the charming Plaka neighbourhood.<br />
+
+This is a modern hotel conveniently located next to Athens' Central Market. Every guest room is individually decorated and equipped with air conditioning, fridge, flat-screen satellite TV and safe.<br />
+
+Start each day with a rich buffet breakfast included in your room rate. Relax on Athens Center Square's rooftop and admire the beautiful views of the city and the Acropolis.<br />
+
+The friendly staff of Athens Center Square are on hand 24 hours a day. They are more than happy to offer recommendations for the nearby restaurants and taverns.<br />
+
+The Monastiraki Metro Station is just 300 metres away, allowing you to easily access every part of Athens. Ermou Street's fabulous shops are also a short walk away from the hotel.<br />
+
+Hotel Rooms: 54, Hotel Chain: Athens Hotels Group.<br />
+This room is elegantly decorated and located on the first 3 floors of the hotel.<br />
+
+Room Facilities: View, Telephone, Radio, Satellite Channels, Laptop Safe Box, Flat-screen TV, Safety Deposit Box, Air Conditioning, Desk, Ironing Facilities, Heating, Tiled / Marble floor, Wooden / Parquet floor, Hairdryer, Free toiletries, Toilet, Bathroom, Bath or Shower, Refrigerator, Wake Up Service/Alarm Clock, Alarm Clock<br />
+
+Room Size:  16 square metres<br />
+Bed Size(s): 2 Single or 1 Double<br />
+</p>               
+            </div>
+        </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="AthensStar3" runat="server" HeaderText="Athensstar3">
+ <%--under 8k hotels --%>
+        <HeaderTemplate>
+            <div class="sublevel3tabs">3Star</div>
+        </HeaderTemplate>
+        <ContentTemplate>
+            <div class="cities">
+<p><h3>Eridanus Hotel (INR 5800 Breakfast Included)</h3><br />78 Piraeus Street, Athens 10435, Greece<br />
+    <img src="Images/Greece/greece-athens-eridanus.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus2.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus3.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus4.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus5.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus6.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus7.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus8.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus9.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus10.jpg" />
+    <img src="Images/Greece/greece-athens-eridanus11.jpg" /><br />
+Located in the heart of Athens, Eridanus Luxury Art Hotel features classically decorated rooms with marble bathrooms. It offers a buffet breakfast.<br />
+
+The interiors of Eridanus Luxury Art Hotel feature stylish colour combinations, authentic ceiling frescos and smart lighting. They come with a satellite LCD TV, air conditioning and coffee maker.<br />
+
+A fully equipped gym with steam bath is also at your disposal during your stay.<br />
+
+Within walking distance from Eridanus, guests can reach the vibrant nightlife of Psiri and Kerameikos, the Monastiraki flea market and the picturesque area of Plaka.<br />
+
+Hotel Rooms: 38<br />
+Elegant room decorated in earthy tones featuring: <br />
+-air conditioning <br />
+-satellite LCD TV <br />
+-coffee maker <br />
+-bathrobes and slippers <br />
+-private balcony.<br />
+
+Room Facilities: Balcony, Telephone, Satellite Channels, Flat-screen TV, Safety Deposit Box, Air Conditioning, Iron, Desk, Ironing Facilities, Wooden / Parquet floor, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Bath or Shower, Minibar, Wake Up Service<br />
+
+Room Size:  25 square metres<br />
+Bed Size(s): 1 Double or 2 Single<br />
+</p>
+<p><h3>Acropolis Museum Boutique Hotel(INR6400 Breakfast Included) </h3><br />48 Syngrou Avenue Plaka, Athens 11742, Greece<br />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique2.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique3.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique4.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique6.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique7.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique5.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique8.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique9.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique10.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique11.jpg" />
+    <img src="Images/Greece/greece-athens=acropolismuseumboutique12.jpg" /><br />
+Set in one of the finest areas in Athens, the Acropolis Boutique Museum Hotel offers charming accommodation with free Wi-Fi. It is a short walk from the Acropolis and Plaka.<br />
+
+Rooms are decorated in a simple, luxurious style. They are painted in natural colours and feature high ceilings, wooden floors, original paintings and comfortable queen-size or double beds with ecological mattresses.<br />
+
+A rich breakfast buffet is served daily at the Acropolis Museum Hotel’s breakfast area. Later in the day guests can hang by the bar or the internet corner available at the hotel.<br />
+
+Situated at the foot of the Acropolis hill, the hotel is within walking distance of the Parthenon, Temple of Zeus, Hadrian Arch and the other important sites. Guests can easily walk to Syntagma Square, and the exclusive Ermou and Kolonaki shopping areas.<br />
+
+The hotel reception will be happy to assist guests with city maps and guides, and tourist information, or make arrangements for travel and restaurant recommendations and reservations.<br />
+Features wooden floors, original paintings and beds with ecological mattresses.<br />
+
+Room Facilities: Balcony, Telephone, Flat-screen TV, Safety Deposit Box, Air Conditioning, Extra Long Beds (> 2 metres), Heating, Soundproofing, Wooden / Parquet floor, Mosquito Net, Shower, Hairdryer, Bathrobe, Free toiletries, Bathroom, Refrigerator, Wake Up Service<br />
+
+Room Size:  15 square metres<br />
+Bed Size(s): 1 Double<br />
+</p>
+<p><h3>Acropolis Hill Hotel (INR 6700 Breakfast Included)</h3><br />7, Mousson Str | Acropolis/ Filopappou, Athens GR 11 742, Greece<br />
+    <img src="Images/Greece/greece-athens-acropolishills.jpg" />
+    <img src="Images/Greece/greece-athens-acropolishills2.jpg" />
+    <img src="Images/Greece/greece-athens-acropolishills3.jpg" />
+    <img src="Images/Greece/greece-athens-acropolishills4.jpg" />
+    <img src="Images/Greece/greece-athens-acropolishills5.jpg" />
+    <img src="Images/Greece/greece-athens-acropolishills6.jpg" />
+    <img src="Images/Greece/greece-athens-acropolishills7.jpg" /><br />
+    The newly built Acropolis Hill is the most recent gem of the Tour Hotel Group, in the area around Acropolis. It is located near the impeccable new Acropolis Museum and the historical centre of Athens.<br />
+
+Guests enjoy great views of the Acropolis, the Filopapou Hill and across the city of Athens from their private balconies. The stylish and contemporary guest rooms feature wooden floors and comfortable beds. Wi-Fi is free and available throughout the premises.<br />
+
+Just as short walk from the hotel guests can visit Plaka, Syntagma, Monastiraki and other various Athenian places of interest. It is easily accesible by Syngrou-Fix subway and tram stop or by bus.<br />
+
+Hotel Rooms: 37, Hotel Chain: Tourhotel.<br />
+Room with private balcony and view. Features a modern bathroom with toiletries and hairdryer.<br />
+
+Room Facilities: Balcony, Patio, View, Telephone, Satellite Channels, Flat-screen TV, Air Conditioning, Desk, Heating, Interconnecting Room(s) available, Sofa, Soundproofing, Wooden / Parquet floor, Wardrobe/Closet, Shower, Hairdryer, Free toiletries, Toilet, Refrigerator, Wake Up Service<br />
+
+Room Size:  12 square metres<br />
+Bed Size(s): 2 Single, 1 Sofa bed. or 1 Double<br />
+</p>
+<p><h3>Melia Athens (INR 6700 No Meals)</h3><br />14 Chalkokondili & 28th October, Athens 10677, Greece<br />
+    <img src="Images/Greece/greece-athens-melia.jpg" />
+    <img src="Images/Greece/greece-athens-melia9.jpg" />
+    <img src="Images/Greece/greece-athens-melia2.jpg" />
+    <img src="Images/Greece/greece-athens-melia3.jpg" />
+    <img src="Images/Greece/greece-athens-melia4.jpg" />
+    <img src="Images/Greece/greece-athens-melia5.jpg" />
+    <img src="Images/Greece/greece-athens-melia6.jpg" />
+    <img src="Images/Greece/greece-athens-melia7.jpg" />
+    <img src="Images/Greece/greece-athens-melia8.jpg" />
+    <br />
+Located just a short walk from Athens’ attractions, luxurious 5-star hotel Melia Athens features a rooftop restaurant with stunning views of the Acropolis. All guests enjoy free access to its health club, outdoor pool and hot tub. The nearest metro station is at 400 metres.<br />
+
+Guest rooms are soundproofed and air conditioned, and decorated in earth tones with sycamore furniture and paintings signed by contemporary Greek artists. Their marble bathrooms include jet shower cabins or spa baths. High-speed Internet is available at a fee.<br />
+
+On the top floor, the free-access, air-conditioned health club includes a sauna and Turkish steam baths. For the more active ones, there is also a fully equipped fitness centre.<br />
+
+Melia hotel offers a variety of dining and entertainment options. Sky Lounge Rooftop Dining Bar, located on the 9th floor, offers spectacular views. A piano bar is available each evening.<br />
+
+For meetings, private rooms with natural light and AV equipment are available, as well as a business centre that rents laptops and provides secretarial and translation services 24/7. Free on-site parking is available.<br />
+
+Hotel Rooms: 136, Hotel Chain: Meliá Hotels & Resorts.<br />
+Premium rooms have marble bathrooms with shower cabin. <br />
+
+Please kindly note that the room rate is based on 2 guests. Extra beds are not available for this room type.<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Desk, Ironing Facilities, Heating, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Telephone, Radio, Video Games, Satellite Channels, Cable Channels, Minibar, Refrigerator, Wake Up Service/Alarm Clock<br />
+
+Room Size:  18 square metres<br />
+Bed Size(s): 1 Large double or 2 Single<br />
+
+</p>
+<p><h3>Novus City Hotel 23 Karolou St, Athens 104 37, Greece(INR 6700 Breakfast Included)</h3>
+    <img src="Images/Greece/greece-athens-novus.jpg" />
+    <img src="Images/Greece/greece-athens-novus2.jpg" />
+    <img src="Images/Greece/greece-athens-novus3.jpg" />
+    <img src="Images/Greece/greece-athens-novus4.jpg" />
+    <img src="Images/Greece/greece-athens-novus5.jpg" />
+    <img src="Images/Greece/greece-athens-novus6.jpg" />
+    <img src="Images/Greece/greece-athens-novus7.jpg" />
+    <img src="Images/Greece/greece-athens-novus8.jpg" />
+    <img src="Images/Greece/greece-athens-novus9.jpg" />
+    <img src="Images/Greece/greece-athens-novus10.jpg" />
+    <img src="Images/Greece/greece-athens-novus11.jpg" />
+    <img src="Images/Greece/greece-athens-novus12.jpg" /><br />
+Novus City Hotel is superbly located in the hip area of Metaxourgio. It offers soundproof rooms with flat-screen TV and a rooftop swimming pool and bar with excellent city views.<br />
+
+The recently established 4-star Hotel Novus City offers stylish rooms with air conditioning, satellite 22-inch LCD TV, free Wi-Fi and working desk. 18-hour room service is provided and bathrooms include luxurious amenities.<br />
+
+The Atrium Bar & Lounge as well as the Views Rooftop Bar, Pool and Terrace have an extensive variety of snacks, salads and desserts, speciality coffees, drinks and refreshments.<br />
+
+Novus Hotel offers a 24-hour reception and concierge service. Guests benefit from free private parking, as well as free Wi-Fi in all public hotel areas.<br />
+
+Served by the Athens Metro, as well as multiple bus links, Novus City Hotel offers easy access to Athens’ main sights and attractions.<br />
+
+Hotel Rooms: 85<br />
+Modernly decorated room with seating area, LCD TV with cable/satellite channels, safety box and a fridge.<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Desk, Ironing Facilities, Seating Area, Heating, Soundproofing, Wooden / Parquet floor, Bath, Hairdryer, Free toiletries, Toilet, Bathroom, Pay-per-view Channels, TV, Telephone, Satellite Channels, Cable Channels, Flat-screen TV, Refrigerator, Wake Up Service/Alarm Clock<br />
+
+Room Size:  30 square metres<br />
+Bed Size(s): 1 Double<br />
+</p>
+<p><h3>Holiday Suites 4 Arnis Street, Athens 11528, Greece(INR 7000 No Meals )</h3><br />
+    <img src="Images/Greece/greece-athens-holidaysuites.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites2.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites3.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites4.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites5.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites6.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites7.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites8.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites9.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites10.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites11.jpg" />
+    <img src="Images/Greece/greece-athens-holidaysuites12.jpg" />
+Within a few minutes from the business and historical centre of Athens, this elegant boutique hotel is ideally situated.<br />
+
+This hotel is situated near 2 main roads in Athens city centre and next to transport stops, facilitating guests in their travels to ancient sites, commercial centres and beaches. It is also convenient for Athens International Airport and Piraeus Port. All suites are air conditioned and include a spacious living room and a comfortable bedroom as well as internet access, double glazing and the listed amenities. The highly-experienced management and staff offer valuable services on a 24-hour basis, catering to its clients every need. The business centre and conference rooms are state-of-the-art venues for highly-organised meetings and events. Guests of this hotel can also use the facilities in Crowne Plaza Athens City Centre, which is just a 2-minute walk from the suites.<br />
+
+Hotel Rooms: 34<br />
+Please note that in order to get this offer you are required to book at least 7 days in advance.<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Iron, Desk, Ironing Facilities, Seating Area, Bath, Hairdryer, Bathrobe, Bathroom, Slippers, Pay-per-view Channels, TV, Telephone, Fax, Radio, DVD Player, CD Player, Video, Satellite Channels, Tea/Coffee Maker, Minibar, Kitchenette, Wake Up Service/Alarm Clock<br />
+
+Room Size:  45 square metres<br />
+Bed Size(s): 2 Single or 1 Extra-large double<br />
+</p>
+<p><h3>Plaka Hotel (INR7600 Per Night Breakfast Included)<br /></h3><p>7, Kapnikareas & Mitropoleos Street | Plaka/Syntagma, Athens 10556, Greece 00 30 21 0322 2706</p>
+                <img src="Images/greece/greece-athens-hotels-Plaka.jpg" />
+                <img src="Images/greece/greece-athens-hotels-Plaka2.jpg" />
+                <img src="Images/greece/greece-athens-hotels-Plaka3.jpg" />
+                <img src="Images/greece/greece-athens-hotels-Plaka4.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-Plaka-economydoubleroom.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-Plaka-economydoubleroom2.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-Plaka-economydoubleroom3.jpg" />
+                    <p>Hotel Plaka has a prestigious location in Athens’ historic centre. It is just 5 minutes walk from Syntagma Square and 2 blocks from Monastiraki Metro Station.
+
+The central hotel offers a rooftop bar with breathtaking views of the Acropolis and across Athens. The 24-hour reception can help you with travel services in Greece and organize day trips around Athens.
+
+The elegantly decorated guest rooms at Hotel Plaka include a minibar, safe, Wi-Fi, and air conditioning. Most rooms have balcony with views to the Acropolis, Plaka or Lycabetus hill.
+
+If you want to connect to the Internet, Hotel Plaka provides a 24-hour internet corner on the first floor lounge, with charge.
+
+A rich American breakfast buffet, including a Greek corner, is served each morning between 07:00 and 11:00.
+
+Plaka Hotel is strategically located for visiting the Acropolis Museum, the Archaeological Museum, the Monastiraki flea market and Ermou shopping district.
+
+Hotel Rooms: 67, Hotel Chain: Athens Hotels Group.</p>
+<p>This elegantly decorated room is situated on the first 3 floors of the hotel.<br />
+
+Room Facilities: Balcony, TV, Telephone, Radio, Satellite Channels, Cable Channels, Laptop Safe Box, Safety Deposit Box, Air Conditioning, Desk, Ironing Facilities, Heating, Soundproofing, Tiled / Marble floor, Wooden / Parquet floor, Hairdryer, Free toiletries, Bathroom, Bath or Shower, Refrigerator, Wake Up Service/Alarm Clock, Wake Up Service, Alarm Clock<br />
+
+Room Size:  17 square metres<br />
+Bed Size(s): 2 Single or 1 Double<br /></p></p>             
+            </div>
+        </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Athensstar4" runat="server" HeaderText="Athensstar4">
+  <%--under 12k hotels  --%>            
+        <HeaderTemplate>
+            <div class="sublevel3tabs">4Star</div>
+        </HeaderTemplate>
+        <ContentTemplate>
+            <div class="cities">
+<p><h3>Athens Diamond Plus(INR 8100 Breakfast Included)</h3><br /></brm>
+23 Voulis and Mitropoleos, Athens 10563, Greece<br />
+    <img src="Images/Greece/greece-athens-diamondplus.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus2.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus3.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus4.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus5.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus6.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus7.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus8.jpg" />
+    <img src="Images/Greece/greece-athens-diamondplus9.jpg" /><br />
+    Located in the heart of Athens with easy access to all the major archaeological sites, Diamond Plus offers uniquely decorated rooms with hydromassage shower. Free Wi-Fi access is available.<br />
+
+Athens Diamond Plus rooms are modernly decorated and equipped with air conditioning, TV and safety box. They include luxurious beddings featuring Cocomat mattresses.<br />
+
+Guests can enjoy Greek and international dishes at the hotel's Acropolis View Restaurant, located 100 metres away.<br />
+
+The 24-hour reception desk informs guests about the main attractions of the city. Athens Diamond Plus is a 10-minute walk from the New Acropolis Museum. The bustling Ermou Street with its many shops is right next to the hotel.<br />
+
+Apartments: 13<br />
+Accommodation includes amenities such as satellite TV, DVD player, mini fridge, safe, air conditioning, hairdryer, wireless internet access.<br />
+
+Room Facilities: View, TV, Telephone, DVD Player, CD Player, Satellite Channels, Cable Channels, Laptop Safe Box, Air Conditioning, Desk, Extra Long Beds (> 2 metres), Heating, Private Entrance, Soundproofing, Wooden / Parquet floor, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Refrigerator, Wake Up Service/Alarm Clock, Wake Up Service, Alarm Clock<br />
+
+Room Size:  19 square metres<br />
+Bed Size(s): 1 Double<br />
+</p>
+<p><h3>Athens Diamond Hotel (INR 8100 Breakfast Included)</h3><br />24 Voulis and Mitropoleos | Plaka area, Athens 10563, Greece<br />
+    <img src="Images/Greece/greece-athens-diamonds.jpg" />
+    <img src="Images/Greece/greece-athens-diamonds5.jpg" />
+    <img src="Images/Greece/greece-athens-diamonds2.jpg" />
+    <img src="Images/Greece/greece-athens-diamonds3.jpg" />
+    <img src="Images/Greece/greece-athens-diamonds4.jpg" />
+<br />
+The Athens Diamond homTel offers stylish rooms with free Wi-Fi, DVD/CD player and flat-screen TV. It is set in Athens’ historic centre, less than a kilometre from the Acropolis.<br />
+
+All soundproofed rooms feature elegant furniture and are air-conditioned and fitted with natural mattresses, desk and balcony. Each has a modern, marble-lined bathroom with hairdryer.<br />
+
+Greek and international cuisine is served at the hotel's Acropolis View Restaurant, that can be reached at 100 metres.<br />
+
+The Parthenon, Ancient Agora and the Monastiraki Flea Market are less than a kilometre away. Diamond enjoys quick access to the airport express bus and Syntagma square, at 200 metres.<br />
+
+Diamond’s 24-hour multilingual reception will be happy to assist guests with city maps and guides, tourist information and suggestions for exploring this historic area of Athens.<br />
+
+Apartments: 20<br />
+Features a desk with PC, internet, Fax, as well as DVD and CD player.<br />
+
+Room Facilities: Balcony, TV, Telephone, Fax, Radio, DVD Player, CD Player, Satellite Channels, Cable Channels, Laptop Safe Box, Flat-screen TV, Safety Deposit Box, Air Conditioning, Desk, Extra Long Beds (> 2 metres), Heating, Private Entrance, Soundproofing, Wooden / Parquet floor, Hairdryer, Bathrobe, Spa Bath, Free toiletries, Toilet, Slippers, Refrigerator, Wake Up Service, Alarm Clock<br />
+
+Room Size:  25 square metres<br />
+Bed Size(s): 1 Double<br />
+</p>
+<p><h3>Radisson Blu Park Hotel Athens (INR8300 Breakfast Included)</h3><br />10 Alexandras Ave, Athens 10682, Greece <br />
+<br />
+    <img src="Images/Greece/greece-athens-radissonblu.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu2.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu3.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu4.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu5.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu6.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu7.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu8.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu9.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu10.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu11.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu12.jpg" />
+    <img src="Images/Greece/greece-athens-radissonblu13.jpg" />
+    <br />
+    Overlooking Pedion Areos Park, Radisson Blu Park Hotel Athens features free Wi-Fi and is located in a safe area of the city, 5 minutes’ walk from Victoria Metro Station.<br />
+
+Radisson Blu Park Hotel Athens boasts sophisticated urban design with elegantly designed accommodation equipped with free Wi-Fi access, mini bar and TV. Bathroom amenities are standard. Most rooms offer views to the park and some to the Acropolis.<br />
+
+A well-equipped fitness centre is available. The hotel's rooftop swimming pool offers stunning views of the Acropolis and Lycabettus Hill. During the summer, the pool bar is open in the evenings for snacks, cocktails and dinner.<br />
+
+The Oak Room Café is open daily offering variety of coffees, teas, drinks and snacks. The all-day Gallo Nero Restaurant serves Italian dishes during lunch and dinner. St Astra East Rooftop restaurant and bar offers panoramic views of the city lights.<br />
+
+The commercial district of Athens and the Archaeological Museum are close by. Private parking is possible on site. Eleftherios Venizelos Airport is at 36 km.<br />
+
+Hotel Rooms: 150, Hotel Chain: Radisson Blu.<br />
+Spacious room equipped with free Wi-Fi, minibar, TV, voice mail, safe box, bathroom toiletries. Some rooms overlook the Pedion Areos Park.<br />
+
+Room Facilities: View, Pay-per-view Channels, TV, Telephone, Radio, Satellite Channels, Laptop Safe Box, Safety Deposit Box, Air Conditioning, Iron, Desk, Ironing Facilities, Heating, Soundproofing, Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Wake Up Service/Alarm Clock, Wake Up Service<br />
+
+Room Size:  24 square metres<br />
+Bed Size(s): 1 Double or 2 Single<br />
+</p>
+<p><h3>O&B Athens Boutique Hotel (INR 8900 Per Night Breakfast Included<br /></h3><br /><p>7 Leokoriou Str. | Psiri, Athens 10554, Greece 00 30 21 0331 2940</p>
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel.jpg" />
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel2.jpg" />
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel3.jpg" />
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel-standarddoubleroom.jpg" />
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel-standarddoubleroom2.jpg" />
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel-standarddoubleroom3.jpg" />
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel-standarddoubleroom4.jpg" />
+                    <img src="Images/greece/greece-athens-obBoutiqueHotel-standarddoubleroom5.jpg" />
+                    <p>The O&B Athens Boutique Hotel is located in the upcoming area of Psiri, in the city’s historic centre. Features include complimentary Wi-Fi, and the hip lounge bar-restaurant. Ancient Agora is a 3-minute walk.
+
+All rooms feature the latest in video and sound design, stylish furnishings, Egyptian cotton sheets and large work desks. Their marble bathrooms come with custom-design glass-enclosed showers. Some have Acropolis views.
+
+O&B Athens Boutique Hotel serves a breakfast buffet, which includes hot selections. The chic lounge bar and restaurant is open all day. The hotel also offers 24-hour room service.
+
+The Acropolis and Parthenon are reached after a 10-minute stroll. The O&B Boutique Hotel is a 2-minute walk from Thisio Metro Station and 35 km to the Athens International Airport.
+
+During your stay at the hotel you can catch the cultural events, exhibitions, concerts and happenings that take place in Athens. The 24-hour concierge and reception desk can assist you with express check-in and check-out.
+
+Hotel Rooms: 22</p>
+<p>These small and cosy rooms are fully equipped with the best quality of technology and amenities, and the comfort of a queen-size bed. <br />
+
+The Standard Double Rooms can accommodate up to 2 adults. Twin rooms are available on request.<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Heating, Soundproofing, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Telephone, Radio, DVD Player, CD Player, Satellite Channels, Cable Channels, Laptop Safe Box, Minibar, Wake Up Service<br />
+
+Room Size:  16 square metres<br />
+Bed Size(s): 1 Large double or 2 Single<br /></p></p>
+<p>                <h3>The Athens Gate Hotel (INR 9800 Per Night Breakfast Included)<br /></h3><p>10 Syngrou Avenue, Athens 11742, Greece 00 30 21 0923 8302</p>
+                    <img src="Images/greece/greece-athens-hotels-AthensGate.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-AthensGate2.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-AthensGate3.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-AthensGate4.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom2.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom3.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom4.jpg" />
+                    <p>This hotel has a prestigious location in the historic heart of Athens. It offers 4-star facilities, excellent views of the Acropolis and Temple of Olympian Zeus, and fine cuisine.
+
+The Athens Gate Hotel is situated just 100 metres from the new Acropolis museum. It is opposite the Temple of Olympian Zeus and on the doorstep of the historical Plaka area.
+
+There is a bar/restaurant on the top floor of the hotel, offering breathtaking views of the city. Breakfast can be taken in the roof restaurant, or ordered from room service. There is also a bar in the reception area serving coffees, drinks and light snacks all day.
+
+All the front rooms have a view of the Temple of Olympian Zeus, and 6th and 7th floor rear rooms offer stunning views of the Acropolis. Rooms with Acropolis view are offered on request basis and upon availability.
+
+All rooms are equipped with 27-inch (68 cm) LCD flat-screen TV, high-speed internet access and all other modern comforts.
+
+Hotel Rooms: 98</p>
+<p>Room with balcony and alley views.<br />
+
+Room Facilities: Balcony, Telephone, Satellite Channels, Cable Channels, Flat-screen TV, Safety Deposit Box, Air Conditioning, Heating, Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Wake Up Service/Alarm Clock<br />
+
+Room Size:  20 square metres<br />
+Bed Size(s): 1 Large double or 2 Single<br /></p>
+</p>
+
+<p><h3>InterContinental Athenaeum (INR 11200 Breakfast Included) </h3><br />89 - 93 Syngrou Ave, Athens 11745, Greece<br />
+    <img src="Images/Greece/greece-athens-athenaeumInterContinental.jpg" />
+    <img src="Images/Greece/greece-athens-athenaeumInterContinental2.jpg" />
+    <img src="Images/Greece/greece-athens-athenaeumInterContinental3.jpg" />
+    <img src="Images/Greece/greece-athens-athenaeumInterContinental4.jpg" />
+    <img src="Images/Greece/greece-athens-athenaeumInterContinental5.jpg" />
+    <img src="Images/Greece/greece-athens-athenaeumInterContinental6.jpg" />
+<br />
+Located within 3 km from the Acropolis and close to Metro stations and the business district of Athens, the Athenaeum Intercontinental features award-winning restaurants, a spa centre and a 24-hour gym. The spacious, elegant rooms include marble bathrooms and a seating area.<br />
+
+Featuring wooden furnishings, soft colours and carpets, all rooms at the Athenaeum Intercontinental are equipped with 32’’ LCD satellite TVs, a work desk and coffee maker. Bathrooms are stocked with luxury toiletries, bathrobes and a scale. Some rooms feature artwork by Greek artists and Acropolis views.<br />
+
+The Cafezoe Restaurant serves a rich buffet breakfast, international dishes, as well as Greek favourites. Mediterranean cuisine is served at the award-winning Premiere Restaurant located on the 10th floor, offering spectacular views of the Parthenon and the city of Athens. A variety of pastries and light meals is served at the fashionable Café Vienna & Tea Lounge.<br />
+
+Guests can swim in the 120m² pool or relax at the hot tub and sauna. Spa treatments include massages, facials, and masks by the exclusive Phytomer range. State-of-the-art Technogym cardiovascular equipment is available at the fitness centre.<br />
+
+The scenic Old Town of Athens, Plaka, is just 1.5 km away. Ermou shopping area is within 2 km. Eleftherios Venizelos International Airport is at 23 km. Private parking is possible on site.<br />
+
+Hotel Rooms: 543, Hotel Chain: Intercontinental Hotels & Resorts.<br />
+This 35m² room features a sitting area, coffee maker, work desk, satellite TV and pay movies. Direct dial dual line speaker phone, voice mail, fax connection and in-room safe are available. <br />
+Wi-Fi access is available upon charge. <br />
+
+Please note that a roll-away bed or twin beds can be provided on request.<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Iron, Trouser Press, Desk, Ironing Facilities, Seating Area, Heating, Interconnecting Room(s) available, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Pay-per-view Channels, Telephone, Video, Video Games, Satellite Channels, Cable Channels, Tea/Coffee Maker, Minibar<br />
+
+Room Size:  35 square metres<br />
+Bed Size(s): 1 Large double<br />
+</p>
+
+
+            </div>
+        </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="AthensStar5" runat="server" HeaderText="Athensstar5">
+<%--under 20k hotels  --%> 
+        <HeaderTemplate>
+            <div class="sublevel3tabs">5 Star</div>
+        </HeaderTemplate>
+        <ContentTemplate>
+            <div class="cities">
+<p><h3>Hilton Athens (INR 12000 NO Meals)</h3><br />46 Vassilissis Sofias Avenue, Athens 11528, Greece<br />
+    <img src="Images/Greece/greece-athens-hilton.jpg" />
+    <img src="Images/Greece/greece-athens-hilton2.jpg" />
+    <img src="Images/Greece/greece-athens-hilton3.jpg" />
+    <img src="Images/Greece/greece-athens-hilton4.jpg" />
+    <img src="Images/Greece/greece-athens-hilton5.jpg" />
+    <img src="Images/Greece/greece-athens-hilton6.jpg" />
+    <img src="Images/Greece/greece-athens-hilton7.jpg" />
+    <img src="Images/Greece/greece-athens-hilton8.jpg" />
+    <img src="Images/Greece/greece-athens-hilton9.jpg" />
+    <img src="Images/Greece/greece-athens-hilton10.jpg" />
+    <img src="Images/Greece/greece-athens-hilton11.jpg" />
+    <img src="Images/Greece/greece-athens-hilton12.jpg" />
+    <br />
+Conveniently located in the heart of Athens, the Hilton Athens boasts comfortable rooms with views of the Acropolis, 3 swimming pools, the popular rooftop Galaxy Bar and great access to the metro.<br />
+
+This chic hotel disposes spacious guest rooms with marble bathrooms with walk-in shower and bathtub. LCD TVs with cable and satellite channels, and work desks with adjustable lamps are included.<br />
+
+Milos Restaurant, which serves Greek gourmet cuisine is a favourite of local celebrities. The Byzantine restaurant proposes a Mediterranean buffet or a la carte menu and the richest Sunday brunch in Athens.<br />
+
+The stylish rooftop Galaxy Bar serves signature cocktails, whilst offering Acropolis views from its open-air terrace. The Oasis Pool Bar & Grill serves Mediterranean cuisine or snacks.<br />
+
+Located in the commercial district of the city, the hotel is just 500m from the National Art Gallery, the Athens Concert Hall and the Kolonaki shopping district.<br />
+
+Hotel Rooms: 506, Hotel Chain: Hilton Hotels.<br />
+Spacious room with desk, seating area, marble bathroom and balcony with mountain view.<br />
+
+Room Facilities: Balcony, View, Pay-per-view Channels, Telephone, Radio, Satellite Channels, Laptop Safe Box, Flat-screen TV, Safety Deposit Box, Air Conditioning, Iron, Desk, Seating Area, Heating, Interconnecting Room(s) available, Sofa, Tiled / Marble floor, Wooden / Parquet floor, Clothes Dryer, Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Electric Kettle, Wake Up Service/Alarm Clock<br />
+
+Room Size:  34 square metres<br />
+Bed Size(s): 1 Extra-large double<br />
+</p>
+<p>
+                <h3>AVA Hotel Athens (INR12500 Per Night No Meals)<br /> <h3><p>9 - 11 Lyssikratous Street | Plaka, Athens 10558, Greece 00 30 21 0325 9000</p>
+                    <img src="Images/greece/greece-athens-hotels-avahotel.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-avahotel2.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-avahotel3.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite2.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite3.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite4.jpg" />
+                    
+                    <p>Just a 5-minute walk from the Acropolis, the 4-star Ava Hotel and Suites is centrally located in Plaka. It offers spacious, self-catered accommodation with a private balcony or terrace. Free Wi-Fi is available throughout.
+
+Featuring neoclassical décor with wallpapers and carefully chosen furnishings, all suites are air-conditioned and soundproofed. Each has a fully equipped kitchenette, as well as a seating area with a 32” flat-screen TV. A DVD library is provided free of charge. Some of the suites enjoy stunning views of Hadrian Arch, Zeus Temple and the Acropolis.
+
+Ava Hotel and Suites is situated 3 minutes’ walk from the metro station with easy access to the historical and commercial centre of Athens. Several taverns and café are just steps away. Syntagma Square is at 600 metres and the National Garden 400 metres away.
+
+Hotel Rooms: 23</p><br /><p>Featuring neoclassical décor with wallpapers and carefully chosen furnishings, this suite opens to a small balcony. Air-conditioned and soundproofed, it has a fully equipped kitchenette and a seating area with a 32” flat-screen TV. A DVD library and Wi-Fi internet are provided free of charge.<br />
+
+Room Facilities: Balcony, Pay-per-view Channels, Telephone, DVD Player, CD Player, Satellite Channels, Cable Channels, Flat-screen TV, Safety Deposit Box, Air Conditioning, Desk, Seating Area, Heating, Soundproofing, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Kitchenette, Microwave, Electric Kettle, Coffee Machine<br />
+
+Room Size:  32 square metres<br />
+Bed Size(s): 1 Extra-large double or 2 Single<br /></p>
+</p>  
+<p><h3>Electra Palace Hotel Athens 18 - 20 N Nikodimou St, Athens 10557, Greece(INR 12200 Breakfast Included)</h3>
+    <img src="Images/Greece/greece-athens-electrapalace.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace2.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace3.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace4.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace5.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace6.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace7.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace8.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace9.jpg" />
+    <br />
+With a great location in the centre of Plaka, facing the Acropolis, this 5-star hotel offers personalised service, a beautiful rooftop pool and well-appointed rooms with a buffet breakfast included.<br />
+
+Electra Palace Hotel Athens is within walking distance from most of Athens' main attractions. Syntagma Square is less than 5 minutes' walk away and the parliament and shopping districts are nearby.<br />
+
+The spacious rooms are equipped with air conditioning and satellite TV. Thoughtful touches also include bathrobes and slippers. Some rooms offer direct views of the Acropolis.<br />
+
+Electra Palace Hotel's rooftop has a lovely pool area and a restaurant serving Mediterranean cuisine. The restaurant's terrace looks directly to the Acropolis.<br />
+
+The helpful staff at Electra Palace is happy to offer local information and advice. Guests can also make use of the hotel's spa facilities, including an indoor pool, sauna and steam bath.<br />
+
+Hotel Rooms: 150, Hotel Chain: Electra Hotels & Resorts.<br />
+Classically decorated room with feeling, style, aesthetics and character of the old, aristocratic neighbourhood of Plaka. <br />
+
+Amenities include air conditioning and central heating, a minibar, laptop-sized electronic safe, WiFi and satellite TV.<br />
+
+Room Facilities: Landmark View, Telephone, Radio, Satellite Channels, Laptop Safe Box, Flat-screen TV, Safety Deposit Box, Air Conditioning, Desk, Seating Area, Heating, Soundproofing, Wooden / Parquet floor, Wardrobe/Closet, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Bidet, Minibar, Wake Up Service<br />
+
+Room Size:  28 square metres<br />
+Bed Size(s): 1 Double or 2 Single<br />
+</p>
+<p><h3>King George Palace (INR12600 Breakfast Included)</h3><br />3 Vasileos Georgiou | Syntagma Square, Athens 10564, Greece <br />
+    <img src="Images/Greece/greece-athens-electrapalace.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace2.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace3.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace4.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace5.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace6.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace7.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace8.jpg" />
+    <img src="Images/Greece/greece-athens-electrapalace9.jpg" />
+    <br />
+With the most central location in Athens' Syntagma Square, the legendary Classical King George Palace boasts Athens’ most acclaimed gourmet restaurant and a stylish lounge bar with famous resident DJs.<br />
+
+All ultra-luxurious guestrooms are individually decorated with antique furniture and Murano chandeliers. Their spacious marbled bathrooms have sunken tubs and glass-encased showers. Certain rooms have a view of the Acropolis and the Royal Presidential Suite has a private outdoor pool.<br />
+
+Located on the 7th floor and overlooking the Acropolis and the Parthenon, Tudor Hall serves Greco-French dishes. Sublime cocktails are offered at the all-day lounge bar T-Palace, decked out in Philip Starck furnishings, leather sofas and black chandeliers.<br />
+
+The Elixir Palace Spa features a pool with relaxing hot tub, indulging hammam with turquoise mosaics and sauna. A personal trainer is available in the modern health club.<br />
+
+Hotel Rooms: 102, Hotel Chain: Classical Hotels, The Leading Hotels of the World.<br />
+These luxuriously furnished rooms overlook the hotel’s courtyard. These stylishly appointed rooms have their own personal touches and unique interior details representing the turn of the century period. <br />
+
+The actual room may be different to the one in the picture.<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Iron, Trouser Press, Desk, Ironing Facilities, Heating, Soundproofing, Wooden / Parquet floor, Wardrobe/Closet, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Pay-per-view Channels, TV, Telephone, Radio, CD Player, Satellite Channels, Laptop Safe Box, iPod Docking Station, Tea/Coffee Maker, Minibar, Dining Area, Electric Kettle, Wake Up Service/Alarm Clock, Wake Up Service<br />
+
+Room Size:  25 square metres<br />
+Bed Size(s): 1 Extra-large double or 2 Single<br />
+</p>
+<p>
+                <h3>Hotel Grande Bretagne 5 stars (INR18000 per night No Meals) ‎</h3><br /><p>Syntagma Square, Athens, 10563 Greece ‎1800 102 3346</p>
+                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne2.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne3.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne-classicdoubleroom.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne-classicdoubleroom2.jpg" />
+                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne-classicdoubleroom3.jpg" />
+                <p>With an prime location, opposite Constitution Square and the House of Parliament, the Grande Bretagne boasts luxurious rooms and stunning city views from its magnificent rooftop terrace.
+
+The lavish rooms are appointed with the finest furnishings. The marble bathrooms feature a vanity counter, separate bathtub, and shower. Some rooms have balconies facing the Acropolis, and the daily changing of the guard at the parliament building.
+
+The historic GB Corner is recognized as one the capital’s famous hotspots. From Grande Bretagne’s rooftop you can see the original Olympic Stadium as you dive into the pool; the Acropolis from your barstool; the Parthenon as you sample the finest Mediterranean cuisine.
+
+The Grande Bretagne Spa offers a thermal suite, complete with herbal bath, grotto, ice fountain, couples retreat and indoor pool. Guests can indulge in ouzo oil massages.
+
+From private dining parties at The Cellar, to VIP airport transfer, the legendary Grande Bretagne prides itself on its service.
+
+The multi-awarded 5-star hotel is walking distance of exclusive shopping areas, museums and the business district. The Ancient Agora and the Acropolis are 600 metres away.
+
+Hotel Rooms: 320, Hotel Chain: The Luxury Collection by Starwood.</p>
+                <p>Classic rooms, including a choice of king, queen, or twin-size beds, are appointed with the finest furnishings. <br />
+
+Please note that all room types are non-smoking.<br />
+
+Room Facilities: Balcony, View, Pay-per-view Channels, Telephone, Radio, Satellite Channels, Cable Channels, Safety Deposit Box, Air Conditioning, Desk, Ironing Facilities, Seating Area, Heating, Interconnecting Room(s) available, Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Wake Up Service/Alarm Clock, Alarm Clock<br />
+
+Room Size:  27 square metres<br />
+Bed Size(s): 1 Large double or 2 Single<br /></p>
+</p> 
+            
+            </div>
+        </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="AthensLuxurious" runat="server" HeaderText="Athensluxurios">
+ <%--above 20k hotels  --%>        <HeaderTemplate>
+            <div class="sublevel3tabs">Luxurios</div>
+        </HeaderTemplate>
+        <ContentTemplate>
+            <div class="cities">
+ <p>
+            <h3>Cape Sounio, Grecotel Exclusive Resort 4 stars (INR 10300 Per Night Breakfast Included)</h3><br /><p>67 Km Athens Sounio Road, Sounio, 19500 Greece‎1800 102 3346</p>
                     ‎<img src="Images/greece/greece-athens-capesounio.jpg" />
                     <img src="Images/greece/greece-athens-capesounio2.jpg" />
                     <img src="Images/greece/greece-athens-capesounio3.jpg" />
@@ -740,136 +1818,78 @@ Room Facilities: Balcony, Telephone, Radio, DVD Player, CD Player, Satellite Cha
 
 Room Size:  40 square metres<br />
 Bed Size(s): 2 Single or 1 Double<br /></p>
-                <h3>Hotel Grande Bretagne 5 stars (INR18000 per night No Meals) ‎</h3><br /><p>Syntagma Square, Athens, 10563 Greece ‎1800 102 3346</p>
-                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne2.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne3.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne-classicdoubleroom.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne-classicdoubleroom2.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-GrandeBretagne-classicdoubleroom3.jpg" />
-                <p>With an prime location, opposite Constitution Square and the House of Parliament, the Grande Bretagne boasts luxurious rooms and stunning city views from its magnificent rooftop terrace.
+</p>
+ <p><h3>The Westin Athens Astir Palace Beach Resort (INR 17000 Breakfast Included) </h3>,<br />40, Apollonos street, Vouliagmeni 16671, Greece (Formerly Astir Palace Vouliagmeni)<br /> 
+     <img src="Images/Greece/greece-athens-westin8.jpg" />
+     <img src="Images/Greece/greece-athens-westin.jpg" />
+     <img src="Images/Greece/greece-athens-westin2.jpg" />
+     <img src="Images/Greece/greece-athens-westin3.jpg" />
+     <img src="Images/Greece/greece-athens-westin4.jpg" />
+     <img src="Images/Greece/greece-athens-westin5.jpg" />
+     <img src="Images/Greece/greece-athens-westin6.jpg" />
+     <img src="Images/Greece/greece-athens-westin7.jpg" />
+     <img src="Images/Greece/greece-athens-westin9.jpg" />
+     <img src="Images/Greece/greece-athens-westin10.jpg" />
+     <br />
+ The Westin Athens, Astir Palace Beach Resort offers rooms with breathtaking views of the Saronic Gulf, a private beach, an Olympic-sized swimming pool and fine dining.<br />
 
-The lavish rooms are appointed with the finest furnishings. The marble bathrooms feature a vanity counter, separate bathtub, and shower. Some rooms have balconies facing the Acropolis, and the daily changing of the guard at the parliament building.
+All of the stylish guest rooms and suites at the Westin Athens have very large bathrooms offering a bath, as well as a shower. Each is fully equipped with a plasma TV screen with cable channels and in-room safe. Room service is available 24 hours a day.<br />
 
-The historic GB Corner is recognized as one the capital’s famous hotspots. From Grande Bretagne’s rooftop you can see the original Olympic Stadium as you dive into the pool; the Acropolis from your barstool; the Parthenon as you sample the finest Mediterranean cuisine.
+The award winning Galazia Hytra Restaurant serves Modern Greek cuisine, in an elegant atmosphere with spectacular views of the sea. Kymata Restaurant serves Mediterranean delights by the pool. Matsuhisa Athens proposes exclusive cuisine, focusing on Japanese fusion dishes.<br />
 
-The Grande Bretagne Spa offers a thermal suite, complete with herbal bath, grotto, ice fountain, couples retreat and indoor pool. Guests can indulge in ouzo oil massages.
+The Arion Resort & Spa, located at the sister property, offers reviving treatments and therapies, including a heated pool with comfortable deck chairs and hot tub.<br />
 
-From private dining parties at The Cellar, to VIP airport transfer, the legendary Grande Bretagne prides itself on its service.
+The Westin Athens is located on Vouliagmeni, just 25 km from the centre of Athens and 24 km from the International airport Eleftherios Venizelos.<br />
 
-The multi-awarded 5-star hotel is walking distance of exclusive shopping areas, museums and the business district. The Ancient Agora and the Acropolis are 600 metres away.
+Hotel Rooms: 159, Hotel Chain: Westin.<br />
+Located on the first or the second floor, these rooms overlook the sea and the pool.<br />
 
-Hotel Rooms: 320, Hotel Chain: The Luxury Collection by Starwood.</p>
-                <p>Classic rooms, including a choice of king, queen, or twin-size beds, are appointed with the finest furnishings. <br />
+Room Facilities: Balcony, Pay-per-view Channels, TV, Telephone, Radio, Cable Channels, Safety Deposit Box, Air Conditioning, Iron, Desk, Ironing Facilities, Seating Area, Heating, Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Refrigerator<br />
 
-Please note that all room types are non-smoking.<br />
+Room Size:  44 square metres<br />
+Bed Size(s): 1 Extra-large double or 2 Single<br />
+ </p> 
+ <p><h3>Grand Resort Lagonissi (INR 21000 Breakfast Included)</h3><br />40 KM Athens Sounio Ave, Lagonisi 19010, Greece<br />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi2.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi3.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi4.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi5.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi6.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi7.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi9.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi10.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi11.jpg" />
+     <img src="Images/Greece/greece-athens-grandresortlagonissi12.jpg" />
+<br />
+ Nestled on a stunning 300-km² peninsula in south Attica, the Grand Resort boasts an outdoor heated infinity pool, exquisite dining and holistic spa treatments. Its luxurious rooms enjoy fabulous Saronic Gulf views.<br />
 
-Room Facilities: Balcony, View, Pay-per-view Channels, Telephone, Radio, Satellite Channels, Cable Channels, Safety Deposit Box, Air Conditioning, Desk, Ironing Facilities, Seating Area, Heating, Interconnecting Room(s) available, Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Wake Up Service/Alarm Clock, Alarm Clock<br />
+The 5-star Grand Resort Lagonissi offers chic rooms and beachfront bungalows, each with marble-lined bathroom and elegantly appointed seating area. In-room massage and in-room dining is available.<br />
 
-Room Size:  27 square metres<br />
-Bed Size(s): 1 Large double or 2 Single<br /></p>
-                <h3>AVA Hotel Athens (INR12500 Per Night No Meals)<br /> <h3><p>9 - 11 Lyssikratous Street | Plaka, Athens 10558, Greece 00 30 21 0325 9000</p>
-                    <img src="Images/greece/greece-athens-hotels-avahotel.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-avahotel2.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-avahotel3.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite2.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite3.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-avahotel-standardsuite4.jpg" />
-                    
-                    <p>Just a 5-minute walk from the Acropolis, the 4-star Ava Hotel and Suites is centrally located in Plaka. It offers spacious, self-catered accommodation with a private balcony or terrace. Free Wi-Fi is available throughout.
+The state-of-the-art ThalaSpa Chenot Spa offers holistic rejuvenation in a tranquil setting. Guests may also benefit from the special balanced-diet menus available.<br />
 
-Featuring neoclassical décor with wallpapers and carefully chosen furnishings, all suites are air-conditioned and soundproofed. Each has a fully equipped kitchenette, as well as a seating area with a 32” flat-screen TV. A DVD library is provided free of charge. Some of the suites enjoy stunning views of Hadrian Arch, Zeus Temple and the Acropolis.
+The Grand Resort’s 10 restaurants serve international and Greek cuisine. Most of the resort’s restaurants hold Five Star Diamond Awards from the American Academy of Hospitality Science.<br />
 
-Ava Hotel and Suites is situated 3 minutes’ walk from the metro station with easy access to the historical and commercial centre of Athens. Several taverns and café are just steps away. Syntagma Square is at 600 metres and the National Garden 400 metres away.
+The concierge and guest relations desk offers VIP check-in and check-out, butler service and helicopter/limo service. Rental of yachts and Lear jets is available on request.<br />
 
-Hotel Rooms: 23</p><br /><p>Featuring neoclassical décor with wallpapers and carefully chosen furnishings, this suite opens to a small balcony. Air-conditioned and soundproofed, it has a fully equipped kitchenette and a seating area with a 32” flat-screen TV. A DVD library and Wi-Fi internet are provided free of charge.<br />
+The hotel is situated around a 30-minute from Athens City centre. Athens International Airport is at 22 km and the Temple of Poseidon in Sounion is at 27 km.<br />
 
-Room Facilities: Balcony, Pay-per-view Channels, Telephone, DVD Player, CD Player, Satellite Channels, Cable Channels, Flat-screen TV, Safety Deposit Box, Air Conditioning, Desk, Seating Area, Heating, Soundproofing, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Kitchenette, Microwave, Electric Kettle, Coffee Machine<br />
+Hotel Rooms: 260, Hotel Chain: The Leading Hotels of the World.<br />
+Located in the main building, luxury rooms offer private balcony with wooden furniture and magnificent sea view. Maximum occupancy is 2 adults.<br />
 
-Room Size:  32 square metres<br />
-Bed Size(s): 1 Extra-large double or 2 Single<br /></p>
-                <h3>Plaka Hotel (INR7600 Per Night Breakfast Included)<br /></h3><p>7, Kapnikareas & Mitropoleos Street | Plaka/Syntagma, Athens 10556, Greece 00 30 21 0322 2706</p>
-                <img src="Images/greece/greece-athens-hotels-Plaka.jpg" />
-                <img src="Images/greece/greece-athens-hotels-Plaka2.jpg" />
-                <img src="Images/greece/greece-athens-hotels-Plaka3.jpg" />
-                <img src="Images/greece/greece-athens-hotels-Plaka4.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-Plaka-economydoubleroom.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-Plaka-economydoubleroom2.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-Plaka-economydoubleroom3.jpg" />
-                    <p>Hotel Plaka has a prestigious location in Athens’ historic centre. It is just 5 minutes walk from Syntagma Square and 2 blocks from Monastiraki Metro Station.
+Room Facilities: Balcony, View, Telephone, Flat-screen TV, Safety Deposit Box, Air Conditioning, Seating Area, Carpeted Floor, Interconnecting Room(s) available, Tiled / Marble floor, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Bath or Shower, Minibar, Wake Up Service<br />
 
-The central hotel offers a rooftop bar with breathtaking views of the Acropolis and across Athens. The 24-hour reception can help you with travel services in Greece and organize day trips around Athens.
+Room Size:  22 square metres<br />
+Bed Size(s): 2 Single or 1 Extra-large double<br />
+ </p>              
+            </div>
+        </ContentTemplate>
+    </ajaxToolkit:TabPanel>
 
-The elegantly decorated guest rooms at Hotel Plaka include a minibar, safe, Wi-Fi, and air conditioning. Most rooms have balcony with views to the Acropolis, Plaka or Lycabetus hill.
+</ajaxToolkit:TabContainer>
 
-If you want to connect to the Internet, Hotel Plaka provides a 24-hour internet corner on the first floor lounge, with charge.
+                
 
-A rich American breakfast buffet, including a Greek corner, is served each morning between 07:00 and 11:00.
-
-Plaka Hotel is strategically located for visiting the Acropolis Museum, the Archaeological Museum, the Monastiraki flea market and Ermou shopping district.
-
-Hotel Rooms: 67, Hotel Chain: Athens Hotels Group.</p>
-<p>This elegantly decorated room is situated on the first 3 floors of the hotel.<br />
-
-Room Facilities: Balcony, TV, Telephone, Radio, Satellite Channels, Cable Channels, Laptop Safe Box, Safety Deposit Box, Air Conditioning, Desk, Ironing Facilities, Heating, Soundproofing, Tiled / Marble floor, Wooden / Parquet floor, Hairdryer, Free toiletries, Bathroom, Bath or Shower, Refrigerator, Wake Up Service/Alarm Clock, Wake Up Service, Alarm Clock<br />
-
-Room Size:  17 square metres<br />
-Bed Size(s): 2 Single or 1 Double<br /></p>
-                <h3>The Athens Gate Hotel (INR 9800 Per Night Breakfast Included)<br /></h3><p>10 Syngrou Avenue, Athens 11742, Greece 00 30 21 0923 8302</p>
-                    <img src="Images/greece/greece-athens-hotels-AthensGate.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-AthensGate2.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-AthensGate3.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-AthensGate4.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom2.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom3.jpg" />
-                    <img src="Images/greece/greece-athens-hotels-AthensGate-standarddoubleroom4.jpg" />
-                    <p>This hotel has a prestigious location in the historic heart of Athens. It offers 4-star facilities, excellent views of the Acropolis and Temple of Olympian Zeus, and fine cuisine.
-
-The Athens Gate Hotel is situated just 100 metres from the new Acropolis museum. It is opposite the Temple of Olympian Zeus and on the doorstep of the historical Plaka area.
-
-There is a bar/restaurant on the top floor of the hotel, offering breathtaking views of the city. Breakfast can be taken in the roof restaurant, or ordered from room service. There is also a bar in the reception area serving coffees, drinks and light snacks all day.
-
-All the front rooms have a view of the Temple of Olympian Zeus, and 6th and 7th floor rear rooms offer stunning views of the Acropolis. Rooms with Acropolis view are offered on request basis and upon availability.
-
-All rooms are equipped with 27-inch (68 cm) LCD flat-screen TV, high-speed internet access and all other modern comforts.
-
-Hotel Rooms: 98</p>
-<p>Room with balcony and alley views.<br />
-
-Room Facilities: Balcony, Telephone, Satellite Channels, Cable Channels, Flat-screen TV, Safety Deposit Box, Air Conditioning, Heating, Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Wake Up Service/Alarm Clock<br />
-
-Room Size:  20 square metres<br />
-Bed Size(s): 1 Large double or 2 Single<br /></p>
-<h3>O&B Athens Boutique Hotel (INR 8900 Per Night Breakfast Included<br /></h3><br /><p>7 Leokoriou Str. | Psiri, Athens 10554, Greece 00 30 21 0331 2940</p>
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel.jpg" />
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel2.jpg" />
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel3.jpg" />
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel-standarddoubleroom.jpg" />
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel-standarddoubleroom2.jpg" />
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel-standarddoubleroom3.jpg" />
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel-standarddoubleroom4.jpg" />
-                    <img src="Images/greece/greece-athens-o&bBoutiqueHotel-standarddoubleroom5.jpg" />
-                    <p>The O&B Athens Boutique Hotel is located in the upcoming area of Psiri, in the city’s historic centre. Features include complimentary Wi-Fi, and the hip lounge bar-restaurant. Ancient Agora is a 3-minute walk.
-
-All rooms feature the latest in video and sound design, stylish furnishings, Egyptian cotton sheets and large work desks. Their marble bathrooms come with custom-design glass-enclosed showers. Some have Acropolis views.
-
-O&B Athens Boutique Hotel serves a breakfast buffet, which includes hot selections. The chic lounge bar and restaurant is open all day. The hotel also offers 24-hour room service.
-
-The Acropolis and Parthenon are reached after a 10-minute stroll. The O&B Boutique Hotel is a 2-minute walk from Thisio Metro Station and 35 km to the Athens International Airport.
-
-During your stay at the hotel you can catch the cultural events, exhibitions, concerts and happenings that take place in Athens. The 24-hour concierge and reception desk can assist you with express check-in and check-out.
-
-Hotel Rooms: 22</p>
-<p>These small and cosy rooms are fully equipped with the best quality of technology and amenities, and the comfort of a queen-size bed. <br />
-
-The Standard Double Rooms can accommodate up to 2 adults. Twin rooms are available on request.<br />
-
-Room Facilities: Safety Deposit Box, Air Conditioning, Heating, Soundproofing, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Telephone, Radio, DVD Player, CD Player, Satellite Channels, Cable Channels, Laptop Safe Box, Minibar, Wake Up Service<br />
-
-Room Size:  16 square metres<br />
-Bed Size(s): 1 Large double or 2 Single<br /></p>
 http://www.tripadvisor.com/Hotel_Review-g189400-d233049-Reviews-Amalia_Hotel-Athens_Attica.html
 http://www.tripadvisor.com/Hotel_Review-g189400-d206785-Reviews-New_Hotel-Athens_Attica.html
 http://www.tripadvisor.com/Hotel_Review-g189400-d276262-Reviews-King_George_Palace-Athens_Attica.html
@@ -887,17 +1907,63 @@ http://www.tripadvisor.com/Hotel_Review-g189400-d230391-Reviews-Divani_Acropolis
                                         </div>
                                     </ContentTemplate>
                                 </ajaxToolkit:TabPanel>
-                                <ajaxToolkit:TabPanel ID="cityrestaurants" runat="server" HeaderText="cityrestaurants">
+                                <ajaxToolkit:TabPanel ID="Athenscityrestaurants" runat="server" HeaderText="Athenscityrestaurants">
                                     <HeaderTemplate>
                                         <div class="sublevel2tabs">Restaurants
                                         </div>
                                     </HeaderTemplate>
                                     <ContentTemplate>
                                         <div class="cities">Restaurants
+<p><h3>Avocado</h3>
+Nikis 30 | Syntagma, Athens 10557, Greece 30.210-3237878<br />
+Price range: $5 - $24<br />
+Cuisines: Vegan, Vegetarian<br />
+Dining options: Breakfast/Brunch, Reservations, Delivery<br />
+<h3>Strofi</h3>Rovertou Galli 25 | Acropolis, Athens, Greece 210-921-4130<br />
+Price range: $27 - $34<br />
+Cuisines: Greek<br />
+Good for: Romance, Doing business, Local cuisine, Special occasions, Entertaining clients<br />
+Dining options: Lunch, Dinner, Reservations, Delivery, Late Night, Dessert<br />
+<h3>Oroscopo</h3>42-44 Antinoros street | (Caravel hotel square), Athens 16121, Greece +30 2107238567<br />
+Price range: $13 - $27<br />
+Cuisines: Greek, Italian, Mediterranean, Pizza & Pasta<br />
+Dining options: Breakfast/Brunch, Reservations, Delivery, Late Night<br />
+<h3>Vezene</h3>Vrasida 11 | (Hilton District), Athens 11528, Greece 210 7232002<br />
+Cuisines: Contemporary, Italian, Seafood, Steakhouse<br />
+Dining options: Reservations, Late Night<br />
+<h3>Spondi</h3>Pyrronos 5 | Pagrati, Athens 11638, Greece +302107564021<br />
+Price range: $0 - $136<br />
+Cuisines: French<br />
+Good for: Romance, Doing business, Special occasions, Entertaining clients<br />
+Dining options: Dinner, Reservations, Late Night<br />
+<h3>Improv Cafe and Resto</h3>Iakhou 8 and Evmolpidon, Athens 11854, Greece<br />
+Price range: $0 - $12<br />
+Cuisines: Vegetarian, Vegan<br />
+Good for: Bar scene<br />
+Dining options: Dinner, Late Night<br />
+<h3>Acropolis View Restaurant</h3>54 Mitropoleos | Magna Grecia Boutique Hotel, Plaka area, Athens 10563, Greece 2103240314<br />
+Cuisines: Greek, Mediterranean<br />
+Good for: Romance, Doing business, Local cuisine, Outdoor seating, Scenic view<br />
+Dining options: Reservations, Delivery, Late Night<br />
+<h3>Meson El Mirador</h3>Agisilaou 88, Athens, Greece +302103420007<br />
+Price range: $13 - $33<br />
+Cuisines: Mexican<br />
+Dining options: Dinner, Reservations<br />
+<h3>Altamira</h3>
+Tsakalof 36,Kolonaki, Athens 10673, Greece 210 3614695<br />
+Price range: $-1 - $55<br />
+Cuisines: Asian fusion, Chinese, Mexican<br />
+Dining options: Reservations<br />
+<h3>Matilde Pizza Bar</h3>Konstantinoupoleos 44 | Gazi, Athens 15344, Greece +30.210.3411878<br />
+Cuisines: Italian, Pizza<br />
+<h3>Mystic Pizza & Pasta</h3>G. Olympiou 2 | Koukaki, Athens 11741, Greece +302109592092<br />
+Price range: $11 - $24<br />
+Cuisines: Pizza & Pasta<br />
+</p>
                                         </div>
                                     </ContentTemplate>
                                 </ajaxToolkit:TabPanel>
-                                <ajaxToolkit:TabPanel ID="citynight2" runat="server" HeaderText="citynight2">
+                                <ajaxToolkit:TabPanel ID="Athenscitynight" runat="server" HeaderText="Athenscitynight">
                                     <HeaderTemplate>
                                         <div class="sublevel2tabs">Nightlife
                                         </div>
@@ -1450,7 +2516,7 @@ An entire different city of Athens emerges just as the tram reaches the coastal 
                                          </div>
                                     </ContentTemplate>
                                 </ajaxToolkit:TabPanel>
-                                <ajaxToolkit:TabPanel ID="citygettingaround" runat="server" HeaderText="citygettingaround">
+                                <ajaxToolkit:TabPanel ID="Athenscitygettingaround" runat="server" HeaderText="Athenscitygettingaround">
                                     <HeaderTemplate>
                                         <div class="sublevel2tabs">Getting Around
                                         </div>
@@ -2397,7 +3463,7 @@ The Rafina Port offers year-round service to Andros, Tinos, Mykonos, Marmari and
                                         </div>
                                     </ContentTemplate>
                                 </ajaxToolkit:TabPanel>
-                                <ajaxToolkit:TabPanel ID="CityInfo" runat="server" HeaderText="CityInfo">
+                                <ajaxToolkit:TabPanel ID="AthensCityInfo" runat="server" HeaderText="AthensCityInfo">
                                     <HeaderTemplate>
                                         <div class="sublevel2tabs">City Info
                                         </div>
@@ -3117,7 +4183,7 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
                                         </div>
                                     </ContentTemplate>
                                 </ajaxToolkit:TabPanel>
-                                <ajaxToolkit:TabPanel ID="OtherInfo" runat="server" HeaderText="OtherInfo">
+                                <ajaxToolkit:TabPanel ID="AthensOtherInfo" runat="server" HeaderText="AthensOtherInfo">
                                     <HeaderTemplate>
                                         <div class="sublevel2tabs">OtherInfo
                                         </div>
@@ -3129,47 +4195,551 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
                                 </ajaxToolkit:TabPanel>
                              </ajaxToolkit:TabContainer>
                             </div>
-                                    
-                                
-<%--                            <ajaxToolkit:TabPanel ID="TabPanel1" runat="server" HeaderText="Athens">
-                                    <HeaderTemplate>
-                                        <div class="sublevel2tabs">Athens
-                                        </div>
-                                    </HeaderTemplate>
-                                    <ContentTemplate>
-                                        <div class="cities">
-                                        </div>
-                                    </ContentTemplate>
-                                </ajaxToolkit:TabPanel>
---%>                
-                            
                         </ContentTemplate>
                     </ajaxToolkit:TabPanel>
-                    <ajaxToolkit:TabPanel ID="Mykonos" runat="server" HeaderText="Mykonos">
-                        <HeaderTemplate>
-                            <div class="subtabs">Mykonos</div>
-                        </HeaderTemplate>
-                        <ContentTemplate>
-                            <div class="cities">Mykonos
-                            </div>
-                        </ContentTemplate>
-                    </ajaxToolkit:TabPanel>
-<%--                    <ajaxToolkit:TabPanel ID="TabPanel1" runat="server" HeaderText="Athens">
-                        <HeaderTemplate>
-                            <div class="subtabs">Athens</div>
-                        </HeaderTemplate>
-                        <ContentTemplate>
-                            <div class="cities">
-                            </div>
-                        </ContentTemplate>
-                    </ajaxToolkit:TabPanel>
---%>                
+                    <%--HydraZ--%>
+                    <ajaxToolkit:TabPanel ID="Hydra" runat="server" HeaderText="Hydra">
+ <HeaderTemplate>
+  <div class="subtabs">Hydra</div>
+ </HeaderTemplate>
+ <ContentTemplate>
+  <div class="cities">
+<%--CitynametabZ--%>
+   <ajaxToolkit:TabContainer ID="HydraTabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+    <ajaxToolkit:TabPanel ID="HydraOverview" runat="server" HeaderText="Hydraoverview">
+<%--CitynameOverviewZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Overview</div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+          <img src="Images/Greece/greece-hydra.jpg" /><br />
+     <p> Hydra Greece is a beautiful island lying in the archipelago called the Argo-Saronic. It is situated in the Greek Islands calles Saronic and lies between the islands of Poros and Spetses, near the coast of the eastern foot of the Peloponnese. It is very popular island because of its extremely picturesque capital, full of red-tiled houses and stone-paved narrow alleys. It used to be the destination of fashionable artists during the sixties and has kept a highly cosmopolitan character. Hydra in Mythology was a nine-headed monster, sister of Medusa.
+This section of Hydra Island provides pictures, map, villages, history, museums, architecture and a large range of hotels.
+
+The only village and capital of the island is Hydra Town, known for its traditional architecture with the stone houses and the paved streets. Other settlements on the island include Kaminia and Vlichos, but they are mostly tourist places with plenty of facilities.
+</p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="HydraSightseeing" runat="server" HeaderText="Hydrasightseeing">
+<%--CitynameSightseeingZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Things To Do
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">Things To Do
+      <h3>1. Hydra town</h3>
+          <img src="Images/Greece/greeceathenshydratown.jpg" /><br />
+<p>Hydra town is the capital and main harbour of the island of Hydra.It is a wonderful little town, hidden in a small,
+natural harbour which is only visible from a perpendicular angle. The settlement of Hydra Town has been declared 
+to be a traditional and protected settlement, full of beautiful mansions built during the 19th century by wealthy 
+ship owners and merchants.The traditional houses are standing very close one to another, spreading on two rugged 
+hills, separated between them by narrow whitewashed stone paved streets and alleys. They have beautiful tile roofs
+and bright coloured windows, doors and loggias walls, which add a splash of colour on the ochre and grey thick 
+stone walls. The whole town is a true jewel, unspoiled by any modern architecture or huge hotel complex. Here the 
+traditional architecture is highly protected and there is a law prohibiting any new construction which is not built
+ according to the traditional and authentic colour and style. Hydra Town is a little oasis where any kind of 
+motorised vehicle is forbidden and where transportation is effectuated by donkey. During the 17th century, the town
+centre was in the area of the today old town of Kiafa, which slowly extended, moving down to the seashore. Kiafa 
+is the most populated area, standing high up above the port, with the oldest buildings of the island. The view from
+ the area of Kiafa is really astonishing. The beautiful three-storey bell-tower of the Church of the Assumption of
+the Virgin (Kimissis tis Theotokou), one of the oldest building of Hydra (built in 1643), stands in the middle of 
+the capital, overlooking the town. An interesting museum and some old mansions are worth-visiting. Souvenir shops 
+and cafes are housed in the old warehouses and in the modest seamen’s houses which line the waterfront. Behind the 
+first row of buildings more shops and cafes can be found, scattered around the whitewashed streets and alleys. 
+The main street is called Odos Miaoulis and is extending in a ravine cut into the mountain during prehistoric times 
+by the sea and today boarded by a small stone wall. In Hydra Town, visitor will find rooms for rent, small hotels 
+housed in renovated old mansions, shops, banks, pharmacies, a hospital, a police department and all the other needed 
+facilities. The sunsets from the capital of Hydra are astonishing and unforgettable. The picturesque and traditional 
+atmosphere of Hydra Town is mixed with a cosmopolitan air and an exiting nightlife, which makes the town a unique 
+place and one of the most beautiful towns of the Aegean.</p>
+<p><h3>a. Church Of The Assumption</h3>
+    <img src="Images/Greece/greecehydrachurchoftheassumption.jpg" /><br />
+The Church of the Assumption of the Virgin is located in the port of Hydra Town. Its main characteristic is the 
+tall bell tower made of pure marble from Tinos. The church was established in 1643 and hosts a small ecclesiastical 
+museum today.
+
+<h3>The Monastery of Agia Efpraxia</h3>
+The Monastery of Agia Efpraxia is an important religious sight in Hydra Saronic. The monastery was originally 
+built in 1865 and the main church, the katholikon, is actually pretty small and austere in architecture. Few nuns 
+still live in this monastery and take care of the building. They also run a small embroidery workshop. The Monastery 
+of Agia Efpraxia is located on top of a hill above the town, at an altitude of 500 m. It is twin to the Monastery 
+of Prophet Elias, which is found in a close distance. Visitors can go to the monastery on foot following a hiking 
+trail from the Town or from Vlihos. The distance is about 40 min on foot from Town.
+
+<h3>c.Monastery Of Prophet Elias</h3>
+Built in the 19th century by monk Ierotheos, on the site of an abandoned monastic community, the Monastery of 
+Prophet Elias is the most visited monastery on Hydra. A male community of four monks lives there. Located on the 
+northern slopes of Mount Klimaki at an altitude of 500 metres, it offers a magnificent view over the town and the 
+sea.
+<h3>d.The Historical Archives Museum </h3>
+This museum was established in 1918 and it was housed in an elegant stone mansion that belonged to the local 
+shipowner Gikas Koulouras. In 1996, the building was renovated and today it is the most impressive mansion at the 
+port of Hydra. Next to the entrance, there are some old anchors, signs of the rich nautical impression of the island.
+The museum hosts the historical archives that a former major of Hydra, Mr Lignos, found in the Church of Assumption 
+of Virgin Mary. These archives include educational, administrative and religious archives, manuscripts from the 
+Greek Revolution, old books, maps and others. The museum also hosts relics from the Balkans Wars and the two world 
+wars, traditional costumes, carvings, naval instruments and painting works.
+
+<h3>e.The Cathedral museum </h3>
+One of the interesting places that to visit in Hydra, is the Cathedral Museum or the Ecclesiastic Museum. 
+This museum is located in the center of the port. This cathedral was originally built in 1648 and was rebuilt in 
+1774. It also operated as a monastery at one point. Now, the Town Hall as well the museum is located in the temple 
+part of this cathedral. This museum has been in existence since 1933. Here, you will find jewels and documents of 
+historical value. Occasionally there are exhibits held that reflects Hydra’s nautical history.
+The address for this museum is:
+Cloisters of Cathedral of Hydra, 
+Hydra Harbor, Hydra, 
+Greece, 18040.<br />
+
+There is no phone at this museum. You will just have to drop by to see if it is open or not.
+
+<h3>f.Koundouriotis Mansion</h3>
+This elegant stone mansion is an outhouse of the National Historical Museum. It includes relics of the 
+Koundouriotis family, such as weaponry, traditional clothes, woodcarvings, paintings and jewelry.
+
+<h3></h3>g.The Bastions with Cannons: <h3></h3>
+    <img src="Images/Greece/greecehydrabastions.jpg" /><br />
+On the Greek island of Hydra the bastions with cannons that were used for the protection of the harbor in due time 
+war, can still be seen. During the 18th century, Hydra was in need of these cannons to protect the Island from the 
+attacks of the Turkish fleet. The Greek ships were equipped with eight to twenty guns when on the Turkish frigate 
+had up to eighty guns and a Turkish corvette ship up to thirty. The Turkish fleet was superior quantitatively to 
+the Greek so Hydra needed its cannons, in case they managed to get past the Greek ships. In the 19th century there 
+was a probability for Hydra to use its cannons again, as the Greeks were at war with the Turks.
+Fortunately, the Greek fleet had always managed to protect Hydra, and as a result, the cannons have not been often 
+in use. The bastions with cannons seemed to be a necessary precaution in case Hydra actually got attacked. You can 
+still see them today on the left and right side of the Harbor.
+
+<h3>h. Dokos Island</h3>
+<img src="Images/Greece/greecehydradokos.jpg" /><br />
+Dokos is a small island of the Saronic Gulf, between Hydra, Spetses and the mainland coast of Ermioni Peloponnese. 
+The landscape of the island is rocky and mountainous, while the highest peak is 308m. The island has few water 
+reserves and the land is infertile. About 50 permanent inhabitants live today in Dokos and they occupy mostly with 
+agriculture and fishing. Organized tourism is not developed there, but the island is known among nature lovers, 
+hikers and free campers. Beaches in Dokos are small and clean, while the remote landscape is idea for camping.
+Many archaeological excavations have been done on Dokos, as apparently the island was an important port in the 
+ancient times. According to findings, Dokos was first inhabited in the 5th millenium B.C., while it flourished in 
+the 3rd millenium B.C. In the antiquity, it was called Aperopia. As the remains of a castle show, this island had 
+a strategic position in the Byzantine times and was used to observe the ships in the Saronic Gulf. In summer 1975,
+ underwater researcher Peter Throckmorton and archaeologist Giorgos Papathanasopoulos discovered an ancient 
+ shipwreck in the sea bottom close to Dokos. This shipwreck was full of ceramics vases and the experts dated it at 
+around 2700-2100 B.C., making it the olderst shipwreck in the world. The findings from the shipwreck were 
+transfered to the Museum of Spetses, where they are preserved. On the eastern tip of the island, there is a 
+lighthouse constructed in 1923. This 9m tall lighthouse has the form of a round tower and a focal plane of 23m. 
+You can go to Dokos by water taxi from Hydra, Ermioni or Spetses.
+    
+<h3>2.Hydra Villages: Kaminia village </h3>
+    <img src="Images/Greece/greeceathenshydrakaminia.jpg" /><br />
+
+Kaminia Hydra: The small fishing hamlet of Kaminia is built around a shallow inlet. The quiet Kaminia is reachable 
+on foot via the coastal street of Hydra Town (about 15-20 minutes). It is a calmer alternative to Hydra Town, as 
+picturesque and traditional as the capital but without its constant buzz. The village doesn’t have any souvenir 
+shop or café, but some excellent taverns that serve amazing fresh fish. It was built, like the capital, on the 
+slope of the mountain range of Ere, but because of the growth of the settlement, it slowly expanded towards the 
+harbour, almost becoming one with the capital. The picturesque marina of Kaminia provides the village with fresh 
+fish. The little village has some grocery shops and a school and from there, visitors can enjoy a superb view over 
+the island of Spetses. 
+
+<h3>3.Hydra Villages: Vlicho village</h3>
+    <img src="Images/Greece/greecehydraVlichovillage.jpg" />
+Vlichos Hydra: A path from Kaminia leads to the small holiday resort of Vlihos (15 minutes walk) and offers a 
+magnificent view over the Peloponnese coast.Vlihos can also be reached by taxi-boat from Hydra Town or with a 40 
+minute walk via the coastal street of the capital. The area consists in holiday homes and new houses built 
+according to the traditional architecture of the 19th century. One tavern and one cafe welcome the visitors as 
+well as a large grey pebble beach.
+<h3>Mandraki Beach</h3>
+    <img src="Images/Greece/greecehydramantraki.jpg" /><br />
+Mandraki is the only beach of Hydra with sand and is located on the left the city.The access is very easy either 
+on foot or by water taxi. The Hotel Mira-Mare is alo located here. The beach of Mandraki was the old military port 
+of the island and the entrance had two (2) small castles, filled with cannons to guard it. The beach is organized 
+and you can enjoy water sports such as skiing, wind surfing, canoeing, etc.
+<h3>Spilia (Cave)</h3>
+    <img src="Images/Greece/greecehydraspilia.jpg" /><br />
+Spilia beach is a continuation of the pier of Hydra and one can reach there on foot from the town moving to the 
+west. The beach consists of rocks, but because of its position it has always a lot of people who enjoy diving in 
+crystal waters.You can combine swimming with a coffee or a meal in the taverns which are just beyond.
+<h3>Hydroneta </h3>
+    <img src="Images/Greece/greecehydraydroneta.jpg" /><br />
+Enjoy your swim and diving under the castle’s cannons.
+The beach of Hydronetta is next to the one of Spilia and one can reach it by walking west from the town of Hydra. 
+There is no sand here to, just rocks for diving.The place has a wild beauty. Perhaps it is the best place of the 
+island to enjoy the sunset.
+<h3>Avlaki   </h3>
+    <img src="Images/Greece/greecehydraavlaki.jpg" /><br />
+Avlaki beach is a nice place to swim next to Hydroneta and near the town of Hydra.
+There is no sand or a large beach to spread your towel, but a small mole has been created for this purpose.
+you can reach the beach easily on foot, after descending some stone steps.
+<h3>Plakes Vlichou</h3>
+    <img src="Images/Greece/greecehydraplakes.jpg" /><br />
+Beyond the Vlicho’s port, one will find the seaside village Plakes Vlichou.
+
+In front lies the organized beach with crystal clear waters, the hotel, the café and the restaurant.
+A good opportunity to combine swimming with food and coffee.
+<h3>Palamida</h3>
+    <img src="Images/Greece/greecehydrapalamida.jpg" /><br />
+Palamida is a rare beach, located at the south of Vlicho following a dirt track for 20 minutes and after crossing a stone bridge dating from the 17th century.
+Visitors of this beach might be all alone on this beach with the clear water. However, they will be able admire the mansion of Boulgaris, where it is heard that Pasha Kapoudan used to live when he lived on Hydra.
+Many churches can be found nearby the beach as well as a traditional shipyard, the only one left on the island.
+<h3>Molos</h3>
+    <img src="Images/Greece/greecehydramolos.jpg" /><br />
+After the Palamida beach, the crystal clear waters of the beach of Molos follow next.
+
+It is a deserted area that offers visitors peace, tranquility and relaxation. There are no tourist facilities and because of that the area has retained its pristine pure beauty.
+
+You can reach the Palamida beach only through water.
+<h3>Kaoumithi</h3>
+    <img src="Images/Greece/greecehydrakaoumithi.jpg" /><br />
+Right after the Molos bay comes the beach of Kaoumithi, located on the edge of an area full of pine trees.
+
+The combination of the sight of trees and crystal blue waters compose a magical landscape, ideal for total relaxation and tranquility.
+The beach with the thick sand remains unorganized and doesnt provide any tourism services.
+
+One can reach it either through water (means) or on foot, following the promenade of Hydra to the south for about 1 hour.
+<h3>Bisti</h3>
+    <img src="Images/Greece/greecehydrabisti.jpg" /><br />
+The beach of Bisti is also organized. It is located in the southwestern part of the island.
+
+It’s diversity lies in the beauty of the rocks and the pine forest that is complemented by the blue of the sea.
+
+This beach is reachable either by high-speed boats that have regular service throughout the day, by water taxi or with your own boat.
+<h3>Agios (St.) Georgios (Bisti)  </h3>
+    <img src="Images/Greece/greecehydraAgiosstGeorgios.jpg" /><br />
+The beach of Agios (St.) Georgios is very beautiful and is located on the west side of Hydra, between two pine hills near the cape Bisti.
+
+On the cliffs above stands the chapel of Agios (St.) Georgios. It is not organized and the access can be only by sea or by taxi boat.
+<h3>Agios (St.) Nikolaos</h3>
+    <img src="Images/Greece/greecehydraagiosnikolaos.jpg" /><br />
+The beach of Agios Nikolaos is well organized and has pebbles and clear water.
+It is located on the west coast of Hydra and specifically southwest, with slopes full of pines, which in some places reach the sea. The beach is also suitable for snorkeling.
+
+One can reach this beach with the fast high-speed boats throughout the day from the port of Hydra.
+
+If however you are in a hurry or you do not want to wait you can hire a water taxi and give him an appointment to take you back.
+<h3>Nisiza</h3>
+    <img src="Images/Greece/greecehydranisiza.jpg" /><br />
+On the east of the island we meet the deserted and unorganized beach of Nisiza, situated in a cove below Mountain Eros or Klimaki.
+
+The area is full of pine trees. It’s a unique landscape which will charm visitors along with the sea. In front of the beach lies the homonymous islet.
+
+Visitors can get there either by donkeys or through sea, which will make this route only by appointment.
+<h3>Klimaki</h3>
+    <img src="Images/Greece/greecehydraklimaki.jpg" /><br />
+A large pebbled beach is located at the east of the island and specifically under the namesake mountain called Klimaki, where very few private owned holiday homes have been built.
+
+The beach is not organized so be well prepared, taking with you some supplies. The beach is accessible either by sea or by the famous donkeys.
+<h3>Limnioniza</h3>
+    <img src="Images/Greece/greecehydralimnioniza.jpg" /><br />
+According to many people, Limioniza is the most beautiful beach on the island!
+
+That's why it is worth a visit when you visit Hydra. It is a pebbled beach with crystal clear water located at the northeast of the island, specifically after the cape Rigas and near the Fokia’s cave (Seal’s cave).
+
+Be sure to have water, umbrellas etc. with you, as there are no tourist facilities... Dont worry, we are pretty sure that you will not regret it!
+
+One can arrive there by boat or water taxi from the port. If you want to experience something different, try the route using the donkeys.
+</p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="HydraHotels" runat="server" HeaderText="Hydrahotels">
+ <%--CitynameHotelsZ--%>
+    <HeaderTemplate>
+      <div class="sublevel2tabs"> Hotels
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="CitynameRestaurants" runat="server" HeaderText="citynamerestaurants">
+<%--CitynameRestaurantsZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Restaurants
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">Restaurants
+      <p><h3>1.Bratsera in Town, Hydra </h3>
+Location: Hydra / Town<br />
+Type: Restaurants<br />
+Category: Mediterranean<br />
+A beautiful restaurant set on the premises of the homonymous hotel n Hydra Town, Bratsera invites you to enjoy a 
+fine seletion of Greek dishes. The tempting menu offers excellent dishes from the Greek and the Mediterranean 
+cuisine. Whether you stay at the hotel or not, Bratsera offers to its customers a fantastic culinary experience 
+for breakfast, meal and dinner that you can enjoy by the pool or inside the spacious restaurant, if the weather 
+is chilly. The restaurant organizes wedding receptions and other special events.
+
+<h3>2.Castello in Kaminia, Hydra </h3>
+Location: Hydra / Kaminia<br />
+Type: Restaurants<br />
+Category: Mediterranean<br />
+The impressive 18th century castle over the beach of Kaminia in Hydra has been renovated and now hosts a lovely 
+cafe-bar and restaurant with magnificent view. This multilevel bar restaurant is set right on the beachfront and 
+serves from breakfasts and light snacks to meals and dinners.Just a 15-minute walk from the charming town of Hydra, 
+Castello offers an unforgettable dining experience. The chef's typical yet tasty Mediterranean menu will surprise 
+you with all the delights.
+
+<h3>3.Kodylenia in Kaminia, Hydra</h3> 
+Location: Hydra / Kaminia<br />
+Type: Restaurants<br />
+Category: Taverns<br />
+Inside a typical fisherman's house overlooking the charming harbour of Kaminia is Kodylenia, one of the most 
+popular restaurants in Hydra. Kondylenia is an interestingly captivating place with a charming terrace and a 
+perfect natural spot right on the beachfront. This lovely building dominates the area of Kaminia with amazing 
+tastes and aromas from the Greek cuisine that make their way around the island. Kodylenia is a popular spot for 
+weddings receptions and special events. The restaurant provides beautiful sea views and authentic dishes.
+
+<h3>4.Mira Mare in Mandraki, Hydra </h3>
+Location: Hydra / Mandraki<br />
+Type: Restaurants<br />
+Category: Mediterranean<br />
+Mira Mare is a beautiful restaurant located in the attractive bay of Mandraki Hydra and it is part of the 
+well-known hotel. The restaurant offers romantic views to the sea and it is the ideal place to try fresh fish 
+dishes, tempting salads and local recipes. Mira Mare appeals to all tastes, while you have the chance to try the 
+highest quality dishes in the most beautiful setting. The dinner is served in unique scenery and you will enjoy 
+the spectacular sunset.
+
+<h3>5.Pirofani in Kaminia, Hydra </h3>
+Location: Hydra / Kaminia<br />
+Type: Restaurants<br />
+Category: Taverns<br />
+Pirofani is a special place for an authentic culinary experience in Hydra. Set on a beautiful location, just 3 
+minutes from the harbour of Kamini, the restaurant offers a fantastic assortment of Greek dishes and international
+ flavours. Among the specialties is the Pirofani salad made with fresh vegetables, daily fresh fish and meat 
+dishes. It is highly recommended for a delicious dessert and excellent wine. Pirofani provides entertainment with
+ various events from poetry readings to music happenings.
+
+<h3>6. Vigla</h3>
+Type: Restaurants<br />
+From the terrace of Vigla Restaurant you can watch everybody in the living theatre of Hydra where the protagonists 
+are the persons taking their walk on the historical waterfront of Hydra Island
+
+<h3>Annita</h3>
+The tavern "Annita" is located only a few meters away from the harbor, on Votsi’ s square and in the heart of the
+ nature. It’s a very beautiful restaurant where you can taste a wide variety of greek traditional food and snacks,
+  all cooked on the same day by lady Anna. There are also, fresh seafood from our boats and lots of salads. 
+For banquets or events, we undertake any kind of group - weddings - christenings up to 150 people, offering a wide
+range of Greek menu and buffet. Full of responsibility, we offer our friends -guests exceptional quality and true 
+hospitality. 
+Reservations: Tel.: +30 22980 54153 
+Manager:Ms. Anna Kouvara
+<h3>Caprice</h3>
+Caprice is since 1994 a reference mark of authentic Italian cuisine. It competes deservedly the trattories of the 
+Italian peninsula and it's hidden about 150m behind the port of Hydra.The cuisine, ideal for the lovers of good 
+food, combines genuine Italian recipes lightly tweaked with authentic traditional products from all over Greece. 
+Its constant value is the authentic Italian Pizza, with thin dough and the great variety of fresh pasta. The 
+culinary options are edited by the owner Vasilis, always taking special notice on the freshness of ingredients 
+and transforming seasonal ingredients in imaginative delicious Italian dishes. Priceless is the help of his 
+mother, Mrs. Nassia, which always ensures a harmonious and balanced outcome of flavors.
+The wine list was generated and is updated by him and contains mainly Greek and Italian labels, while the 
+traditional “amigdaloto” and the authentic tiramisu, are his personal culinary successes.
+The environment, family and friendly indicates the desire and the personal style of the owner. The islands blue 
+and white dominate the outer and the inside area of ​​the restaurant.
+Basic decorative items are authentic nautical paintings, photographs, old tools and equipment used by sponge 
+divers which are relics that unfold the family’s navy past. The Italian melodies and the musical selections 
+transform a visit to Caprice to a unique experience in every aspect, not just tasty. Loyal customers, old and new,
+ confirm that daily…
+Reservations:Tel.: (+30) 22980 52454
+<h3>Enalion Cafe</h3>
+"Enalion" awaits you to enjoy a delicious trip to a pleasant, cheerful atmosphere and a view of the deep blue sea.
+All the dishes are cooked with love, knowledge and excellent raw materials. Both the fresh fish and seafood that 
+smell iodine and the fresh meat and vegetables are chosen with care.The mood for the nostalgic home tradition give 
+to the food’s  flavor the authenticity of Greek cuisine, which we thought it was lost.The magic combination of 
+delicious dishes offered with a friendly smile, the beautiful environment and the even friendlier prices are a good 
+reason to become your hangout during your stay in Hydra.For those who want to enjoy their coffee, a drink or a 
+cocktail, Enalion is still there to satisfy their tastes.Enalion is one of the best bar-restaurants in Hydra, with 
+a wonderful view over a beautiful beach with fine sand, pebbles and crystal clear waters, the magical Vlycho.It is 
+located at the left of the harbor Vlicho as we come by boat from Hydra, just 2 minutes away from it.Vlichos is a 
+beautiful and quiet area with clear water and white houses perched on the rocks next to the church of Agios 
+Charalambos.You can reach Vlicho following the coastal road, west of the port or with the vessels "Argonaut 1" 
+and "Argonaut 2",which  leave the center of the port of Hydra every half hour.
+Reservations:Tel.: +30 22980 53455
+<h3>Garden of Taste</h3>
+The "Garden of Taste" is a lovely tavern, with great history, tradition and loyal friends from around the world.It
+ offers a very attractive interior, a beautiful courtyard full of green, perfect for the hot summer months. The 
+courtyard provides guests with the necessary shade throughout the day and wonderful cool evenings. The distinctive 
+light for dinner or romantic and special moments. The owner and chef Apostolis Moutsokos and his team offer all 
+these years a distinct quality and genuine hospitality. With kindness and willingness they will help you quickly 
+and they will make sure that you will spent a nice evening enjoying the delicious homemade dishes... at very 
+reasonable prices. In the tavern - restaurant the "Garden of Taste" you can taste a wide variety of traditional 
+Greek cuisine!
+From appetizers, grilled meats, fresh fish and seafood, pizzas, pastas, many kinds of salads and 15 types of 
+special fried cheese edited by Apostolis Moutsokos himself. In the "Garden of taste" it is customary to say 
+"Anyone who is not eating well does not pay any money"! Therefore stop by and let them take you to the world of 
+authentic and traditional Greek island cuisine! The tavern is open for lunch and dinner.
+Reservations:Tel: +30 22980 53705
+Manager: Mr. Apostolis Moutsokos
+
+<h3>Kontylenia’s tavern</h3>
+
+Kontylenia’s tavern is perhaps the most famous tavern on the island of Hydra. It is located in a magical place, 
+the Kaminia. Due to the specificity of the location and the excellent food quality the Kontylenia’s tavern it is 
+established as one of the best and most popular on the island. The tavern is situated on a balcony with a capacity 
+of 120 persons that is fully embraced by nature and the colors of the sunset, creating a magical atmosphere. 
+Beneath the tavern there is an amazing fishing harbor with wooden boats and local fishermen. The dishes are all high quality as the owner every morning makes sure to bring the freshest fish of the day. The service is friendly and prompt and combined with the wonderful music create an atmosphere of mental wellness.
+The tavern is open from March up to the end of October and is also suitable for festive events (weddings, baptisms).
+ The place is accessible with high speed taxi, traditional boats or on foot (15 minutes’ walk). This unique point 
+ in the heart of nature in combination with the colors of the sunset and the imposing rocks above, give you the 
+ opportunity to enjoy a high quality meal in a calm and relaxed atmosphere like living a dream in the majestic 
+ scenery of Hydra...
+Reservations:Tel.: +30 22980 53520 Mob.: +30 697 7301730
+<h3>Taverna Marina</h3>   
+The Tavern Marina is located in Vlycho, accessible by water taxi, boat or on foot. We serve traditional Greek 
+cuisine in a friendly environment. Visit us and witness a truly memorable experience in the traditional Greek 
+"Tavern Marina". Enjoy homemade food, cooked by Mrs. Despina. Fresh fish from the Saronic gulf. Enjoy your food 
+and/or drink in a beautiful environment, with a nice balcony and an incredible sunset. We also organize events 
+under the sun or stars, such as weddings, parties, anniversaries etc. During the summer we are open day and night. 
+Next to the tavern there is also a beach. We hope to see you soon!
+Reservations:Τel.: 22980 52496
+
+<h3>Omilos</h3>
+When you are at the most famous bar-restaurant that existed in Greece, when the likes of the Beatles, the Rolling 
+Stones, Jackie Kennedy, Maria Kallas, Aristotelis Onassis had the place as a hangout spot and when you have been 
+mentioned by generation after generation, you can only expect perfection!!!<br />
+We are open throughout the day so you can enjoy a morning coffee by the sea and to try our light summer dishes 
+accompanied by a glass of wine. As the sun goes down you can taste dishes from our eclectic dinner menu and admire 
+the magnificent views... an experience, to be remembered.<br />
+The night will be waiting for you to try cocktails, listen to music and have fun... till the early hours!!!<br />
+Reservations:Tel.: +30 22980 53800
+<h3>Bars in Hydra</h3>
+
+<h3>1.Amalour in Town, Hydra</h3>
+Location: Hydra / Town<br />
+Type: Bars<br />
+On the ground floor of an old house in Hydra, you can find Amalour. Set right on the waterfront, this 
+bar-restaurant has become one of the most popular spots in Hydra Town. The bar has excellent service, friendly 
+atmosphere and crowds that can turn a relaxed evening into a lively night. It is extremely known among locals and 
+visitors for the great variety of music sounds, like jazz, ethnic, and up tempo. With excellent views to the sea, 
+Amalour is a lovely place for a night out in Hydra.
+<h3>To Paradosiakon (The Traditional)  </h3>
+In one of the busiest streets of Hydra near the harbor, the tavern "The Paradodiakon" awaits to lead you on a 
+culinary journey, having as compass the delight, in authentic traditional flavors of Greek cuisine.
+The fifteen years of experience, the love for good food, the insistence on high quality and the freshness of the 
+materials of the owner Mr. Taki Kitsos, highlights the flavors through the culinary art and ranks it first in the 
+list of options on the island. The seafood swims in the catalogue as octopus, crayfish, shrimp, lobster, local 
+fish, anchovy, sardine and grilled marida.<br />
+The spaghetti with shrimps or prawns, the cuttlefish risotto honeyed in its own ink, the delicious local squid, 
+mussel pilaf and fried shrimp charm the palates. The grilled meat does not miss from the catalogue as there are 
+many choices of meat.The ”cooked food” remind of grandma’s cuisine and appetizers are the one better than the 
+other.<br />
+The hearty portions, the reasonable prices, the hospitality, the gracious and friendly service along with the 
+beautiful atmosphere make a noteworthy set which is the preference of locals and visitors also.
+Reservations: Tel.: +30 22980 54155
+<h3>Psaropoula   </h3>
+Psaropoula… a tradition that travels far in time… Memories of generations who grew up and passed the responsibility 
+to their children…A promise of enjoyment from the Greek perfumes and flavours in the most graphic island of 
+Argosaronikos, Hydra…With joy the owners of the well-known fish-tavern and the customers of the island will tell
+you about the long-lasting history of Psaropoula… passed responsibly from generation to generation, keeping intact 
+the quality and the tradition of food…Psaropoula’s history begun in 1911, when Ilias Tiliakos decided to open a 
+tavern at the most beautiful point of Hydra, at the small port, in a breathing distance from the sea and the 
+unique view of the traditional mansions… The tradition continued by Giorgos and Georgia Tiliakou, Ilias children, 
+and these with their turn following the footsteps of their father, left Psaropoula to Toula and Antonia.
+Psaropoula is also famous for Mrs. Toulas cooking. You will find her in the tavern with her sons, Giorgo and Ilia 
+Maurommati, in order to congratulate her…
+And the history continues… 
+Reservations:Tel.: +30 22980 52630 Fax.: +30 22980 53966 Mob.: +30 697 4005698
+Manager: Ms. Toula Tiliakou 
+<h3>Sunset Restaurant</h3> 
+The excellent location of the restaurant, makes it ideal for all kinds of activities. Here you can enjoy a romantic 
+dinner or simply organize your wedding. 
+The professional staff and the daily presence of the Owner Anthony Rampias, guarantee excellent quality products, 
+great recipes and excellent service, whether two or four hundred people.
+We have the venue and the knowhow, to spend unforgettable moments with us on the island of Hydra.
+We are a unique restaurant with the greatest view of the island at sunset.
+Our venue is updated regularly and is an ideal setting for romantic dinners, friendly gatherings, business lunches 
+and weddings.
+We can serve from 2 to 400 people without losing the atmosphere of the friendly atmosphere we have created.
+We support the human right of peace and beauty.
+We are open all day, offering fresh and cooked dishes.
+Our menu has the ability to take off your taste requirements. We use entirely Greek products. Freshest and best quality.
+We insist in simplicity and Greek.
+Reservations:Tel.: +30 22980 52067 & 53659
+<h3>Cafes</h3>
+<h3>1.Pirate	</h3>
+Type: Cafe<br />
+Category: Coffee Bar<br />
+Friendly service & tasty daytime menu. Great dance music every night. Exciting club atmosphere. The place to party 
+with friends, and make lots of new ones! We're almost open 24 hours a day in the summer and we're here in the 
+winter too.
+
+<h3>2.Sinialo	</h3>
+Type: Cafe<br />
+Sinialo is a stylish cafe facing the port of Hydra. You can relax at the tables outside and watch the boats tie 
+at the port or depart for the neighbouring islands. It serves coffees, drinks, snacks and few traditional desserts.
+
+http://www.hydra.gr
+
+ </p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="CitynameNightlife" runat="server" HeaderText="CitynameNightlife">
+<%--CitynameNightlife--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Nightlife
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="CitynameGettingaround" runat="server" HeaderText="citynameGettingaround">
+<%--CitynameGettingaroundz--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Getting Around
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="CitynameInfo" runat="server" HeaderText="CitynameInfo">
+<%--CitynameInfoZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">City Info
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="CityInfo">
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="CitynameOtherinfo" runat="server" HeaderText="CitynameOtherInfo">
+<%--CitynameOtherInfoZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">OtherInfo
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="otherinfo">Other Information
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="CitynameLinks" runat="server" HeaderText="CitynameLinks">
+<%--CitynameOtherInfoZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Links
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="otherinfo">Links
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+   </ajaxToolkit:TabContainer>
+  </div>
+ </ContentTemplate>
+</ajaxToolkit:TabPanel>
+
                 </ajaxToolkit:TabContainer>
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-  
-     <ajaxToolkit:TabPanel ID="Hotels" runat="server" HeaderText="Hotels">
+<ajaxToolkit:TabPanel ID="GreeceHotels" runat="server" HeaderText="GreeceHotels">
         <HeaderTemplate>
             <div class="tabs">Hotels</div>
         </HeaderTemplate>
@@ -3178,7 +4748,7 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-     <ajaxToolkit:TabPanel ID="Restaurants" runat="server" HeaderText="Restaurants">
+<ajaxToolkit:TabPanel ID="GreeceRestaurants" runat="server" HeaderText="GreeceRestaurants">
         <HeaderTemplate >
             <div class="tabs">Restaurants</div>
         </HeaderTemplate>
@@ -3187,7 +4757,7 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-     <ajaxToolkit:TabPanel ID="Gettingaround" runat="server" HeaderText="GettingAround">
+<ajaxToolkit:TabPanel ID="GreeceGettingaround" runat="server" HeaderText="GreeceGettingAround">
         <HeaderTemplate>
             <div class="tabs">Getting Around</div>
         </HeaderTemplate>
@@ -3196,7 +4766,7 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-        <ajaxToolkit:TabPanel ID="countryinfo" runat="server" HeaderText="countryinfo">
+<ajaxToolkit:TabPanel ID="Greececountryinfo" runat="server" HeaderText="Greececountryinfo">
         <HeaderTemplate>
             <div class="tabs">Useful Info</div>
         </HeaderTemplate>
@@ -3206,17 +4776,6 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
-<%--    <ajaxToolkit:TabPanel ID="TabPanel1" runat="server" HeaderText="GettingAround">
-        <HeaderTemplate>
-            <div class="tabs">Getting Around</div>
-        </HeaderTemplate>
-        <ContentTemplate>
-            <div class="">
-            </div>
-        </ContentTemplate>
-    </ajaxToolkit:TabPanel>
---%>
 </ajaxToolkit:TabContainer>
 
 </asp:Content>
-

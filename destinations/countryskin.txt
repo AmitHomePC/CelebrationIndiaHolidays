@@ -1,0 +1,323 @@
+<ajaxToolkit:TabContainer ID="Countrynamecontainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+<%--CountrynameZ--%>
+ <ajaxToolkit:TabPanel ID="Countrynamemap" runat="server" HeaderText="CountrynameMap">
+<%--CountrynameMapZ--%>
+  <HeaderTemplate>
+   <div class="tabs">Map</div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="map">
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="Countrynameweather" runat="server" HeaderText="Countrynameweather">
+<%--CountrynameWeatherZ--%>
+  <HeaderTemplate>
+   <div class="tabs">Weather</div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="weather">Climate - Weather
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="CountrynameAirfare" runat="server" HeaderText="CountrynameAirfare">
+<%--CountrynameAirfareZ--%>
+  <HeaderTemplate>
+   <div class="tabs">Airfare</div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="airfare">Airfare
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="CountrynameVisa" runat="server" HeaderText="CountrynameVisa">
+<%--CountrynameVisaZ--%>
+  <HeaderTemplate>
+   <div class="tabs">Visa</div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="visa">
+    <ajaxToolkit:TabContainer ID="CountrnameVisacontainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+<%--CountrynameVisatabZ--%>
+     <ajaxToolkit:TabPanel ID="Countrynamevisafees" runat="server" HeaderText="Countryvisafees">
+<%--CountrynameVisafeesZ--%>
+      <HeaderTemplate>
+       <div class="subtabs">Visa Fees
+       </div>
+      </HeaderTemplate>
+      <ContentTemplate>
+       <div Class="visa">Visa Fees
+       <div>
+      </ContentTemplate>
+     </ajaxToolkit:TabPanel>
+     <ajaxToolkit:TabPanel ID="Countrynamevisadocuments" runat="server" HeaderText="Countrynamevisadocuments">
+<%--CountrynameVisadocumentsZ--%>
+      <HeaderTemplate>
+       <div class="subtabs">Required Documents
+       </div>
+      </HeaderTemplate>
+      <ContentTemplate>
+       <div class="visa">
+       </div>
+      </ContentTemplate>
+     </ajaxToolkit:TabPanel>
+     <ajaxToolkit:TabPanel ID="Countrynamevisadownload" runat="server" HeaderText="Countrynamevisadownload">
+<%--CountrynameVisadownloadZ--%>
+      <HeaderTemplate>
+       <div class="subtabs">Download Application</div>
+      </HeaderTemplate>
+      <ContentTemplate>
+       <div class="visa">
+       </div>
+      </ContentTemplate>
+     </ajaxToolkit:TabPanel>
+    </ajaxToolkit:TabContainer>
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="CountrynameSightseeing" runat="server" HeaderText="CountrynameSightseeing">
+<%--CountrynameSightseeingZ--%>
+  <HeaderTemplate>
+   <div class="tabs">Sightseeing
+   </div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div Class="sightseeing">
+   <div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="CountrynameCities" runat="server" HeaderText="Countrynamecities">
+<%--CountrynameCitiesZ--%>
+  <HeaderTemplate>
+   <div class="subtabs">Cityname
+   </div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="cities">
+    <ajaxToolkit:TabContainer ID="CountrynameCitiesTabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+<%--CitynametabZ--%>
+     <ajaxToolkit:TabPanel ID="cityname" runat="server" HeaderText="cityname">
+      <HeaderTemplate>
+       <div class="subtabs">Cityname
+       </div>
+      </HeaderTemplate>
+      <ContentTemplate>
+       <div class="cities">
+        <ajaxToolkit:TabContainer ID="athenstabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+         <ajaxToolkit:TabPanel ID="CitynameOverview" runat="server" HeaderText="Citynameoverview">
+<%--CitynameOverviewZ--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">Overview
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="cities">
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameSightseeing" runat="server" HeaderText="Citynamesightseeing">
+    <%--CitynameSightseeingZ--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">Things To Do
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="cities">Things To Do
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameHotels" runat="server" HeaderText="Citynamehotels">
+      <%--CitynameHotelsZ--%>
+         <HeaderTemplate>
+           <div class="sublevel2tabs"> Hotels
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="cities">
+            <ajaxToolkit:TabContainer ID="CitynameHotelsContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+     <%--CitynameHotelsTabZ--%>
+             <ajaxToolkit:TabPanel ID="CitynameApartments" runat="server" HeaderText="Citynameapartments">
+     <%--CitynameHotelsApartmentsZ--%>
+              <HeaderTemplate>
+               <div class="sublevel3tabs">Apartments</div>
+              </HeaderTemplate>
+              <ContentTemplate>
+               <div class="cities">
+               </div>
+              </ContentTemplate>
+             </ajaxToolkit:TabPanel>
+             <ajaxToolkit:TabPanel ID="CitynameBudgethotel" runat="server" HeaderText="CitynameBudgetHotel">
+     <%--CitynameBudgetHotelsZ Under5k--%>
+              <HeaderTemplate>
+               <div class="sublevel3tabs">Budget Hotels</div>
+              </HeaderTemplate>
+              <ContentTemplate>
+               <div class="cities">
+               </div>
+              </ContentTemplate>
+             </ajaxToolkit:TabPanel>
+             <ajaxToolkit:TabPanel ID="CitynameStar3" runat="server" HeaderText="Citynamestar3">
+     <%--CitynameHotelsStar3Z Under 8k--%>
+              <HeaderTemplate>
+               <div class="sublevel3tabs">3Star
+               </div>
+              </HeaderTemplate>
+              <ContentTemplate>
+               <div class="cities">
+               </div>
+              </ContentTemplate>
+             </ajaxToolkit:TabPanel>
+             <ajaxToolkit:TabPanel ID="CitynameStar4" runat="server" HeaderText="Citynamestar4">
+     <%--CitynameHotelsStar4Z Under 12k--%>
+              <HeaderTemplate>
+               <div class="sublevel3tabs">4Star</div>
+              </HeaderTemplate>
+              <ContentTemplate>
+               <div class="cities">
+               </div>
+              </ContentTemplate>
+             </ajaxToolkit:TabPanel>
+             <ajaxToolkit:TabPanel ID="CitynameStar5" runat="server" HeaderText="Citynamestar5">
+     <%--CitynameHotelsStar5Z Under 20k--%>
+              <HeaderTemplate>
+               <div class="sublevel3tabs">5 Star
+               </div>
+              </HeaderTemplate>
+              <ContentTemplate>
+               <div class="cities">
+               </div>
+              </ContentTemplate>
+             </ajaxToolkit:TabPanel>
+             <ajaxToolkit:TabPanel ID="CitynameLuxurious" runat="server" HeaderText="Citynameluxurios">
+     <%--CitynameHotelsLuxurious above 20k--%>
+              <HeaderTemplate>
+               <div class="sublevel3tabs">Luxurios
+               </div>
+              </HeaderTemplate>
+              <ContentTemplate>
+               <div class="cities">
+               </div>
+              </ContentTemplate>
+             </ajaxToolkit:TabPanel>
+            </ajaxToolkit:TabContainer>
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameRestaurants" runat="server" HeaderText="citynamerestaurants">
+     <%--CitynameRestaurantsZ--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">Restaurants
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="cities">Restaurants
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameNightlife" runat="server" HeaderText="CitynameNightlife">
+ <%--CitynameNightlife--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">Nightlife
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="cities">
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameGettingaround" runat="server" HeaderText="citynameGettingaround">
+     <%--CitynameGettingaroundz--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">Getting Around
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="cities">
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameInfo" runat="server" HeaderText="CitynameInfo">
+    <%--CitynameInfoZ--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">City Info
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="CityInfo">
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameOtherinfo" runat="server" HeaderText="CitynameOtherInfo">
+ <%--CitynameOtherInfoZ--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">OtherInfo
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="otherinfo">Other Information
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+         <ajaxToolkit:TabPanel ID="CitynameLinks" runat="server" HeaderText="CitynameLinks">
+  <%--CitynameOtherInfoZ--%>
+          <HeaderTemplate>
+           <div class="sublevel2tabs">Links
+           </div>
+          </HeaderTemplate>
+          <ContentTemplate>
+           <div class="otherinfo">Links
+           </div>
+          </ContentTemplate>
+         </ajaxToolkit:TabPanel>
+        </ajaxToolkit:TabContainer>
+       </div>
+      </ContentTemplate>
+     </ajaxToolkit:TabPanel>
+    </ajaxToolkit:TabContainer>
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="CountrynameHotels" runat="server" HeaderText="CountrynameHotels">
+<%--CountrynameSightseeingZ--%>
+  <HeaderTemplate>
+   <div class="tabs">Hotels
+   </div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="hotels">Hotels
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="CountrynameRestaurants" runat="server" HeaderText="CountrynameRestaurants">
+<%--CountrynameRestaurantsZ--%>
+  <HeaderTemplate >
+   <div class="tabs">Restaurants
+   </div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="restaurants">Restaurants
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="CountrynameGettingaround" runat="server" HeaderText="CountrynameGettingAround">
+  <HeaderTemplate>
+   <div class="tabs">Getting Around
+   </div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="gettingaround">Getting Around
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+ <ajaxToolkit:TabPanel ID="Countrynamecountryinfo" runat="server" HeaderText="Countrynamecountryinfo">
+<%--CountrynameInfoZ--%>
+  <HeaderTemplate>
+   <div class="tabs">Useful Info
+   </div>
+  </HeaderTemplate>
+  <ContentTemplate>
+   <div class="countryinfo">
+   </div>
+  </ContentTemplate>
+ </ajaxToolkit:TabPanel>
+</ajaxToolkit:TabContainer>
