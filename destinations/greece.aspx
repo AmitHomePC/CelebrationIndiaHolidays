@@ -4204,7 +4204,7 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
  </HeaderTemplate>
  <ContentTemplate>
   <div class="cities">
-<%--CitynametabZ--%>
+<%--HydratabZ--%>
    <ajaxToolkit:TabContainer ID="HydraTabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
     <ajaxToolkit:TabPanel ID="HydraOverview" runat="server" HeaderText="Hydraoverview">
 <%--CitynameOverviewZ--%>
@@ -4442,17 +4442,6 @@ One can arrive there by boat or water taxi from the port. If you want to experie
       </div>
      </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="HydraHotels" runat="server" HeaderText="Hydrahotels">
- <%--CitynameHotelsZ--%>
-    <HeaderTemplate>
-      <div class="sublevel2tabs"> Hotels
-      </div>
-     </HeaderTemplate>
-     <ContentTemplate>
-      <div class="cities">
-      </div>
-     </ContentTemplate>
-    </ajaxToolkit:TabPanel>
     <ajaxToolkit:TabPanel ID="CitynameRestaurants" runat="server" HeaderText="citynamerestaurants">
 <%--CitynameRestaurantsZ--%>
      <HeaderTemplate>
@@ -4516,7 +4505,7 @@ Type: Restaurants<br />
 From the terrace of Vigla Restaurant you can watch everybody in the living theatre of Hydra where the protagonists 
 are the persons taking their walk on the historical waterfront of Hydra Island
 
-<h3>Annita</h3>
+<h3>7. Annita</h3>
 The tavern "Annita" is located only a few meters away from the harbor, on Votsi’ s square and in the heart of the
  nature. It’s a very beautiful restaurant where you can taste a wide variety of greek traditional food and snacks,
   all cooked on the same day by lady Anna. There are also, fresh seafood from our boats and lots of salads. 
@@ -4525,7 +4514,7 @@ range of Greek menu and buffet. Full of responsibility, we offer our friends -gu
 hospitality. 
 Reservations: Tel.: +30 22980 54153 
 Manager:Ms. Anna Kouvara
-<h3>Caprice</h3>
+<h3>8. Caprice</h3>
 Caprice is since 1994 a reference mark of authentic Italian cuisine. It competes deservedly the trattories of the 
 Italian peninsula and it's hidden about 150m behind the port of Hydra.The cuisine, ideal for the lovers of good 
 food, combines genuine Italian recipes lightly tweaked with authentic traditional products from all over Greece. 
@@ -4542,7 +4531,7 @@ divers which are relics that unfold the family’s navy past. The Italian melodi
 transform a visit to Caprice to a unique experience in every aspect, not just tasty. Loyal customers, old and new,
  confirm that daily…
 Reservations:Tel.: (+30) 22980 52454
-<h3>Enalion Cafe</h3>
+<h3>9. Enalion Cafe</h3>
 "Enalion" awaits you to enjoy a delicious trip to a pleasant, cheerful atmosphere and a view of the deep blue sea.
 All the dishes are cooked with love, knowledge and excellent raw materials. Both the fresh fish and seafood that 
 smell iodine and the fresh meat and vegetables are chosen with care.The mood for the nostalgic home tradition give 
@@ -4556,7 +4545,7 @@ beautiful and quiet area with clear water and white houses perched on the rocks 
 Charalambos.You can reach Vlicho following the coastal road, west of the port or with the vessels "Argonaut 1" 
 and "Argonaut 2",which  leave the center of the port of Hydra every half hour.
 Reservations:Tel.: +30 22980 53455
-<h3>Garden of Taste</h3>
+<h3>10. Garden of Taste</h3>
 The "Garden of Taste" is a lovely tavern, with great history, tradition and loyal friends from around the world.It
  offers a very attractive interior, a beautiful courtyard full of green, perfect for the hot summer months. The 
 courtyard provides guests with the necessary shade throughout the day and wonderful cool evenings. The distinctive 
@@ -4572,7 +4561,7 @@ authentic and traditional Greek island cuisine! The tavern is open for lunch and
 Reservations:Tel: +30 22980 53705
 Manager: Mr. Apostolis Moutsokos
 
-<h3>Kontylenia’s tavern</h3>
+<h3>11. Kontylenia’s tavern</h3>
 
 Kontylenia’s tavern is perhaps the most famous tavern on the island of Hydra. It is located in a magical place, 
 the Kaminia. Due to the specificity of the location and the excellent food quality the Kontylenia’s tavern it is 
@@ -4585,7 +4574,7 @@ The tavern is open from March up to the end of October and is also suitable for 
  opportunity to enjoy a high quality meal in a calm and relaxed atmosphere like living a dream in the majestic 
  scenery of Hydra...
 Reservations:Tel.: +30 22980 53520 Mob.: +30 697 7301730
-<h3>Taverna Marina</h3>   
+<h3>12. Taverna Marina</h3>   
 The Tavern Marina is located in Vlycho, accessible by water taxi, boat or on foot. We serve traditional Greek 
 cuisine in a friendly environment. Visit us and witness a truly memorable experience in the traditional Greek 
 "Tavern Marina". Enjoy homemade food, cooked by Mrs. Despina. Fresh fish from the Saronic gulf. Enjoy your food 
@@ -4594,7 +4583,7 @@ under the sun or stars, such as weddings, parties, anniversaries etc. During the
 Next to the tavern there is also a beach. We hope to see you soon!
 Reservations:Τel.: 22980 52496
 
-<h3>Omilos</h3>
+<h3>13. Omilos</h3>
 When you are at the most famous bar-restaurant that existed in Greece, when the likes of the Beatles, the Rolling 
 Stones, Jackie Kennedy, Maria Kallas, Aristotelis Onassis had the place as a hangout spot and when you have been 
 mentioned by generation after generation, you can only expect perfection!!!<br />
@@ -4603,9 +4592,9 @@ accompanied by a glass of wine. As the sun goes down you can taste dishes from o
 the magnificent views... an experience, to be remembered.<br />
 The night will be waiting for you to try cocktails, listen to music and have fun... till the early hours!!!<br />
 Reservations:Tel.: +30 22980 53800
-<h3>Bars in Hydra</h3>
 
-<h3>1.Amalour in Town, Hydra</h3>
+
+<h3>14. Amalour in Town, Hydra</h3>
 Location: Hydra / Town<br />
 Type: Bars<br />
 On the ground floor of an old house in Hydra, you can find Amalour. Set right on the waterfront, this 
@@ -4613,7 +4602,7 @@ bar-restaurant has become one of the most popular spots in Hydra Town. The bar h
 atmosphere and crowds that can turn a relaxed evening into a lively night. It is extremely known among locals and 
 visitors for the great variety of music sounds, like jazz, ethnic, and up tempo. With excellent views to the sea, 
 Amalour is a lovely place for a night out in Hydra.
-<h3>To Paradosiakon (The Traditional)  </h3>
+<h3>15. To Paradosiakon (The Traditional)  </h3>
 In one of the busiest streets of Hydra near the harbor, the tavern "The Paradodiakon" awaits to lead you on a 
 culinary journey, having as compass the delight, in authentic traditional flavors of Greek cuisine.
 The fifteen years of experience, the love for good food, the insistence on high quality and the freshness of the 
@@ -4627,7 +4616,7 @@ other.<br />
 The hearty portions, the reasonable prices, the hospitality, the gracious and friendly service along with the 
 beautiful atmosphere make a noteworthy set which is the preference of locals and visitors also.
 Reservations: Tel.: +30 22980 54155
-<h3>Psaropoula   </h3>
+<h3>16. Psaropoula   </h3>
 Psaropoula… a tradition that travels far in time… Memories of generations who grew up and passed the responsibility 
 to their children…A promise of enjoyment from the Greek perfumes and flavours in the most graphic island of 
 Argosaronikos, Hydra…With joy the owners of the well-known fish-tavern and the customers of the island will tell
@@ -4641,7 +4630,7 @@ Maurommati, in order to congratulate her…
 And the history continues… 
 Reservations:Tel.: +30 22980 52630 Fax.: +30 22980 53966 Mob.: +30 697 4005698
 Manager: Ms. Toula Tiliakou 
-<h3>Sunset Restaurant</h3> 
+<h3>17. Sunset Restaurant</h3> 
 The excellent location of the restaurant, makes it ideal for all kinds of activities. Here you can enjoy a romantic 
 dinner or simply organize your wedding. 
 The professional staff and the daily presence of the Owner Anthony Rampias, guarantee excellent quality products, 
@@ -4664,7 +4653,7 @@ Friendly service & tasty daytime menu. Great dance music every night. Exciting c
 with friends, and make lots of new ones! We're almost open 24 hours a day in the summer and we're here in the 
 winter too.
 
-<h3>2.Sinialo	</h3>
+<h3>18.Sinialo	</h3>
 Type: Cafe<br />
 Sinialo is a stylish cafe facing the port of Hydra. You can relax at the tables outside and watch the boats tie 
 at the port or depart for the neighbouring islands. It serves coffees, drinks, snacks and few traditional desserts.
@@ -4675,58 +4664,276 @@ http://www.hydra.gr
       </div>
      </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="CitynameNightlife" runat="server" HeaderText="CitynameNightlife">
-<%--CitynameNightlife--%>
+   </ajaxToolkit:TabContainer>
+  </div>
+ </ContentTemplate>
+</ajaxToolkit:TabPanel>
+<%--PorosZ--%>
+<ajaxToolkit:TabPanel ID="Poros" runat="server" HeaderText="Poros">
+ <HeaderTemplate>
+  <div class="subtabs">Poros</div>
+ </HeaderTemplate>
+ <ContentTemplate>
+  <div class="cities">
+<%--PorostabZ--%>
+   <ajaxToolkit:TabContainer ID="PorosTabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+    <ajaxToolkit:TabPanel ID="PorosOverview" runat="server" HeaderText="Porosoverview">
+<%--PorosOverviewZ--%>
      <HeaderTemplate>
-      <div class="sublevel2tabs">Nightlife
-      </div>
+      <div class="sublevel2tabs">Overview</div>
      </HeaderTemplate>
      <ContentTemplate>
       <div class="cities">
+          <img src="Images/Greece/greeceporos.jpg" />
+      <p> Poros is the island of peace, romance and jauntiness. It is overgrown with pine trees which reach the rugged shores 
+or the sandy beaches. The residents of Poros are like all islands, spontaneous, decent and hospitable. Its Historic Clock is 
+imposing from the distance on the highest top of the hill, among prickly pears and pine trees. It was built in 1927, it is 
+visible from every part and it is the jewel of the town. There are many little taverns spread among the pictures - due backstreets 
+of Poros. Along the pier, the visitor sees plenty of cafeterias, restaurants, tourist shops, many bars and discos with foreign and
+Greek music. On the outskirts of the town in Northwest there are the Military Navy facilities, the Progymnastirio, the first 
+residence of Othon. That is where today the pretraining of the sailors takes place. After the Progymnastirio, a small canal 
+separates Spheria from Kalavria. After Sinikismos (Settlement) the visitors follow the footpath that continues along passing 
+through a wonderful area full of pine trees. The picturesque church dedicated to Virgin Maria, the trees and the running water 
+give to this place an exceptional beauty. Moreover the visitors can enjoy the wonderful view that the nature offers. Another 
+picturesque church the visitors will meet until they finally arrive to Palatia  where the Ancient Temple of Posidonas exists.
+After the canal bridge there is the Sinikismos (Settlement), which was first inhabited by Minor Asia refugees. 
+On the left, towards the West, there is Perlia. The road continues along the beach passing through Neorio, the love port, and the 
+Russian Dockyard with the little island Daskalio. On the right of kanali the road, in the east part, leads to Askeli and branches 
+off towards the "Zoodochou Pigi" Monastery and in the north part, towards the Temple of Posidon and Vagionia. Furthermore, passing
+ through 'Agios Stathis" plateau and "Prophitis Elias", we come back through the Sinikismos (Settlement) to the canal.</p>
+
       </div>
      </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="CitynameGettingaround" runat="server" HeaderText="citynameGettingaround">
-<%--CitynameGettingaroundz--%>
+    <ajaxToolkit:TabPanel ID="PorosSightseeing" runat="server" HeaderText="Porossightseeing">
+<%--PorosSightseeingZ--%>
      <HeaderTemplate>
-      <div class="sublevel2tabs">Getting Around
+      <div class="sublevel2tabs">Things To Do
       </div>
      </HeaderTemplate>
      <ContentTemplate>
-      <div class="cities">
+      <div class="cities">Things To Do
+      <p><h3>1.Archeological Museam of Poros</h3>
+      At Korizi square there is the Archeological Museam of Poros which is open to public daily except Mondays, from 9.00 am to 15.00 pm. 
+Findings from the excavations of the Temple of Poseidon, Ancient Trizina, Magoula, Apathia, Modi and Saint Constantine from 
+Methana are displayed here. One can also see the magnificent wall paintings of Parthenis at the Saint George Cathedral 
+and visit the Public Library.<br />
+<h3>2. Zoodochou Pigi Monastery </h3>
+          <img src="Images/Greece/greeceporosZoodochouPigiMonastery.jpg" /><br />
+On the Eastern side it is worth visiting the Zoodochou Pigi Monastery (18th century), built on a green slope with a view to the 
+sea. With its picturesque ness, it combines peace and simplicity. At the entrance of the Monastery there is a famous spring with 
+healing properties which lies on the side of a torrent, below some huge plane trees. It was founded by the Metropolitan 
+Bishop (Iakovos II) both at his expense and other various contributions.The monastery is surrounded by tall and strong walls, 
+without any openings. There is only the central gate and the loopholes. At the rectangular precinct, there is the temple, the 
+catholic and the family tomb of Tombazis, Apostolis and the Admiral from Hydra Miaoulis.
+In general, the construction is a sample of island monastery architecture.
+<h3>4. Tomb of Tombazis </h3>
+The temple is simple without many wall paintings. The precious wooden-curved icon, which was made in Kappadokia of Asia Minor in 
+the 17th C, together with the wooden-curved iconostasis and the imposing bishop throne, are of great interest. The temple is a 
+Basilica type with a dome and a tower - like bell - tower.
+<h3>3. Tomb of Posidon</h3>
+Walking towards northeastern we reach the Temple of Posidon. Few remains are felt today from the Doric Temple (6th century) made 
+of blue limestone with 34 columns. This place was a sacred asylum for fugitives and castaways. 
+<h3>5. Russian Dockyard </h3>
+          <img src="Images/Greece/greeceporosrussiandock.jpg" /><br />
+5 kilometers towards the North there 
+are the ruins of the Russian Dockyard. There in 1834 warehouses and bakeries were built for the supply of the Russian fleet 
+sailing in the Aegean. The Russians kept this property until the 1900s. since 1989, with a Ministerial decision, the Russian 
+Dockyard has been announced as a historical monument due to its great architectural and historical interest.
+<h3>6. Ancient Trizina</h3>
+          <img src="Images/Greece/greeceporosancienttrizina.jpg" /><br />
+The ancient Trizina is known as the homeland of Thiseas and it is one of the most interesting places in Poros. All the 
+archeological finds from ancient Trizina are located in the archeological Museum. Continuing your way, a distance of about 3 
+kilometer from Trizina there is a place called "Vasiliki Tafi" (The Royal cemetery). This area has great interest because of the
+archaeological finds of the Mycenaean period.
+<h3>7. Diavologefiro</h3>
+Walking towards northwestern we reach "Diavologefiro" which is an abrupt area in Poros but famous for its wild beauty. The visitors 
+will have the opportunity to enjoy the beautiful natural environment. The area is full of blooming flowers and trees. Here the 
+river flows furiously through a deep canyon.
+<h3>8. Lemon Forest </h3>
+          <img src="Images/Greece/greeceporoslemonforest2.jpg" /><br />
+Another worth visiting area is the "Lemon Forest". Lemon trees grow wild in Mediterranean climates and can be easily recognized 
+by their tangy smell of fresh. It is ideal for romantic nice long walks as the sound of the running water is wonderfully soothing.
+<h3>9. Bourtzi</h3>
+          <img src="Images/Greece/greeceporosbourtzi.jpg" /><br />
+Opposite " Aliki" and more specifically at the eastern of the port there is a small island called Bourtzi with a small castle built 
+in 1827 in order to protect the port. The visitors will have the opportunity to see the castle's thick, tall walls that still 
+exist.  
+<h3>10. Kanali</h3>
+          <img src="Images/Greece/greeceporoskanali1.jpg" /><br />
+Kanali is located after the small bridge that connects Progimnastirio with Soinikismo and it is only 5 minutes from the center of 
+the town of Poros. Kanali is a beautiful and organised sandy beach. It has got tavernas over the sea with a wonderful view to the 
+open sea. Also near, there are villas with rooms to let, bakeries, super market and mini market for family tourism. Every sunday 
+evening to the tavernas there is live music.
+
+<h3>11. Askeli</h3>
+          <img src="Images/Greece/greeceporosaskeli.jpg" /><br />
+After Kanali the road leads to Askeli, which is located a few miles north-east of the port. Askeli looks to the open sea and is 
+located to the slope of a pine tree hill. The view is panoramic. There are four roads that cross Askeli, reaching to the top of 
+the hill. It has got communication with the town of Poros with buses, taxi or boats. It takes 15 to 20 minutes by walking
+Askeli has got a large organised plaza with a school for water sports. In Askeli there are hotels very close to the beach, which 
+have got pools, bars and tavernas. Also beautiful villas, rooms-apartments to let to the beach or on the slope with a magnificent 
+view and nice weather. Askeli offers family tourism as most villas are equipped with kitchen and everything that a family needs
+It has got a lot of super and mini markets and tourist agents. You can let motorbikes and bikes for small excursions.  There are 
+restaurant bar, two swimming pools, a bar - club and a lot of tavernas. To some tavernas are organized dance nights. Finally it 
+has got a remarkable night life with all these bars that they are famous for their coctails and atmosphere, with the good greek 
+and foreigh music they have got.
+
+<h3>12.Monastiri</h3>
+          <img src="Images/Greece/greeceporosmonasthri.jpg" /><br />
+Monastiri is located to the east side of the island.  It is a quiet, organised beach with clear waters and picturesque tavernas.
+It is under the hill that lies Monastiri, next to pine trees and luxurious hotels. Monastiri is offered for water sports and 
+underwater diving. It is located to the road next to the port, after Askeli and it has got transportation with the town of Poros 
+with buses, taxi and boats. To the right side of the beach there is the hotel Seirina - A' class.
+
+<h3>13.Neorio</h3>
+          <img src="Images/Greece/greeceporosneorio.jpg" /><br />
+Neorio is located to the east side of the island, next to Vidi. It is the most picturesque place of Poros, full of pine trees
+to reach down the beaches.Mikros and Megalos Neorio,the Limanaki tis agapis (Love port), and Rosikos Naustathmos (russian naval yard) 
+with the little island Daskalio, one beach is more beautiful than the other.
+It has got lovely hotels next to the sea and is ideal for family tourism. To Neorio there ara the "Passage" facilities for water sports.
+Super - market, bar, polls, football 5x5 and taverns next to the sea for you to enjoy the greek traditional foods and the wine.
+It's transportation is often with buses, taxi or boats.
+In the club "Kalipso" you can spent unforgettable weekends. Romantic and fantastic are the full moon nights in the beach. 
+Especially worth visiting is the Love Bay, you can have a night swim and people with guitars give you company on the beach.
+<h3>14.Perlia</h3>
+          <img src="Images/Greece/greeceporosperlia.jpg" /><br />
+After the canal bridge is located Soinikismos that first inhadited from refugees from M. Asia. Left, towards west, is the 
+location Perlia, to the road to Neorio. It is located between Kanali beach and Neorio beach, opposite to the port and it has got 
+easy access to it.
+It connects with bus or taxi with all the locations and beaches of the island. It has got very nice hotels, studios and picturesque 
+tavernas. There are enough Mini and super market, places to let bikes and motorbikes and Galini club for water sports.
+
+<h3>15.Galatas - Plaka</h3>
+Galatas is a very picturesque location, which is next to the port of Poros island. It commutes with Poros with small boats every 
+15 minutes an with the local ferry boat every 30 minutes. It has got many taverns, cafes and ouzeri. In Galata you can stay to the 
+rooms "Bisia", to Pension Giouli or to "Villa Kiki", which is located to the entrance of Galatas and Poros View In Galata is one of 
+the beautiful complexes of Poros , the "Arcadia Suites & Spa" with spa
+<h3>watersports</h3>
+          <img src="Images/Greece/greeceporospara.jpg" /><img src="Images/Greece/greeceporosski.jpg" /><br />
+
+    </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="PorosHotels" runat="server" HeaderText="PorosHotels">
+<%--PorosRestaurantsZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Hotels
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">Hotels
+<p><h3>New Aegli Hotel (INR 4200 No Meals )</h3>Askeli, 18020 Póros<br /><br />
+          <img src="Images/Greece/greece-poros-newaegli.jpg" />
+          <img src="Images/Greece/greece-poros-newaegli1.jpg" />
+          <img src="Images/Greece/greece-poros-newaegli2.jpg" />
+          <img src="Images/Greece/greece-poros-newaegli3.jpg" />
+          <img src="Images/Greece/greece-poros-newaegli5.jpg" />
+          <img src="Images/Greece/greece-poros-newaegli6.jpg" />
+          <img src="Images/Greece/greece-poros-newaegli7.jpg" />
+          <img src="Images/Greece/greece-poros-newaegli8.jpg" /><br />
+Enjoying a prime sea-front location at Askeli Bay, only 1.5 km from Poros town, New Aegli Hotel offers panoramic sea-view accommodation.<br />
+Aegli Hotel guests may enjoy the sea view, whether by the outdoor swimming pool, or in the privacy of their room balcony.<br />
+All rooms are well appointed and fully equipped with air conditioning, fridge, satellite TV and safety box. Executive rooms also feature DVD players and hot tubs.<br />
+New Aegli offers a restaurant, a piano lounge, internet café and conference facilities. Children can play at a specially designated area. Live music entertainment is provided at the weekend.<br />
+Guests can find restaurants, cafes and a gym at 100 m from the hotel. The nearby beach offers water sports and a beach-bar, while the bus for Poros Port stops at the hotel's entrance. This hotel makes for the perfect base for experiencing this wonderful region.<br />
+Hotel Rooms: 74<br />
+Superior Double or Twin Room with Sea view<br />
+Rooms are 22 square metres.<br />
+Room Facilities: Balcony, TV, Telephone, Satellite Channels, Air Conditioning, Heating, Shower, Bath, Hairdryer, Toilet, Minibar, Refrigerator<br />
+Room Size:  22 square metres<br />
+Bed Size(s): 1 Large double or 2 Single<br />
+      </p>
+<p><h3>Sirene Blue Resort </h3>Monastiri, 18020 Póros<br />
+          <img src="Images/Greece/greece-poros-sirenehotel.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel2.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel3.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel4.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel5.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel6.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel7.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel8.jpg" />
+          <img src="Images/Greece/greece-poros-sirenehotel9.jpg" />
+          <br />
+     Amongst pine trees, Sirene Blue Resort features a private beach with a seafront restaurant and beach bar. Guests have access to a tennis court and 2 pools. Guestrooms have balconies overlooking the Saronic Gulf.<br />
+All air-conditioned Sirene Blue rooms are elegantly decorated and feature a TV and a mini bar. Bathrooms are stocked with hairdryers and luxury bathroom amenities.<br />
+A buffet breakfast is served daily in the main restaurant overlooking the pool and beach. The Taverna with views of the Monastiri Bay, serves Greek cuisine. Guests enjoy Mediterranean specialities accompanied by live music at the Roof Garden Bar Restaurant.<br />
+On-site leisure options include mini golf and diving facilities. The beach is monitored by a lifeguard at all times.<br />
+The port and town of Poros with its neoclassical buildings and the famous Clock Tower, is just 3.5 km away. The Port of Piraeus is accessible within less than 2 hours. Free private parking is available on site.<br />
+Hotel Rooms: 120<br />
+Please note that there is capacity for extra bed in this room type.<br />
+Room Facilities: Balcony, View, TV, Telephone, Safety Deposit Box, Air Conditioning, Iron, Fan, Hairdryer, Free toiletries, Toilet, Bathroom, Bath or Shower, Minibar, Wake Up Service/Alarm Clock<br />
+Room Size:  20 square metres<br />
+Bed Size(s): 1 Large double or 2 Single<br />
+ </p>
+<p><h3>Xenia Poros Image Hotel (INR6000 Breakfast Included)</h3>Neorio, 18020 Póros <br />
+     <img src="Images/Greece/greece-poros-xeniaporosimage.jpg" />
+     <img src="Images/Greece/greece-poros-xeniaporosimage2.jpg" />
+     <img src="Images/Greece/greece-poros-xeniaporosimage3.jpg" />
+     <img src="Images/Greece/greece-poros-xeniaporosimage4.jpg" />
+     <img src="Images/Greece/greece-poros-xeniaporosimage5.jpg" />
+     <img src="Images/Greece/greece-poros-xeniaporosimage6.jpg" />
+     <img src="Images/Greece/greece-poros-xeniaporosimage7.jpg" />
+     <img src="Images/Greece/greece-poros-xeniaporosimage8.jpg" />
+     <br />
+ Overlooking the town of Poros, this hotel offers classically decorated rooms with private balcony within walking distance of Neorion Beach. Featuring a private beach, it includes 2 restaurants, a well-equipped gym and a sauna.<br />
+Rooms and suites at Poros Image Hotel feature granite floors and marble bathrooms. They are equipped with a satellite/pay TV, air conditioning and mini fridge. All units also have a seating area and offer free toiletries.<br />
+Guests can enjoy lunch or dinner at the romantic setting of Terrace Restaurant or at the sea-view Veranda Restaurant. Green and Calypso Beach bars serve exotic cocktails in a stylish environment.<br />
+The main town and port of Poros is 1,5 km away and features many traditional taverns and seaside cafes. Poros Port also connects to the village of Galatas. Free parking is provided on site.<br />
+Hotel Rooms: 77<br />
+Offer includes: <br />
+-daily, private use of sauna <br />
+-free transfer from/to port <br />
+-free umbrella and sunbeds on the private beach<br />
+Room Facilities: Balcony, Sea View, Telephone, Satellite Channels, Safety Deposit Box, Air Conditioning, Iron, Desk, Seating Area, Extra Long Beds (> 2 metres), Heating, Tiled / Marble floor, Wardrobe/Closet, Hairdryer, Free toiletries, Toilet, Bathroom, Bath or Shower, Refrigerator, Electric Kettle, Wake Up Service<br />
+Room Size:  25 square metres<br />
+Bed Size(s): 2 Single or 1 Double<br />
+
+ </p>
+<p><h3>Panorama Apartments (INR 3200 No Meals)</h3>Askeli, 18020 Póros<br />
+     <img src="Images/Greece/greece-poros-PanoramaApts.jpg" />
+     <img src="Images/Greece/greece-poros-PanoramaApts2.jpg" />
+     <img src="Images/Greece/greece-poros-PanoramaApts3.jpg" />
+     <img src="Images/Greece/greece-poros-PanoramaApts4.jpg" />
+     <img src="Images/Greece/greece-poros-PanoramaApts5.jpg" />
+     <img src="Images/Greece/greece-poros-PanoramaApts6.jpg" /><br />
+ Situated on a pine-filled hill in Poros, Panorama Apartments is 150 metres from the beach of Askeli. It features self-catered accommodation with free Wi-Fi and a spacious balcony overlooking the Saronic Gulf.<br />
+A kitchenette with cooking hobs, fridge and dining area is included in all apartments and studios at the Panorama. Each unit has a private bathroom with a hairdryer and shower. Air conditioning is standard.<br />
+The beach road is lined with traditional taverns serving fresh fish just a 3-minute walk from the property. Poros Port is a 5-minute drive or 10 minutes by taxi boat. Staff at the tour desk can arrange car rental and free private parking is possible on site.<br />
+Apartments: 15<br />
+More spacious, air-conditioned accommodation featuring a large balcony with Saronic Gulf views. Includes a kitchenette with a fridge, electric kettle and dining area.<br />
+Apartment Facilities: Balcony, Patio, View, TV, Air Conditioning, Shower, Hairdryer, Toilet, Bathroom, Kitchenette, Refrigerator, Dining Area, Electric Kettle, Kitchenware, Wake Up Service<br />
+Apartment Size:  45 square metres<br />
+Bed Size(s): 4 Single<br />
+ </p>
       </div>
      </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="CitynameInfo" runat="server" HeaderText="CitynameInfo">
-<%--CitynameInfoZ--%>
+    <ajaxToolkit:TabPanel ID="PorosRestaurants" runat="server" HeaderText="Porosrestaurants">
+<%--PorosRestaurantsZ--%>
      <HeaderTemplate>
-      <div class="sublevel2tabs">City Info
+      <div class="sublevel2tabs">Restaurants
       </div>
      </HeaderTemplate>
      <ContentTemplate>
-      <div class="CityInfo">
-      </div>
-     </ContentTemplate>
-    </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="CitynameOtherinfo" runat="server" HeaderText="CitynameOtherInfo">
-<%--CitynameOtherInfoZ--%>
-     <HeaderTemplate>
-      <div class="sublevel2tabs">OtherInfo
-      </div>
-     </HeaderTemplate>
-     <ContentTemplate>
-      <div class="otherinfo">Other Information
-      </div>
-     </ContentTemplate>
-    </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="CitynameLinks" runat="server" HeaderText="CitynameLinks">
-<%--CitynameOtherInfoZ--%>
-     <HeaderTemplate>
-      <div class="sublevel2tabs">Links
-      </div>
-     </HeaderTemplate>
-     <ContentTemplate>
-      <div class="otherinfo">Links
+      <div class="cities">Restaurants
+      <h3>1. White Cat</h3>
+          <img src="Images/Greece/greeceporoswhitecat.jpg" />
+"White Cat" is a greek restaurant with a big tradition, history and a lot of friends all over the world.
+It operates since 1909.
+With great responsibility all these years, "White Cat" offers to its clients-friends exceptional product quality and true greek hospitality inside a comfortable, warm and clean environment.
+The cuisine of "White Cat" is traditional, with meals that staying unforgettable, satisfying the most demanding customers. John, Andrew and the personel of "White Cat", waits for for you to the warm and beautiful place they have made for you, in order to give you a taste of the greek traditional cuisine. In "White Cat" you will have the chance to taste tradional products, like ouzo.
+Also we have a variety of appetizers such as octopus in the grill, squids, shrimps, spagetti with lobster and different fish, fresh fish on the grill, salads, all the kinds of meat and many more. Here you will taste rice with mussel, mouzaka and traditional made rooster.
+The wine cellar of "White Cat" there is a great variety of greek wines with the best quality and of course the famous draught wine on the cold carafe.
+<h3>2.Panorama</h3>
+          <img src="Images/Greece/greeceporospanaroma.gif" /><br />
+To "Panorama" is a beautiful traditional restaurant located in the enchanting Askeli beside the sea, just across from the famous beach.
+So after the bath you can eat in our restaurant, which uses fresh and pure, local products and materials.
+It is the oldest restaurant in Askeli since 1986 and maintains the family tradition.
+To the "Panorama" can be tasty addition to traditional Greek cuisine, a wide variety of cold and hot appetizers and snacks, fried cheese, pasta, risotto, pizza, special dishes, diet dishes, grilled meats, fresh fish and seafood day, many kinds of salads and drink cold wine.
+Salads use olive oil. The meat and fish are fresh and our region. The ham is pork shoulder. The pizza dough is made fresh daily from us.
+We are waiting to pamper you fast, with excellent service, to enjoy hospitality and delicious dishes ... at very reasonable prices.
+In "Panorama" serve dishes which bear diet and calories. 
       </div>
      </ContentTemplate>
     </ajaxToolkit:TabPanel>
