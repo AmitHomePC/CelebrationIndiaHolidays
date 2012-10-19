@@ -4207,7 +4207,7 @@ align="left" style="border: 0px; color: rgb(51, 51, 51); font-family: Arial, san
 <%--HydratabZ--%>
    <ajaxToolkit:TabContainer ID="HydraTabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
     <ajaxToolkit:TabPanel ID="HydraOverview" runat="server" HeaderText="Hydraoverview">
-<%--CitynameOverviewZ--%>
+<%--HydraOverviewZ--%>
      <HeaderTemplate>
       <div class="sublevel2tabs">Overview</div>
      </HeaderTemplate>
@@ -4223,7 +4223,7 @@ The only village and capital of the island is Hydra Town, known for its traditio
      </ContentTemplate>
     </ajaxToolkit:TabPanel>
     <ajaxToolkit:TabPanel ID="HydraSightseeing" runat="server" HeaderText="Hydrasightseeing">
-<%--CitynameSightseeingZ--%>
+<%--HydraSightseeingZ--%>
      <HeaderTemplate>
       <div class="sublevel2tabs">Things To Do
       </div>
@@ -4442,8 +4442,8 @@ One can arrive there by boat or water taxi from the port. If you want to experie
       </div>
      </ContentTemplate>
     </ajaxToolkit:TabPanel>
-    <ajaxToolkit:TabPanel ID="CitynameRestaurants" runat="server" HeaderText="citynamerestaurants">
-<%--CitynameRestaurantsZ--%>
+    <ajaxToolkit:TabPanel ID="HydraRestaurants" runat="server" HeaderText="Hydrarestaurants">
+<%--HydraRestaurantsZ--%>
      <HeaderTemplate>
       <div class="sublevel2tabs">Restaurants
       </div>
@@ -4941,7 +4941,4454 @@ In "Panorama" serve dishes which bear diet and calories.
   </div>
  </ContentTemplate>
 </ajaxToolkit:TabPanel>
+<%--MykonosZ--%>
+<ajaxToolkit:TabPanel ID="Mykonos" runat="server" HeaderText="Mykonos">
+ <HeaderTemplate>
+  <div class="subtabs">Mykonos</div>
+ </HeaderTemplate>
+ <ContentTemplate>
+  <div class="cities">
+<%--MykonostabZ--%>
+   <ajaxToolkit:TabContainer ID="MykonosTabContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+    <ajaxToolkit:TabPanel ID="MykonosOverview" runat="server" HeaderText="Mykonosoverview">
+<%--MykonosOverviewZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Overview</div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+          <img src="Images/Greece/greecemykonosmap.jpg" /><br />
+      <p> it its majestic windmills standing guard on the hills overlooking the sea? Is it its sun-drenched beaches or the waters 
+of the Mediterranean twinkling like infinite precious jewels? Could it be that Apollo, born in the neighboring, sacred island of 
+Delos wanders there, reflecting his eternal beauty? Or perhaps its narrow, winding maze of whitewashed paths leading one to 
+endless adventure and fascination? One can only wonder, and dream of Mykonos…<br />
+Not surprisingly, Mykonos ranks among the world’s best known and most desirable destinations, attracting holiday makers from every 
+corner of the planet.Uniquely combining superb, sandy shores with a crystal clear sea and stunning town/hora (hora = town), 
+Mykonos is the supreme and inimitable expression of the Cycladic architecture: radiant whites and radiant blues. To crown it all, 
+the sacred island of Delos standing beside it displays a wealth of sights, and experiences from the civilization of Ancient Greece.
+Mykonos is also at the center of an excellent network of transport and communication. By air or by sea, one arrives in Mykonos with 
+the promise of adventure and the endless possibility for pleasure. One and all, of whatever age, Mykonos must be experienced at 
+least once in a lifetime…<br />
+Mykonos attracts many tourists each summer with its superb, sandy beaches, among the best to be found anywhere in Greece. As a 
+famous poet once said, “ Mykonos is exactly in the middle of the Aegean sea, so that every one around will look at it – and marvel 
+at what they see.” <br />
+AGAPI<br />
+Mykonos is a magical atmosphere rivaling any found on earth. In fact, the island has been called the Venice of Greece. In part, 
+this is because of its Alefkandra quarters, a row of old houses with balconies over-hanging the Aegean. Agapi, meaning love in 
+Greek, is waiting to be found here. From the moment your journey to Mykonos begins, you will feel the unbound power of agapi!
+          <img src="Images/Greece/greecemykonosWindmills.jpg" /><br />
+</p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="MykonosSightseeing" runat="server" HeaderText="Mykonossightseeing">
+<%--MykonosSightseeingZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Things To Do
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">Things To Do
+<p><h3>1. Mykonos Town</h3>
+Chora Mykonos, Town or Chora: Chora Mykonos, called Chora by the locals, is a typical Cycladic village built 
+amphitheatrically. It has whitewashed cubic houses with wooden coloured doors, windows and balconies, narrow 
+streets forming a labyrinth, beautiful churches, lovely chapels and purple bougainvilleas contrasting with the 
+bright white of the buildings’ walls.<br />
+The heart of the city is closed to traffic during most of the day which make the walk among the labyrinth streets 
+particularly agreeable, especially during early morning when the city is calmer for most of the people are at the 
+beaches or still sleeping after a long night of clubbing.<br />
+Numerous cafes, chic boutiques, souvenir shops and fine jewelleries are helping the visitor to enjoy its days in 
+the beautiful capital of Mykonos.<br />
+Worth-seeing in Hora, or Chora Mykonos, is the church complex of Panagia Paraportiani which has been recognized 
+as a national cultural monument and is a superb representation of Cycladic architecture. Those beautiful churches 
+are located on the hill of the old Venetian castle (Kastro).<br />
+The famous whitewashed windmills, trademark of the island, are standing on a hill overlooking the city and from 
+where one can enjoy a magnificent view over the Little Venice which is one of the most beautiful parts of the 
+capital and is located on a peak of land, like a small peninsula.<br />
+Another trademark of the island is Petros the pelican, usually located in Little Venice, he is quite the charmer 
+and loves to pose for photographs be sure to look for him.<br />
+This peak of land consists of two-storey Venetian houses of extremely bright colours, built very close one to 
+another, with coloured wooden porches and balconies, lining the seafront, almost falling into the sea with the 
+waves coming to break under them; all this scene forms a wonderful and unique image that charms every one by its 
+incredible beauty and its magical atmosphere.<br />
+Many trendy cafes and bars are located in Little Venice which becomes a very noisy and lively area during night 
+time. The capital also has an archaeological museum located between the port and the town, exposing various 
+sculptures, vases and figurines coming from the islands of Delos and Rhenia. In the centre of the town one can 
+find a nautical museum and a folklore museum which houses a collection of icons, furniture and folk musical 
+instruments. <br />
+A great quantity of bars and nightclubs can be found in the capital, proving that the fame of Mykonos to be a 
+party island is not just fame, it’s a fact. As soon as the sun goes down, the capital’s narrow streets fill with 
+crowd ready to party and dance all night long<br />
+<h3>2 . Super Paradise</h3><br />
+ <img src="Images/Greece/greecemykonossuperparadise.jpg" /><br />
+Super Paradise Beach(Plintri): Just as famous as its neighbouring Paradise. Despite the paradisiacal setting, 
+don't come here for a peaceful day - music blares from huge loud speakers and the beach partying often continues 
+all day long. Full nudity is permitted on the right side of the beach which is also gay friendly. It is reachable 
+by local bus and small boat. A stunningly beautiful beach with the freedom to wear anything or nothing at all. 
+It is reachable by taxi, bus, or caique ( small boat ). The ride from Paradise takes people back and forth and is 
+well worth the trip. Though it is also known as a famous gay hang out , it is visited by all. It’s a must see and 
+a cool party is always in progress.<br />
+Facilities at the Beach:<br />
+Sunbeds<br />
+SHOWER<br />
+RESTAURANT<br />
+BEACH BAR<br />
+WATER SPORTS<br />
+ROOMS<br />
+Marine transportation (boat from Platis Gialos) DISTANCE: 7 km from the town.<br />
+<h3>3.  Paradise</h3><br />
+    <img src="Images/Greece/greecemykonosparadise.jpg" /><br />
+    Paradise Beach(Kalamopodi): One of the most famous, nudist friendly, attracting young crowds by its 24 hour 
+    music and its day and night beach parties. Water sports, a diving centre and beach bars are available. Here 
+    the largest organised camping resides on the island, next to the after club Cavo Paradiso, which hosts DJs 
+    of David Morales and DJ Tiesto fame.Between Paranga and Super Paradise,is reachable by a footpath from 
+    Platis Gialos, by bus or small boat.<br />
+Beautiful Caves and bays hiding on Mykonos are just waiting for you to find.Boats for hire (contact mykonos.com 
+for info.) are needed for this.Two mini markets, newspapers, laundry, water supply and electricity, natural shadow
+ and canes,a restaurant with international cuisine open all day,souvenir shop, Internet, fax, secretarial support, 
+ a playground on the beach and so forth. Also rented rooms are available within the premises of the beach.<br />
+Benefits:<br />
+Sunbeds<br />
+Shower<br />
+Restaurant<br />
+Beach Bar<br />
+Boat Transfer (caique)<br />
+Camping<br />
+Rooms to Let<br />
+Water Sports<br />
+Diving Center<br />
+Bus Service<br />
 
+<h3>4.  Elia</h3><br />
+    <img src="Images/Greece/greecemykonoselia.jpg" /><br />
+    Elia Beach: Elia is in a distance of about 3 km away from Ano Mera. The largest of the southern beaches, 
+    it has good restaurants, hotels, bungalows. Again the right side of the beach is preferred by socialite 
+    Greek gays. The beach is accessible by bus service from Mykonos Town and boat service from Platis Gialos.<br />
+Elia is the longest sandy beach of Mykonos, fully organized, offering a wide choice of taverns and bars as 
+well as water sports facilities such as water-skiing, parasailing and windsurfing. One of the most beautiful 
+beaches on the island with white sand, easy access and a good word to describe it would be "Gay friendly".<br />
+Benefits:<br />
+Sunbeds<br />
+Restaurant<br />
+Cafe<br />
+Shower<br />
+Hotel<br />
+Bus Service<br />
+
+<h3>5   Lia</h3><br />
+    <img src="Images/Greece/greecemykonoslia.jpg" /><br />
+    Lia Beach: The furthest beach from Chora, of sand and pebbles.  Since access is limited to private vehicle or 
+    taxi, this beautiful beach is suitable for those who avoid crowds.Exquisite blue-green water...and, if it’s 
+    the nude feeling you are looking for, just around the cove is a tiny secret spot named Tsogari. <br /> 
+The last of the southern beaches that you can go by car. The road is long and hard, but its beauty will 
+compensate you. Thick sand, emerald waters, umbrellas, deck chairs.In Lia there is opened the beach 
+restaurant, with wooden deck floor , loud music, bar for a drink and Italian cuisine. <br />
+Benefits<br />
+Sunbeds<br />
+Restaurant<br />
+Shower<br />
+Beach Bar<br />
+
+<h3>6.  Platis Gialos</h3><br />
+    <img src="Images/Greece/greecemykonosplatisgialos.jpg" /><br />
+    Platis Gialos Beach: About 4 km from Mykonos town, a very popular beach on the south side. It is also one of 
+    the longest on Mykonos.It was once a family beach,but nowadays it’s becoming more cosmopolitan.From here one 
+    may hire a small boat to visit other beaches like Paradise, Super Paradise etc.That was the only way to visit 
+    those beaches before roads were built. Good connection by bus with Mykonos town, till very late at night.<br />
+The beach of Platis Yialos is one of the most popular beaches of the island, filling with thousands of people 
+during summer. They are attracted by the golden sand and the wonderful turquoise crystalline waters. The beach 
+of Platis Yialos is fully organized, offering sun beds, umbrellas, water sports facilities and many restaurants 
+and hotels.It is reachable by local bus leaving every half hour from the capital. From Platis Yialos, regular 
+taxi-boats go to the beaches of the southern coast which are Paranga, Agrari, Elia, Paradise and Super Paradise.
+It is perhaps the most overpopulated beach on the island.Sheltered by hotels and organised, with umbrellas and 
+sunbeds,addressed to tourists,but is an ideal solution for mothers with children.It has beautiful beaches,hotels, 
+restaurants and very regular intercourse. The starting point of maritime association with the southern beaches: 
+Paranga, Kalamopodi, Plintri, Agrari, Elia.<br />
+Benefits:<br />
+Sunbeds<br />
+Restaurant<br />
+Shower<br />
+Hotel<br />
+Bus Service<br />
+Boat Service (caique)<br />
+Beach Bar<br />
+Rooms to Let<br />
+Water Sports<br />
+
+<h3>7.  Paranga</h3><br />
+    <img src="Images/Greece/greecemykonosparaga.jpg" /><br />
+
+Paranga Beach: One of the smallest beaches, a combination of two sandy beaches separated by a headland. Although 
+organised,it has a new-age feel about it, with fine sand and huge rocks juxtaposed with blue water.In the spring 
+time it reminds you of the old days, but in the summer it’s crowded with Italians.It can be reached by bus or by 
+a 15 minute walk from Platis Gialos.<br />
+Here you will find the hipsters lounging and ranting about last night’s escapades and twenty-four hour parties. 
+The beach is great. Some shallow reefs on entry,but then, crystal clear waters.After a dip make sure a you grab 
+a tall, cool drink at the famous Kalua bar. Also visit Kosta at the Paranga café. He is a local and has lots of 
+knowledge of Mykonos.<br /> 
+Spa-massage treatments are available at various hotels. Also, try a massage by Helena, a local, located at Paranga
+ beach (also rated HIGHLY by mykonos.com).Pretty small beach with a beautiful landscape (cape Drapanos). Located 
+ behind of the beach of Agia Anna and it has one of the two camping on the island. With a wonderful view of Delos,
+  water, electricity, restaurant, mini market, free transportation from the port and frequent local bus service, 
+  the Beach is an interesting alternative holiday destination.<br />
+Benefits:<br />
+Sunbeds<br />
+Shower<br />
+Restaurant<br />
+Beach Bar<br />
+Camping<br />
+Hotel<br />
+Bus Service<br />
+Boat Tranfer (caique)<br />
+
+<h3>8   Psarrou</h3><br />
+    <img src="Images/Greece/greecemykonospsarou.jpg" /><br />
+Psarou Beach: Situated within walking distance and just to the right of the Plati Gialos bus terminus. A fully 
+organised beach, offers glamour and prestige. It’s the place to see and to be seen. Nammos the beach restaurant 
+offers the same glamour and prestige as long as you are willing to pay the price. In high season you might have 
+bribe your way to gain access to your spot on the beach.<br />
+Psarou Beach is famous for attracting celebrities from all over the world.It is a beautiful organized sandy beach 
+with clear waters, attracting thousands of visitors during summer. Water sports facilities such as scuba diving, 
+windsurfing, paddle boats and much more are available at Psarou. The beach is located at 5 kilometres from the 
+island’s capital and is reachable by local bus.  <br />
+A fashionable and organized beach with water sports (diving school, etc.) One of the most beautiful beaches on 
+the island with golden sand and emerald waters, which met its great glory in the decade of the'80s, and in recent 
+years collecting virtually all of vip of the island.<br />
+Benefits:<br />
+Sunbeds<br />
+Shower<br />
+Restaurant<br />
+Hotel<br />
+Beach Bar<br />
+Diving Center<br />
+
+<h3>9.  Little Venice</h3><br />
+    <img src="Images/Greece/greecemykonoslittlevenice.jpg" /><br />
+
+Little Venice is one of the most romantic place in the whole of Mykonos.The neighborhood of Little Venice is 
+replete with elegant and gorgeous old houses that are situated precariously on the edge of the sea. Many a 
+discerning traveler in the past have fallen in love with this charming neighborhood of Mykonos due to its 
+magnetic appeal.Especially amazing is the sunset views from Little Venice.It’s whitewashed edifices against 
+the backdrop of the azure blue Aegean Sea is simply marvelous.The air of nonchalance that prevails in Little 
+Venice disarms the most discerning of travelers.It’s whitewashed edifices against the backdrop of the azure 
+blue Aegean Sea is simply marvelous. <br />
+The air of nonchalance that prevails in Little Venice disarms the most 
+discerning of travelers. The vintage fishermen’s houses for instance provide a kaleidoscopic vignette. There 
+are many crazy international tourists who are even prepared to pay triple the amount,equivalent to a five star 
+hotel rate just to stay in those charming fisherman’s hutments.It is a whole new world out there to be explored.
+“Little Venice” evolved from the picturesque Alevkantra beach and extends right into the peripherial areas of 
+Kastro or “Castle” as it is popularly referred to in the touristic parlance. Visitors are highly recommended 
+to stay in one of the quaint houses that dot the Mykonos shoreline for the sheer pleasure that they afford.
+ You can sit down with a peg or two of your favorite tipple in the quintessential wooden stairways even as 
+ the surging waves crash underneath. A truly magical aura indeed.<br />
+Little Venice is fully geared up to cater to the whims and fancies of the discerning international travelers. 
+There are plenty of entertainment options ranging from pulsating discotheques to well-stocked bars where party 
+animals are known to jive well past midnight. Art galleries too abound here and exhibitions of renowned artists 
+are a regular feature. <br />
+In the days of yore, many distinguished sailors had built their houses right on the picturesque shoreline. 
+Many of these houses have today been converted into chic bars which are still very conspicuous by their old 
+world charm. You can still sit down with your folks over endless pegs of your favorite liqueur and watch the 
+solitary shipping vessel cruise by at the distant horizon creating a surreal impression.<br />
+
+<h3>10. Windmills</h3><br />
+
+    <img src="Images/Greece/greecemykonosWindmills.jpg" /><br />
+The windmills are the quintessential features of Mykonos’ landscape. There are plenty of them that have become a 
+part and parcel of Mykonos. Visitors to Mykonos can see the windmills irrespective of the locale.From a distance 
+one can easily figure out the windmills,courtesy their silhouette.They are mainly concentrated in the neighborhood
+of Chora and some are also located in and around Alevkantra.These innovative wheels were primarily used for crushing
+ agricultural yields.In all there were 16 such windmills in operation.They are conspicuous by their snow-white 
+ color, spherical shape with the customary pointed roof made of the finest variety of wood.In the good old days,
+  they were wind operated as Mykonos is renowned for their gusty wind, which continues to blow even today. <br />
+
+As of now, with the advent of modernity, the windmills are no longer operational.But they continue to be a symbol 
+of Mykonos’s rich virile past. Being hundred of years old, most of the windmills have been thoroughly renovated 
+and some have even been converted into museums, the most famous being the Bonis Windmill.Mykonos’s windmills are 
+a living testimony of the island’s use of innovation when it came to tapping the enormous power of the wind to 
+grind Mykonos’s agricultural produces.<br />
+<h3>11. Panagia Paraportiani</h3><br />
+
+    <img src="Images/Greece/greecemykonosChurchofPanagiaParaportiani.jpg" /><br />
+The lovely church of Panagia(Virgin Mary) Paraportiani is among the most photographed churches not only in Mykonos,
+ but in the world. It is located at the entrance of Kastro Neighbourhood, right next to the sea. Its name 
+ (Paraportiani) actually means "standing next to the entrance door", meaning that the church was next to the 
+ Castle door. <br />
+
+The special thing about this church is that it actually consists of five small churches that were built one on 
+top or next to the other. The church of Agios Efstathios is the centre of this complex, surrounded by the churches
+ of Agios Anargyros, Agios Sozon and Agia Anastasia. On top of these four churches, there is the church of 
+ Virgin Mary, which looks like a dome. The five churches were not contructed at once, but gradually along 
+ centuries. The oldest church is Agios Anargyros, which was built in late 14th century. The other churches were 
+ built in the 16th and the 17th century, while there were renovations till 1920.<br />
+ <h3>12. Delos Island</h3><br />
+
+    <img src="Images/Greece/greecemykonosdelos.jpg" />
+    <img src="Images/Greece/greecemykonosdelos2.jpg" />
+    <img src="Images/Greece/greecemykonosdelos3.jpg" />
+    <img src="Images/Greece/greecemykonosdelos4.jpg" />
+    <img src="Images/Greece/greecemykonosdelos5.jpg" /><br />
+
+
+The first inhabitants of the island were Cares or Phoenicians (3rd millennium BC). Then, Delos came under the 
+protection of the Ptolemies of Egypt, successors of Alexander the Great. According to mythology, Delos is the 
+birthplace of Apollo, god of music, of true and light, and his twin sister Artemis, goddess of hunting.<br /> 
+
+The childs’ mother was Leto who was seduced by Zeus, as many goddesses, nymphs and mortals were; when Hera, 
+Zeus’ wife, learn about Leto’s pregnancy, she banned her from all the places of the earth so she couldn’t give 
+birth. The only place for Leto to give birth was the little island of Delos, then called Ortygia (Quail Island) 
+which wasn’t considered as part of the earth and which was revealed by Poseidon, who came to help his brother 
+and his brother’s lover.So Leto managed to give birth to her twins, Apollo and Artemis and the island is, from 
+then, dedicated to the beautiful god. This gave to the island its name for Delos means “revealed”. Because the 
+islands around Delos were lining in the shape of a circle, the whole group of island was called the Cyclades. 
+This is the reason why Delos was considered as the most important Pan-Hellenic sanctuary during Ancient Times 
+and that the ancient Greeks built a lot of amazing temples, sanctuaries and statues in this island called the 
+  “Sacred Island”.<br />
+
+  <h3>13. Agrari Beach</h3><br />
+
+    <img src="Images/Greece/greecemykonosagraribeach.jpg" /><br />
+Agrari Beach: Located right next to Elia beach, they form together a huge sandy beach. Agrari is less popular than
+ its neighbour and much calmer, couples seem to prefer this beach. It can be reached by local bus and taxi-boat.
+Agrari Beach is less popular than its neighbour and much calmer. The atmosphere here is calm and ideal for those 
+of you who wish to enjoy your holidays away from the frenzy rhythms of the island. Enjoy the clean deep blue 
+waters and the golden sand, taste the delicious food and, if you wish, you can try your abilities in water ski.<br />
+
+<h3>14  Ornos Beach</h3><br />
+
+Ornos Beach: Only two kilometres from town,located on the south west. It is the perfect family beach with all 
+amenities. Access to and from town is easily made by frequent bus service. Daily boat services to other beaches
+ as well as excursions to the island of Delos are available from this bay which also provides a good anchorage 
+ for yachts.<br />
+
+<h3>15 Agios Ioannis Beach</h3><br />
+
+    <img src="Images/Greece/greecemykonosagiosioannis.jpg" /><br />
+Situated on the south-west coast of the island, 5 km from Mykonos Town, Agios Ioannis is fully organised, 
+wind-protected beach, ideal for families or incognito magnates. Christos taverna combines local food and 
+marble sculpturing! You can enjoy a wonderful view over the island of Delos.<br />
+
+Aghios Ioannis is only 6 km southwest of Chora and it is located perhaps in the most privileged area of 
+the island as it has a panoramic view of the sacred island of Delos. It is a sandy beach that does not 
+attract the society men and women of Mykonos. This doesn’t mean, however, that you will find an empty beach.<br />
+Features: <br />
+Deck Chairs<br />
+Restaurants<br />
+Umbrellas<br />
+
+<h3>16. Panormos Agios sostis</h3><br />
+
+    <img src="Images/Greece/greecemykonosagiossostis.jpg" /><br />
+On the north part, 4.5 km from Mykonos town, these unique beaches can be reached only by private vehicle or taxi, 
+yet the road network is in excellent condition. They are the best known unorganised beaches on the island. Greek 
+celebrities seem to prefer them. On Panormos, Giorgos Zaglaras tavera the real definition of hip and chic. 
+Panormos is the well known secret on the island.<br />
+On the northern side of Mykonos and well worth the ride, you will find Panomos. No water sports or bumping clubs,
+ but pillows and shaded areas for lounging in style. From the café to the food, it’s a work of art and a relaxing 
+ day spent.A bit pricy, but rated HIGHLY.It is a beach with fine sand which still remains pure;it has no umbrellas
+  and deckchairs and it is only 7 km away from Chora.Here you will enjoy swimming and you will feel like exploring
+   a rarely found place, away from the noise of crowed beaches.<br />
+
+<h3>17. Tigani And Frangia</h3><br />
+Popular with boat parties, often having barbecues at the seaside, these two remote beaches offer wonderful 
+natural scenery.<br />
+
+<h3>18. Kapari Beach</h3><br />
+
+    <img src="Images/Greece/greecemykonoskapari.jpg" /><br />
+Protected by a rocky hillside, this isolated sandy beach is overlooking Delos island.For those who seek calmness.
+Right next to the beach of Aghios Ioannis you will find Kapari, a wonderful sandy beach with beautiful turquoise
+ waters, surrounded by rocks. It has as well a magnificent view of Delos and is ideal for those who wish to enjoy 
+ swimming alone.You will get there by car; after Aghios Ioannis,at the end of the rough road this earthly paradise
+ will wait for you to discover it.<br />
+
+<h3>19 Choulakia Beach</h3><br />
+Next to Agios Stefanos, with beautiful rounded stones from which it took its name.Here too, access is made only 
+by private car or taxi, or by walking about 1 km from Agios Stefanos bus stop.<br />
+
+
+
+</p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="MykonosHotels" runat="server" HeaderText="Mykonoshotels">
+ <%--MykonosHotelsZ--%>
+    <HeaderTemplate>
+      <div class="sublevel2tabs"> Hotels
+
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+       <ajaxToolkit:TabContainer ID="MykonosHotelsContainer" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+<%--MykonosHotelsTabZ--%>
+        <ajaxToolkit:TabPanel ID="MykonosApartments" runat="server" HeaderText="Mykonosapartments">
+<%--MykonosHotelsApartmentsZ--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Apartments</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="MykonosBudgethotel" runat="server" HeaderText="MykonosBudgetHotel">
+<%--MykonosBudgetHotelsZ Under5k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Budget Hotels</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          <p><h3>Art Hotel Pelican Bay(INR 4500 Breakfast included)</h3> <br /> 
+Main Street, 84600 Platis Yalos<br />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay1.jpg" />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay2.jpg" />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay3.jpg" />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay4.jpg" />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay5.jpg" />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay6.jpg" />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay7.jpg" />
+              <img src="Images/Greece/greece-mykonos-pelicanartbay8.jpg" /><br />
+
+Inspired by the beauty of the Cyclades’ landscape, Art Hotel Pelican Bay offers elegant accommodation with an outdoor pool. Free 2-way transfer to the port and airport and free Wi-Fi are offered.<br />
+
+All rooms are soundproofed and have a balcony or terrace with left side sea view.<br />
+
+The fully air conditioned lobby lounge provides a satellite TV with five major languages’ cable channels. A laptop computer is available for guests to use.<br />
+
+Art Hotel Pelican Bay offers, stylish and artistic settings, excellent services, luxury rooms with taste and unique decoration. Free transfer from and to the port is offered.<br />
+
+Pelican Bay is located in Platis Yialos, only 300 metres from the famous beach and public bus stop, 4 km away from the airport and the centre of the town of Mykonos and port.<br />
+
+Hotel Rooms: 39<br />
+
+Features LCD TV with satellite channels, air conditioning, free Wi-Fi, fridge and balcony or terrace with side sea views.<br />
+
+Room Facilities: Balcony, View, Terrace, TV, Telephone, Satellite Channels, Laptop Safe Box, Safety Deposit Box, Air Conditioning, Desk, Heating, Interconnecting Room(s) available, Soundproofing, Wardrobe/Closet, Hairdryer, Free toiletries, Toilet, Bathroom, Bath or Shower, Refrigerator, Wake Up Service<br />
+
+Room Size:  18 square metres<br />
+Bed Size(s): 1 Large double or 2 Single<br />
+</p>
+          <p><h3>Santa Marina Beach Hotel(INR 3800 Breakfast included  )</h3>  
+Main Street, 73014 Agia Marina Nea Kydonias<br />
+    
+    <img src="Images/Greece/greece-mykonos-santamarina1.jpg" />
+    <img src="Images/Greece/greece-mykonos-santamarina2.jpg" />
+    <img src="Images/Greece/greece-mykonos-santamarina3.jpg" />
+    <img src="Images/Greece/greece-mykonos-santamarina4.jpg" />
+    <img src="Images/Greece/greece-mykonos-santamarina5.jpg" />
+    <img src="Images/Greece/greece-mykonos-santamarina6.jpg" />
+    <img src="Images/Greece/greece-mykonos-santamarina7.jpg" />
+    <img src="Images/Greece/greece-mykonos-santamarina8.jpg" />   
+    <img src="Images/Greece/greece-mykonos-santamarina9.jpg" />    <br />
+
+The Santa Marina Hotel is located only 8 kilometres from the picturesque and famous city of Chania, on a long sandy beach, 
+in one of West Crete’s most beautiful regions, the village of Agia Marina. Santa Marina Hotel consists of two buildings, 
+one with rooms enjoying views of the sea and the other with rooms with views of the gardens and the pool. <br />
+
+The hotel disposes 188 spacious and comfortable rooms, all with balcony, direct dial phone, air conditioning, LCD satellite TV, 
+minibar, radio, refrigerator, toiletries and private marble bathroom with hair dryer. Santa Marina Hotel also provides guests with a 
+fitness room and playground, while the nearby beach offers water sports opportunities. <br />
+
+Guests may choose from a range of traditional Greek or International cuisine the 2 restaurants available at Santa Marina. 
+Also available are 3 bars, one in the lobby area with TV, another one by the pool and a third one on the beach. <br />
+
+Hotel Rooms: 188, Hotel Chain: Giannoulis Hotels & Resorts. <br />
+
+Room Facilities: Balcony, Patio, View, TV, Telephone, Radio, Satellite Channels, Cable Channels, Laptop Safe Box, Flat-screen TV,
+Safety Deposit Box, Air Conditioning, Iron, Ironing Facilities, Heating, Private Entrance, Soundproofing, Tiled / Marble floor, 
+Shower, Bath, Hairdryer, Bathrobe, Free toiletries, Toilet, Slippers, Minibar, Wake Up Service/Alarm Clock, Wake Up Service, 
+Towels/Linens at surcharge <br />
+
+Room Size:  20 square metres <br />
+Bed Size(s): 1 Large double <br />
+</p>
+          <p><h3>Hotel Alkyon(INR 4,000  )</h3><br />
+          Ano Mera - Peripheral Road, 84600 Mýkonos City <br />
+
+    <img src="Images/Greece/greece-mykonos-alkyon1.jpg" />
+    
+    <img src="Images/Greece/greece-mykonos-alkyon2.jpg" />
+    <img src="Images/Greece/greece-mykonos-alkyon3.jpg" />
+    <img src="Images/Greece/greece-mykonos-alkyon4.jpg" />
+    <img src="Images/Greece/greece-mykonos-alkyon5.jpg" />
+    <img src="Images/Greece/greece-mykonos-alkyon6.jpg" /><br />
+   
+           Alkyon Hotel is a 10-minute walk from Mykonos Town. It offers a swimming pool, and spacious rooms with balconies. 
+           Free Wi-Fi is available throughout the hotel. The elegant rooms are equipped with satellite TV and minibar, and 
+           each has a spacious bathroom with bathtub. From their private terrace guests enjoy breathtaking view of the Mykonos
+            bay.<br />
+
+The pool area features free sun loungers for guests to relax while enjoying the views. There is a pool bar that serves cocktails
+ and snacks. A rich breakfast with homemade products is served daily. 24-hour room service is offered. The hotel offers shuttle 
+ service to and from the port and airport. A bus stop with frequent service is just opposite the hotel offering great connection
+  to the island’s beaches.Staff at the 24-hour reception can offer travel information and arrange car and bicycle rental. Free 
+  private parking is possible at Hotel Alkyon.<br />
+
+Hotel Rooms: 25<br />
+           </p>
+
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="MykonosStar3" runat="server" HeaderText="Mykonosstar3">
+<%--MykonosHotelsStar3Z Under 8k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">3Star
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="MykonosStar4" runat="server" HeaderText="Mykonosstar4">
+<%--MykonosHotelsStar4Z Under 12k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">4Star</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          <p><h3>Porto Mykonos(INR 8500 Breakfast included  )</h3>  
+Mykonos City, 84600 Mýkonos City<br />
+              <img src="Images/Greece/greece-mykonos-porto1.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto9.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto2.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto3.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto4.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto5.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto6.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto7.jpg" />
+              <img src="Images/Greece/greece-mykonos-porto8.jpg" />  <br />
+
+Situated over the old port of Mykonos and close to Mykonos Town and the traditional windmills, Porto Mykonos features a 
+freshwater pool and an open-air hot tub. Free public Wi-Fi and a gym with sauna are available.<br />
+
+The Porto Mykonos rooms feature Cycladic and modern elements. Each is air-conditioned and includes an LCD TV with satellite and 
+cable channels and a CD/DVD player. Several rooms have balconies that offer sea and sunset views. Mediterranean dishes are served
+ at the hotel’s à la carte restaurant with sea-view terrace. The lounge pool bar offers cocktails and light snacks in a relaxing 
+ environment. 24-hour room service is provided.<br />
+
+Mykonos Town is a 5-minute walk, while the hotel is only 300 metres from the beach. The hotel’s front desk will assist guests 
+with island information, maps, transfers and sightseeing tours. A private parking area is also available.
+<br />
+Hotel Rooms: 59<br />
+
+Spacious double room with a private balcony with sea view.<br />
+
+Room Facilities: Balcony, Sea View, Telephone, Radio, DVD Player, CD Player, Satellite Channels, Flat-screen TV, Safety Deposit 
+Box, Air Conditioning, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Minibar, Refrigerator<br />
+
+Room Size:  24 square metres<br />
+Bed Size(s): 1 Double or 2 Single<br />
+</p>
+          <p><h3>Pietra e Mare Mykonos(INR 10,000 including Breakfast )</h3><br />
+           Kalo Livadi, Mykonos, 84700 Kalo Livadi<br />
+    <img src="Images/Greece/greece-mykonos-pietra1.jpg" />
+    
+    <img src="Images/Greece/greece-mykonos-pietra2.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra3.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra4.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra5.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra6.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra7.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra8.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra9.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra10.jpg" />
+    <img src="Images/Greece/greece-mykonos-pietra11.jpg" />
+               <br />
+           Pietra e Mare is situated in Kalo Livadi, one of the most beautiful beaches of the island, 12 km from Mykonos Town, 
+           overlooking the Aegean Sea. The hotel offers 30 rooms which combine fine elegance with Cycladic tradition. Each 
+           offers balcony with sea views and is equipped with modern comforts. Guests can enjoy a-la carte menus at the hotel’s 
+           restaurant, spend lazy days by the hotel’s fresh-water swimming pool or relax at the free sun beds at the crystal 
+           clear beach. The cosmopolitan Mykonos Town, as well as the airport and the port, are only a 10-minute drive. <br />
+
+Hotel Rooms: 31 <br />
+
+Enjoying views over the Aegean Sea from its private balcony or terrace, this air-conditioned room has a satellite TV and a 
+mini bar. Private bathroom is stocked with a hairdryer and bathrobe. <br />
+
+Room Facilities: Balcony, Sea View, Telephone, DVD Player, CD Player, Satellite Channels, Safety Deposit Box, Air Conditioning, 
+Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Bath or Shower, Minibar, Wake Up Service. <br />
+
+Room Size:  30 square metres <br />
+Bed Size(s): 1 Double <br />
+           </p>
+           
+           
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="MykonosStar5" runat="server" HeaderText="Mykonosstar5">
+<%--MykonosHotelsStar5Z Under 20k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">5 Star
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          <p><h3>Rocabella Mykonos Art Hotel & Spa(INR 13000 Breakfast included  )</h3>  
+Main Street, 84600 Agios Stefanos<br />
+    <img src="Images/Greece/greece-mykonos-rocabella1.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella2.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella3.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella4.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella5.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella6.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella7.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella8.jpg" /> 
+    <img src="Images/Greece/greece-mykonos-rocabella9.jpg" />
+    <img src="Images/Greece/greece-mykonos-rocabella10.jpg" />  <br />
+
+Rocabella Mykonos Art Hotel and Spa is located within walking distance of the sandy Agios Stefanos beach. It boasts a pool, 
+fine dining, stylish rooms with DVD player, and a spa.<br />
+
+The rooms of Rocabella feature free Internet access and a furnished sea-view balcony or terrace. They are fitted with a satellite 
+LCD TV, CD player and a safe. Some rooms also include an outdoor plunge pool. The state-of-the-art spa is equipped with a sauna, 
+a hot tub and a gym. It also provides facial and beauty treatments, and massages. The hotel’s restaurant serves gourmet cuisine 
+in a romantic poolside setting. Guests can also enjoy a drink at the pool bar with views over the neighbouring Tinos and Dilos 
+islands.<br />
+
+Mykonos Airport is 5 km away from Rocabella. The picturesque town of Mykonos is less than a 10-minute drive away. Free on-site 
+parking is available.<br />
+
+Hotel Rooms: 21<br />
+
+Modernly decorated and bright room, which opens out to a veranda overlooking the Aegean Sea and the islands of Delos and Tinos.<br />
+
+Room Facilities: Balcony, View, Telephone, DVD Player, CD Player, Satellite Channels, Flat-screen TV, Safety Deposit Box, 
+Air Conditioning, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Bath or Shower, Minibar, Wake Up Service.<br />
+
+Room Size:  30 square metres<br />
+Bed Size(s): 1 Double or 2 Single<br />
+</p>
+          <p><h3>DeLight(INR 15,000 including Breakfast )</h3><br />
+           Agios Ioannis, 84600 Agios Ioannis Mykonos<br />
+           
+               <img src="Images/Greece/greece-mykonos-delight1.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight2.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight3.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight4.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight5.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight6.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight7.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight8.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight9.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight10.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight11.jpg" />
+               <img src="Images/Greece/greece-mykonos-delight12.jpg" />
+               <br />
+           Overlooking Delos Island, De.Light Hotel offers spacious and air-conditioned suites with a terrace or balcony 
+           boasting Aegean Sea views. It features an outdoor swimming pool, hot tub and free Wi-Fi throughout. With minimal décor,
+            the bright accommodation comes with a LED satellite TV, CD/DVD player, minibar, and seating area. Complimentary 
+            toiletries, bathrobes, slippers, hairdryer are included in the modern bathroom. Some may also have a spa bath, 
+            steam bath, hydromassage shower or private pool.<br />
+
+Refreshing cocktails and light snacks are served at the pool bar. The restaurant at De.Light prepares Greek and International 
+cuisine that consists of seasonal products. In-suite dining is available upon request. Guests can enjoy a breakfast each morning.
+The 24-hour reception desk can provide information on local beaches such as Ornos and Agios Ioannis. Massage treatments can be 
+arranged by the hotel with surcharge.<br />
+
+De.Light Hotel is 4 km from the lively town of Mykonos and Mykonos Airport. Private parking is available on site at no charge.<br />
+
+Hotel Rooms: 19<br />
+
+Boasting Aegean sea views from its balcony, this bright and airy suite offers a modern bathroom with a hydromassage shower and 
+steam bath.<br />
+
+Room Facilities: Sea View, Telephone, Radio, DVD Player, CD Player, Satellite Channels, Flat-screen TV, Safety Deposit Box, 
+Air Conditioning, Seating Area, Heating, Private Entrance, Soundproofing, Tiled / Marble floor, Wardrobe/Closet, Shower, 
+Hairdryer, Bathrobe, Spa Bath, Free toiletries, Bathroom, Slippers, Sauna, Minibar, Wake Up Service.<br />
+
+Room Size:  32 square metres<br />
+Bed Size(s): 1 Large double<br />
+           </p>
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="MykonosLuxurious" runat="server" HeaderText="Mykonosluxurios">
+<%--MykonosHotelsLuxurious above 20k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Luxurios
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+       </ajaxToolkit:TabContainer>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="MykonosRestaurants" runat="server" HeaderText="Mykonosrestaurants">
+<%--MykonosRestaurantsZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Restaurants
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+
+      <p>
+      <h3>1.Spilia</h3>
+      Enopleon Dinameon Street 37, Greece<br />
+      +(30) 2289022822<br />
+Price range: $1 - $11<br />
+Cuisines: Vegetarian, Organic, Greek, Mediterranean<br />
+Good for: Local cuisine<br />
+Dining options: Takeout<br />
+
+<h3>2.ALU bar-resto-lounge</h3>
+Airport Area, 84600, Greece<br />
+(+30) 22890 78460<br />
+Price range: $12 - $26<br />
+Cuisines: Greek, International, Mediterranean, Vegetarian<br />
+Good for: Bar scene<br />
+Dining options: Lunch<br />
+
+<h3>3.Bandanna Restaurant and Pizzeria</h3>
+Mykonos Town, Greece<br />
+2289071800<br />
+Price range: $18 - $43<br />
+Cuisines: Vegetarian, Italian, Seafood, Pizza & Pasta<br />
+Good for: Outdoor seating, Scenic view<br />
+
+<h3>4.Appaloosa Bar Restaurant</h3>
+Goumenio Square, Mykonos Town 84600, Greece<br />
++30.2289027086<br />
+Cuisines: International, Mexican<br />
+Dining options: Late Night<br />
+
+<h3>5.Catari Pizzeria Mykonos</h3>
+Aghia Anna | Old Port, Mykonos Town 84600, Greece<br />
++30 22890 78571<br />
+Price range: $28 - $36<br />
+Cuisines: Italian<br />
+Good for: Outdoor seating<br />
+Dining options: Reservations, Late Night<br />
+
+<h3>6.Gola Restaurant</h3>
+Periferiakos Drafaki, Mykonos Town 84600, Greece<br />
++302289023010<br />
+Price range: $45 - $178<br />
+Cuisines: Italian<br />
+Good for: Romance, Doing business, Special occasions, Scenic view, Entertaining clients<br />
+Dining options: Lunch, Dinner, Reservations, Late Night<br />
+
+<h3>7.Casa di Giorgio</h3>
+1 Mitropoleos St., Mykonos Town, Greece<br />
+Cuisines: Italian<br />
+Dining options: Late Night<br />
+THE FINEST PIZZA AND PASTA IN MYKONOS<br />
+
+<h3>8.Mediterraneo Ristorante</h3>
+Lakka, Mykonos Town 84600, Greece<br />
++306942208485<br />
+Price range: $20 - $54<br />
+Cuisines: Italian<br />
+Dining options: Reservations, Late Night<br />
+
+<h3>9.Sale e Pepe</h3>
+Lakka Square, Mykonos Town 84600, Greece<br />
++30 22890 24207<br />
+Cuisines: Italian<br />
+
+<h3>10.Barkia Pasta Fresca</h3>
+15 Kouzi Georgouli, Mykonos Town 84600, Greece<br />
++30 22890 22563<br />
+Price range: $21 - $29<br />
+Cuisines: Italian, Pasta<br />
+Good for: Romance, Outdoor seating<br />
+Dining options: Dinner, Reservations, Late Night<br />
+
+<h3>11.La Rosticceria</h3>
+Drafaki (Airport Road), 84600, Greece<br />
++30 22890 28750<br />
+Cuisines: Italian<br />
+Dining options: Late Night<br />
+
+<h3>12.Alefkandra in Town, Mykonos</h3>
+Alefkandra Restaurant faces the Alefkandra Bay in Mykonos Town and it is located directly under the windmills, 
+in the picturesque quarter of Little Venice.<br />
+
+<h3>13.Atlantida in Platis Gialos, Mykonos</h3>
+Dining at the Atlantida Restaurant in Platis Gialos you are likely to get some sea spray from the Aegean on your 
+cheek. Part of the Hotel Acrogiali, a first class beachside hotel and located next door to the elegant Petasos 
+Beach Hotel and Spa, on a private peninsula between the world famous beaches of Platis Gialos and Psarou Beach, 
+the Atlantida Restaurant offers fruits of the ocean beside the ocean.<br />
+
+Just outside of Mykonos, the Atlantida is a romantic dining spot removed from the bustling scene of the town and 
+main resort area. The luxuriant spa grounds, sculpted to reflect the cool austerity of a Cycladian village, offer 
+a perfect backdrop. The entire peninsula is semi-exclusive and the privacy offered is much appreciated by both 
+newlyweds and long-term couples on a romantic getaway. The panoramic beachside views are spectacular, whether you 
+are under the shade of a complimentary umbrella or under the endless Mykonos stars. Platis Gialos is considered 
+the best of all Mykonos beaches and the comfort of a seaside lunch followed by a soak in the sparking Aegean is a 
+combination that provides the ultimate in relaxation. A cool and breezy terrace, accentuated by a long bar, 
+highlights the main dining area. If you prefer to enjoy a meal with your toes in the sand, the tables on the beach
+ may be more your style. <br />
+ Each meal starts with a free serving of bruschetta, toasted bread brushed with olive oil 
+ and topped with diced tomato, olive and feta. The Atlantida salad, a variation of the more famous Greek salad, is
+  highly recommended. Peppers stuffed with feta, personalized pizzas and calamari are amongst the lighter fare on 
+  offer. The main entrees on offer include fresh caught fish grilled and drizzled with olive oil, pan seared veal 
+  cutlets in a tomato sauce and chicken souvlaki with world famous Greek-style roasted potatoes and tzatziki, 
+  a yogurt-garlic-cucumber sauce, on the side. After dinner, enjoy a complimentary dessert of fresh fruit or, 
+  of you're too full to eat any more, as often happens, a complimentary digestive such as Mastic or Ouzo. 
+  The friendly and attentive staff at Atlantida want to make sure you meal is delicious and, as all Greeks have 
+  always believed, a good price makes digestion easier. Adding a little extra touch is just one way the good 
+  people at Atlantida Restaurant work to keep you coming back to Platis Gialos.<br />
+
+<h3>14.Avra in Town, Mykonos</h3>
+
+<img src="Images/Greece/greecemykonosavra.jpg" /><br />
+
+Named for the Greek word for "breeze", Avra restaurant is as cool and refreshing as the sea breezes that caress 
+the holiday port of Mykonos. Elegant and austere, yet comforting and friendly, the atmosphere strikes a fine 
+balance between accessible and exclusive. Avra's setting is a elegant & beautiful courtyard garden array with 
+bougainvillea or the elevated roof top terrace perfect for dining under the Mykonos stars. A spacious yet cozy 
+air con interior features an charming bar area, where owners, Nikos and Sarah welcome each guest personally and 
+help them customize their dining experience. <br />
+
+Situated in the middle of Mykonos town, Avra is conveniently located no matter which hotel you are staying at or 
+which attraction you are taking in. Stocking a wide selection of the finest Greek red and white wines and with 
+experienced mixologists behind the bar, the staff at Avra are fully equipped to help you relax once you do get 
+there. Owned and managed by Niko, a former top chef at some of the restaurants in Mykonos, Avra is delighted to 
+be able to offer you a menu created from experience and crafted with loving attention.<br />
+
+The Avra salad has become something of a celebrity in this town where celebrity spotting is a popular pastime. 
+A bed of rocket, cabbage, lettuce, carrots and tomatoes support chunks of cucumber, avocado and figs and finished 
+with walnuts, sesame seeds and parmesan cheese. The shrimp and avocado appetizer is a sensational pairing with 
+the crisp white house wine, as are the Mussels Avra, steamed fresh mussels flavored with garlic and herbs. 
+The flaming saganaki cheese, set aflame at your table with the help of a generous portion of ouzo, is thrilling 
+when alight and a bubbling, gooey delight when cooled off.<br />
+
+A range of pastas, including a seafood pasta with fresh caught ingredients,can bridge the gap to the entry section 
+of the menu. Once there, you may wish you had left more room however. A chicken breast stuffed with apricots and a 
+tender beef fillet with tangy lemon sauce are two of the local specialties, while the chateaubriand or Roquefort 
+burger can alleviate cravings for something more familiar. The freshness of the ingredients makes the seafood 
+risotto truly sensational, while Asian themed chicken stir fry or green beef curry are prepared with passion. 
+The open air grill can prepare swordfish, shrimp or souvlaki, but inquiring about the catch of the day may lead 
+to an unforgettable experience. After dinner, enjoy a coffee and liqueur with a slice of homemade dessert. 
+Chocolate mousse, pears seethed in red wine, lemon cheesecake and panacota are just a few of the samplings to 
+finish your dining experience. <br />
+
+As refreshing as a sea breeze, the unpretentious excellence of Avra make it a must try destination for hungry 
+vistors to Mykonos.<br />
+
+<h3>15.Bahia Blanca in Kalo Livadi, Mykonos</h3>
+The Bahia Blanca is a popular restaurant located on the beachfront of Kalo Livadi, one of the biggest beaches in 
+Mykonos. The restaurant opened its doors in 2007 and has since then caught the imagination of both locals and 
+holidaymakers to Mykonos. A spacious dining area overlooks the beach with its sun beds and umbrellas, and the 
+restaurant has a Middle Eastern decoration in white wood and pristine white awnings, which gives it a unique 
+ambience and a sense of vast outdoors. Charming paper mats and paper napkins complete the ensemble and lend a 
+prettiness that is quite enticing, even if you are not a first time diner at the Bahia Blanca. The restaurant 
+offers a wide choice of gourmet food of Greek and Mediterranean cuisine. Some of their signature dishes include 
+cous cous salad (with feta cheese and water melon), Tuna tartare and cheese kebabs, and a fine selection of dips 
+and relishes like pots of pepper, fig sauce and cheese and white almond dip and olive paste. The beach bar offers 
+exotic frozen cocktails, fresh juices and a fine selection of wines and other liquors, and what better way to 
+start your evening than sipping one of your favorite cocktails and listening to a favorite music. The restaurant 
+is ideal for private parties and come summer, there are plenty of such events lined up for an exciting evening of 
+music and fun with talented DJ's coming in to play some popular numbers.<br />
+
+<h3>16.Blue Myth in Platis Gialos, Mykonos</h3>
+The Blue Myth Restaurant is one of the two restaurants at Petinos Beach, a 4-star hotel located on the beach of Platis Gialos, one of Mykonos most famous beaches. Ideally located right on the beachfront, the restaurant has a fine ambience and large windows that offer fantastic views of the bay. Diners can breathe in the fresh sea air, while dining off a wide choice of Mediterranean dishes, as well as an interesting selection of international dishes, with everything from homemade pizza to filet steaks. The restaurant is famed for its candlelight dinners that set the mood for a romantic evening. Bottled wine (red or white), or wine from the barrel is offered in the restaurantâ€™s wine list to complement their fine spread. The restaurant opens very early and the day starts with a rich breakfast buffet. The buffet breakfast is served in the poolside restaurant called La Pisina and includes a wide choice of light snacks. The restaurant has an open verandah which gives you the option of open air dining in the evenings. Dining on the open terrace with the sand and sea in front of you and all around you and with the low hill as a backdrop is among the most beautiful dining experiences in Mykonos. On some evenings, the restaurant organizes special nights called â€˜glendi,â€™ which is a typical traditional dancing night in Greece. Guests get to experience Greek dancing, singing and of course Greek cuisine, and the performers are all dressed in traditional costume. The service is good and prices are reasonable when compared with other restaurant of similar ambience. The restaurant is 4 km from Mykonos Town and the beach on which Blue Myth is located is easily accessible by boat from all the other beaches in the south
+
+<h3>17.Bonatsa in Platis Gialos, Mykonos' beautiful view</h3>
+    <img src="Images/Greece/greecemykonosbonatsa.jpg" /><br />
+Bonatsa Restaurant is located at the beautiful beach of Platis Gialos. This long sandy beach is highly organized 
+and it is a favorite spot for water sport enthusiasts. Although the wide beach is cluttered with restaurants and 
+taverns, Bonatsa is located at the far end of the beach and it is pretty secluded. The ambience is lovely and the 
+cuisine is traditional Greek, but with a modern twist to cater to varying tastes and preferences. The salads of 
+Bonatsa are a specialty and they are prepared by tossing together a mix of fresh greens, sauteed tenderloin and 
+balsamic vinegar. Squid Pesto is equally impressive and it is squid topped with a sauce of basil leaves, pine nuts, 
+olive oil, garlic and seasonings. Then, there is the exotic Tortelloni cuttlefish stuffed with salmon and shrimps,
+ and the Risotto tartufo. Mykonos fresh fish is offered at Bonatsa by the kilo.<br />
+
+<h3>18.Camares in Town, Mykonos</h3>
+Camares Restaurant, located on the old harbor front, is one of the popular restaurants for wining and dining on 
+the island of Mykonos. The restaurant has been around for a while and it is counted among the popular venues by 
+classy Greeks. Many restaurants in the area are great places for celebrity spotting or for simply enjoying a tasty 
+meal on the harbor front, while watching the crowds of people who have come for vacations on this fabulous island.
+ The restaurant has a spacious open-air veranda overlooking the harbor and offers panoramic views of the blue waters, 
+ the sailing boats and the brightly colored fishing boats. The restaurant has a pleasing decoration with wooden 
+ chairs and tables painted in white. The cuisine is modern Greek and some of the dishes have been tweaked to give 
+ them an international touch. Dishes like pasta, spring rolls and delicious salads are served along with local 
+ delicacies, like moussaka, or strifopita, a twisted pie stuffed with tyrovolia (a Mykonian cheese), feta cheese 
+ and tomatoes. For the main course, the seafood risotto and grilled ribs are well liked as are other traditional 
+ sea food dishes. The dessert list is small, but extremely enjoyable, and the lime pie with almonds is one of 
+ their specialties. <br />
+
+Good music and good wine accompanies a meal at the Camares and prices match with similar restaurants in the area. 
+The restaurant is open all day long until late night from April through October.<br />
+
+<h3>19.La Cucina Di Daniele in Ano Mera, Mykonos</h3>
+This superb Italian restaurant is located above Ftelia Beach in Ano Mera and has been lauded by Dimitris Roussounellos, 
+Mykonos's leading gourmand, for its fine menu and superior service. Italian chef Daniele Chiantini is in charge 
+and has gained quite a reputation for his combination menus consisting of Mediterranean and Italian cuisines.<br /> 
+
+The restaurant offers an extensive selection (about 320 labels!) of Italian Greek and American wines, and 
+Daniele himself selects and imports many of the special products used in his special recipes. He is equally 
+meticulous when it comes to choosing the seasonal products and locally grown stuff which he combines with a skill
+ of a master craftsman to create some of the finest dishes which stand out for their richness and flavor. The 
+ emphasis is on simplicity, and each dish is a delicate balance of three to four ingredients, each retaining its 
+ distinct flavor without cluttering the taste buds. Italian delicacies with a Mykonian twist of local cheese, 
+ herbs and vegetables are his style. <br />
+
+Among the La Cucina's signature dishes, the ones that vie for attention are the carpaccio di zucchini with basil 
+ricotta topping; octopus marinated in champagne vinaigrette dressing; stuffed rabbit served with spinach 
+tagliatelle and foie gras, as well as lobster risotto served in its own copper pot. The cod variations are 
+amazing, as also are the varieties of homemade pasta "al dante". Exotic desserts, such as the truffles served 
+with beer that tastes exactly the same as homemade stuff, rounds off the meal at La Cucina. <br />
+
+The elegant restaurant is done up in cheerful color schemes and it is considered upscale. The restaurant is open 
+March to October.<br />
+
+<h3>20.La Taverna Italiana in Town, Mykonos</h3>
+La Taverna Italiana is located in Laka Square, in the heart of Mykonos. As its name indicates, the cuisine is 
+basically Italian and the menu includes a fine selection of pasta dishes and pizzas, besides a wide choice of 
+great fillets and sea food dishes, including shells and fresh fish. The wine is carefully chosen from some of 
+the finest local productions. The restaurant has a stylish decoration and a classic ambience. Apart from purely 
+Italian dishes, the restaurant also has some Mediterranean delicacies and a large variety of salads.<br />
+
+<h3>21.Sirens</h3>
+Type: Restaurants<br />
+Cafe-restaurant Sirens is situated in the old port of Mykonos. You can enjoy your coffee, juice, milkshake and 
+sweet, the pasta, the meals, the meat and sea food mixtures that will make you a fan of Sirens.<br />
+
+<h3>22.Pasta nostra</h3>
+Pasta Nostra is a restaurant bar located in Chora, the main town of Mykonos. The restaurant, as the name suggests,
+ specializes in spaghetti and pizza. It also serves a variety of drinks, cocktails and aperitifs. The restaurant 
+ is tastefully designed with a classic ambience and it is set in a narrow alley of cobblestone pavement. Soft 
+ lighting, candle-lit tables and exquisite works of art adorning the walls lend a stylish decoration. Tables are 
+ also set on the pavement, and people of all ages gather at Pasta Nostra to choose from a wide selection of 
+ spaghetti dishes that are served with a fine choice of sauces. The experienced chef at Pasta Nostra uses handmade
+  pastry to make delicious pizza. The restaurant is kept open from late evening to early morning, until the last 
+  guest has departed.<br />
+
+<h3>23.Moby dick</h3>
+	
+Type: Restaurants<br />
+Moby Dick is situated in the old port and it's open all day long offering coffee, juices, cocktails, home made 
+ice creams, sweets, fruit salads and all kind of snacks. Moby Dick's cuisine offers pasta dishes, pizzas and sea 
+food or meat dishes<br />
+
+<h3>24.Roca</h3>
+Old Port, Mykonos Town, Mykonos 84600<br />
+Tel:  +30 2289022955 +30 6945238310<br />
+Located at the old port, next to the archaelogical museum. Squalo  restaurant has a wonderful panoramic view to 
+Mykonos town, old port, Delos island and to the marvellous sunset.<br />
+
+<h3>cafe :</h3>
+1. Starbucks - Hora<br />
+
+Mykonos understands and brings you Starbucks coffee with a Mediterranean twist. Wireless internet (hot spot) is 
+available here for the moments that you and your coffee enjoy. <br />
+
+2.Aroma Cafe Mykonos-New Regional Road (Hora)<br />
+
+3. Haagen-Dazs<br />
+
+Located on Matogianni street. Make this a stop during your walk in to town. Perfect location to enjoy a delicious 
+Greek coffee or even the standard "worlds purest and finest crafted icecreams."<br />
+
+
+
+
+      </p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="MykonosNightlife" runat="server" HeaderText="MykonosNightlife">
+<%--MykonosNightlife--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Nightlife
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      <p>
+
+          
+      <h3>MYKONOS NIGHTLIFE Under the moon - MYKONOS Under the sun (BEACH BAR)</h3>
+<img src="Images/Greece/greecemykonosbars.jpg" /><br />
+     We visualize partying after the sun sets, but that is definitely not true in Mykonos. Well there are places 
+     all over the world where you can continue clubbing, after hours into early dawn. But in Mykonos you can start
+      partying in the early afternoon. You go to the beaches – better with a designated driver – instead of 
+      starting your day with a coffee you start it with a Bloody Mary, which soon becomes too many! Around 5p.m.
+       the D.J. pumps up the volume and you’ll soon get into the feel of last nights mood. Be sure to go for a 
+       late siesta, before 10p.m. so you are fully recharged for the night to come.<br />
+ 
+Mykonian life style is extremely compatible with your American circadian rhythms. You will have No jet lag! In 
+the States you wake up at 7a.m. All over Europe you adjust and feel drowsy half the day. Not so in Mykonos! You 
+wake exactly the same time your biological clock tells you to. And you wake the same time with everyone else: 
+in the afternoon, but starting with a martini, or try Ouzo Greek style under the sun. The added bonus: no jet lag 
+when you go back home! <br />  
+
+Believe the postcards!  Mykonos is so exquisite; it is no accident that it has become one of the most desired 
+destinations in the world. The cosmopolitan lifestyle, the sophisticated nightlife and the historic treasures of 
+the nearby Delos, plus stunning natural beauties and picturesque villages, you have the recipe for an unforgettable
+ holiday.<br />
+          
+Mykonos is definitely the number one island in the Cyclades, thanks to its treasure of natural beauty, rich history, 
+cosmopolitan character combined with a wild nightlife, as well as plenty of local color.<br />
+
+<img src="Images/Greece/greecemykonosskandinavianbar.jpg" />
+
+The poetic setting of Little Venice is the ideal place to start in the late afternoon with cocktails and 
+chill-out music in one of its many romantic bars to prime your mood for after-midnight reviling.  Among them 
+Caprice is a classic, offering stunning sunset views by the water.  Galleraki (Little Gallery) is another one 
+in a poetic-artistic ambient.  Further along the harbor front, next to Paraportiani Church, you can also enjoy 
+sunsets and drinks at Kastro. By the port, Nine Muses "specializes" in Greek-tinged fun.<br />
+
+At the other side of the old harbour, you will find superb vistas to the marinas and Chora, El Pecado is a 
+requisite stop. Right above that, overlooking the open Aegean Sea, you’ll find the cute Oniro on the road to 
+Tourlos.<br />
+          <img src="Images/Greece/greecemykonosbeachparty.jpg" /><br />
+Bustling with energy, "downtown" Mykonos is where a number of clubs are gathered offering anything from 
+transvestite techno to mainstream rock music. Pierro's, at the little crowded square of Ag. Kyriaki, was the 
+very first gay bar to have opened on the island, while Manto and Ikaros are also on that same spot next to each 
+other.  Spacedance Experience , at Lakka square, as its name suggests, offers non-stop partying all night long 
+with various DJ-sets and an agenda full of events. On the central Matoyanni street there are several 
+to-see-and-to-be-seen bars like the Anchor (Agyra) , Egli, Astra, Argo, and Celebrities, attracting diverse 
+crowds ranging from celebrities to backpackers.<br />
+
+
+Cavo Paradiso , built on a rock above Paradise Beach like a theatre expanding on the extraordinary landscape, 
+is a unique dance-music ‘shelter’ leading the trends since 1993 when it first opened, the ultimate after-hours 
+club on the island with an ever impressive lineup of guests.  Also offering high-energy levels of partying at 
+Paradise beach is Tropicana. At Paraga Beach, Kalua has helped to establish this lovely smaller beach as an 
+alternative to Paradise in partying terms.<br />
+
+Skandinavian Bars - Disco <br />
+          <img src="Images/Greece/greecemykonosscandinavianbar.jpg" /><br />
+Leads the nightlife of Mykonos since 1978. It is the best known meeting point of the island - a place where you 
+can meet your friends or make new ones! The variety inexpensive cocktails, and drinks, plus the easy open location,
+ help to create a fun night in Mykonos<br />
+
+<h1> Bars & Clubs</h1>
+1.Skandinavian in Town, Mykonos<br /><br />
+Scandivanian bar is one of the most famous bars/clubs on Mykonos Island. It has hosted night long parties for 
+decades and is one of the oldest nightclubs on the island. It is definitely one of the place to see during night 
+while in Mykonos town.<br />
+
+Operational since 1978, this is a mainstream club and is extremely popular in Mykonos town. The bar/disco 
+comprises of two open air service areas, an elevated outdoor veranda and huge dance floor. The club also houses 
+an exclusive VIP area for those looking for personalized treatment. The VIP lounge comprises of the outdoor patio 
+where one can get a view of the people passing by.<br />
+
+The warm atmosphere and friendly service has made this bar as a sought after destination for many. 
+One can enjoy some fanciful cocktails while dancing the night away in this typical Mykonos nightspot. The place
+ is brimming with life and the big crowd makes it quite a noisy spot. However, one is expected to join in and flow 
+ with the rhythm of the party loving atmosphere!<br />
+
+The bar offers a wide range of drinks and prices are surprisingly reasonable. At the Scandinavian bar, you can 
+expect to meet tourists from all over the world, and from different walks of life. Located in Street Agios Ioannis, 
+Barkia, the Scandinavain bar has beautiful surroundings. <br /><br />
+
+2.Astra in Town, Mykonos<br /><br />
+ <img src="Images/Greece/greecemykonosastra.jpg" /><br />
+
+Looking to party the night away? Mykonos island is one such destination that plays host to a number of parties 
+throughout the year. Located on the much-visited Matoyianni Street in Mykonos, Astra bar is the hangout for the 
+stylish and the classy!<br />
+
+Designed in 1986 by jeweler Minas, a famous artist, Astra opened its doors in July 1987. It is a small building, 
+neighbors a church and is centrally located in the town. Astra has been visited by all and is the kind of place 
+in which one might get to rub shoulders with a supermodel or even a rock star! Live music plays inside where 
+varieties of Djs, mostly from Athens, take over and continue the parties into the wee hours of the morning.<br />
+
+The bar is a good mix between a nightclub and a casual lounge. It plays the role of a lazy lounge in the early 
+evenings and turns into a hip club later into the night. The interiors are elegantly done and lets one enjoy his 
+own space. The ceiling too, is one of a kind and resembles the celestial dome of an observatory. The bar also has 
+an open space where one can go take a break or for some conversation.<br />
+
+The bar is owned by Babis Pasaoglou. He is usually seen on the entrance balcony welcoming his guests, and is a 
+music lover himself. One can realize that if he steps into the club late at night, where you will witness music 
+which is hard to find in most places. It is not as big as most modern nightclubs but definitely serves the purpose
+ of one.<br />
+
+The bar offers the most exotic cocktails and has a great selection of drinks. The staff is friendly and will make
+ sure that you are taken care of. One should be there early if looking for a table, as the place gets very crowded
+  later into the night.<br />
+
+The Astra bar is an exclusive joint and has a lot of history attached to it. It has a retro feel to it and at the 
+same time is a contemporary nightclub. It attracts people from all walks of life and is the place to visit if 
+one's looking to socialize and be seen.So,if you are visiting Mykonos and want to be a party in true international
+style, one should pay a visit to the Astra bar!<br /><br />
+
+3.bolero in Town, Mykonos<br /><br />
+Mykonos is famous for its nightlife, which is regarded by many as one of the best in Europe. After sunset, 
+the beachfronts and town transforms into a big party scene with nonstop entertainment and revelry through the 
+night. The bars such as the Bolero are the places where the rhythm of fun and excitement of the evening is set. 
+The Bolero is located near the harbor front in town and boasts a classy ambience. People of all ages visit Bolero 
+for some great cocktails and great music. Famous DJâ€™s spin out popular numbers in every kind of music, including
+ Latin, funky and others, and the crowd starts filling in by about 9 pm. The Bolero is located in Malamatenias 1, 
+  Mykonos Town. It is also open during the day and visitors can have free access to the Internet.<br /><br />
+
+4.Caprice in Town, Mykonos<br /><br />
+Caprice Bar is located in the seafront of Little Venice, one of the most picturesque quarters of Mykonos Town. 
+The party at Little Venice starts from noon, but at the Caprice Bar, it is party time all day and night. The bar 
+has a bohemian decoration and a good choice of music which attracts the young and energetic crowds, both Greek 
+and international. The ambience is so lovely, and one can spend hours sitting on the narrow cobblestone pavement, 
+which separates the bar from the water, sipping your favorite cocktail and watching the parades of holidaymakers 
+taking a stroll on the seafront. The Caprice has an entrance at the front and the back side, and can get really 
+crowded in high season. Caprice offers a wide choice of exotic cocktails which the bars in Little Venice are 
+famous for and it is a great place to stop by from the beach or on the way to the club for a night out. On days,
+ when the Caprice is not so crowded, the bar is a perfect spot for a romantic evening out for honeymooners. 
+ Listen to the old numbers that are a throwback to your college days and watch the glorious sunset of Mykonos 
+ against the backdrop of the ancient windmills adding to the spectacle.<br /><br />
+
+5.Cosi in Town, Mykonos<br /><br />
+Located in the centre of Mykonos Town, Cosi Bar is counted among the popular bars on the island. It has a unique 
+ambience with its bohemian lamp shades and wall paintings, and large windows that lend an aura of vast spaces. 
+Although the mood is casual, the cafe bar has a wide choice of spirits, both local and international brands, and 
+the bar-tenders at Cosi shake up some exotic cocktails. Margaritas, Bloody Mary and Mojitos are popular at the 
+Cosi as also are other drinks,like caipirinha,daquiries, martinies and frozen pina colada.For the non alcoholics, 
+there is the refreshing peach julius. Cosi is open from morning to late night and when the music starts in the 
+evening, the cafe bar turns into a party place with people of all nationalities and ages streaming in to enjoy 
+the lively nightlife that Mykonos is famous for. Prices at Cosi are moderate.<br /><br />
+
+6.Destijl in Town, Mykonos<br /><br />
+<img src="Images/Greece/greecemykonosdestijl.jpg" /><br />
+Destijl is a small bar but it is regarded as one of the coolest bars in Mykonos, quite popular with the locals. 
+The bar is located in the Antonopoulos wine cellars, along the central Matoyianni street in Mykonos Town. Destijl 
+is a favorite haunt of the fashionable Greek and foreign crowd, who turn up in large numbers both from the islands
+ and from mainland Greece. Popular Greek and international hits to entertain the crowds play through the night as 
+ people party the night away. The bar opens at 10 in the evening and closes only after the last guest has departed, 
+ in the small hours.<br /><br />
+
+7.Down Under in Town, Mykonos<br /><br />
+Down Under bar in Mykonos Island is like one of many such bars in this town which is always ready for a party.It 
+has been operating since 1971. It is well located, just up from the harbor front ahead of Nikoâ€™s fish Taverna. 
+It is a typical Mykonos nightspot with loud music, friendly bartenders and exotic drinks. It isn't as big as a 
+modern day nightclub but makes full use its small space.<br />
+
+The bar attracts music lovers from all around the world and plays a variety of music including Reggae and Hip Hop.
+ It plays a lot of contemporary music along with classic hits. The DJ is interactive and plays a lot of favorites 
+ amongst the crowd.<br />
+The interiors are pleasing and the ambiance is good. It is a good mix of the old fashioned and the contemporary. 
+The white walls and the jazzy lights give the place a stylish look. The atmosphere within is very welcoming and 
+the crowd is diverse, which makes it a destination for people of all kinds. The place is pretty low profile and 
+is the kind of a place where you can shed all inhibitions and have a good time! The small dance floor usually 
+gets very crowded so one should be prepared to make his way through its hustle and bustle!<br />
+
+The prices are pretty reasonable and do not pinch the pocket. <br />
+
+Brimming with life and full of energy - This is how one would describe this age old bar in the famous town of 
+Mykonos. If one wants to party (and party hard!), this can be the place youâ€™re looking for.<br /><br />
+
+8.Galleraki in Town, Mykonos<br /><br />
+Galleraki Cafe and Bar is the first place in the waterfront of the Little Venice. Open all day as a cafe-bar, 
+the place boasts a funky and informal ambience and attracts a lot of visitors who gather at the cafe bar to watch 
+the magnificent sunset in Little Venice. Once the sun goes down, people hit the bar with full gusto and the fun at
+ Galleraki is great. As it is located on the waterfront, the cafe is breathtakingly beautiful and the atmosphere 
+ is very relaxing. The restaurant has an outdoor deck that is right in front of the waterâ€™s edge where guests 
+ can enjoy their drinks and conversation under a starry night. There is also a small bar to serve the outdoor area
+  and this can seat a small group. For those who do not care much for confined spaces, there is always Gallery, 
+  the big bar on the first floor which can be accessed by a charming stairway. The bar has a pretty balcony 
+  overhanging the sea and its own dance floor. The gallery opens in the morning to serve coffees, juices and a 
+  variety of snacks, but come afternoon, the cafe bar transforms into a splendid cocktail-bar that offers a wide
+   choice of frozen cocktails, and a DJ who is ready to satisfy the musical preferences of its patrons depending 
+   on the mood of the hour.<br /><br />
+
+9.Kalua in Paraga, Mykonos<br /><br />
+Kalua Bar is located in Paranga, one of the most popular beaches in Mykonos originally made famous by the hippie 
+generation in the 1970s. Popular among the young and fashionable crowds, the beach is set in a picturesque 
+landscape with beach bars, such as the Kalua, throbbing with lively music which helps to create a party atmosphere
+ not only for its daily visitors, but also for the holiday makers who choose to stay in the hotels and camping 
+ facilities close by. Kalua is a charming restaurant by day, serving up tasty local dishes at reasonable price. 
+ Come evening, the DJ strikes the scene and the music and dancing begin and even by midnight the party scene goes 
+ strong. The restaurant-bar boasts a nice decoration and offers a wide selection of drinks, exotic cocktails and 
+ international dishes. Small groups can organize beach parties which they do till late in the evening. The 
+ restaurant-bar is popular among both locals and tourists for its tasty meals and fun atmosphere.<br /><br />
+
+10.Kastro in Town, Mykonos<br /><br />
+Kastro Bar is located in Little Venice, the most picturesque quarter of Mykonos Town. The bar hangs over the sea 
+and its unrivalled setting, as well as its interesting cocktails has turned it into one of the most popular places
+ on the island to enjoy a drink while watching the sunset. Fruit cocktails are a specialty in this venue. Kastro
+  has a coffee bar, too, and one can sit on the balcony squeezed between the waterfront and the narrow cobbled 
+  pavement and watch the parades of people of all nationalities dressed in all kinds of clothes from grungy hippy 
+  gear to the latest designer wear, strolling past or heading to the bars and night clubs to enjoy the lively 
+  nightlife that Mykonos is famous for. More suited for those who are looking for an early evening drink and some 
+  sober socializing, Kastro is frequented by people who just linger for a few drinks, some great music and good 
+  company.<br /><br />
+
+11.Semeli in Town, Mykonos<br /><br />
+Semeli Bar, located in Little Venice, offers one of the most exciting and sophisticated nightlife options in 
+Mykonos. Opened in 2005, the place has gained popularity among both ordinary tourists and celebrities as one of 
+the funkiest bars in Mykonos. <br />
+
+Semeli is bullt on multi levels and has a stylish decoration that complements the upbeat mood and the chic crowds
+ who hang out there. There is an open-air seaside lounge set on a cobbled pavement with excellent views to the 
+ Aegean, as well as indoor lounges. There is music all day and night long and a hot dance floor to keep the guests
+  on the floor for as long as they want. Some of the finest DJs from around the world are invited to Semeli to 
+  entertain the crowds and the bar organizes special nights and events to keep the mood upbeat and the crowds 
+  swaying to the latest foot-tapping numbers. <br />
+
+The bar works as a cafeteria in the day and offers a staggering variety of coffee, fresh juices, refreshments, 
+wines (both white and red), milk shakes and liqueurs. Their cocktail list is equally impressive with many exotic 
+names thrown in for good measure. Semeli Bar also serves ice creams and desserts, like brownies, apple pies, 
+chocolate souffle, malt chocolate cake, as well as a wide choice of fresh fruit salads, including the tasty local 
+specialty of yoghurt with honey and nuts. The snack menu has a choice of croissants, toasts and pizzas, washed 
+down with cups of hot or cold frappes, cappuccino, or espresso.<br /><br />
+
+12.Super Paradise in Super Paradise, Mykonos<br /><br />
+<img src="Images/Greece/greecemykonossuperparadise2.jpg" /><br />
+Super Paradise Bar is located some 6 km south east of Mykonos Town, on the superb beach of Super Paradise. 
+This beach bar is located right on the beach. Parties are a regular thing at the Paradise club and reflect the 
+endless fun and enjoyment that is Mykonos. The disco bar echoes with the sounds of energetic music all day and 
+night, and spotting a celebrity among the crowds who throng the bar, or perhaps on the dance floor pat next to 
+you may be a common thing. Mornings are usually a bit relaxed at the bar, and the party picks up by noon, going 
+full throttle by late afternoon. Exotic alcoholic cocktails with fruits and a variety of fresh fruit salads with 
+honey and Greek yogurt are offered at the bar. Umbrellas and sun loungers can be hired for a fee, but a huge 
+parking lot is available free of cost for guests who arrive in their private vehicles.<br /><br />
+
+13.Tropicana in Paradise, Mykonos<br /><br />
+The Tropicana beach bar and restaurant, located on Paradise beach, Mykonos island is one of the most popular beach
+ bars of Mykonos Island. Beautiful surroundings, exotic cocktails and sumptuous meals make this one of the most 
+ sought after destinations for party-goers from around the globe.<br />
+
+Paradise beach is brimming with energy as there are a number of entertainment destinations and is well known for 
+its early evening beach parties. Talking of ratings, Tropicana has been rated as the second most popular bar in 
+the world by Travel channel website.<br />
+
+The bar offers a wide range of juices, cocktails and other refreshing drinks. It plays host to a number of parties
+ and attracts a large number of people. The parties here start early in the evening and continue late into the 
+ night. They have an in-house DJ to make sure that their guests are having a good time.<br />
+
+Tropicana bar also has many umbrellas, deck chairs and other facilities for people to come and unwind. With the 
+beautiful Aegean Sea at its doorstep, there are a number of seaside events which keeps one busy throughout the day.
+The restaurant offers a variety of dishes and specializes in Greek and Italian dishes, including a variety of 
+fresh salads, grilled meats, pizzas, pastas, souvlaki and gyros. The restaurant is well covered with Pergolas 
+which offers shade to its guests who spend a large part of the day in the sea or sunbathing. It opens early in 
+the morning and offers a full breakfast, meals, and snacks and drinks all throughout the day. Self-service is 
+optional, allowing one to have a look and make a choice on the spot.<br />
+
+To summarize, Tropicana beach bar and restaurant looks promising as it has something to offer to everyone. 
+It has been recommended by leading travel guides and is a good option for people looking for that “complete” 
+seaside experience!<br /><br />
+
+14.Space Dance in Town, Mykonos<br /><br />
+<img src="Images/Greece/greecemykonosspace.jpg" /><br />
+Space Dance is one of the biggest clubs in whole of Mykonos. The island, known for its famous bars, has become 
+a big party destination for tourists around the world.Located in the centre of the town in Chora, this indoor 
+club is one of the few such clubs present here. Most places in the town center are bars with a DJs but Space 
+Dance Club offers the complete clubbing experience.<br />
+
+When you push the heavy entrance door and enter this world famous club you see why it is such a celebrated place. 
+The place is undoubtedly, Huge! It has a massive bar at the centre and whole of the club wraps itself around it. 
+With a number of screens, great seating areas, a VIP lounge, high quality interiors and flashy lights, one gets 
+the feeling of being in a top notch club. And rightly so! Space Dance is definitely one of the most beautiful 
+discos in whole of Mykonos.<br />
+
+Great ambience and terrific atmosphere makes the club very popular with the youth.The club can accommodate a large
+ number of people and there is something for all age groups.There are a number of local and international DJs who 
+ play here regularly. The club is known for excellent House and Techno music. The parties start late and peak 
+ early in the morning. There are also a number of shows throughout the night and there is never a dull moment.<br />
+
+The bar offers exotic drinks and is on the expensive side. However, it is an exclusive club and this comes as no 
+surprise.One interesting thing one notices here is that the men and women restrooms are separated by a glass wall! 
+You can expect something like this only in Mykonos!<br />
+
+Getting here is easy as it is very well located. Most people in Mykonos will be able to guide you to this club. 
+It is a place for clubbers and has been recommended by many. So, the Space Dance Club is definitely a great option
+ for someone looking to party in a top club in Mykonos town.<br /><br />
+
+15.Paradise in Paradise, Mykonos<br /><br />
+Paradise Bar/club is located on Paradise Beach and it is regarded as one of the most popular bars all over the 
+island. In summer, thousands of tourists come at this huge open-air club to have a drink and dance. The clubs is 
+open from noon till the early hours and has a large swimming pool in the centre. The club is built in three stages:
+ a main deck, a swimming pool and an exclusive VIP area. The beach is a combination of sand and pebbles. At around
+  sunset, the bar scene is in full swing, the music begins full throttle and dancers get on the stage. DJs from 
+  all over the world come to the beach bar to spin out the hottest tunes of the season. The drinks are great and 
+  special exotic cocktails are offered. Famous DJs and musicians are frequently invited to play and theme parties 
+  are organized all summer long.<br /><br />
+
+16.Cavo Paradiso in Paradise, Mykonos<br /><br />
+Cavo Paradiso on Paradise beach in Mykonos is one of the hottest party destinations, not just on the Greek island,
+ but around the world. It hosts the best of parties on the island and is a clubber's paradise!Located beautifully 
+ on top of a hill, the club owners were once apprehensive of building it at its current site. A lot of people 
+ were against going ahead with the project as they felt that in a place like Mykonos, with a number of bars, 
+ no one would leave the town to visit a club on top of a hill. However, the owners went ahead and built this 
+ stunning club. The rest, as they say, is history!<br />
+
+True, getting here is a bit of a task but it is the very location that has worked to its advantage. The beautiful 
+view of the cliffs and the ocean ahead, is truly spectacular. The club has a modest entrance and looks nothing 
+more than a dry stone building from the front. But when you enter the club it surprises you as it really has a 
+lot to offer. The interiors are brilliantly done and one must compliment the one who conceptualized the whole 
+design.<br />
+
+The club is simply magnificent-a huge dance floor, different seating areas, podiums and the grand attraction-
+A full sized swimming pool, shaped in the form of Mykonos Island! Cavo Paradiso is wonderfully designed and is 
+undoubtedly the largest club in Mykonos, with a capacity of over 3000!<br />
+
+The music at the club is truly world-class with international DJs visiting the club frequently. A number of 
+international artistes have played here over the years-Carl Cox, Louie Vega, Benny Bennasi , David Guetta, to 
+name a few. The parties here start late at night and continue till after sunrise. It is suggested that one should 
+spend as much time in the beach bars before heading here. However, if you want to come in early, they usually 
+have offers such as free entry and a drink for such people. You can get the details while you re on the beach as 
+they advertise heavily and their posters are hard to miss!<br />
+
+Needless to say, the bar offers a wide variety of Cocktails and other refreshing drinks. Drinks, however, are 
+pretty expensive as well as the entry fee! There is also a big canteen right outside the club for one to take a 
+break and grab a bite. Taxis are easily available and there is also a big parking area in front of the club.<br />
+
+Cavo Paradiso has been recommended by leading travel magazines and websites and should be high up on your priority
+ list when visiting Mykonos Island .If youâ€™re a die hard clubber and are looking for an international clubbing
+  experience, Cavo Paradiso should be your destination!<br />
+
+
+
+
+      </p>
+
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="MykonosGettingaround" runat="server" HeaderText="MykonosGettingaround">
+<%--MykonosGettingaroundz--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Getting Around
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+        
+   </ajaxToolkit:TabContainer>
+  </div>
+ </ContentTemplate>
+</ajaxToolkit:TabPanel>
+
+<%--SantoriniZ--%>
+<ajaxToolkit:TabPanel ID="Santorini" runat="server" HeaderText="Santorini">
+ <HeaderTemplate>
+  <div class="subtabs">Santorini</div>
+ </HeaderTemplate>
+ <ContentTemplate>
+  <div class="cities">
+<%--SantorinitabZ--%>
+   <ajaxToolkit:TabContainer ID="Santorinitabs" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+    <ajaxToolkit:TabPanel ID="SantoriniOverview" runat="server" HeaderText="Santorinioverview">
+<%--SantoriniOverviewZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Overview</div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+          
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="SantoriniSightseeing" runat="server" HeaderText="Santorinisightseeing">
+<%--SantoriniSightseeingZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Things To Do
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      <h3>1. Oia</h3>
+          <img src="Images/Greece/greecesantorinioia.jpg" /><br />
+
+      <p>Oia Santorini: Oia, pronounced ‘Ia’, is the most famous of all villages of Santorini. It is known throughout the world 
+      for its quiet life and fantastic sunset, and is certainly the most beautiful and picturesque village of Santorini.
+The village is also situated on top of an impressive cliff and offers a spectacular view over the volcano of Palia and Nea Kameni 
+and the island of Thirassia.<br />
+Oia is situated on the north of the island, 11 km away from Fira. It is a traditional village with charming houses in narrow 
+streets, blue domed churches, and sun-bathed verandas. Its streets have plenty of tourist shops, taverns, cafés, and other shops. 
+Oia has several cultural attractions like the Maritime Museum which houses a small library, items from the maritime life of the 
+area, and the vestiges of a Venetian fortress.Many artists fell in love with the area and settled there. For that reason, 
+the village of Oia has many art galleries.<br />
+Oia also has a small port, Ammoudi, which can be reached by a set of 300 steps leading down. There, small boats can take you 
+opposite, to the island of Thirassia. The beach of Armenis is also located there. Taverns in Oia offer visitors tasty meals of 
+fresh fish.</p>
+
+<h3>2. Fira</h3>
+          <img src="Images/Greece/greecesantorinifira.jpg" /><br />
+<p>Fira Santorini: Fira is the capital of Santorini, Greece, and the most important of all villages. It is located at the west 
+side of the island and 10 km away from the main port, Athinios.Fira has a 1.600 constant inhabitants.
+Fira has a constant 1,600 inhabitants. It is perched on the edge of an impressive cliff, at a height of 260 meters and offers a 
+great panoramic view of the submerged volcano. In 1956, the island of Santorini was hit by an earthquake that destroyed a large 
+part of the island. In Fira, a part of the town was destroyed, but luckily, some of the 18th century buildings were saved.<br />
+The town of Fira is a typical Cycladic village made of charming white houses with blue windows and doors, separated from each
+ other by small paved streets. Many of its beautiful buildings were constructed back in the times of the Venetian invasion, 
+ including some blue domed churches and sun-bathed verandas that offer an incredible view of the volcano and the sunset.<br />
+In our days, Fira is a busy town. During summer and in its high season, the central streets are crowded and filled with all kind 
+of shops, jewelleries, restaurants, cafés, bars and night clubs.
+Despite all the tourist traffic concentrated in town, many areas are always quiet. One can find places to relax and enjoy a great
+ view of the island and the surrounding area.For those in search of a knowing better the culture of the island, an Archaeological 
+ Museum museum hosting many items from excavations done in the ancient Minoan settlement of Akrotiri can be visited in the town 
+ of Fira The town also has many churches and monasteries such as Agios Minas, the cathedral of Hypapandi, the cathedral of Christ,
+  the monastery of Panagia ton Dominikanidon, Panagia tou Rodariou and the Catholic Cathedral.<br />
+There is also the Megaron Gyzi Museum which has a fascinating collection of photos of Fira before and after the earthquake of 1956.
+Fira also has a port that was, for many years, the main port of Santorini. Today, this port is only used for cruise boats. From there, 
+boats can take visitors for a tour of the volcano of Nea and Palia Kameni
+</p>
+
+<h3>3.Firostefani Santorini:</h3>
+          <img src="Images/Greece/greecesantorinifirostefani.jpg" /><br />
+<p>Firostefani lies to the north of Fira and there is little that separates it from it considerable larger neighbour. As with 
+Fira the views from this part of Santorini are spectacular but the town are higher up so offer a different perspective of the 
+volcano.And of course one can enjoy the magnificent sight of Fira itself. It is a superb place to enjoy the sunset in the evening.<br />
+
+The village have restaurants from which one can also observe the sunset in its full glory. Between the village of Firostefani and 
+Imerovigli lies the Agios Nikolas Monastry.The largeish building with its typically Cycladic rounded edges is open 8-12.30 and 
+16:00-19:00. Depending where you are inside you can look to the east side of the island or to the volcano and beyond.As with Fira,
+ Firostefani contain a number of hotels. Both are picturesque and have a nice blend of cream and white variations in the colouring
+  of the houses. Away from the cliff side view Firostefani has a less stunning part as well. There are a few shops.<br />
+</p>
+
+<h3>4.Imerovigli Santorini:</h3>
+          <img src="Images/Greece/greecesantoriniimerovigli.jpg" /><br />
+<p>Immerovigli is a picturesque village situated at the north of Santorini, only 2 km away from the capital of Fira. Actually, 
+it is the extension of Fira, but the village is situated on a higher cliff.The name of Immerovigli comes from the word “vigla,” 
+which means “day”.<br />
+The position of the village provides a great view of the area, and allowed villagers to see approaching pirate ships. Today, 
+Immerovigli is a charming and quiet village.The area has many hotels and typical houses. There are also some nice taverns.
+In front of Immerovigli lies an enormous rock called Scaros. Scaros is part of the land and had a castle built on it until the 
+early 1800s. The castle housed all the administrative offices of the island.This part of the island collapsed after an earthquake,
+ and only the huge hill of Scaros is left today.Immerovigli also faces the volcano and offers an incredible view of the sunset.
+</p>
+<h3>5.Santorini Skaros Rock:</h3>
+          <img src="Images/Greece/greecesantoriniskarosrock.jpg" /><br />
+<p>Skaros is a rocky headland that protrudes out to the azure blue Aegean Sea. It is ideally located at the frontage of Imerovigli
+ village. In the earlier days, a majestic castle was located here which used to be the principal place of Christian congregation 
+ in Santorini till the beginning of the 1800’s. Unfortunately, the castle was completely ruined during an earthquake in the 19th 
+ century and all that remains today are the remnants of the castle. Legend has it that the medieval castle of Skaros, was never 
+ ever conquered during its long 600 years of existence.<br />
+There is a well-defined trail that originates from the renowned Agios Georgios church that connects Skaros with the village of 
+Imerovigli. The views are breathtaking and are literally a treat to ones eyes.Skaros used to be the capital of Santorini till the 
+18th century. Later on in the 19th century, Fira became the capital due largely to its proximity and easy accessibility to the sea.
+ Inspite of this, Skaros still retains its old world charms and has plenty to offer in terms of scenic beauty of the surrounding 
+ areas inclusive of the Caldera. The neighborhood around Skaros is choc-a-bloc with restaurants, bars and hotels. Due to its 
+ stunning landscape and scenic beauty, many couples from the world over come here to celebrate their wedding ceremony as well 
+ as to spend their honeymoon at Skaros and the picturesque village of Imerovigli.
+</p>
+<h3>6.Pyrgos Santorini: </h3>
+          <img src="Images/Greece/greecesantorinipyrgos.jpg" /><br />
+
+<p>Pyrgos is situated 8 km southeast of Fira. The village was built on the top of a hill and present an incredible panoramic view of 
+the whole island.This village of Santorini has a population of 500 inhabitants, and used to be the capital of the island until
+ the early 1800s, The village is formed by traditional houses built all around the Venetian castle, and the small streets follow 
+ the shape of the hill.<br />
+The village has many churches: the church of Theotokaki with its beautiful frescoes and old icons; Agia Triada, the churches of 
+Agia Theodosia; Metamorphosi tou Sotira (Transfiguration of the Saviour); Agios Nikolaos; Eisodia tis Theotokou (Presentation of 
+the Virgin Mary) and the Archangel Michael.<br />
+The most famous church of the island of Santorini is also located in the area: Monastery of Prophitis Ilias four kilometres away
+ from Pyrgos. A small collection of ethnographic material and old icons can be admired in this monastery.
+ </p>
+ <h3>7.Kastelli Castle</h3>
+           <img src="Images/Greece/greecesantorinikastelli.jpg" /><br />
+ <p>Kasteli Castle in Santorini: Kasteli castle is nothing but a splendid Venetian Castle of Santorini which is ideally located 
+ in the picturesque village of Pyrgos. This village is in close proximity to the capital city of Fira. In fact, the village of 
+ Pyrgos is the highest spot of the island. The houses are arranged amphitheatrically surrounding the remains of the Venetian 
+ castle (today known as "Kasteli") offering a magnificent view.<br />
+At the highest point of the island and only 8km from Fira, is situated Pyrgos. The impregnable Kasteli Castle used to be a 
+fortress during the medieval era. It is conspicuous by its marvelous architectural grandeur. The location of the castle too is 
+great and is positioned in the center of the village, which is surprising indeed. Normally castles and forts are built on the 
+outer peripheries of towns and villages. But the Kasteli Castle seems to be an exception
+</p>
+<h3>8.Santo Wines in Pyrgos, Santorini</h3>
+          <img src="Images/Greece/greecesantorinisantowines.jpg" /><br />
+<p>The Santo Winery, which opened in 1992, is located in Pyrgos and enjoys spectacular views of the caldera and the Mediterranean 
+Sea. A highly modernized winery where technological advancement is in total harmony with traditional methods, the Santo Winery is 
+built on five different levels in keeping with the environment and the layout of the vineyards that are also cultivated at varying
+ ground levels, often called as the "pezoules". This greatly saves on energy as the must is transferred by gravity alone without 
+ the need for pumps or other machines. <br />
+The winery opened as Santowines Oenotourism Center in 1992, and ever since, it receives over 80.000 visitors from around the world
+ every year. A guided tour shows visitors the process of vinification and aging of wines, and there is a wine bar at Santo Winery,
+  where visitors can taste the special wines that have received awards for its superior quality and taste. Among the Santo produce
+   are a wide selection of dry whites: Santorini Assyrtiko and Santorini Nykteri, a dry white wine. At the wine showroom, visitors
+    are shown a documentary film that traces the history of Santorini wines to the present. <br />
+The charming terrace with magnificent views can host weddings and private parties, and there is also a main room with a capacity 
+of over 120 people for hosting seminars or other special events. An assortment of Vinsanto, the sweet dessert wine, is also 
+produced here and includes a liqueur version, Vin De Liqueur. <br />
+
+</p>
+<h3>9.Akrotiri Villages:</h3>
+          <img src="Images/Greece/greecesantoriniakrotirivillages.jpg" /><br />
+<p>Akrotiri Santorini: Akrotiri is located next to famous Red Beach and is the most important archaeological site of Santorini.
+Akrotiri was originally a Minoan settlement. The city looks a lot like the relics found in the island of Crete, covered with wall
+ paintings of flowers, dolphins, fishing, boxing and other ancient everyday life scenes. Unfortunately the site is closed at the 
+ moment. One could also find pottery painted with naturalistic landscapes, animals or humans.Akrotiri<br />
+The city has impressive two- and three-storey buildings.Everything has been extremely well preserved because of the volcanic soil 
+of the area.The city found in Akrotiri must have been destroyed by the terrible eruption of Santorini’s volcano around 1500 BC. 
+The beautiful frescoes of Akrotiri, Santorini, can only be seen in the National Archaeological Museum of Athens.
+Akrotiri has several other centres of interest. There are many hotels and also many taverns located in the area. Some of them are 
+built in the traditional way, inside an alcove.<br />
+</p>
+<h3>10.Santorini Akrotiri Lighthouse</h3>
+          <img src="Images/Greece/greecesantoriniakrotirilighthouse.jpg" /><br />
+<p>The Akrotiri Lighthouse is among the oldest lighthouses in this part of the world and was constructed way back in 1892. 
+It stands like a sentinel towards the on the southern peninsula of Santorini island.The lighthouse of Akrotiri is conspicuous
+by its square shaped tower that looms above10meters from the lighthouse warden’s house. Initially, the lighthouse was operated 
+by petrol fuel. But with the introduction of electricity in the year 1988, it has been operated electronically and reportedly 
+emits a radiant white light at intervals of 20 seconds.<br />
+According to historical records, the Akrotiri Lighthouse was built by a renowned French trading company in the year 1892. 
+The peripheral area surrounding the lighthouse is replete with vestiges of the Minoan period which is regarded by many scholars 
+as the high water mark of the Aegean culture and civilization. <br />
+The best time to visit the Akrotiri Lighthouse is during sunset. The view of the red molten ball dipping into the azure blue
+ Aegean Sea makes for a kaleidoscopic vignette. The surrounding area of the Lighthouse is replete with fish taverns and first 
+ time visitors would do well to spend some time savoring the sea food delicacies on offer.
+</p>
+<h3>11.Santorini Sightseeing: The Minoan City of Akrotiri</h3>
+          <img src="Images/Greece/greecesantoriniMinoancityofakrotiri.jpg" /><br />
+<p>The site of Akrotiri had been closed for many years but it reopened to visitors in April 2012 
+The archaeological site of Akrotiri is one of Santorini's main attractions. Located on the southern side of the island, between 
+the village of Akrotiri and the famous Red beach, this site is visited by thousands of visitors every year. Excavations on 
+Akrotiri has started as early as the 1870s by the French Archaeological School of Athens. 
+Few years later in 1866, the first traces of an ancient settlement had been accidentally revealed, during the works to get 
+volcanic soil from Santorini in order to insulate the Suez Canal Bridge. In the century that followed, many excavations were 
+conducted until the excavations of archaeologist Spyridon Marinatos started in 1967.<br />
+The works revealed a fully-working and developed settlement. Archaeologists believe that the town was originally constructed 
+around 4,500 B.C. but in the 17th century B.C. it was destroyed by an earthquake. A new town was built on the ruins of the old town, until it was also destroyed by the volcanic eruption about one century later. 
+The location of the town was ideal, as it served as a safe port and thus it developed an important commerce activity. The urban 
+planning was dense, the buildings had many stores, the walls were decorated with amazing frescoes, the streets were paved and 
+there were also squares and storehouses. The frescoes depict a rich middle society, where people were dressed luxuriously and 
+elegantly. <br />
+The enormous volcanic eruption that destroyed the settlement of Akrotiri took place around 1,650 B.C. The entire town was 
+covered with ashes and lava, which preserved Akrotiri almost intact through time. As no human bodies have been found covered 
+by lava, as is the case in Pompeii, archaeologists believe that precursory earthquakes made the residents leave before the 
+volcano erupted. Also not many valuable items were excavated, which shows that between the earthquakes and the big volcanic 
+eruption, the residents had returned to take their personal belongings. <br />
+This time interval between the precursory earthquakes and the eruption is estimated at about 10 days. In any case, the time 
+between the first eruptions and the geological formation of the caldera is estimated no more than 2-3 days. The eruption took 
+place probably in spring because flowers of olive trees were found under the lava ashes. This was the most important eruption 
+in the world for the last 10,000 years and the tsunami waves that raised also destroyed the Minoan town of Knossos in Crete. 
+In September 2005, an accident took place in Akrotiri: the wooden shelter of the site collapsed, killing a British tourist. 
+Since then, the site had been closed till April 2012, when the new bioclimatic shelter was finished and Akrotiri opened again 
+to visitors.
+</p>
+<h3>12.Santorini Venetian Castle</h3>
+          <img src="Images/Greece/greecesantorinivenetiancastle.jpg" /><br />
+<p>Venetian Castle in Santorini: The village of Akrotiri is one of the most significant villages in terms of archaeology. 
+Due to the pioneering efforts of Professor Spiros Marinatos and his dedicated team of archaeologists, one of the greatest 
+archaeological excavations took place in the year 1967, on Santorini. <br />
+Professor Spiros Marinatos and his team of dedicated excavators unearthed the vestiges of a fabulous city with a highly evolved 
+civilization.Large quantities of artifacts including frescoes, paintings, ancient utensils, clay and metal objects have been 
+discovered at the Akrotiri Archaeological site of Santorini. In the medieval era Akrotiri used to be a military bastion or 
+fortress of Santorini. <br />
+Once the Ottoman Turks captured Santorini, the impregnable Venetian Castle of Akrotiri was completely damaged by the Turks. 
+Today all that remains are the vestiges and remnants of the castle.In fact upon close observation, one can still locate the
+ towers of the castle. One can also visit the old churches of Aghia Triada and Ypapanti tou Soteros that are located in close proximity to the 
+Venetian Castle.
+</p>
+<h3>13.Santorini Sunset</h3>
+          <img src="Images/Greece/greecesantorinisunset.jpg" /><br />
+<p>Santorini sunset: Santorini is one of the best places on earth as far as sunset viewing is concerned. In fact few places can 
+match the sheer beauty of Santorini’s sunset views. Visitor to the island fallen in love with the bewitchingly beautiful sunsets
+that can be savored from many vantage positions in the island. Most visitors to Santorini agree that sunsets when viewed from 
+Santorini makes for a truly surreal experience.<br />
+The towns and villages of Santorini are dotted with buildings that have been built after the catastrophic 1956’s earthquake. 
+Many of the older buildings collapsed in the earthquake, the newer buildings which includes hotels and restaurants have been 
+built mostly on the cliffs so as to provide visitors and residents alike with truly mesmerizing views of Santorini’s natural 
+beauty and sunsets.<br />
+For the avid photographer, there is no place like Santorini. It is the Mecca of outdoor photography. Many internationally 
+acclaimed photographers have shot amazing photographs, particularly depicting the ethereal Santorini sunset. 
+There is huge demand for hotel space particularly in the picturesque village of Oia which offers some of the most inspiring 
+sunset views in the whole of Santorini. <br />
+Due to the fact that the romantic Santorini sunset is so potent couples prefer to spend the late afternoons in the company of each other and accordingly the hotels and restaurants have made the necessary arrangements exclusively targetted to attract couples who come in droves from all over the world just to view the sunset from Oia’s many vantage points. Undoubtedly, Oia is among the most romantic places in the world. 
+A novel way of experiencing the Santorini sunset is by embarking on a sunset cruise on board a traditional Santorini boat. Most of the harbors of the island run regular sunset cruises and it is a sheer delight to be on board and witness the ethereal sunset.
+</p>
+<h3>14. Santorini Volcano	</h3>
+          <img src="Images/Greece/greecesantorinivolcano.jpg" /><br />
+<p>The Volcano of Santorini Palea (old) Kameni and Nea (new) Kameni (an adjective that means burned in Greek) are two small 
+islands of black lava positioned in the centre of the basin of Santorini and are, geographically, the youngest islets in the 
+Eastern Mediterranean.
+Palea Kameni is about 2000 years old while Nea Kameni’s “life” does not exceed 500 years.Caldera, as the volcano is called, 
+is one of the main attractions of Santorini and the setting of many villages.
+The Caldera offers an incredible show from the villages situated on the high cliffs, especially during the amazingly coloured sunset. Tourists can visit the volcano by taking one of the daily cruises advertised in any village. One can walk upon the solid black lava sides of the steaming volcano.Nea Kameni is the central one, and once on its shore, after a walk of 20 minutes in the “lunar” scenery, visitors will discover the volcano’s crater and other openings bursting with sulphur steam. The area also offers an incredible view of the beautiful villages hanging on the cliffs. 
+The oldest volcano, Palea Kameni also has hot springs.</p>
+
+<h3>15.Santorini Villages: Ammoudi village in Santorini</h3>
+          <img src="Images/Greece/greecesantoriniammoudivillage.jpg" /><br />
+<p>Ammoudi Santorini: Ammoudi is the charming port of Oia in Santorini. It is not actually a village but few traditional buildings
+ set around a port. In Ammoudi, there are port services and few taverns. Several fishing and tour boats moor in summer there, 
+ creating a very picturesque scenery. <br />
+Ammoudi is surrounded by impressive high red cliffs and on top of the cliffs, there is Oia, the most picturesque village of 
+Santorini. 300 narrow and steep steps lead the way between Ammoudi and Oia. Donkeys can also be used for transport. A small 
+rocky beach stands next to Ammoudi, ideal for diving. Several tour boats stop in Ammoudi on the way to Thirassia and the volcano.
+ The other small port of Oia is Armeni.
+</p>
+<h3>16.Santorini Port: Athinios Port </h3>
+          <img src="Images/Greece/greecesantoriniathiniosport.jpg" /><br />
+<p>Athinios Port Santorini: Athinios is not actually a village, but the main port of Santorini where all the ferries arrive from 
+Athens and other Greek islands. The cruise ships and boat trips arrive in the small port of Fira, but the ferries arrive in
+ Athinios, at a distance of 7 km south of Fira. The port is connected to Fira and all the other villages of Santorini by bus or 
+ taxi. The cliff around Athinios is impressive. 
+There are no houses there, only the buildings of the port authorities and some travel agencies. Over the last years, there are 
+plans to move the main port of Santorini from Athinios to Vlychada, on the southern side of the island, to decompress the central 
+part of the island
+</p>
+<h3>17.Santorini Villages: Emporio village </h3>
+          <img src="Images/Greece/greecesantoriniemporiovillage.jpg" /><br />
+<p>Emporio Santorini: Approaching Emporio from the west of Santorini, one is greeted by the fantastic site of a whole string of 
+old windmills on the hillside.
+Once into the village at the centre stand two lovely, blue domed Cycladic churches which are currently having their large bell 
+towers restored.
+Half way up the village there’s a dilapidated fortress which looks as though it will slide down the hill at any moment.
+To the east of the town things aren' t quite so stunning with a succession of large supermarkets and hotels. These lead you down 
+to hugely popular Perissa beach.
+</p>
+<h3>18.Finikia Oia:</h3>
+          <img src="Images/Greece/greecesantorinifinikiaoia.jpg" /><br />
+<p>Finikia is a small village which contains some traditional Cycladic churches and here you can also find some of the cave 
+houses that are dug into the island itself.
+These houses of Santorini are designed to insulate the occupants in the winter and if you get the chance to enter one during the 
+summer you will notice how nice and cool the temperature is. The other good thing about the sort of houses you find at Finikia is 
+that increasing their size is not much a problem; another room just needs to be dug into the soft rock. 
+</p>
+<h3>19.Santorini Villages: Karterados village </h3>
+          <img src="Images/Greece/greecesantorinikarteradosvillage.jpg" /><br />
+<p>Karterados Santorini: Karterados is a quaint village of Santorini and is a mere 2 Km. away from the town of Fira. The village 
+is conspicuous for its innovative architecture, which leaves the tourists spellbound. In addition to its architectural heritage, 
+there are many vineyards around the village, which imparts an element of ethereal beauty to Karterados.
+Karterados has all kinds of recreational facilities for tourists like ultra modern sport amenities, ethnic taverns with delicious
+ local delicacies, cozy cafes and lively and vibrant bars. 
+A visit to the neighborhood Karterados bakery is a must if you want to savor delicious cookies.Karterados is also renowned for 
+its elegant whitewashed churches that stand out for their brilliant architecture. The Analipsis, the Eisodia tis Theotokou and 
+Aghios Nikolaos will take your breath away. The beach is an added attraction and is tranquility personified.<br />
+A visit to Karterados reveals rocky houses that have been literally burrowed out of a stream and you would be taken aback by the 
+sight of the house’s roofs which are at the identical level with the pavement. In 19th century Karterados evolved into a wealthy 
+and prosperous village and many rich ship-owners had built their mansions here. 
+As you go past the village there is a road that takes you to the tranquil rocky beach of Exo Gialos and needless to say its’s 
+great fun. There are numerous fine hotels at Karterados that can accommodate you.
+</p>
+<h3>20.Santorini Villages: Megalochori village </h3>
+          <img src="Images/Greece/greecesantorinimegalochorivillage.jpg" /><br />
+<p>Megalohori Santorini: Megalohori sits on a hill facing to the east of Santorini and as you approach its centre you will find 
+the roads becoming thinner and a number of pretty alleyways.
+You can't fail to notice the large number of wine tasting places here and indeed this village is at the heart of the island's 
+industry. 
+Many of the bigger facilities, like Boutari, are on the village's outskirts among the vineyards.
+The village itself has a nice mixture of cream and white Cycladic houses with a fair few churches for good measure. The walls are 
+wonderfully rounded and lead down to a main square which hosts a couple of tavernas.
+</p>
+<h3>21.Monastery of Profitis Illias </h3>
+          <img src="Images/Greece/greecesantoriniMonasteryofProfitisIllias.jpg" /><br />
+<p>Standing on the highest point on Santorini, which spans to 1,856 feet at the summit, 
+the Monastery of Profitis Ilias offers a Cineramic vista: from here you can see the surrounding islands
+ and, on a clear day, the mountains of Crete, more than 100 km (66 mi) away. You may also be able to 
+ spot ancient Thira on the peak below Profitis Ilias. Unfortunately, radio towers and a NATO radar 
+ installation provide an ugly backdrop for the monastery's wonderful bell tower.</span>
+</p>
+<h3>22.Santorini Sightseeing: The Orthodox Metropolitan cathedral</h3>
+<img src="Images/Greece/greecesantoriniorthodoxmetropolitancathedral.jpg" /><br />
+<p>This cathedral sits prominently towards the bottom of the town and can be seen from quite a distance from many points of 
+Santorini. 
+Rolling arches create a courtyard and there is also an impressive belltower. The curves are the arches are mirrored in the 
+design of the dome above.
+There is a nice mosaic on the outside of the cathedral but close inspection reveals it only dates from 1975.
+The cathedral dates from the 19th century but was rebuilt after the earthquake in 1956 and one can tell that it is quite modern.
+
+</p>
+<h3>23. The Monastery of Agios Nikolaos  </h3>
+          <img src="Images/Greece/greecesantorinimonasteryofagiosnikolaos.jpg" /><br />
+<p>The historical female Monastery of Agios Nikolaos is located between the villages of Firostefani and Imerovigli in Santorini. 
+The monastery is dedicated to three saints, Agios Panteleimon, Zoodoxos Pighi (which means "the life-giving source" in Greek) and 
+Agios Nikolaos. <br />
+This monastery was originally founded in December 6th in 1651 and it was the second monastery built in Santorini. The Gizi family,
+ one of the few Orthodox families who lived inside the Venetian Castle of Skaros, decided to turn their private chapel into a 
+ monastery, which eventually remained on that position till 1815. That year, the archbishop of Santorini gave permission to move 
+ the monastery to its present location, where the small chapel of Zoodohos Pighi was located. <br />
+The construction of the new monastery lasted till 1820. Today, the large halls of the Monastery of Agios Nikolaos host a folklore 
+museum and an ecclesiastical museum with rare Byzantine icons. The icon of Agios Nikolaos, in particular, is very important and 
+so is the wooden iconostasis of the katholikon, the main church of the monastery.
+</p>
+<h3>24.Thirasia Island</h3>
+          <img src="Images/Greece/greecesantorinithirasiaisland.jpg" /><br />
+<p>The island of Thirasia close to Santorini: The island of Thirasia is located in close proximity to Santorini and, in fact,
+ it was once a part of it. The volcanic eruption that happened at around 1500 B.C. broke Santorini into many pieces and Thirasia
+  emerged as one of those. Thirassia is today a virgin island, still untouched by tourism and modern life style. 
+The island of Thirasia is only 9 sq. km in size and has only one hundred and fifty permanent inhabitants. Manolas village is the 
+capital of Thirassia. Other settlements include Korfos, Riva and Potamos. Manolas has small, picturesque houses painted in various
+ colors. The virgin beaches and the pure nature are the main attractions of Thirasia. A walk through villages can also be a 
+ wonderful experience, as in front of the houses there are big gardens with colorful blossoms.<br />
+From Manolas, you can trek to the Monastery of the Assumption of the Virgin. Apart from this monastery, there are other twenty 
+churches on Thirasia. Each year, on September 21st, there is a feast to honor Virgin Mary. Other places to visit there are some 
+hot springs. 
+There are quite a few places to stay on Thirassia. However, the food in the local taverns is very nice and authentic Greek 
+cuisine can be tasted in the taverns and cafes. In summer, daily boat trips are organized between Santorini and Thirasia.
+</p>
+<h3>25.The Ancient Thira Museum in Santorini</h3>
+          <img src="Images/Greece/greecesantoriniancientthiramuseum.jpg" /><br />
+<p>Even from the outside this museum is quite spectacular. 
+As you enter the first thing you notice is the air-conditioning which aids your tour around. The explanations of the objects 
+here are detailed and very interesting.
+The museum is square and you go to your right as you enter. One of the first things you see are fossils which include those of 
+olive leaves. As you walk around the glass cases some of the exhibits that particularly stand out are a clay oven and a bathing 
+tub that makes you wonder how anyone ever fit inside.<br />
+The weights and ranked sizes of vases are a good indicator of the existence of some unit of measuring value well before other 
+cultures caught on.
+Further on you can see some marvelous frescos including the House of Ladies. The explanation of how they were made is very in 
+depth and worth reading.
+Before you leave is a gold ibex figurine which shines brightly.
+</p>
+<h3>26.The Santorini Archaelogical Museum</h3>
+          <img src="Images/Greece/greecesantoriniarcheologicalmuseum.jpg" /><br />
+<p>This museum of Santorini costs a couple of Euros to enter and with the same entry pass you can also get entry to the Museum 
+of Historic Thera. Its highlights include pre-historic vases from Akrotiri and marble figurines. It is not very large and can be 
+explored in half an hour. The clay statuettes deserve a close look and you can see various birds, livestock and dolphins.
+</p>
+<h3>27.Boutari in Megalochori</h3>
+          <img src="Images/Greece/greecesantoriniboutari.jpg" /><br />
+<p>General Information:
+Boutari Winery, established way back in 1989, has emerged as one of the leading wineries in Santorini and reflects the island's 
+strong wine-making traditions. The beautiful white-domed winery is located in Megalochori. Spread on an area of approximately 6 
+hectares, the vineyards are located to the south of the island at an altitude of 105-140 meters. <br />
+Local white varieties, including Assyrtiko, Athiri and Aidani, as well as a few others experimental varieties are cultivated at 
+Boutari vineyards. Five dry white wines are produced here and they include Kallisti and Nykteri. The sweet wines include Vinsanto 
+Santorini (white) and the Ampeliastos (red), and every year, one experimental wine is produced at Boutari winery. The winery is 
+open to public and offers a guided tour in five different languages and a multimedia presentation.
+</p>
+<h3>28.Santorini Villages: Mesa Gonia village in Santorini</h3>
+          <img src="Images/Greece/greecesantorinimesagoniavillage.jpg" /><br />
+<p>Mesa and Exo Gonia Santorini: Set in the striking vines which cover great swathes of Santorini these villages are very much 
+agricultural. 
+During the days they are peaceful and in vast contrast to the nearby Kamari.
+Exo Gonia is ampitheatre like and has in its midst some wonderful churches. The largest of these is red tiled with a bell tower 
+that hovers over the town.
+The houses here are of the traditional Cycladean kind.</p>
+<h3>29.Canava Roussos in Mesa Gonia, Santorini</h3>
+          <img src="Images/Greece/greecesantorinicanavaroussosinmesagonia.jpg" /><br />
+<p>General Information:
+Roussos is a family-owned winery that has been producing the most famous wines of the island since 1836 in its renowned winery at 
+Episkopi Santorini (Mesa Gonia).
+The island's unique ecosystem and the volcanic soil are ideal for growing Thiran, a particular grape variety that is used to 
+create Roussos wines. Developed as a family tradition and then as an art that has traveled through generations, the wine making 
+tradition of Roussos reflects the islandâ€™s unique culture: the love for good food and wine. 
+Roussos Winery is one of the oldest cellars in Santorini and an artful blend of a century-old tradition as well as modern 
+techniques has helped the Canava Roussos to create wines with highly distinct tastes and bouquets. 
+There are 7 famous wines from the house of Roussos: Caldera Roussos, Santorini Roussos, Athiri Roussos, Nykteri Roussos, 
+Mavranthiro Roussos, Nama Roussos and Rivari Roussos. Among the Roussos collection, the most renowned wines are the traditional 
+Nykteri (an aged dry white) and Vinsanto, a sweet wine produced from sun-dried grapes. <br />
+At harvest time, many visitors arrive at Roussos winery for a wine-tasting tour and to see the traditional wine-making methods 
+that are carried out in subterranean cisterns or huge barrels. 
+There is also a taverna at the winery, where visitors can enjoy a traditional Greek meal. The outdoor dining of the winery has 
+wonderful views of the sea and the winery organizes "Santorini Evenings" to sample their wines and to enjoy local specialties 
+such as mezedes, Greek cheese, fava, tomato balls, fresh salads of caper and tiny tomatoes and many others. Besides upholding the 
+wine making tradition of Santorini, Roussos also plays host to several theatre performances, concerts and exhibitions that 
+showcase the rich cultural heritage of the Greek islands.
+</p>
+<h3>30.Panagia Episkopi Sightseeing in Fira	</h3>
+          <img src="Images/Greece/greecesantorinipanagiaepiskopiinFira.jpg" />     <br />
+<p>This church of Santorini has managed to survive various invasions as well as the many earthquakes on the island. 
+It’s good to contrast it with some of the island’s larger and more modern churches. You reach it up a bumpy road and close 
+can admire the orange tile roof and notice the faded front.
+</p>
+<h3>31. Messaria village in Santorini</h3>
+          <img src="Images/Greece/greecesantorinimessariavillage.jpg" /><br />
+<p>Messaria is a small traditional village situated four km southeast of Fira, the capital of Santorini.
+The houses are built in the traditional style of the Cycladic islands. It is one of the few villages of the island where 
+people make a living by agriculture, mostly wine production.
+The roads are very busy in this village as it’s on the main thoroughfare for getting around much of the island.
+The main square is also something of a disappointment.
+The best things about the village are higher up where you can find a super collection of churches in a very small area. 
+Around this area there are also some fantastic mansion style houses with interesting architecture.
+</p>
+<h3>32.Santorini Archontiko Argyrou</h3>
+          <img src="Images/Greece/greecesantoriniarchontikoargyrou.jpg" /><br />
+<p>Archontiko Argyrou on Santorini: Archontiko Argyrou is a grandiose regal mansion and its architectural elegance is unmatched by
+ any other hospitality properties in Santorini. This stupendous mansion is ideally located in the picturesque village of Messaria.
+  The nearest town is Fira which is a mere 3 Kms drive from the mansion. The gorgeous Monolithos beach too is in close proximity 
+  to the Archontiko Argyrou. 
+Archontiko Argyrou is renowned for its intricately done up neoclassical architecture. This regal mansion was built way back in 
+the year 1860 and visitors who fall in love with this historical mansion also have the option of staying in the regally done up 
+guestrooms located on the ground floor.
+The mansion is grandiose personified with high quality ethnic architecture, arched ceilings and exquisite floors. There is 
+a whiff of romance in the air at the Archontiko Argyrou. The guestrooms are known for their ornate décor and matching furnishings
+ and oozes with sophistication.<br />
+There is a museum on the first floor which has a good collection of artifacts and antiquities that offers fascinating insight on
+ the fabled Greek tradition, culture and heritage. You will come across unusual paintings, antique furniture and a plethora of 
+ articles dating back to the 19th century. The neighborhood surrounding the mansion is dotted with small shops. 
+This palatial mansion was the brainchild of George Argyros who was a prosperous landlord and he built this remarkable mansion in 
+the year 1888. Even though a part of the edifice was badly damaged during the 1956 earthquake after which it remained isolated for thirty five years. 
+However, with the pioneering vision of Melina Merkouri, the then Minister of Culture, in the year 1985, the entire mansion was 
+renovated and restored to its former glory. 
+</p>
+<h3>33. Vothonas village in Santorini</h3>
+          <img src="Images/Greece/greecesantorinivothonasvillage.jpg" /><br />
+<p>Vothonas Village Santorini: The village of Vothonas is a mere 6 Km away from the town of Fira. It is among the most picturesque
+ village of Santorini and the best part of Vothonas village is that it is sparsely populated which means there is no need to fear
+  about crowds. You can be assured of peace and quietude, two elements that are at premium in this jet set modern age. 
+Vothonas village is a living testimony of a village carved out of rocks. Most of the houses have been dug out of the streams. 
+A leisurely walk along the principal street leaves you mesmerized with the astuteness and creativity of the village craftsmen,
+ who knew how to protect their houses from violent storms. Vothonas village is the architectural showpiece of Santorini Island. <br />
+ There are many inspiring facades of villas that are conspicuous by their stylish doorways and pilasters that blend perfectly with the general white domed 
+ shaped houses that are in a majority. 
+No visit to Vothonas is ever complete without visiting the magnificent church of St. Anna, which happens to be the oldest church 
+of the village and was built way back in 1827. The piece de resistance of the church is the intricately carved wooden panel,
+ which is artistically engraved with scenes from the Old Testament. If you are energetic enough, you would do well to clamber 
+ atop the Panagia Trypa, which is located on the edge of a high cliff
+</p>
+<h3>34.Santorini See & Do: Caldera</h3>
+          <img src="Images/Greece/greecesantorinicaldera.jpg" /><br />
+<p>Santorini Caldera: The word Caldera is derived from the Spanish word Cauldron which literally means depression created by 
+volcanic eruption which extends for atleast a distance of one mile.
+3,500 years back Santorini witnessed an awesome volcanic explosion which occurred in the Aegean Sea and as a result created a 
+huge caldera. The Santorini caldera is approximately four miles in diameter.
+The Santorini Caldera undoubtedly is one of the natural wonders on planet earth. The volcanic explosion that occurred here more 
+than 3500 years ago forever changed the topography of the Mediterranean coast.<br />
+A growing number of scientists and archaeologists link the Santorini caldera to the myth of Atlantis.The Santorini caldera is 
+actually a basin, whichscientists and archaeologists link the Santorini caldera to the myth of Atlantis.The Santorini caldera is 
+actually a basin, which extends for miles together and the landscape is conspicuous by steep rocky cliffs that towers above, 
+almost touching the sky at more than a thousand feet from the sea level and even extends underneath the sea for an additional 
+thousand feet, thereby creating a perfect harbor.<br />
+To the northernmost part of the Caldera is the picture perfect town of Oia. This town is much preferred by the tourists and is 
+always buzzing with activity with plenty of bars, restaurants and hotels that are ideally positioned on rocky promontories that 
+provides the discerning international tourist with fabulous panoramic views of the Santorini Caldera. Oia can be reached by a road
+ that meanders along the rather steepcliffs located to the eastern periphery of Santorini. At certain points this road is so 
+ narrow that it looks more like a ridge that can barely accommodate two lanes with no railing for protection. No wonder than that
+  the trip to Oia is not for the faint hearted.<br />
+There is also the capital city of Fira which is ideally located to the eastern elevation of the Caldera. The town of Fira is 
+well spread over several high cliffs some of which towers above reaching heights of 1,200 feet above sea level which makes for 
+an awesome spectacle. Fira like Oia is replete with bars, restaurants and hotels that have been built in vantage locales with a 
+view to provide the discerning tourists with amazing panoramic vistas of the Santorini caldera. The principal port of Santorini 
+is just below the cliff and tourists who arrive at the port of Fira always have the option of embarking on a donkey ride that 
+takes them to the summit from where the surrounding natural panorama is absolutely breathtaking to say the least. For the no so 
+agile, there is the option of a cable car ride which is exciting as well.<br />
+A peculiar characteristic of Santorini villages is that they have been constructed right on the calderas rim. Also, it is a fact 
+that the peripheral areas of the caldera are exposed to strong and blustery winds. 
+The volcanic explosion that occurred here some 3500 years ago completely submerged the center of ancient kingdom of Strongyle. 
+The resultant void that was created in the landscape was filled up by gushing sea waters and thus the caldera came into existence. In certain places the Santorini caldera is all of 400 meters deep.
+Today, the Santorini Caldera is one of the most important geological configurations on planet earth and rightfully, it has been 
+the subject of higher research in the domain of Geology as well as Archaeology.
+The Santorini caldera has an elevation, which varies between 150 to 350 meters. The distance from one end of the island (Cape 
+Exomitis) to the other end (Cape Mavropetra) is 18 Kms. The island's breadth varies from 2 to 6 Kms.
+</p>
+<h3>35. Red Beach</h3>
+          <img src="Images/Greece/greecesantoriniredbeach2.jpg" /><br />
+<p>Red beach Santorini: The red beach is one of the most famous and beautiful of the beaches of Santorini. It is located near the
+ village and ancient site of Akrotiri.
+Because it is smallish, the red beach gets quite busy. A number of people come onto the headland just to admire this beach and 
+never make it down to the hot sand. The reason why it attracts so many people is because of the slabs of red and black volcanic 
+rocks behind it.<br />
+Indeed one walks from the car park over a rocky route before it comes into view. If you look along the rock you can see it 
+gradually turn white and the next beach obtains its name from this. The sand itself is reddish black and painful to sit straight 
+onto. There are thus a lot of sun loungers and shades. Just in front of the clear water is a corridor of large pebbles. You find 
+on this beach that the sun seems to beat down particularly strong. The snorkeling is good here due to the interesting rocks. 
+Only accessible by car and then by walking from the lot, it can reached by the sea, with caiques (small fishing boats which are 
+used during the summer for transportation) that depart from the ports of Akrotiri and Fira.
+The White Beach is also located in the area, and the same caique can take you to it.
+</p>
+<h3>36.Santorini Beaches: Kamari beach in Santorini Greece</h3>
+          <img src="Images/Greece/greecesantorinikamari2.jpg" /><br />
+<p>Kamari Santorini: Kamari is a famous beach resort of Santorini situated ten kilometers southeast of Fira, on the exact opposite
+ side of the island from Perissa.
+The general landscape is much similar to Perissa: an impressive long and inviting black sandy beach, characterized by an enormous
+rock called Mesa Vouno that rises from the sea.<br />
+The area offers a great landscape, especially at night, when the rock is lighted.
+The village of Kamari is not built in the same manner that Perissa. The houses of the village line the beach, and offer a nice
+ walk (volta) by the sea. 
+The area is more crowded and offers a bigger diversity of hotels, rooms, restaurants, snacks, cafés, bars and night clubs.
+The beach of Kamari is fully organised and offers all kinds of facilities like sun chairs, umbrellas and different types of water
+ sports.
+From Kamari, a road takes you up the mountain to Ancient Thira, and a caique (traditional fishing boat) can bring you to the wild 
+isle of Anafi.
+</p>
+<h3>37.Perissa Santorini:</h3>
+          <img src="Images/Greece/greecesantoriniperissa.jpg" /><br />
+<p>Perissa is a beach resort situated 15 km southeast of Fira. It is a very tourist-crowded village and has an impressively long 
+black sandy beach.
+It’s most noticeable feature is the Mesa Vouno, an enormous rock rising from the sea.
+This area of Santorini offers a great night view when the lights of the rock are lit.
+The village of Perissa is not really a village but a mostly a tourist town, populated only during the summer holidays time. 
+The village offers a great variety of hotels and rooms, taverns and restaurants, cafes, bars, beach bars and night clubs.
+The area is newly built and has been created only for the purpose of welcoming tourists, which explains the architecture, 
+that is very different from the other villages, that are much more traditional.
+From Perissa, a small path crosses the mountain and leads to the ruins of Ancient Thera.
+The excursions can be made by foot or riding donkeys..
+The village of Perissa is also home to the charming chapel of Agia Irena (16th-17th centuries).
+</p>
+<h3>38.Agios Georgios beach:</h3>
+          <img src="Images/Greece/greecesantoriniagiosgeorgiosbeach.jpg" /><br />
+
+<p>One of the famous black beaches of Santorini, Agios Georgios beach is one of the more “tourist friendly” beaches. 
+Located near Perissa, about 3.5 kilometers away, Agios Georgios beach is an exciting option to any visitor to the town. 
+It provides everything to a visitor, from umbrellas and seats for rent, to hotels and bars that fit every budget. With options
+ galore, visitors are spoilt for choice and there are always too many things to do and not enough time.
+A large number of restaurants and tavernas lining the seafront offer a break from the activities on the beach. The beach is a 
+haven for water sport enthusiasts, giving them a wide range of water activities to choose from, including Jet- skiing, 
+scuba-diving, windsurfing, paddleboats and banana boats. Agios Georgios beach is clearly an ideal holiday spot for people of
+ all tastes and styles.
+</p>
+<h3>39.Cape Columbo beach </h3>
+          <img src="Images/Greece/greecesantorinicapecolumbobeach2.jpg" /><br />
+
+<p>Cape Columbo Santorini: This is one of Santorini’s most isolated beaches and one of its most quiet.
+There is a long strip of dark sand which becomes thinner as the cliff rises up behind it. You can park on the headland in 
+two different positions and make your way down to this part. Alternatively to the north there is another more conventional 
+entrance and here there is less privacy.
+The waves beat down on this beach.
+
+</p>
+<h3>40.Perivolos beach</h3>
+          <img src="Images/Greece/greecesantoriniperivolosbeach.jpg" /><br />
+
+<p>Perivolos Santorini: The picturesque beach of Perivolos is ideally located in close proximity to Perissa which is a mere 3 Kms 
+away. This marvelous beach of Santorini is towards the southern end of the island of Santorini. The beach is conspicuous by its 
+sparkling azure blue waters and is among the most tranquil beaches in the whole of Santorini.
+On the beachfront there are numerous taverns, pubs and restaurants. Don’t miss out on the fish based local Santorini delicacies. 
+They are lip smacking good. In fact sea food never tasted this good before.
+Perivolos beach is easily accessible from Perissa. Buses and cabs can be hired that will take you to the Perivolos beach. 
+Visitors with high energy levels can choose to walk the distance and the walk is indeed invigorating as the surrounding 
+countryside is bewitchingly beautiful.<br />
+Perivolos beach in many ways is an extension or continuation of the Perissa and Agios Georgis beaches and there are absolutely 
+no barriers in between the beaches. This is all the more reason to visit the marvelous stretches of Perivolos beach as you are 
+offered with more choice and diversity in terms beach side fun, fiesta and amenities.
+The Perivolos beach is also referred to, as The Black Beach due primarily to the fact that its shoreline is strewn with black 
+pebbles which in itself is pretty unique. For visitors who have done the beaches of the Carribean, Australian and Asia Pacific, 
+the black color of the beachfront at Perivolos comes as a breath of fresh air.<br />
+Perivolos beach happens to be among the more organized beaches of Santorini, and beach bums are in for a treat in terms of the 
+plethora of exciting water sports facilities that are on offer like windsurfing, scuba diving, jet skiing etc. to name just a few.
+ In fact one can have a whale of a time at this pretty beach of Santorini.
+</p>
+<h3>41. Vlychada beach</h3>
+          <img src="Images/Greece/greecesantorinivlychada.jpg" /><br />
+
+<p>Vlychada Santorini: The beach follows a smooth descent. You will notice as you approach two large chimneys. One is directly 
+behind the beach and one nearby, but don’t worry this factory is no longer in use and the brick structures are actually quite 
+pleasant to look at.
+This beach of Santorini itself is quite long with the dark grey sand one finds all over the island. There are a number of sun 
+loungers here. It’s worth having a look at the rock formations behind the beach which are quite interesting.
+</p>
+<h3>42.Vourvoulos Santorini:</h3>
+          <img src="Images/Greece/greecesantorinivourvoulos.jpg" /><br />
+
+<p>Vourvolos beach is a mere 7 Kms. from Fira located to the northeast. This sandy beach of Santorini is ideal for relaxation and
+ water is almost turquoise blue. The best part about Vourvoulos beach is that it is among the lesser known beaches of Santorini 
+ and as such it is secluded which provides discreet privacy to the discerning beach bum. 
+Visitors to Vourvoulos would do well to visit the fascinating village of Karterados. It is without doubt one of the most
+stunning village of Santorini and the buildings here in Karterados are renowned for their architectural grandeur. The landscape 
+is rocky which only adds to the charm of the village. The houses here are surprisingly at an identical level with the street and 
+the churches are indeed elegant in terms of architectural style.<br />
+Regrettably the Vourvoulos beach is not well maintained and the beach is full of garbage and trash. Also, it is a fact that the 
+sea breeze here is very blustery which makes sun bathing at the beach to be a dangerous proposition. The waves too are huge and 
+it is always advisable to be at a safe distance from the shoreline.
+The Vourvoulos beach is ideal for someone who wants to holiday unseen and unheard. There is no fax, no telephone, no E-mails to 
+bother. Here at Vourvoulos it is simply you and the sea.
+</p>
+<h3>43.White beach</h3>
+          <img src="Images/Greece/greecesantoriniwhitebeach.jpg" /><br />
+
+<p>White Beach Santorini: The cove right next to the Red beach, on the southern side of Santorini, is known as the White beach. 
+It is very similar to the Red beach, with black pebbles on the shore, only that the surrounding cliffs are white. This beach is 
+accessible only by boat or on foot from the Red beach. 
+It is less popular than the neighbouring cove and therefore more quiet. It doesn't have much facilities, except for some umbrellas
+ and sunbeds along the coast, although the surrounding rocks provide some shade too.
+ </p>
+ <h3>44. Hike From Fira to Oia</h3>
+          <img src="Images/Greece/greecesantorinihikefromfiratooia.jpg" /><br />
+
+ <p>This was the most gorgeous hike I've ever been on, well worth the effort. We started in Imerovigli instead of Fira (though we 
+ walked from Fira to Imerovigli the prior day and it was really cute to go through the city) - we started a bit later than we'd 
+ hoped so we were walking quite fast to catch the sunset from the castle at the tip of Oia, but we did the whole thing in under 2 
+ hours. Depending on how many breaks you want to take and the fitness level of your companions, you can adjust accordingly. We 
+ brought water and fruit, which was perfect for the hot but windy day.
+Our hotel manager recommended doing the hike at 5 or 5.30pm, which was great not only because it was less hot, but also because 
+that's when the sun gives the best light on the western side of the island. The views are breathtaking - both for their beauty and
+ for the fact that you're often standing on a cliff with a crazy drop if you take a wrong step. If you have small children, I 
+ would be careful, as you're literally scaling hills without railings on gravel at some point. 
+We were concerned that it might not be obvious where to go, but there are signs that appear periodically, and you can generally 
+see where Oia is as you go. It was pretty amazing that you're hiking around the same Caldera but at each point, the view changes. 
+Bring a good camera!
+http://www.youtube.com/watch?v=5RtMWyBcjuI
+“DO THIS!!! Great trip with gorgeous views. Skip the steps and take the cable car!”
+I'd seen this hike on another website and decided that we'd do it when our ship stopped in Santorini on a cruise we were taking. 
+We knew we'd do other hikes on this vacation, so we were prepared with hiking boots, camelbak backpacks, trail mix, and sunscreen 
+too. We did the hike in June, so it was definitely a scorcher. We started early, at about 9am or so, with the intent to make it to
+ Oia by lunchtime. It took us about 3 hours, but we stopped several times to take pictures. <br />
+When arriving by boat, you must decide how to get up to Fira in the first place, either take the cable car, or take the steps... 
+all 600 of them. You can also choose to pay 5 Euro and ride a donkey up the steps. We knew we were hiking the whole thing, so why
+ not kick it off with some cardio and hike the steps too? In the interest of health and fitness, walking up is a good idea. It's a
+  heck of a workout and takes about 30 minutes. In the interest of not being trampled, kicked, or bitten by a donkey, or stepping 
+  in 1 of 100 piles of steaming donkey business, it is not such a good idea. It was a great workout, but if I had to do it again, 
+  I'd take the cable car. You will get plenty of exercise on this hike, so do yourself a favor here and take the cable car. There
+   are 20 or so donkeys sharing the path with you at any given time on their way up, and then you meet the 20 or so donkeys on 
+   their way down and things can get a little hectic. We saw one donkey kick another one that this lady was riding, and she almost
+    got a hoof right to her knee. We high-tailed it up the 800 ft, because I was not liking the donkey party we'd gotten ourselves
+     into. It took us 26 minutes to get up the hill, and we were breathing pretty hard once we got up there. <br />
+The walk through Fira to the trailhead is nothing special. There are a ton of touristy shops, overpriced restaurants, and cars and
+ scooters whizzing by. Keep walking past all of it until you get to the first church on the left, then the footpath starts right 
+ behind it. (We stopped in the Hertz rental car office for directions, it was easy to find from there.) The beginning of the hike 
+ goes through a little village, with shopping and hotels all on the footpath. There are no cars, as only a scooter or bicycle will
+  fit on the path. Once you get to the end of the village, the path will become gravel and open up. You'll be right at the cliff's
+   edge with a beautiful view of the water and Oia in the distance. It's easy from here, just stay on the path. It will move up 
+   and down hills, become wider and narrower, change from gravel to pavement to pumice sand, and pass by churches, restaurants, 
+   and hotels with beautiful infinity pools that you will be dying to jump into. <br />
+Perhaps the most recognizable landmark along the way is the church (Profitis Ilias), which stands alone about 2.5km (1.6mi)
+ north of Imerovigli. Here, you will find a rock that is painted with an arrow pointing to the path to Oia. Keep following it. 
+ You've got about another 5k (3mi) to go. This will include a couple more climbs and descents, eventually leading into a path of 
+ volcanic ash/sand. After that, the path dumps out on to the road for just a few hundred feet, then you will find a trailer that 
+ sells refreshments (if it's open), and the path continues behind the trailer --Don't follow the road here! Get back on the path 
+ behind the trailer and follow it on the last uphill part. If you look at the plant life along the way, depending what time of 
+ year it is, you can find caper bushes. You'll pass 2 more churches standing by themselves, and then the path will widen and walk 
+ you right into Oia.<br />
+It really is a great hike and I can't say enough good things about it. It will only take about 3 hours even stopping to take
+ pictures. Plus, there are a lot of places you can stop to rest, use the restroom, grab a snack/drink etc. along the way. You 
+ will have the greatest views and opportunities for beautiful panoramic shots. On a month-long trip throughout the Mediterranean,
+  this was one of my top 5 favorite things we did.
+</p>
+<h3>45.Tram</h3>
+          <img src="Images/Greece/greecesantorinitram.jpg" /><br />
+
+<p>There are two ways (that I know of) to get up to towns of Fira and Oia. Donkey or Tram. The donkey path in summer months is crowded and 
+if you don't like the smell of these animals, it can be a very uncomfortable way up. Assuming there are no big cruise ships in the harbor, 
+the wait at the tram will be only a few minutes. Once on the tram you will experience a lovely view of the harbor and Fira. It's the best 
+way to get up to the action of Santorini!!
+</p>
+<h3>46.ITINERARY FOR EXPLORING SANTORINI IN 3 DAYS:</h3>
+<h3>DAY1:</h3>
+<p>Assuming you reach early morning. Check into Hotel & rest a bit, have your breakfast and leave to explore Santorini. 
+Start with IMEROVIGLI. The best way to explore Imerovigli is parking the car at the car park and walking up the cliff. Imerovigli is a 
+typical Santorini village. The area has many hotels and typical houses looking at the volcano and the blue ocean. The village offers an 
+incredible view of the sunset.. There are also some nice taverns There are many cobbled streets and blue or white- washed stairs. The 
+village is full of gorgeous houses in blue, white with just a dash of cream, yellow and ochre. Its lovely just walking around and letting all 
+the sights sink. One can easily spend atleast 2 hours exploring and capturing the sights on lens. Following this choose from one of the many 
+nice cafe/ taverns and have lunch. A must have after lunch is VINSANTO! Its a famous Santorini sweet wine/ liquor and a speciality of 
+Santorini.<br />
+
+THE AFTERNOONS are really hot and everything shuts down, so It is recommended that one reaches back to the hotel and rests or naps for a 
+couple of hours. Plus its Day1 and its better to take it slowly, as the famous Greek saying goes “SIGA, SIGA!”<br />
+
+START YOUR EVENING EARLY by 5:00 p.m. Whether staying at Oia or not- The sunset here is the most gorgeous in the world. So reach Oia by 
+5:00 p.m. and block the right space for a great view. People really come early and crowd the streets. You can park your car/ bike at The
+Liyoyerma Car Park- read the sign Kyklos. Now if you reach at 5:00 you can either walk to Ammoundi Bay and watch the sunset from a tavenra 
+or explore Oia by foot and observe one of most beautiful sunsets ever. The sun generally sets by 7:00. You can sit at one of the many walls/
+ cafes or restaurants at Oia for a gorgeous sunset. Golden sunset villa has a cafe from where you can watch a great sunset. Marizan Caves 
+ and Villas too strongly recommended for the most wonderful sunset view. Oia has many restaurants and a dinner here on DAY1 is highly 
+ recommended.
+</p>
+<h3>DAY2:</h3>
+<p>Start by 10:00 am. Start with PYRGOS VILLAGE. Its very different from the other Santorini Villages. Must see the Kastro when in Pyrgos. 
+45 minutes is good enough to get a good feel of Pyrgos. From Pyrgos proceed to the MONASTERY OF PROFITIS ILLIAS. From the Monastery go to 
+Meglochori Village and Explore one of the many wineries and take a winery tour.<br />
+
+Next, Head out to the gorgeous Perissa beach. The beach has loads of cobbled stones and almost greyish black sand. There are many taverns 
+and you can spend a couple of hours working on a great tan, swimming or eating and sipping drinks! If Perissa is not of that much appeal to 
+one then one can further go to VLYCHADA VILLAGE- full of some of the best and cheapest tavernas. One can explore the village and have lunch 
+here. Post lunch afternoon nap is a must- at the beach or the hotel. One can spend the rest of the afternoon at Akrotiri- THE RED BEACH.<br />
+
+
+LEAVE FOR SUNSET AND AN ACTION PACKED NIGHT AT FIRA. More about Clubs:<br />
+
+General Closing Hours for clubs and bars:<br />
+Cafes: Between 1.00 & 2.00 a.m<br />
+Bars: Between 2.30 & 3.00 a.m.<br />
+Clubs: Friday & Saturday - all year round until till the early hours of the morning. Low Season: weekdays 3.00 a.m. High Season - Weekdays 5.30 a.m.<br />
+Beach Cafes: Between 1.00 & 2.00 a.m<br />
+Beach Bars: Beach Bars fall into 2 categories - 'day club scene' beach bars such as Wet Stories or Chilli Beach Bar close around 9.00 p.m. but this is not engraved in stone.<br />
+Evening Beach Bars: (Ethnic, Hook Bar, Mango) stay open until the early hours of the morning.<br />
+
+SOME OF FIRA CLUBS:<br />
+
+• Casablanca Soul- FIRA-24008- Club / Alternative<br />
+• Koo Club-FIRA,22025-Pumping Main Stream<br />
+• Mamounia Club- FIRA,(+30) 694 541 7871-Greek / Main Stream<br />
+• Tithora Club-FIRA, 23519-Rock<br />
+• Town Club-FIRA,23675-Greek / Main Stream<br />
+• Enigma Club-FIRA,22466-Pumping Main Stream*****<br />
+• Club 33-FIRA,23065-Greek</p>
+<h3>DAY3:</h3>
+<p>TAKE A DAY CRUISE TO THE NEA KAMENI AND PALEA KAMENI AND THIRRASIA VILLAGE.<br />
+There are many boat cruises available. Read TA reviews and ask from destination experts for guidance and book for a day cruise.
+
+ The cruise takes you to the VOLCANIC ISLANDS of Palea and Nea Kameni and you have to trek a bit to reach the summit. 
+ Its totally worth the experience. Do not expect a volcano, all you will get is some sulphuric fumes and really hot steam but the 
+ views from the top are totally amazing. Post the volcanic islands the boat generally stops at the warm sulphuric areas and you can dive 
+ into the gorgeous Aegean sea and swim for a bit. Post this you will be taken by the boat to THE VILLAGE OF THIRRASIA, explore the village
+  and have lunch there. By late afternoon you will be brought back to Santorini.<br />
+
+YOU CAN REST THE AFTERNOON IN YOUR HOTEL OR JUST ENJOY AND RELAX AT THE KAMARI BEACH.<br />
+
+FOR THE LAST EVENING go back to that part of Santorini that you have loved most and spend the sunset followed by dinner at a place that
+ will make you remember Santorini forever!!
+</p>
+
+
+
+
+
+
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="Santorinihotels" runat="server" HeaderText="Santorinihotels">
+ <%--SantoriniHotelsZ--%>
+    <HeaderTemplate>
+      <div class="sublevel2tabs"> Hotels
+
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+       <ajaxToolkit:TabContainer ID="Santorinihotelstab" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+<%--SantoriniHotelsTabZ--%>
+        <ajaxToolkit:TabPanel ID="Santoriniapartments" runat="server" HeaderText="Santoriniapartments">
+<%--SantoriniHotelsApartmentsZ--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Apartments</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+               
+          
+                   </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Santorinibudgethotel" runat="server" HeaderText="SantoriniBudgetHotel">
+<%--SantoriniBudgetHotelsZ Under5k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Budget Hotels</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          <p><h3>Aethrio(INR 4000 Breakfast Included)</h3>  
+Main Street, 84702 Oia<br />
+               
+              <img src="Images/Greece/greece-santorini-aethrio1.jpg" />
+              <img src="Images/Greece/greece-santorini-aethrio7.jpg" />
+              <img src="Images/Greece/greece-santorini-aethrio2.jpg" />
+              <img src="Images/Greece/greece-santorini-aethrio3.jpg" />
+              <img src="Images/Greece/greece-santorini-aethrio4.jpg" />
+              <img src="Images/Greece/greece-santorini-aethrio5.jpg" />
+              <img src="Images/Greece/greece-santorini-aethrio6.jpg" />
+
+       <br />
+
+Ideally located in the heart of Oia, Aethrio Hotel offers spacious rooms and apartments with sunset 
+views.
+
+Aethrio offers studios, apartments and superior rooms constructed according to the Cycladic 
+architecture, enjoying modern facilities and comforts. All accommodation types feature balcony and 
+en-suite bathroom.<br />
+
+Aethrio provides guests with a large swimming pool, a breakfast room and a lounge area with satellite 
+TV. Guests at Aethrio may benefit from the transfer service to and from the port offered.
+
+The rooftop terrace offers the perfect place in which to relax and soak up the Santorini sun whilst 
+taking in the stunning sea views.
+
+The main square with its many shops, restaurants and bars is just steps away from Aethrio Hotel.<br />
+
+Hotel Rooms: 34<br />
+
+Room Facilities: Balcony, View, Telephone, Satellite Channels, Air Conditioning, Heating, Shower,
+ Hairdryer, Toilet, Bathroom, Minibar, Wake Up Service/Alarm Clock<br />
+
+Room Size:  20 square metres<br />
+Bed Size(s): 1 Double or 2 Single<br />
+</p>
+          <p><h3>Apanemo(INR 5,000 Breakfast Included)</h3>  
+Off Main Street, 84700 Akrotirion<br />
+                     <img src="Images/Greece/greece-santorini-apanemo1.jpg" />
+                     <img src="Images/Greece/greece-santorini-apanemo2.jpg" />
+                     <img src="Images/Greece/greece-santorini-apanemo3.jpg" />
+                     <img src="Images/Greece/greece-santorini-apanemo4.jpg" />
+                     <img src="Images/Greece/greece-santorini-apanemo5.jpg" />
+                     <img src="Images/Greece/greece-santorini-apanemo6.jpg" />
+                     <img src="Images/Greece/greece-santorini-apanemo7.jpg" />
+                       
+
+
+
+       <br />
+
+"Apanemo" is a traditional village-style apartment complex, recently renovated and built facing the 
+Caldera, the volcano and the deep blue Aegean Sea.
+
+The complex is located in Akrotiri, the unspoilt side of the island of Santorini. It is only 5 minutes 
+from the archaeological town and near to the famous red beach. There is a 3-level swimming pool and a 
+children’s pool, as well as a breakfast room and private parking.
+
+You are invited to enjoy a memorable holiday in a friendly and hospitable family environment. The 
+traditional architecture and furniture, in combination with the family service, aims to offer 
+unforgettable stays.<br />
+
+Hotel Rooms: 25<br />
+
+Room Facilities: Balcony, Sea View, TV, Air Conditioning, Shower, Toilet, Bathroom, Minibar
+<br />
+
+Room Size:  15 square metres<br />
+Bed Size(s): 2 Single or 1 Double<br />
+
+
+</p>
+          
+
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Santorinistar3" runat="server" HeaderText="Santorinistar3">
+<%--SantoriniHotelsStar3Z Under 8k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">3Star
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+           <p><h3>Aroma Suites(INR 8000 )</h3>  
+Agiou Mina, 84700 Fira<br />
+               <img src="Images/Greece/greece-santorini-aroma1.jpg" />
+               <img src="Images/Greece/greece-santorini-aroma2.jpg" />
+               <img src="Images/Greece/greece-santorini-aroma3.jpg" />
+               <img src="Images/Greece/greece-santorini-aroma4.jpg" />
+               <img src="Images/Greece/greece-santorini-aroma5.jpg" />
+               <img src="Images/Greece/greece-santorini-aroma6.jpg" />
+               <img src="Images/Greece/greece-santorini-aroma7.jpg" />
+               <img src="Images/Greece/greece-santorini-aroma8.jpg" />
+       <br />
+
+With stunning views to the volcanic island of Nea Kameni and the Aegean Sea, this little hotel is 
+located in the centre of Fira, 100 metres from the Cathedral Church.
+
+Built in the charming style of Cycladic architecture, Aroma Suites provides a serene, quiet haven 
+for relaxation on the magnificent island of Santorini.
+<br />
+Each apartment or room has its own small terrace or yard from which one can see the volcano, the deep 
+blue waters of the Aegean Sea and the magnificent sunsets Santorini is so famous for.
+<br />
+With gentle lighting and vibrant joyful colours, rooms are clean and simply decorated to themes of
+ herbs or spices such as Lemongrass and Spearmint. 
+All rooms have air conditioning and balconies with wonderful views.
+
+Guests have the opportunity to use the swimming pool of the sister hotel, situated just 50 metres away.
+ Free Wi-Fi is also provided throughout Aroma Suites.<br />
+
+Hotel Rooms: 6<br />
+
+Room Facilities: Balcony, Patio, Sea View, Landmark View, TV, Telephone, Radio, DVD Player, iPad, 
+Safety Deposit Box, Air Conditioning, Ironing Facilities, Shower, Hairdryer, Bathrobe, Toilet, 
+Bathroom, Refrigerator<br />
+
+Room Size:  15 square metres<br />
+Bed Size(s): 1 Double<br />
+</p>
+           <p><h3>Smaro Studios(INR 6500 )</h3>  
+Firostefani, 84700 Firostefani<br />
+               <img src="Images/Greece/greece-santorini-smaro1.jpg" />
+               
+               <img src="Images/Greece/greece-santorini-smaro2.jpg" />
+               <img src="Images/Greece/greece-santorini-smaro3.jpg" />
+               <img src="Images/Greece/greece-santorini-smaro4.jpg" />
+               <img src="Images/Greece/greece-santorini-smaro5.jpg" />
+               <img src="Images/Greece/greece-santorini-smaro6.jpg" />
+               <img src="Images/Greece/greece-santorini-smaro7.jpg" />
+               <img src="Images/Greece/greece-santorini-smaro8.jpg" />
+               <img src="Images/Greece/greece-santorini-smaro9.jpg" />
+       <br />
+
+Smaro Studios features air-conditioned apartments with volcano views in the picturesque Firostefani.
+ There is a 5-person hot tub in the communal terrace and free Wi-Fi access is available throughout.
+
+Each carefully restored apartment features traditional furniture and marble floors. They all include 
+a small kitchen with coffee maker and complimentary breakfast essentials, as well as a safety box.<br />
+
+A rich breakfast is served each morning at the rooms’ balcony and includes eggs, jams, toast and
+ pancakes. A bottle of Vinsanto wine, mixed nuts and fresh fruits are offered upon arrival.
+
+Smaro’s front desk is open from morning until midnight and offers tourist information and car hire
+ service. Island tours can also be organized here.<br />
+
+Apartments: 6<br />
+
+Apartment Facilities: Balcony, Patio, Telephone, Radio, Satellite Channels, Cable Channels, Safety 
+Deposit Box, Air Conditioning, Hot Tub, Seating Area, Heating, Tiled / Marble floor, Wooden / Parquet 
+floor, Bath, Hairdryer, Toilet, Bathroom, Tea/Coffee Maker, Kitchenette, Refrigerator, Kitchenware
+<br />
+
+Apartment Size:  23 square metres<br />
+Bed Size(s): 1 Double, 1 Sofa bed.<br />
+</p>
+           <p><h3>Iliovasilema Hotel & Suites(INR 7000 )</h3>  
+Main Street, 84702 Oia<br />
+              <img src="Images/Greece/greece-santorini-Iliovasilema1.jpg" />
+             
+              <img src="Images/Greece/greece-santorini-Iliovasilema2.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema3.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema4.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema5.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema6.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema7.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema8.jpg" />
+               <img src="Images/Greece/greece-santorini-Iliovasilema9.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema10.jpg" />
+              <img src="Images/Greece/greece-santorini-Iliovasilema11.jpg" />
+
+
+       <br />
+
+This romantic retreat in Imerovigli boasts breathtaking views over the Caldera from its guestrooms and
+ communal areas. It is built on the top of the cliff, 1.8 km from Fira.
+
+Iliovasilema Hotel & Suites is constructed in keeping with traditional Cycladic architecture. Each of 
+its guestrooms is airy and refined. All boast flat-screen TVs, well-stocked minibars and air 
+conditioning.
+
+Light dishes and snacks can be served through room service. For something more formal, Fira’s eclectic
+ restaurants are a short stroll from the hotel.<br />
+
+Iliovasilema Hotel & Suites’ chic bar area with amazing views of the Aegean Sea is ideal for evening 
+cocktails. The outdoor pool boasts similar stunning vistas.<br />
+
+Hotel Rooms: 17<br />
+
+Room Facilities: Balcony, Patio, View, Telephone, Satellite Channels, Flat-screen TV, Safety Deposit 
+Box, Air Conditioning, Seating Area, Heating, Tiled / Marble floor, Shower, Free toiletries, Toilet, 
+Bathroom, Minibar, Wake Up Service<br />
+
+Room Size:  22 square metres<br />
+Bed Size(s): 1 Large double<br />
+
+</p>
+           <p><h3>Santorini's Balcony Art Houses(INR 7,500 Breakfast Included)</h3>  
+Thiras - Oias Road, 84700 Imerovíglion<br />
+                       <img src="Images/Greece/greece-santorini-balconyapartment1.jpg" />
+                       <img src="Images/Greece/greece-santorini-balconyapartment2.jpg" />
+                       <img src="Images/Greece/greece-santorini-balconyapartment3.jpg" />
+                       <img src="Images/Greece/greece-santorini-balconyapartment4.jpg" />
+                       <img src="Images/Greece/greece-santorini-balconyapartment5.jpg" />
+                       <img src="Images/Greece/greece-santorini-balconyapartment6.jpg" />
+                       <img src="Images/Greece/greece-santorini-balconyapartment7.jpg" />
+                       <img src="Images/Greece/greece-santorini-balconyapartment8.jpg" />
+                        <img src="Images/Greece/greece-santorini-balconyapartment9.jpg" />
+                       
+
+
+
+       <br />
+
+Santorini's Balcony is nestled on the famous Caldera in Imerovigli. It features an outdoor pool with
+ hydromassage section, poolside bar and a sunbathing terrace with views of the volcano and the edge of
+  the cliff.
+
+Santorini's Balcony Art Houses offers a choice of air-conditioned and self-catered accommodation types. 
+Each with a sophisticated decor, all units have balconies with views of the sea, traditional 
+furnishings and free Wi-Fi.
+
+Each morning, family-run Santorini's Balcony Art Houses serves a buffet breakfast. A variety of Greek 
+taverns and international restaurants can be found within walking distance.<br />
+
+Hotel staff are available 24/7 and will be happy to recommend restaurants and offer insider’s tips on 
+Santorini’s places of interest.
+
+Featuring its private parking area, Santorini's Balcony is located right next to the local bus stop, 
+while the narrow pathway in front of the property connects with both Oia and Fira. Santorini’s capital 
+is only 2 km away.<br />
+
+Apartments: 12<br />
+
+Apartment Facilities: Balcony, View, Telephone, Satellite Channels, Flat-screen TV, Safety Deposit Box,
+ Air Conditioning, Seating Area, Shower, Hairdryer, Free toiletries, Toilet, Bathroom, Kitchenette, 
+ Refrigerator<br />
+
+Apartment Size:  32 square metres<br />
+</p>
+           <p><h3>Maison Des Lys- Luxury Suites(INR 8000 Breakfast Included)</h3>  
+Off Akrotiriou - Megalochoriou Road, 84700 Akrotírion<br />
+              <img src="Images/Greece/greece-santorini-maison1.jpg" />
+              <img src="Images/Greece/greece-santorini-maison2.jpg" />
+              <img src="Images/Greece/greece-santorini-maison3.jpg" />
+              <img src="Images/Greece/greece-santorini-maison4.jpg" />
+              <img src="Images/Greece/greece-santorini-maison5.jpg" />
+              <img src="Images/Greece/greece-santorini-maison6.jpg" />
+              <img src="Images/Greece/greece-santorini-maison7.jpg" />
+              <img src="Images/Greece/greece-santorini-maison8.jpg" />
+               <img src="Images/Greece/greece-santorini-maison9.jpg" />
+
+
+       <br />
+
+With breathtaking views of the Aegean Sea and the volcanic rocks of Santorini, Maison Des Lys boasts 
+15 luxurious suites, all elegantly designed to inspire feelings of relaxation and romance.
+
+Wake up in your tastefully decorated suite and look out from your private balcony or veranda, towards 
+views of the Aegean Sea or the magnificent Caldera. Revive yourself under the powerful hydromassage 
+shower in your spacious bathroom. Go for a leisurely swim in the large outdoor pool, or relax on a 
+comfortable sun bed, with a cocktail and take in the unique views of Santorini.<br />
+
+Hotel Rooms: 15
+<br />
+Room Facilities: Sea View, Landmark View, Terrace, Telephone, Satellite Channels, Flat-screen TV, 
+Safety Deposit Box, Air Conditioning, Seating Area, Extra Long Beds (> 2 metres), Sofa, Tiled / Marble 
+floor, Wardrobe/Closet, Shower, Hairdryer, Spa Bath, Free toiletries, Toilet, Bathroom, Slippers, 
+Refrigerator.<br />
+
+Room Size:  40 square metres<br />
+Bed Size(s): 1 Sofa bed, 1 Large double.<br />
+</p>
+           <p><h3>Veggera(INR 5,500 Breakfast Included)</h3>  
+Main Street, 84 703 Perissa<br />
+                       
+                     <img src="Images/Greece/greece-santorini-veggera1.jpg" />
+                     <img src="Images/Greece/greece-santorini-veggera2.jpg" />
+                     <img src="Images/Greece/greece-santorini-veggera3.jpg" />
+                     <img src="Images/Greece/greece-santorini-veggera4.jpg" />
+                     <img src="Images/Greece/greece-santorini-veggera5.jpg" />
+                     <img src="Images/Greece/greece-santorini-veggera6.jpg" />
+                                          
+
+
+
+       <br />
+
+Located on the famous beach of Perissa, Santorini’s most popular beach, the 4-star Veggera resort 
+disposes 3 swimming pools and a hot tub.
+
+Veggera Hotel, built in neoclassic and Cycladic style, offers traditional rooms and maisonettes 
+featuring satellite TV. All units enjoy private balcony with views to the sea.
+
+Guests can spend their morning in the lounge and breakfast area, before heading to the pools or the 
+beach. Those who wish to stick to their fitness routine, can make use of the gym and sauna facilities.
+
+Veggera restaurant offers a quiet environment where guests can enjoy breathtaking views over the Aegean
+ Sea while tasting Greek cuisine.
+
+Perissa beach with its famous black sand extending for 7 kilometres offers crystal clear waters. 
+3 kilometres far from Perissa, visitors can find Perivolos beach, one of the quietest beaches of 
+Santorini.<br />
+
+Hotel Rooms: 68<br />
+
+Room Facilities: Balcony, Telephone, Satellite Channels, Air Conditioning, Shower, Bath, Toilet, 
+Minibar<br />
+
+Room Size:  27 square metres<br />
+Bed Size(s): 2 Single or 1 Double<br />
+</p>
+  
+ 
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Santorinistar4" runat="server" HeaderText="Santorinistar4">
+<%--SantoriniHotelsStar4Z Under 12k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">4Star</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          
+           
+           
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Santorinistar5" runat="server" HeaderText="Santorinistar5">
+<%--SantoriniHotelsStar5Z Under 20k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">5 Star
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+                   <p><h3>Oia Suites(INR 13,000 Breakfast Included)</h3>  
+Finikia, 84700 Oia<br />
+              <img src="Images/Greece/greece-santorini-oiasuites1.jpg" />
+              <img src="Images/Greece/greece-santorini-oiasuites2.jpg" />
+              <img src="Images/Greece/greece-santorini-oiasuites3.jpg" />
+              <img src="Images/Greece/greece-santorini-oiasuites4.jpg" />
+              <img src="Images/Greece/greece-santorini-oiasuites5.jpg" />
+              <img src="Images/Greece/greece-santorini-oiasuites6.jpg" />
+              <img src="Images/Greece/greece-santorini-oiasuites7.jpg" />
+              <img src="Images/Greece/greece-santorini-oiasuites8.jpg" />
+              
+
+
+
+       <br />
+
+Oia Suites are situated in the beautiful village of Oia. It offers free parking, free wireless internet
+ and breathtaking views of the volcanic islets and the famous Santorini cliffs.
+
+The Cycladic-style complex offers spacious minimally decorated studios with kitchenette facilities. 
+They are equipped with LCD TV and air conditioning. Each room has a private bathroom and balcony. 
+Oia Suites provide daily room cleaning service.
+<br />
+The complex features a swimming pool with a large sun terrace and comfortable sun beds overlooking the
+ volcano.
+
+Cars and bikes are available for rental and information on excursions is provided. Athinios port is a
+ 20-minute drive away.<br />
+
+Apartments: 6
+<br />
+Room Facilities: Balcony, View, Fax, DVD Player, Satellite Channels, Flat-screen TV, Safety Deposit Box,
+ Air Conditioning, Ironing Facilities, Seating Area, Extra Long Beds (> 2 metres), Private Entrance, 
+ Soundproofing, Wardrobe/Closet, Hairdryer, Free toiletries, Toilet, Bathroom, Bath or Shower, 
+ Tea/Coffee Maker, Kitchenette, Refrigerator, Electric Kettle, Kitchenware, Wake Up Service.<br />
+
+Room Size:  40 square metres<br />
+Bed Size(s): 1 Double, 1 Sofa bed.<br />
+
+
+</p>
+                   <p><h3>Dana Villas(INR 15,000 Breakfast Included)</h3>  
+Firostefani, 84700 Firostefani<br />
+              
+                       <img src="Images/Greece/greece-santorini-dana1.jpg" />
+                       <img src="Images/Greece/greece-santorini-dana2.jpg" />
+                       <img src="Images/Greece/greece-santorini-dana3.jpg" />
+                       <img src="Images/Greece/greece-santorini-dana4.jpg" />
+                       <img src="Images/Greece/greece-santorini-dana5.jpg" />
+                       <img src="Images/Greece/greece-santorini-dana6.jpg" />
+                       <img src="Images/Greece/greece-santorini-dana7.jpg" />
+                       
+
+
+
+       <br />
+
+Situated in a peaceful area outside Fira’s centre, Dana Villas offer views of the volcano and the 
+famous Santorini sunset. The elegant rooms are decorated in the traditional Cycladic style.
+
+Dana Villas offers a variety of well-appointed rooms and suites. Each is equipped with cable TV, 
+air condition, DVD and CD players, safety deposit box and coffee making facilities. The view of the 
+volcano, caldera and Aegean Sea are guaranteed from all room types and open air premises.<br />
+
+The hotel features a 70-m2 swimming pool with plenty of sun loungers. A hot tub and massage facilities 
+are among the wellness options that Dana Villas offer.
+
+Villas Dana's restaurant overlooks the caldera and serves Greek and international specialities. The 
+pool bar offers cocktails and smoothies. Room service is also provided.
+
+Guests have free Wi-Fi access and a 24-hour reception service. Upon charge, the hotel offers a minibus 
+transfer to the port and the airport is provided during the summer season. Free public parking is 
+possible at a location near Dana Villas.<br />
+
+Apartments: 30<br />
+
+Room Facilities: Safety Deposit Box, Air Conditioning, Heating, Hairdryer, Bathrobe, Free toiletries,
+ Toilet, Bathroom, Slippers, Bath or Shower, Telephone, Radio, DVD Player, CD Player, Satellite 
+ Channels, Cable Channels, Tea/Coffee Maker, Minibar, Kitchenette, Refrigerator, Wake Up Service/Alarm 
+ Clock<br />
+
+Bed Size(s): 1 Double<br />
+
+
+</p>
+                   <p><h3>Astarte Suites(INR 14,000 Breakfast Included)</h3>  
+Akrotiriou - Megalochoriou Road, 84700 Akrotírion<br />
+                     
+             <img src="Images/Greece/greece-santorini-astarte1.jpg" />
+             <img src="Images/Greece/greece-santorini-astarte2.jpg" />
+             <img src="Images/Greece/greece-santorini-astarte3.jpg" />
+             <img src="Images/Greece/greece-santorini-astarte4.jpg" />
+             <img src="Images/Greece/greece-santorini-astarte5.jpg" />
+             <img src="Images/Greece/greece-santorini-astarte6.jpg" />
+             <img src="Images/Greece/greece-santorini-astarte7.jpg" />
+              <img src="Images/Greece/greece-santorini-astarte8.jpg" />
+                      
+
+
+
+       <br />
+
+Perched on the volcanic rock of Santorini, Astarte offers suites with private Jacuzzi® and stunning 
+views over the caldera and the Aegean Sea. It features an infinity pool and serves fine Mediterranean 
+cuisine.
+
+Astarte Suites are romantically decorated in natural tones and feature built-in beds. Each is equipped
+ with a satellite TV, CD player and mini bar. They all open out to a private terrace overlooking the 
+ volcano. Bathrobes, slippers and Hermes cosmetics are offered for extra comfort.<br />
+
+Guests can enjoy breakfast in the privacy of their terrace. Local and international dishes made with 
+fresh products are prepared by the Astarte chef. The Morning Star pool bar serves refreshing cocktails,
+ snacks and light meals.
+
+The hotel’s staff offers free 2-way transfer from the airport and port of Santorini. The archaeological
+ site of Akrotiri is 1.5 km away. The spectacular Red Beach is just a short drive away. Free Wi-Fi and 
+ free on-site parking are provided.<br />
+
+Hotel Rooms: 9<br />
+
+Room Facilities: Balcony, View, Telephone, CD Player, Satellite Channels, Flat-screen TV, Safety 
+Deposit Box, Air Conditioning, Hot Tub, Seating Area, Extra Long Beds (> 2 metres), Heating, Tiled / 
+Marble floor, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Dining
+ Area, Wake Up Service<br />
+
+Room Size:  40 square metres<br />
+Bed Size(s): 1 Extra-large double<br />
+
+
+</p>
+                   <p><h3>Athina Suites(INR 14,000 Breakfast Included)</h3>  
+Main Street, 84700 Fira <br />
+              <img src="Images/Greece/greece-santorini-athina1.jpg" />
+              <img src="Images/Greece/greece-santorini-athina2.jpg" />
+              <img src="Images/Greece/greece-santorini-athina3.jpg" />
+              <img src="Images/Greece/greece-santorini-athina4.jpg" />
+              <img src="Images/Greece/greece-santorini-athina5.jpg" />
+              <img src="Images/Greece/greece-santorini-athina6.jpg" />
+              <img src="Images/Greece/greece-santorini-athina7.jpg" />
+              <img src="Images/Greece/greece-santorini-athina8.jpg" />
+              
+                     
+                                          
+
+
+
+       <br />
+
+Nestled upon a rock in Fira Town, the Cycladic-style Athina Cliff Side Suites offers a panoramic view of the Caldera cliff and the volcano.
+
+All studios and suites are comfortable and spacious, carved inside the volcanic earth according to the unique traditional style of the island’s architecture. They are all air-conditioned and equipped with modern amenities such as satellite TV and DVD player.
+
+Guests can enjoy an unforgettable romantic getaway with the magnificent view from the stylish and tranquil sun terrace and the swimming pool, or take in the view from their private verandas.
+
+The attentive, yet discreet service, the convenient location within a short walking distance from Fira’s centre and the amazing views make Athina Cliff Side Suites the ideal accommodation.
+
+Apartments: 9
+
+Room Facilities: Balcony, View, Telephone, Radio, CD Player, Satellite Channels, Safety Deposit Box, Air Conditioning, Heating, Private Entrance, Shower, Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar
+
+Room Size:  17 square metres
+Bed Size(s): 1 Large double
+</p>
+
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Santoriniluxurious" runat="server" HeaderText="Santoriniluxurious">
+<%--SantoriniHotelsLuxurious above 20k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Luxurious
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+       </ajaxToolkit:TabContainer>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="Santorinirestaurants" runat="server" HeaderText="Santorinirestaurants">
+<%--SantoriniRestaurantsZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Restaurants
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      <h3>1. Kyra Katina</h3>
+      <p>Every single visitor of Santorini has tried Mrs Katina’s cooking. Both celebrities and non-celebrities. A reference point
+       at Ammoudi with home-made taramosalata, Santorini fava, fishes and octopus cooked skillfully on the grill. Also her 
+       tomatokeftedes (tomato balls) are very popular. <br />Ammoudi, tel: 22860-71280</p>
+       <h3>2.Ambrosia</h3>
+       <p>Two terraces at different levels, a few tables with long white tablecloths, red roses and plain white colour all around.
+        Ideal for couples in love. From this point you cannot see the sunset, for it is from the side the Caldera overlooks Fira, 
+        but at dusk time the horizon overflows with colours. The perfect place for making your wedding proposal. The scenery and 
+        view are superb and the same goes for the Meditteranean cuisine dishes. <br />
+
+Oia, tel: 22860-71413</p>
+
+<h3>3.Ambrosia and Nectar</h3>
+
+ <p> One of the most elegant restaurants in Oia, belonging to people who really know about finesse, since they are the owners of 
+ Ambrosia and the Kapetanospito. Do not be deceived by the fact that it does not have a view on the Caldera, for it has its own 
+ way to compensate and reward you. You should not miss it! The romantic setting, exquisite “art de la table” and outstanding 
+ Mediterranean cuisine dishes will captivate your heart. <br />
+
+Oia, tel: 22860-71504</p>
+
+<h3>4.Sunset </h3>
+
+  <p>Paraskevas has the oldest fish-taverna in Ammoudi and for eighteen years now he has been honoring his mother’s recipes from 
+  Costantinople, as well as local recipes of the island. Ask for a table at the end of the dock. <br />
+
+Ammoudi, tel: 22860-71614</p>
+
+<h3>5.Karma </h3>
+
+<p>Scenery taken from “Thousand and one nights”. Oriental patio, big cushions, nargilehs, flowers, ceramic jars, lit torches! 
+And within this atmospheric environment, a particularly well-made ethnic cuisine: from sushi and spring rolls to different noodles,
+ duck, salmon with wasabi sauce. <br />
+
+Oia, tel: 22860-71404</p>
+
+<h3>6.1800 </h3>
+
+  <p>Most visitors sit on the terrace with the pergola to have a magical view while enjoying the best creative Mediterranean 
+  cuisine in Oia, for which it has repetitively received many distinctions. The energy of the Kapetanospito (Captain’s House), 
+  built in 1840, is all over the garden and the interior of the house. The furniture is authentic and placed in the original 
+  positions. Very interesting is the wine list with very good prices in local wines. <br />
+
+Oia, tel: 22860-71485</p>
+
+<h3>7.Thalami</h3>
+
+<p>It pleases your senses!<br />
+What is more perfect than to enjoy a romantic dinner with view of the Caldera that includes unique Greek traditional recipes and 
+authentic Santorinian wine? In Thalami restaurant you can live this experience from the afternoon until late at night. 
+The seafood smells will “grab” you tightly like an octopus and will let you free only when your palate –and your eyes– is pleased 
+with the flavors of the sea!  <br />
+
+Oia, 12.00-24.00, tel. 22860-71009, 
+www.thalamirestaurant-santorini.gr</p>
+
+<h3>8.Skala</h3>
+
+<p>Art meets taste!<br />
+Few steps away from Oia’s central street you will find Skala restaurant with delicious tastes and a breathtaking view. Wherever 
+you decide to sit, you get to have the view of the endless horizon. The dishes are so tasty and stylish that you will find it 
+difficult to choose just one. Start with small onion and pine nut pies and the special Skala salad and continue with tomato, 
+caper, olives and garlic pasta as main course. End your meal with a sweet finale of walnut cake with chocolate. All meals are 
+offered in very friendly prices!<br />
+
+Oia, tel. 22860-71362, www.feredini.gr, 
+12.30-00.30</p>
+
+<h3>9.Ammoudi</h3>
+
+  The absolute definition of the fish taverna by the sea right on the wave. Choose a scorpion fish and ask Dimitris to grill it 
+  for you on charcoal in foil with garlic, salt and pepper. Should you sit right below the sign of the taverna, you will place 
+  the bread basket on the marble mooring-post right by you. It has been standing there since the early 19th century, when Ammoudi 
+  was the commercial port of Santorini. Here the ships used to carry pumice. Take photos of your company with the taverna yellow 
+  walls at the background and definitely save poses in your camera for the sunset. The sun vanishes behind Thirasia and from the 
+  specific spot of the bay you have the longest sunset duration!<br />
+
+Ammoudi, tel: 22860-71606 </p>
+
+<h3>10.Skiza café </h3>
+
+<p>The café with the view<br />
+A beautiful small café in Caldera, with a balcony and a terrace that face the endless blue colors of the Aegean sea. In the 
+morning you can have a coffee, breakfast, some juice or any of its delicious desserts. If you come in the afternoon, you can 
+please your appetite with home made pasta, pizza, waffles and crepes. Sit on the small terrace and enjoy the magnificent view! <br />
+
+Oia, tel. 22860-71569, www.feredini.gr, 08.00-01.30</p>
+
+<h3>11.Aris</h3>
+
+<p> veranda hanging over the Caldera<br /> Endless view on the volcano under the stars, at a restaurant situated by the swimming 
+pool of the Loucas Hotel in Fira. Greek and international tastes with preference to local products. In July and August make your 
+reservations in time. <br />
+
+Fira, 22860-22480, 22680</p>
+
+
+<h3>12.Archipelagos </h3>
+
+<p>One of the all time classic restaurants at the centre of Fira. Tables are spread at graded levels. Its comparative advantages 
+are: spectacular view, romantic atmosphere, excellent service. The cuisine served here is a unique version of Mediterranean dishes
+ with some ethnic references. Also exquisite is the pasta. <br />
+
+Fira, tel: 22860-23673</p>
+
+
+<h3>13.Saltsa</h3>
+
+<p>How can it be that one of the most outstanding restaurants of the island is not at the Caldera? However, it will be a pity if 
+you are in Santorini and do not pass by Saltsa in Fira! A modern, cosy and hospitable taverna focusing even on the smallest 
+detail and two young people with great love for their work. Dimitris Lazarou, chef and owner, along with Lilian, his wife, are 
+the soul of the restaurant. White eggplants with crust from sesame and spices, cuttlefish risotto with leek and fennel root, 
+spring rolls with “syglino” of Mani, finochio and orange. Do not miss trying the “loukoumi” ice-cream with caramelized rose 
+leaves. <br />
+
+Fira, tel: 22860-28018 </p>
+
+<h3>14.Aktaion </h3>
+
+<p>The oldest restaurant in Santorini, since 1922. Vagelis Roussos, third generation in Aktaion, prepares distinguished Greek 
+cuisine and Santorini dishes for the very few tables in the yard on the Caldera, following his own and his mother’s recipes. 
+Fava meatballs, zucchini pie, local white eggplants with fava, the “vineyard’s” lamb and mousakas with white eggplant. The 
+interior is full of art works created by himself in the winter, sculpture on painted wood and painting in pastel colours. <br />
+
+Firostefani, tel: 22860-22336</p>
+
+<h3>15.Ginger</h3>
+
+<p> brand new entry in Firostefani that increases our options at probably the most beautiful spot of Santorini. A “raw bar”
+ offering sushi at the sushi bar, but also warm dishes. A comfortable place and spacious yard with a gorgeous garden that makes 
+ you feel right under the stars. </br>
+
+Firostefani, tel: 6944-241162</p>
+
+<h3>16.Imerovigli</h3>
+
+<p>Even though almost everybody runs to Oia for the sunset, those who really know choose Imerovigli. Here, at the Caldera, 
+above the central alley with the superb view, there is the Imerovigli restaurant, one of the best solutions for a delicious 
+calm dinner in an environment which is not posh but simple and relaxing. Personal service, high quality materials and a variety 
+of excellent made Greek and Santorini dishes offered by the owners, who will make you feel at home. Try fish fillet with 
+vegetables cooked in a “pilino” (ceramic pot), lamb rolled in vine leaves, lahanodolmades (cabbage-rolled meat) and karidopita 
+(walnut pie) with ice-cream. Make a reservation. Open also for lunch. </br>
+
+Imerovigli, tel: 22860-24190</p>
+
+<h3>17.Selene </h3>
+
+<p>One of the most beautiful terraces of the Caldera with Greek cuisine only with local products. The host, Mr Hatzigiannakis, 
+a Greek who brought the “Slow Food Movement” in Greece. Exquisite raw materials, love for cooking and gastronomy and a creative 
+look, all integrated in Greek recipes. If you are a company of two, book a table at the upper terrace which has the most splendid 
+view! Far from the hubbub of Fira, it will surely steal your heart! Should it be cold outside, the interior is also unique. <br />
+
+Fira, tel: 22860-22249</p>
+
+<h3>18.Koukoumavlos </h3>
+
+<p>Nikos Pouliasis is the only one in Santorini who is bold enough to make scampi tails with white chocolate sauce with lime and 
+ginger, and the outcome is highly interesting. The service is exceptional without being posh. The classical yposkafo at the alley 
+with the cosy decoration and opera selections by Mr Pouliasis will captivate your heart! <br />
+
+Fira, tel: 22860-23807</p>
+
+<h3>19.Vanilia </h3>
+
+<p>Romantic environment in a gorgeous garden with a pergola and terrace with a view. White colours, flowers, large cushions and 
+ambient music. All this in a place where a mill used to stand way back in 1872, operating also as a bakery making bread and fava. 
+Greek creative cuisine which is renewed every year with high quality Greek products and fresh fish. Ask for the aperitif “Vanilia 
+house cocktail” with rose and champagne and book a table at the terrace.<br />
+
+Firostefani, tel: 22860-25631</p>
+
+<h2>ON BEACHES</h2><br />
+
+<h3>20.Ta Dihtia </h3>
+
+<p>You can smell the fish on the grill only by approaching the taverna “Ta Dihtia” (fishnets)! For fifteen years now, there has 
+been a cosy fish-taverna on the Perivolos beach (blue chairs, checked white-blue tablecloths), among the first ones that opened 
+in the area. Everything looks and is perfectly neat and clean. The owner is from the island of Crete, therefore you will also find 
+Cretan recipes, such as “hohlii”, “boubouristi” and “mizithropitakia with peppermint”. In the end you will be treated “simigdalenios
+ halvas” (semolina halva) with kaymak (gum mastic) ice-cream. <br />
+
+Perivolos Beach, Agios Georgios, 
+tel: 22860-82818</p>
+
+
+<h3>21.Sea Side Lounge by Notos</h3>
+
+<p>Not only is it one of the most beautiful beach bars of the island, but also a restaurant we have adored even from its previous 
+location in Vlyhada. The owner loves travelling and trying ethnic tastes, and that is where his influences derive from. It is 
+interesting how Greek tastes fuse with elements from the Far East. I do not know exactly why but there are moments, when sitting 
+at the relaxing ambiance of Sea Side by Notos, I feel as being in Zanzibar. Their desserts are also delicious, with “banofi” as 
+number one. <br />
+
+Agios Georgios, Perivolos, tel: 22860-82801
+http://www.seaside-restaurant.gr/ </p>
+
+
+<h3>22.Nyhteri</h3>
+
+<p>It is regarded as one of the best tavernas in Kamari. A modern “mezedopolio” serving Greek traditional “mezedes” (local dishes),
+ with emphasis on local products cooked in a light healthy way. Fava with caramelized onions, fillet with Vinsanto sauce and 
+ delicious “simigdalenios halvas” (semolina halva) topped with plenty of cinnamon. Its trademark is the “Ifestio” (Volcano), 
+ i.e. yoghurt ice-cream with tomato marmalade. <br />
+
+Kamari Beach, tel: 22860-33480</p>
+
+
+<h3>23.Skaramagas</h3>
+
+<p>Situated on the Monolithos Beach. Here the variety is rich, but the highlight is the fresh fish he himself fishes every day on 
+his fishing boat. Its specialty is bouillabaisse soup and some home-made dishes cooked by Mrs Maria.<br />
+
+Monolithos Beach, tel: 22860-31750</p>
+
+<h3>24.Aquarius</h3>
+
+<p>Tables right by the sea on the sand of Perissa Beach offering an ideally relaxing setting. Besides the traditional Greek dishes,
+ salads, meat on the grill, soups and seafood, you will also find pizzas and spaghetti, for which it is famous. Delivery also 
+ available. <br />
+
+Perissa Beach, tel: 22860-82019</p>
+
+<h3>25.Atlantis Island</h3>
+
+<p>Situated on the Perissa beach, it offers a superb sea view. It has been awarded by the Hellenic Tourism Organisation (EOT) 
+for its Greek traditional cuisine. Everybody is infatuated with its pastitsio! Food served also under the umbrellas on the beach.
+ Another reason for you to come and try the high-quality food here is the very good prices!<br />
+
+Perissa Beach, tel: 22860-81473 </p>
+
+<h3>26.Kyra Rosa </h3>
+
+<p>Going through the coastal road on your way from Fira to Oia, at the Vourvoulos village, you will meet Mrs Rosa. She is not 
+old and fat , as you would probably expect! Her frying way is renowned all over Santorini! Fry fish, red mullets, tomatokeftedes 
+(tomato balls) and devil fish with skordalia (garlic paste). From time to time you may find braized squab or rabbit (in red sauce)
+ and some of Rosa’s creative dishes. <br />
+
+Vourvoulos, tel: 22860-24378</p>
+
+<h3>27.Giorgaros </h3>
+
+<p>The rustic scene you confront here “mom cooking, little daughter serving” is undoubtedly picturesque. One thing is for sure:
+ you will not come here neither for the environment nor the service. You will come mainly for the fresh fish right from the 
+ family’s fishing boats. You will also find a lot of locals eating here. Ask for cautious frying.<br />
+
+Akrotiri, Faros, tel: 22860-83035</p>
+
+<h3>28.Marmit </h3>
+
+<p> elegant cosy restaurant with refined cuisine and exceptional service, which will fully satisfy you. The Greek cuisine with 
+lots of creative nuances. You should try everything! We have tried fava boiled with vegetables and sweet onions, a delicious 
+full fresh cool salad and shrimps with Hios mastic; we loved them all. Here you will find one of the most updated cellars with 
+Santorini wines and wines from all over Greece. Situated at the Square of Megalohori. Open also in Winter.<br /> 
+
+Megalohori, tel: 22860-81603</p>
+
+<h3>29.Raki</h3>
+
+<p> very picturesque little taverna at the Square of Megalohori with local “mezedes” and a unique character. Raki and a variety 
+of exquisite accompanying mezedes, our favourite being fried pie with honey and sesame. Economical prices.<br />
+
+Megalohori, tel: 22860-81724</p>
+
+<h3>30.Vinsanto restaurant and lounge </h3>
+
+<p>The red and iron elements create a very atmospheric and imposing interior space. Also impressive is the exterior space of the 
+restaurant, where tables are spread at the terraces of the hyposkapha with the red sails waving in the wind. The creative Greek 
+cuisine brings out wonderful results. Top desserts are the flat-leaved basil crème with tomataki glyko (small tomato-sweet of the
+ spoon) and “melomarakona” with “loukoumi” (Turkish delight) cream.<br />
+
+Megalohori, Vedema Resort Hotel, tel: 22860-81796</p>
+
+
+<h2>Snacks</h2><br />
+
+<h3>1.Café Energie Crêperie  </h3>
+
+<p>If you like crêpes, this is the right place for you! Great variety of salty and sweet crêpes. Do try the one with chocolate 
+and hazelnuts. <br />
+
+Fira, tel: 22860-24997  </p>
+
+<h3>2.Grandma’s</h3>
+
+<p>Giant “pita” (round, brown, wheat flatbread made with yeast) stuffed with "gyros” 
+(thin slices of pork). Among other specialties are the baked potatoes filled with any dressing you like and vegetables. Rich 
+portions both for non-vegetarians and vegetarians.<br /> 
+
+Perissa Beach, tel: 22860-81229</p>
+
+<h3>3.Kantina </h3>
+
+<p>Super delicious “souvlaki”(skewered grilled meat) and juicy hamburger. Choose “kalamaki” (skewered grilled meat with a regular 
+piece of bread) and the unique sausage with cheese. <br />
+
+Kamari, tel: 22860-32839
+</p>
+<h3>4.Lucky’s Souvlakis</h3>
+
+<p>Besides the amazing Lucky's souvlaki, 
+also try the falafel and Arabian. <br /> 
+
+Fira, tel: 22860-22003
+</p>
+<h3>5.Svoronos </h3>
+<p>
+The most well-known bakery in Fira. 
+Meeting point after all night clubbing 
+with fully fresh pastry goodies.<br /> 
+
+Fira, tel: 22860-23446<br />
+</p>
+
+<h3>6. Bonjour</h3>
+<p>Meeting point for everyone right on the square, where you can enjoy coffee, sandwiches, omelettes and a great variety of 
+different brands of beer. One of the few cafés of the island that remain open in winter, as well. It even offers free wi-fi for 
+customers.<br />
+
+Fira, 7.00 a.m. - 3.00 a.m.<br /> 
+tel.: 22860-23744 
+</p>
+
+<h3>7.Café Del Mar e Sol </h3>
+<p>The perfect combination of aesthetics and a unique view on the Caldera! Relaxing atmosphere for coffee in the morning and 
+drink in the night. <br />
+
+Fira, 7.30 p.m. - late in the night<br /> 
+tel: 22860-21139
+</p>
+<h3>8.Classic</h3>
+<p>Veranda at two levels, espresso coffee and breathtaking view! Home-made pancakes, ice-cream and selected fresh pastries.<br />
+
+Fira, 7.00 a.m. - 1.00 a.m.<br />
+tel: 22860-23112
+</p>
+<h3>9. Enigma Café </h3>
+<p> well-established haunt known for its magical view, bit music and excellent service. Try Continental breakfast and the most 
+amazing cocktails. <br />
+
+Fira, 10.00 a.m. - 1.30 a.m. <br />
+tel: 22860-24024 
+</p>
+<h3>10.Franco’s Café</h3>
+<p>It has been one of the “hot issues” this year on the island. In fact, the founder of the legendary Franco’s Bar in Fira has
+ transferred his concept to this café in Pyrgos. Don’t miss the tartes that are prepared right before your eyes and the chocolate 
+ fondue, always under the sound of atmospheric music. <br />
+
+Pyrgos, 10.00 a.m. - late in the night, <br />
+tel: 22860-33957 
+</p>
+<h3>11.Kath’­­Odon</h3>
+<p>Pleasant, friendly ambiance, the locals’ favourite café for the Greek coffee prepared on ember, fantastic crêpes and waffles. 
+Open from morning serving rich breakfast and salads.<br />
+
+Karterados, from 7.00 a.m. - late in the night,<br /> 
+tel: 22860-28549 
+</p>
+<h3>12. Kokkino Podilato</h3>
+<p>Stylish café, with a view on the Caldera and excellent service. Coffee, pastries, dishes and cocktails that will make you 
+lose your mind! <br />
+
+Oia, 9.00 a.m. - 2.00 a.m.,<br /> 
+tel: 22860-71918
+</p>
+<h3>13.Magma</h3>
+
+<p>Tasteful elegant café at the centre of Fira serving breakfast, home-made desserts, as well as fantastic cocktails in the 
+evening. <br />
+Fira, 7.30 a.m. - 1.00 p.m.<br /> 
+tel: 22860-25805
+</p>
+<h3>14.Mylos Café</h3>
+<p>New hot point at the restored flour-mill with a spectacular view! You can begin with breakfast and go on with a drink and 
+cocktail (it even offers laptop at the upper level!).<br />
+
+Firostefani, 8.00 a.m. - late in the night<br /> 
+tel: 22860-25640  
+</p>
+<h3>15.Nick’s</h3>
+<p>Red and grey, relaxing atmosphere and lounge music. Breakfast, coffee and light dishes in case you get hungry. <br />
+
+Fira, 8.30 a.m. - 1.00 a.m. <br />
+tel: 22860-25000 
+</p>
+<h3>16.Sun Spirit</h3>
+<p>Near the Oia castle, right on the brow of the Caldera serving coffee, drink and cocktails. ?ew entry café, built at two levels
+ to enjoy the amazing sunset.<br />
+
+Oia, 12.00 a.m. - late, <br />
+tel: 22860-71655 
+</p>
+<h3>17.Vertigo</h3>
+<p>New café that is transformed into a cocktail bar with lounge music in the night. The three levels offer an amazing view on the
+ Caldera while you relax on the white comfortable sofas. <br />
+
+Fira, 8.00 a.m.- 4.00 a.m., <br />
+tel: 6948302202
+</p>
+
+<h2>Pastry shops</h2><br />
+
+<h3>1.Zotos</h3>
+<p>The “most ancient” pastry shop in Santorini with traditional desserts and home-made 
+ice-cream. Its chocolate pastries are famous 
+all over the island! <br />
+Fira, 9.00 a.m. - 11.00 p.m., tel: 22860-22287 
+</p>
+<h3>2. Karavan</h3>
+<p>The world famous Oriental recipes in 
+a Cycladian setting! Syrup desserts for your summer hypoglycaemia! <br />
+Fira, 8.00 a.m. - 2.00 a.m., tel: 22860-25670 </p>
+<h3>3. Melenio</h3>
+<p>The shop window with the desserts attracts the eye of anyone passing the alley. 
+Enjoy your breakfast, coffee and vinsanto 
+ice-cream while sitting at the veranda. <br />
+Oia, 9.00 a.m. - late in the night, tel: 22860-71149
+</p>
+
+<p>Perissa — the black sand village — offers the best of both worlds; chill out by the pool with a strawberry colada at Soul Bar 
+or enjoy live music on the beachfront at Yazz. If the dancing mood strikes you, head to Beach Bar around 2AM.<br />
+
+You’ll find some traditional tavernas in Megalochori, Vlychada, and Perissa where the food is excellent and moderately priced. 
+Try God’s Garden in Perissa, where the moussaka is as close to perfect as I’ve had. Or the lamb plate at Xani’s on Perissa’s main 
+road — a generous portion for just 5€.
+
+Dimitri’s in Vlychada is unassuming to look at, but serves up excellent seafood. And being that Santorini is such a beautiful and
+ varied island, you can have great views from almost anywhere.<br />
+</p>
+
+     
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="Santorinigettingaround" runat="server" HeaderText="SantoriniGettingaround">
+<%--SantoriniGettingaroundz--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Tours
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      <p><h3>Catamaran Cruise</h3>
+          <img src="Images/Greece/greecesantorinicatamarancruise1.jpg" />
+          <img src="Images/Greece/greecesantorinicatamarancruise2.jpg" />
+          <img src="Images/Greece/greecesantorinicatamarancruise3.jpg" />
+          <img src="Images/Greece/greecesantorinicatamarancruise4.jpg" />
+          <br />
+
+      <h2>Day time Cruise : 5 hours</h2> 
+(Santorini Day Time Cruises)<br />
+
+Set sail from Vlichada Marina. Sailing past the Red and White beaches and then on to Akrotiri and the 
+ancient lighthouse. After that we make a short stop in a beautiful bay for a swim and perhaps 
+snorkeling. We then move towards the Volcano and the Hot Springs for a quick splash if your heart so 
+desires, while our on board chef prepares your special lunch. We then continue sailing through the 
+Caldera past the islands of Thirassia and Aspronisi and back towards Vlichada.<br />
+Recommended departure time 10:00 -11:00 am</p>
+
+<h2>Sunset Cruise : 5 hours </h2>
+(Enjoy Santorini Sunset On Board)<br />
+This cruise begins in the late afternoon. We sail to the Red and White beaches and then continue on to 
+Akrotiri and the Cape of Faros. We sail around into the caldera where you have the opportunities for 
+swimming and snorkeling by the Volcanic Hot Springs. Sail past the island of Thirassia for an excellent
+ dinner and fine wine, and experience one of the world's most beautiful and colourful sunsets 
+ imaginable. Afterwards a leisurely sail back to Vlichada marina.<br />
+Departure time varies depending on sunset time
+
+
+<h2>FULL DAY CRUISE TO ANAFI BY GREEK WOODEN BOAT  </h2>
+
+   A cruise to Anafi Island east of Santorini. The small paradise in 
+ the middle of the Aegean will probably be the next place tourism 
+ will discover. Sunbathe on the golden beach, visit and explore 
+ the quayside, or walk up to the village above the harbor. 
+ Meals beverages and transfers included.<br />
+
+
+
+ Private Charter: Rate:  € 1300,00<br />
+ Maximum passengers 8<br />
+
+
+<h2>FULL DAY CRUISE AROUND SANTORINI BY GREEK WOODEN BOAT </h2>
+
+  Full day cruise around Santorini with all the advantages the 
+Island has to offer. We will visit the Red and White beach, 
+Aspronisi, the Hot Springs, Thirasia, Amoudi, and all the north 
+side of Santorinis Caldera. B.B.Q. Beverages and transfers included. 
+Sunset in the middle of the Aegean.<br />
+
+Private Charter:  Rate : € 1200,00 up to 12 passengers<br />
+
+For each extra passenger Euro 70 to max 22 passengers<br />
+Transfers to & from your hotel included
+
+<h2>I -  Day tour on a traditional caique :</h2>
+<img src="Images/Greece/greecesantoriniboatcaique1.jpg" /><br />
+Every day, with free transfer from the hotel, or directly from the two little Oia ports .<br />
+
+Tranfer departure time : 9h30 and boarding at Ammoudi (10h15) or Armeni (10h30), come back around 
+15h45.<br />
+
+Program:<br />
+
+- Nea Kameni : crater still active (1h35).<br />
+
+- Palaia Kameni : stop 30 minutes for swimming in hot springs between the two craters.<br />
+
+- 2 hours free time on Thirassia Island where you can have a lunch, visit the village, or have a swim.<br />
+
+- Beautiful sailing along the Oia cliffs.<br />
+
+Comment in all languages are proposed.<br />
+
+Price: 30 euros per person (transfer included)<br />
+
+Free for children under  3 years<br />
+
+Half price for kids under 12.<br />
+
+Crater access fee : 2 euros per adult<br />
+
+<H2>II –  Small tour:</H2>
+          <img src="Images/Greece/greecesantoriniboat.jpg" />
+<br />
+
+Two daily departures from the Fira Old Port only:<br />
+
+Departure : 11h00 / Back : 14h00<br />
+
+Or: 14h00 / Back: 17h00<br />
+
+Program:<br />
+
+- Nea Kameni : crater still active (1h35).<br />
+
+- stop 30 minutes for swimming in hot springs between the two craters<br />
+
+Price : 20 euros per person (fromFira Old port).<br />
+
+Kids under 12 : 50% discount.<br />
+
+Crater access fee : 2? per adult
+<br />
+<h2>III –  Sailing and Sunset :</h2>
+          <img src="Images/Greece/greecesantoriniboatthalassa.jpg" />   
+
+<br />
+
+On board of Thalassa boat, boarding from Fira old port around 03h00 pm. A free transfer from Oia is organized 
+each Tuesday, Thursday, and Saturday.<br />
+
+Program :<br />
+
+- Free visit of the Volcano (1h)<br />
+
+- Swimming in Hot Springs or Thirassia  Island (regarding weather forecast), Greek mezzes / food and Santorini
+ white wine on board.<br />
+
+- Sailing for Oia, Armeni  and Amoudi ports<br />
+
+- Hoistings sails (if the wind is not too strong) and sunset on board, saxophonist on board.<br />
+
+- Back at Fira after the sunset<br />
+
+Price:  50 euros / person (volcano fee 2 euros included)<br />
+
+
+<h2>IV – Afroditi Boat</h2>
+          <img src="Images/Greece/greecesantoriniboatafroditi.jpg" />
+
+<br />
+
+Red Beach Barbeque :<br />
+Tour on the Caldera : Volcano, Hot springs, Indian Rock Akrotiri, Red Beach, Barbeque, Sailing.<br />
+
+Menu: Souvlaki, burger, sausage, rice, potatoes, greek salad, tzatziki, eggplant salad, dessert.<br />
+
+Start: 10h00 from Old Port Fira,<br />
+
+Meeting point OIa: 9h00<br />
+
+Return: 16h45<br />
+
+Price: 51 euros<br />
+
+Sailing Sunset – Dinner on board:<br />
+
+Tour on Caldera: Hot springs, Dinner and sunset in Oia, sailing<br />
+
+Menu: Roll pork, chicken, rice, potatoes, Greek salad, pasta salad, cheese, eggplant salad, wine, dessert.<br />
+
+Start: 17h00 from Fira Old Port<br />
+
+Meeting point Oia: 15h20<br />
+
+Return: after the sunset<br />
+
+Price: 56 euro<br />
+
+
+
+
+
+
+
+<h2>V –  CATAMARAN</h2>
+          <img src="Images/Greece/greecesantoriniboatcatamaran.jpg" />
+
+<br />
+
+Semi-private Sunset tour :<br />
+The tour with the catamaran is specially designed for those who want to have a sailing tour in Santorini without 
+spending a fortune. The boat has all the luxurious amenities of an amazing yacht.<br />
+
+This tour  offers you a romantic, semi- private, cruise in Santorini Island.<br />
+
+Program:<br />
+
+Start in the afternoon, from the Ammoudi port, the skipper opens up the sail towards the best beaches of Thirassia Island 
+and the Hot Springs. During the trip you will have the chance to swim and snorkel at the most famous places of Santorini 
+and explore the beauties of our island.<br />
+
+A member of the crew will provide you with snorkeling equipment and he will give you all the required information 
+regarding the sights.<br />
+
+A variety of snacks, cold drinks and local wine will be served on board as our catamaran sails towards to Oia.<br />
+
+The boat will take place after at the best point of the island and it will give you the perfect chance to watch the most
+ romantic sunset in your lifetime.<br />
+
+
+
+Price: 70Euros per person (3h30)<br />
+
+
+Private tour:<br />
+The boat is offered for private sailing tours in Santorini or any other Cycladic island. They arrange a perfect day
+ tour to the best gold sandy beaches of Ios and Anafi Island with luxury<br />
+
+services or a 4 hour day tour within the boundaries of Santorini Island.<br />
+
+If you wish to live an unforgettable experience in an amazing yacht but with a great price, the catamaran is is the best
+ option.<br />
+
+
+Price: 750Euros for 4h (up to 6 persons) or 200Euros per hour (up to 6 persons).<br />
+
+Other tours are also available, like more luxury catamaran, private rental of traditional caique with skipper, private
+ rental of speed boat, etc.<br />
+
+If you need, it will be a pleasure to give you some information, or to book the tour for you directly before your arrival
+ to Santorini.<br />
+
+ <h2>Helicopter Rides</h2>
+  <img src="Images/Greece/greecesantorinihelicopter.jpg" />
+ SANTORINI SIGHTSEEING TOURS
+
+<h3>Santorini Caldera tour</h3>
+
+flight time: 10min<br />
+
+70€ per person plus 12€ Tax- 3 pax minimum<br />
+
+ 
+
+<h3>Santorini Caldera & South coast Tour</h3>
+
+flight time: 20min<br />
+
+120€ per person  plus 12€ Tax- 3 pax minimum<br />
+ 
+
+<h3>Santorini Grand Tour</h3>
+
+flight time: 30min<br />
+
+150€ per person plus 12€ Tax- 3 pax minimum<br />
+
+</p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+        
+   </ajaxToolkit:TabContainer>
+  </div>
+ </ContentTemplate>
+</ajaxToolkit:TabPanel>
+
+<%--RhodesZ--%>
+<ajaxToolkit:TabPanel ID="Rhodes" runat="server" HeaderText="Rhodes">
+ <HeaderTemplate>
+  <div class="subtabs">Rhodes</div>
+ </HeaderTemplate>
+ <ContentTemplate>
+  <div class="cities">
+<%--RhodestabZ--%>
+   <ajaxToolkit:TabContainer ID="Rhodestabs" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+    <ajaxToolkit:TabPanel ID="RhodesOverview" runat="server" HeaderText="Santorinioverview">
+<%--RhodesOverviewZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Overview</div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+          
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="RhodesSightSeeing" runat="server" HeaderText="RhodesSightseeing">
+<%--RhodesSightseeingZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Things To Do
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+      <p>
+      
+      <h3>Rhodes Town : Rhodes Town in Rhodes, Greece, Dodecanese</h3>
+          <img src="Images/Greece/greecerhodestown.jpg" />
+      <br />
+
+The Catholic Churches of Rhodes Greece, Dodecanese: The long occupation of Rhodes by the Venetians and the 
+Italians, from the Middle Ages till 1948, has left its strong mark on the culture of the island. This is 
+depicted in the architecture as well as the many Catholic churches in Rhodes island. Very few of them work 
+today. Hereby we present you the most important Catholic churches in Rhodes. <br />
+
+<h3>1.The church of Our Lady of Victory, known as "Santa Maria"</h3>
+          <img src="Images/Greece/greecerhodessantamariachurch.jpg" />
+<br />
+It is the most famous Catholic Church on the island.
+ Originally, the church was destroyed during the Grand Siege in 1522. The church distinguished for its gothic 
+ architecture and it was rebuilt in 1742, while it became the official Catholic Church of Rhodes. The building
+  complex includes the Monastery of Franciscans of the Custody of the Holy Land, the pastors of the island and
+   the monastery guesthouse that has been the scope of historical studies and researches. During the 1960s, the
+    church underwent many renovations and reconstruction works. Today, the church is centrally located in the 
+    New Town of Rhodes, near the Casino. 
+    <br />
+<h3>2.The Church of Agios Frangiskos (Saint Francis of Assisi)</h3>
+          <img src="Images/Greece/greecerhodeschurchofagiosfrangiskos.jpg" /><br />
+It is the official Latin Church of Rhodes. It is 
+situated next to the Orthodox church of Saint Athanasios. Its construction begun in 1936 and it was completed 
+in 1939. It is dedicated to Agios Frankiskos, a man who fought in many wars and lived a high- spirited life in
+ great poverty. A vision that he saw during a serious illness led him to dedicate his life to charities. He is
+  known as the patron saint of animals. <br />
+
+The church was designed by the Italian architect Stefano Pellini and has very nice accoustics. 
+It has a unique architecture with white marble. The walls of the chorus depict the three most significant 
+events from the life of Saint Francis. A local craftsman created an iron statue of Saint Francis, at the right
+ side of the church where it stands till today. The statue is surrounded by blackberry bushes, palm trees and 
+ animals. The church celebrates on October 4th.<br /> 
+
+<h3>3. The Chapel of the Holy Cross</h3> 
+          <img src="Images/Greece/greecerhodeschapelofholycross.jpg" /><br />
+
+It is located at the entrance of the Catholic Cemetery of Rhodes in Faliraki and 
+it is used mostly for funerals. It is a white church with yellow trimmings built around the 13th century. In 
+its present form, the bell tower is attached to the church building which has a typical cross vaulted roof. 
+Rooms are available for guests who wish to stay overnight.<br /> 
+
+<h3>4. The Chapel of Saint Anne</h3>
+          <img src="Images/Greece/greecerhodeschappelofanne.jpg" /><br />
+This is a small church located at the beach resort of Trianda, next to a monastery 
+surrounded by a beautiful garden. Henri Masse donated the chapel to the Catholic Church dedicated to the 
+memory of his sister Adelaida. Among the locals, it is known as the church of Santa Anna. Its beachfront 
+location inspires peace and harmony. The church does not work today.<br />
+
+<h3>5. The Chapel of the Sacred Heart</h3> 
+          <img src="Images/Greece/greecerhodeschapelofsacredheart.jpg" />
+It is situated in the downtown Rhodes, near a busy area and behind a school. 
+The church is housed in a very old building painted with pale yellow. At the front entrance of the church, 
+there is an old bell.<br />
+
+<h3>6. Church Of Annunciation</h3>
+          <img src="Images/Greece/greecerhodeschurchofanunciation.jpg" /><br />
+The church of the Annunciation of the Virgin Mary has different style from the usual churches in Greece. 
+It has a gothic architecture and the frescoes inside were painted by Fotis Kontoglou, a renowned Greek painter.
+<br />
+
+<h3>7. Holy Trinity:</h3>
+          <img src="Images/Greece/greecerhodesholytrinity.jpg" /><br />
+The church of the Holy Trinity is located along Knights street. It dates from the 15th century and it is one 
+of the loveliest churches in Rhodes Town.<br />
+
+<h3>8.Rhodes Park: The Rodini Park of Rhodes, Dodecanese</h3>
+          <img src="Images/Greece/greecerhodespark.jpg" /><br />
+ 
+The impeccably landscaped Rodini Park is renowned for its cool and tranquil atmosphere. This beautiful park is
+ ideally located just outskirts of the town. It is a mere 3 Kms away from the city center of Rhodes. The park 
+ is replete with trees like Cypress and Pine. There is also a swift flowing stream in close proximity to the 
+ park.If there are children accompanying you, there is an exclusive playground for the young ones as well as a 
+ mini Zoo. <br />
+
+The Rodini Park has the unique distinction of being the world's first landscaped park. This park was very 
+popular with the Romans and they even built an aqueduct here. Inside the park's premises, there are peacocks 
+galore that are residents of the park. There is a well-defined walkway that extends all the way to the stream.
+<br /> 
+
+For the energetic ones, a 10 minutes walk is all it takes to be face to face with an ancient tomb which is 
+believed to be the tomb of Ptolemies which has been dug into the rock. The tomb dates back to the Hellenistic 
+period and is conspicuous by 21 half columns that are distinctly Doric in terms of architecture.<br />
+
+
+<h3>9.The Aquarium of Rhodes</h3>
+          <img src="Images/Greece/greecerhodesaquarium.jpg" /><br />
+ The Aquarium of Rhodes is housed in the building of the Hydrobiological Station,
+ within the limits of Rhodes city. The building was constructed in 1934-36, during the Italian occupation, 
+ to house the Institute of Biological Research. After the liberation of the Dodecanese islands, it was named 
+ as the Greek Hydrobiological Institute and also included an aquarium and a museum. <br />
+
+The aim of the Aquarium is to present and preserve the species of the Mediterranean Sea. It constitutes of a 
+circular area with 13 big tanks and 15 small ones.
+ 	
+
+Fish and organisms from the Mediterranean are selected and displayed there in public view. The tanks are made 
+of cement and their bottoms are covered with sand, shingles and corals. The water in the tanks is mainly 
+filtered sea water. <br />
+
+These tanks host different kinds of sea species, such as sea turtles, dolphins, sharps, seals, mollusks, 
+echinoderms, crabs and many kinds of fish. Apart from these tanks, there is also a big underground area that
+ serves for stocking new species or sea animals that need special treatment and protection. This place is 
+ frequently used to hospitalize sea turtles and seals from the nearby waters.
+
+The museum displays embalmed sea species, like dolphins, sea turtles and sharks that are certainly worth to 
+visit. The Hydrobiological Station of Rhodes runs today a lot of research on the oceanography of the 
+Dodecanese islands and works as a model research unit in the Mediterranean area.<br />
+
+
+<h3>10.The Archaeological Museum of Rhodes Dodecanese, Greece</h3> 
+          <img src="Images/Greece/greecerhodesarchaelogicalmuseum.jpg" /><br />
+It is housed in the Medieval building of the 
+Hospital of the Knights, in the Palace of the Grand Master. The construction of this building began in 1440 
+by Grand Master de Lastic and it was completed in 1948 by Grand Master d'Aubusson. The building was renovated 
+in the early 20th century by the Italians, as was the whole Medieval Town of Rhodes.<br />
+ 	
+ The Archaeological Museum contains today findings from excavations all over the island and some small islets 
+ of Dodecanese. Visitors can see a collection of vases, figurines, small objects and tomb groups from were 
+ found in Ancient Ialysos and Ancient Kameiros and date from the Geometric till the Roman times. There are 
+ also mosaic floors from the Hellenistic times and funerary slabs of the Knights. <br />
+
+
+<h3>11.The Palace of Grand Masters in Rhodes</h3>
+          <img src="Images/Greece/greecerhodespalaceofgrandmasters.jpg" /><br />
+
+The Palace of Grand Masters is ideally located at the end of the Street of the Knights. It is conspicuous by 
+its spherical towers as well as a gate with a sharp arch. The Palace of Grand Masters is a citadel which was 
+built by the Knights of St John in the 14th century. The palace boasts of numerous grandiose rooms with 
+antique furniture, exquisite polychrome marbles, sculptures, carpets and fine Oriental vases.<br />
+
+Among the most important rooms are the grand Reception Hall,the Waiting Room, the Medusa mosaic, 
+the exclusive room of the icons, the impressive ballroom, the elegant music room, etc… to name just a few.
+ 	
+
+In total there are a staggering 158 rooms but only 24 of them are open to visitors. The Palace of the Grand 
+Masters was extensively restored in the period between 1937-40 under the stewardship of renowned Italian 
+architect – Vittorio Mesturino. Of special significance are the frescos by renowned artists of the stature of 
+P. Gaudenzi and F.Vellan. <br />
+
+
+<h3>12.Acropolis of Rhodes</h3> 
+          <img src="Images/Greece/greecerhodesacropolis.jpg" /><br />
+In the past the Acropolis of Rhodes overlooked the western part of the city. It was 
+not Unlike most other ancient acropolis, this one wasn’t fortified. The Acropolis of Rhodes was replete with
+Sanctuaries, huge temple premises and public buildings. The buildings were strategically built on precipitous 
+terraces that were ably supported by impregnable walls. The Acropolis of Rhodes is one of the finest specimens
+ of Hellenic style of architecture that blended harmoniously with the surrounding environment.<br /> 
+
+The renowned Italian Archaeological School was entrusted with the work of excavating the Acropolis during the 
+period from 1912 – 1945. But, from the year 1946 the Greek Archaeological Service carried out excavations that
+ provided fascinating insight to the history and topography of the Acropolis.<br />
+ 	
+
+The entire Acropolis is yet to be excavated. An exclusive 
+archaeological zone which is all of 12,500 m² has been segregated from contemporary edifices with the primary 
+goal of carrying out long term excavation works that surely is going to provide fascinating insight of the Old 
+City of Rhodes. Some of the significant monuments discovered by archaeologists in the core archaeological zone
+ are mentioned below in brief:<br />
+
+Temple of Athena Polias and Zeus Polieus:<br />
+Temple of Athena Polias and Zeus Polieus are located to the northern extreme of the Acropolis. They are
+ distinctly Doric in terms of architecture and are conspicuous by their porticos on all sides. There are four 
+ massive column drums as well. It is here that the Rhodians preserved their treaties with other states.<br />
+
+Nymphaea: <br />
+          <img src="Images/Greece/greecerhodesnymphaea.jpg" /><br />
+The Nymphaea is located to the east and comprises of four cavernous constructions that have been innovatively 
+cut into the rock and is conspicuous with entrance steps, passages and a large aperture in the innermost part 
+of the roof. The Nymphaea is replete with water cisterns and luxuriant foliage. In the past the Nymphaea was 
+meant for worship and recreation. <br />
+
+Odeion:<br />
+          <img src="Images/Greece/greecerhodesodeon.jpg" /><br />
+The odeion is located to the Northwest of the Stadium. It had a capacity to accommodate 800 spectators and 
+archaeologists are of the opinion that the Odeion was used for musical performances or for conducting classes 
+in rhetoric. <br />
+
+Temple of Pythian Apollo:<br />
+          <img src="Images/Greece/greecerhodestempleofpytheon.jpg" /><br />
+
+The Temple of Pythian Apollo stands majestically to the southern part of the hill. This temple is much smaller
+ in size when compared to other temples that have been found in the site. The North Eastern part of this 
+ temples has undergone restoration work. <br />
+
+Stoa Building: <br />
+          <img src="Images/Greece/greecerhodesstoabuilding.jpg" /><br />
+
+
+The Stoa Building had an impressive facade that was visible from the lower town as well as the harbor. <br />
+Artemision:<br />
+The Artemision is located to the Northeastern side and happened to be the place of worship of the Artemis cult.<br /> 
+
+Stadium: <br />
+
+The Stadium is located to the Southeastern part of the hill and was excavated by the Italians during their 
+rule of the island of Rhodes. The stadium was all of 600 feet in length. At present the only original components 
+are the “Sphendone”, “Proedries” and a few rows of seats in the auditorium. Also preserved is The starting 
+apparatus used in athletic events too is well preserved.<br />
+
+Gymnasium: <br />
+          <img src="Images/Greece/greecerhodesgymnasium.jpg" /><br />
+The Gymnasium is ideally located to the east of the stadium. Excavators were able to unearth a part of the
+western side of the Gymnasium. In recent times, the Northeastern part of the Gymnasium too was excavated by a 
+team of archaeologists. The Gymnasium was basically a massive square shaped edifice and archaeologists have 
+been able to unearth significant art works from the site.<br />
+
+Library: <br />
+          <img src="Images/Greece/greecerhodeslibrary.jpg" /><br />
+The Library in the past used to be well stocked with priceless works of Rhetoric. It was located in close 
+proximity to the Odeion and the Gymnasium.<br />
+ 
+
+<h3>13.Lindos Rhodes: <br /></h3>
+          <img src="Images/Greece/greecerhodeslindos.jpg" /><br />
+The lovely village of Lindos is one of the most attractive and beautiful villages of Rhodes, and is located 
+south of the capital, on the eastern coast of the island. 
+
+It is dominated by a magnificent and imposing acropolis which can be visited. <br />
+
+The beauty of Lindos is due to its beautiful location on the slope of a hill, dominated by the acropolis, and 
+overlooking a picturesque bay, but also to the village itself which has been built amphitheatrically and is 
+full of whitewashed houses with pebble-paved courtyards, narrow alleys and buildings influenced by Byzantine, 
+medieval, Arab and Rhodian architecture.<br />
+
+Apart from the beautiful acropolis that can be reached by foot or donkey, the old theatre of Lindos, carved 
+from a rock, and the Doric sanctuary of Athena Lindia are also worth-seeing. 
+
+Various accommodations of all categories as well as taverns, cafes and romantic bars can be found in the 
+enchanting Lindos.<br />
+
+
+<h3>14.The site of Ancient Lindos in Rhodes: <br /></h3>
+          <img src="Images/Greece/greecerhodesancientlindos.jpg" /><br />
+
+The ancient town of Lindos, 45 km to the south of Rhodes town, was founded by the Dorians in the 10th century 
+B.C. In the 8th century, it already was a major trading centre, due to its geographical position between 
+Greece and the Middle East. However, it started to decline when the city of Rhodes was founded, in the 5th 
+century. 
+<br />
+The archaeological remains found on the Acropolis of Lindos reveal the wealth of the ancient town. There is a 
+Doric 4th-century temple devoted to Athena Lindia, where people used to worship their patron goddess with 
+offerings and sacrifices. It was built on the remains of another temple.
+ 	
+
+The Propylaea (the gateways) of the Sanctuary consist of a staircase and five door openings. You will have the
+ chance to see the relief of an ancient warship, called trireme, at the foot of the staircase. Apart from 
+ these, there is also a Roman temple dedicated to the emperor Diocletian and a Hellenistic wall that surrounds
+  the Acropolis. 
+  <br />
+All these ancient sites are protected by a Medieval Castle, built in the early 14th century by the Knights of 
+St John. Two towers of the castle are well-preserved till today. Outside the castle, on the southwest side of
+ the will, there used to be an ancient theatre. Today the only remains of it are some rows of seats, part of 
+ the auditorium. It is believed that the theatre could host 1,800 spectators. 
+
+The excavations in the archaeological site of Lindos started in the early 20th century. The Italians, who 
+occupied Rhodes island from 1912-1945, tried to restore the ancient findings but they actually damaged part 
+of them. The site today belongs to the Greek Ministry of Culture and much work is being done, by both Greek 
+and foreign archaeologists, to protect this monument.<br /> 
+
+<h3>15.Lindos Limanaki Agios Pavlos Beach<br /></h3>
+          <img src="Images/Greece/greecerhodeslimanakiagiospavlos.jpg" /><br />
+
+Lindos Limanaki Agios Pavlos beach Rhodes: The little bay of Agios Pavlos (Saint Paul) is lying south of the 
+acropolis of Lindos and at a very close distance by foot from the village of Lindos, 50 kilometres south-east 
+from the City of Rhodes. A local legend explains that this bay owes its name to the fact that Saint Paul came 
+here in 43 AD to preach Christianity; the lovely white chapel standing on the beach is dedicated to Saint Paul.
+ Golden sand and pebbles compose the beach where sun beds are available for rent. Rocks are boarding the beach, 
+ giving the possibility to dive into the clean turquoise waters.<br />
+
+<h3>16.Ladiko Beach in Rhodes<br /></h3>
+
+          <img src="Images/Greece/greecerhodesladikobeach.jpg" /><br />
+Ladiko beach Rhodes: Ladiko is a small beach located on a beautiful bay 15km from Rhodes Town and 2km from 
+Faliraki village. Ladiko beach features a tiny picturesque cove which can offer the visitor a beautiful day 
+in the sun. The seashore has fine clean sand, with some small rocks scattered all around and many beach 
+facilities, such as umbrellas, sun beds, fresh water showers and delicious traditional taverns. 
+
+Ladiko beach tends to get particularly crowded in summer. This cove usually presents a beautiful picture, 
+with small boats sailing near the shore. Lush green vegetation surrounds the beach and creates nice scenery.<br />
+
+<h3>17.Kallithea beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodeskalitheabeach.jpg" /><br />
+
+Kallithea Beach Rhodes: The beach of Kallithea is famous for its hot medicinal springs which were built by the 
+Italians but no longer function. It is a wonderful place with palm and pine trees and buildings (the springs)
+ influenced by the Arabic architecture with its magnificent mosaics, and are under renovation. The emerald 
+ waters of the sea match perfectly with this idyllic scenery, adding one more touch of beauty to the whole 
+ picture. Kallithea is at a short distance from the City of Rhodes.<br />
+
+
+<h3>18.Tsambika Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodestsambikabeach.jpg" /><br />
+
+Tsambika beach Rhodes: The long sandy beach of Tsampika is located 26 kilometres south-east of the capital of
+ Rhodes, under the imposing rock where stands the miraculous monastery of Tsampika, from where the area took
+  its name.
+
+Turquoise waters and golden sands create a beautiful scenery, ideal to relax and enjoy the sun. Water sports 
+are available on Tsampika as well as a mini-market, right next to the bus stop.<br />
+
+
+<h3>19.Afandou Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesafandoubeach.jpg" /><br />
+
+Afandou Rhodes: The extremely long and large beach of Afandou is 22 kilometres south-east from the City of 
+Rhodes, in front of the village of the same name where visitors can practice golf at the golf course of the 
+village. 
+
+The beach is made of sand and pebbles and doesn’t have any facilities or rentals which make it less crowded 
+than other beaches of Rhodes. Its deep, clear sparkling waters are ideal for swimming and remain quite fresh 
+even under the hot sun.<br />
+ 	
+Some fine taverns can be found nearby the beach and, in the village, visitors will find even more taverns and 
+all kinds of accommodations.<br />
+ 
+
+<h3>20.Ixia beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesixiabeach.jpg" /><br />
+
+Ixia beach Rhodes: Ixia is located at the northern part of the western coast of Rhodes and it is situated 
+very close to the romantic town of Rhodes, in a 4km distance. It is a nice cosmopolitan resort that is mostly 
+referred to as one of the most beautiful places in the island. Its geographical position is important creating
+ the ideal circumstances for the surfers to enjoy their favourite water sport. <br />
+
+During the last few years, the area has developed into an international destination that attracts a lot of 
+visitors, while it offers various types of accommodation from luxury hotels to apartments and rooms to let. 
+Ixia village has delicious restaurants and traditional taverns to choose and many bars where you can have a 
+drink.
+ 	
+5 km away from Ixia, there is the Old Town of Rhodes. It is a busy neighborhood, a living monument actually,
+ with thousands of inhabitants who live and work in the medieval castles that the town is famous for and one 
+ must definitely see.<br />
+
+
+<h3>21.Prassonissi Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesprassonissi.jpg" /><br />
+
+Prassonissi Rhodes: The long and large sandy beach of Prassonissi is lying on the southernmost tip of Rhodes, 
+92 kilometres south from the capital of the island and 40 kilometres south-west from the village of Lindos. 
+Prassonissi is the paradise for windsurfers, particularly during the months of July and August, when the north
+ winds called meltemi are blowing.<br />
+
+The beach consists in two sandy coves which are ending in an island which can be reached by foot or swimming, 
+depending on the level of the waters. Windsurfing equipments are available for rent, even if most surfers 
+bring their own material. Taverns and rooms for rent can be found nearby the beach. The landscape is idyllic 
+and the waters amazingly crystalline.<br />
+
+
+<h3>22.The Monastery of Filerimos in Rhodes Greece</h3> 
+          <img src="Images/Greece/greecerhodesmonasteryoffilerimos.jpg" /><br />
+The Monastery of Panagia Filerimos is located on a hill above 
+Ialyssos, about 10 km from Rhodes Town. The monastery is dedicated to Virgin Mary the Life-Giving Source 
+(Zoodochos Pighi) and its architecture is much different than the usual monasteries in Greece. It was 
+constructed of stone in a Gothic style, on the site of an older Byzantine monastery. <br />
+
+The monastery was built in the 15th century by the Knights of Saint John, who had conquered the island that 
+time. Inside, there was the holy icon of the Virgin Mary that the Knights had probably brought to Rhodes from 
+Jerusalem. When the Ottomans conquered the island in 1523, the Knights left and took the icon with them. After
+ floating in Italy, Malta, France and Russia, this icon is today hosted in the National Museum of Montenegro.
+  	<br />
+
+ In the region around the monastery, there are the ruins of a baptistery in the shape of a cross, the remains
+  of Ancient Ialysos and an underground church of Saint George that dates from the 14th century AD. From 
+  Filerimos Monastery also starts the path to Golgothas. On top of this path, up on a hill with amazing view, 
+  there is a huge cross, while on the one side of the path, there are engravings that represent the Passion of
+   the Christ.<br />
+
+<h3>23.Rhodes Waterpark</h3> 
+
+          <img src="Images/Greece/greecerhodeswaterpark.jpg" /><br />
+  
+The biggest water park in Europe, Faliraki Water Park is open from May to October. It is a wonderful park 
+equipped with all the amenities and games. Here, you will find various activities and rides such as Kamikaze 
+slides, a Pirate ship just waiting to be explored, wave pools, lazy rivers, black holes and so much more. 
+While you enjoy the water games, experienced lifeguards watch for your safety. There are also medical 
+technicians to have a solarium.<br /> 
+
+The park is open from 9.30 in the morning till 7 o'clock in the evening. It can be found at the beach of 
+Faliraki and there are buses of the Water Park to transport you from Rhodes town to Faliraki and back. There 
+is also a huge parking space outside the water park. Pets are not allowed in the park, which also has snack 
+bars, souvenir shop and showers.<br />
+
+
+<h3>24.Faliraki Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesfalirakibeach.jpg" /><br />
+ The beach resort of Faliraki is the most developed of the island and one of the most 
+cosmopolitan spots of Rhodes. It lies on the north-eastern part of Rhodes, 14 kilometres from the capital of 
+the island and 10 kilometres from the airport. 
+
+The beach of Faliraki is one of the most organised beaches of Rhodes, offering sun beds, umbrellas, many water
+ sports (water skiing, wind surfing and much more), taverns, restaurants and beach bars.<br />
+ 	
+The golden sands of Faliraki extend over 4 kilometres and, along with the crystalline blue waters of the 
+Aegean, create a relaxing and attractive picture. 
+
+For those who wish to be in a more quiet and less crowded environment, the bay of Kathara is just the right 
+place. It is situated next to Faliraki Beach, near the small fishing harbour. The whole area is full of 
+luxurious hotels and other kinds of accommodations.<br />
+
+
+<h3>25.Agathi Beach in Rhodes<br /></h3>
+<img src="Images/Greece/greecerhodesagathibeach.jpg" /><br />
+
+Rhodes Agathi: The small sandy beach of Agathi lies on a picturesque cove, nearby the beach of Haraki and the 
+medieval castle of Faraklos, 38 kilometres south-east of Rhodes City and 10 kilometres from the village of 
+Lindos. 
+
+The golden sands, along with the emerald waters, create a wonderful and attractive picture. Three Canteens 
+offer refreshments and snacks on the beach as well as sun beds, umbrellas rentals and showers.<br />
+
+<h3>26.Akti Miaouli Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesaktimiaouli.jpg" /<br />
+
+Akti Miaouli Rhodes: Akti Miaouli beach is situated in the limits of Rhodes town and is covered by grey 
+pebbles. It is not a particularly wide beach, just a strip of land, but it is well-organized with sun beds, 
+showers and changing rooms. 
+
+The beach can be accessed on foot, as it is just within a walking distance from the city centre. Many car 
+rental agencies and hotels are located close to Akti Miaouli beach, which turn it really convenient for 
+tourists.<br />
+
+
+<h3>26.Elli Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesellibeach.jpg" /><br />
+
+Elli Beach Rhodes: Elli is the main beach in Rhodes town. It is located in the southern most end of the 
+city between the area of Mandraki and the Rhodes Aquarium. It is one of the most popular beaches on Dodecanese
+ and according to Lawrence Durell it is the most beautiful beach in the Mediterranean. 
+
+Elli beach offers you all the amenities to enjoy a fine day in the sun. It is organized, full with colorful 
+umbrellas and rented sundecks, beachfront taverns and comfortable restaurants as well as lovely hotels with 
+safe pools to play the children while you enjoy a drink. The place has an amazing atmosphere that attracts a 
+lot of photographers to immortalize the astonishing grafts and the most wonderful panoramic image of Rhodes.<br />
+
+ 	
+Elli beach features a choice of water sports, diving or even beach volley. If you want a pleasant break from 
+the sun, take a walk around the town of Rhodes, enjoy the Greek dishes in the friendly taverns and live the 
+luxury of the Turkish market.<br />
+ 
+
+<h3>27.Faliraki Nudist Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesnudistbeachfaliraki.jpg" /><br />
+	Faliraki Nudist beach Rhodes: The beach resort of Faliraki is the most developed of the island and one of 
+    the most cosmopolitan spots of Rhodes.
+
+It lies on the north-eastern part of Rhodes, 14 kilometres from the capital of the island and 10 kilometres 
+from the airport. The beach of Faliraki is one of the most organised beaches of Rhodes, offering sun beds, 
+umbrellas, many water sports (water skiing, wind surfing and much more), taverns, restaurants and beach bars.
+ 	
+The golden sands of Faliraki extend over 4 kilometres and, along with the crystalline blue waters of the 
+Aegean, create a relaxing and attractive picture. <br />
+
+For those who wish to be in a more quiet and less crowded environment, the bay of Kathara (Clean) is just the 
+right place.
+
+It is situated right next to Faliraki Beach, near the small fishing harbour. All the area is full of luxurious 
+hotels and other kinds of accommodations.
+ 
+<h3>28.Ialyssos Beach in Rhodes<br /></h3>
+
+          <img src="Images/Greece/greecerhodesialyssos.jpg" /><br />
+Ialyssos beach Rhodes: The long beach of Ialysos is placed 8 km to the north west of Rhodes town. Its waters 
+are crystal and it is well organized as a tourist resort with many facilities, including close accommodation 
+options, seaside cafes and taverns. The coastline has sand and pebbles. The beach of Ialysos develops an 
+important role in the Greek surfing scene and is visited by many surfers in summer, since its winds favors 
+this sport. In fact, some freestyle competitions are held in Ialysos beach, such as the European Windsurfing 
+Championship.<br />
+
+
+<h3>29.Kamiros beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodeskamiros.jpg" /><br />
+
+Kamiros Beach Rhodes: Kamiros beach is located 50 km away from the town of Rhodes in a 45 minute distance 
+drive, concluding to a lovely route with dotted small villages, green forests and old monasteries. Kamiros 
+beach is blessed with golden sand and the crystal clear waters. 
+
+There are many umbrellas and sundecks you could rent to enjoy the beautiful scenery and relax under the shade.
+ There is only one restaurant near the beach, though the region has several options such as cafes and great 
+ taverns. The area of Kameiros has also a great archaeological interest with several monuments which date back
+  in 3rd century. From the small port of Kamiros, excursion boats depart daily for the remote islet of Alinda 
+  and the small island of Halki.<br />
+
+<h3>30.Lindos Megali Paralia Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodeslindosmegaliparaliabeach.jpg" /><br />
+Lindos Megali Paralia beach Rhodes: A large beach in a walking distance from the picturesque village of Lindos,
+ Magali Paralia is a fully organized place with sunbeds, umbrellas, fish taverns and some watersports. 
+
+The golden sand and the clean water amaze visitors. The environment has sparse vegetation and high hills, 
+while at the background people can see the amphitheatrically built village of Lindos and the Acropolis on top 
+of the mountain.<br />
+
+<h3>31.Lindos Palace Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodeslindospalacebeach.jpg" /><br />
+
+Lindos Palace beach Rhodes: Lindos beach palace is one of the three beaches surrounding Lindos town and one of 
+the most popular beaches on Rhodes island. 
+
+It is placed 55 km from Rhodes city and it is a great location for families, due to its ambience and its many 
+available facilities. 
+
+Apart from sun-beds and umbrellas, Lindos beach palace has a variety of hotels on its surroundings. Lindos 
+town is within a walking distance.
+ 	
+The beach has both sand and pebbles and its waters are crystal blue and quite shallow, ideal for swimming and 
+diving. Its family profile makes it a little crowded in high seasons, but still remains beautiful and 
+enjoyable.<br />
+
+<h3>32.Pefki beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodespefki.jpg" /><br />
+
+Pefki beach Rhodes: The Pefki beach is an overtly commercialized beach and the main street is lined up with 
+innumerable shops, establishments, bars and tavernas to cater to the exacting needs of the discerning 
+international traveler. 
+
+The peripheral areas surrounding the beach has been developed in such a manner so as to provide all the 
+contemporary tourist amenities. The Pefki beach has soft sand and is pebbled. Also, it is quite narrow in 
+comparison to other beaches of the island.<br />
+ 	
+A series of narrow pathways leads one to the picturesque beach front. There is no dearth of sun loungers at 
+the beach. At the extreme end of the beach one can find numerous rocky coves with which is ideal for swimming 
+as the water here is shallow. 
+
+The Beach tavernas are great places to indulge in a variety of fresh seafood delicacies. The Pefki beach can 
+be reached either by bus or hired taxi from the principal town of Rhodes. Buses from Rhodes operate at an 
+interval of every half an hour.<br />
+
+
+<h3>33.Vlicha Beach in Rhodes<br /></h3>
+          <img src="Images/Greece/greecerhodesvlicha.jpg" /><br />
+Vlicha beach Rhodes: The scenic Vlicha beach is located at a distance of 47 Kms from the town of Rhodes. 
+On any given day, one can see groups of children fully absorbed in sand games while the elderly lot have a 
+whale of a time by the beachfront. 
+
+Vlicha is a charming little beach and there is no dearth of sun loungers at this superb beach. The sea here 
+grows deeper progressively. The best part about this beach is that it is never too crowded.
+ 	
+The Vlicha beach is much preferred by the residents of neighboring Lindos who come top find solace away from 
+the hum drum of Lindos. On the slopes around, and at the centre of the seafront, standSome of the largest 
+hotels in this part of the world are located along the slopes of the Vlicha beach. If you prefer silence and 
+isolation, you would do well to venture to the extreme right hand side of the beach. Here you will also find 
+two small but cozy eating joints. Ther is provision for toilets as well as a fully operational telephone booth.<br />
+
+</p>
+
+
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="RhodesHotels" runat="server" HeaderText="Rhodeshotels">
+ <%--RhodesHotelsZ--%>
+    <HeaderTemplate>
+      <div class="sublevel2tabs"> Hotels
+
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+       <ajaxToolkit:TabContainer ID="RhodesHotelsTab" runat="server" BackColor="#006600" BorderColor="White" BorderStyle="None" Width="100%">
+<%--RhodesHotelsTabZ--%>
+        <ajaxToolkit:TabPanel ID="RhodesApartments" runat="server" HeaderText="Rhodesapartments">
+<%--RhodesHotelsApartmentsZ--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Apartments</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+               
+          
+                   </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="RhodesBugetHotel" runat="server" HeaderText="RhodesBudgetHotel">
+<%--RhodesBudgetHotelsZ Under5k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Budget Hotels</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+           <p><h3>Kolymbia Bay Art - Adults Only(INR 3000 Breakfast Included)</h3>  
+Kolymbia, 85103 Kolimbia <br />
+               <img src="Images/Greece/greece-rhodes-kolymbiabay1.jpg" />
+               <img src="Images/Greece/greece-rhodes-kolymbiabay2.jpg" />
+               <img src="Images/Greece/greece-rhodes-kolymbiabay3.jpg" />
+               <img src="Images/Greece/greece-rhodes-kolymbiabay4.jpg" />
+               <img src="Images/Greece/greece-rhodes-kolymbiabay5.jpg" />
+               
+                
+       <br />
+
+Kolymbia Bay Art Hotel is just 100 metres from the resort’s sandy-pebble beach. Guests enjoy a 
+wellness area with steam bath and tropical shower. Facilities include a freshwater pool.
+
+The bright rooms are air conditioned, each with free Wi-Fi, safe and satellite TV. Beach towels and 
+bathrobes are included. Sea-view rooms are available. A welcome pack with sweets and wine awaits you 
+upon arrival.<br />
+
+American buffet breakfast is served each morning. Those wishing to relax a bit more can enjoy a late 
+Continental breakfast, served next to the pool. The buffet restaurant serves lunch and dinner, with 
+regular show cooking and theme nights. Lunch baskets can be provided for your days out.<br />
+
+Kolymbia Bay Art features a free-access fitness room. Live DJ sets are hosted next to the pool. For 
+your daily needs, there is also a mini market on site.
+
+A 10 minutes’ walk will take you to Kolymbia's tree-lined main street with its shops, bars and taverns.
+ Diagoras International Airport is 30 km away. Free on-site parking is available.
+
+Hotel Rooms: 50<br />
+
+Room Facilities: Balcony, Garden View, Telephone, Satellite Channels, Flat-screen TV, Safety Deposit 
+Box, Air Conditioning, Ironing Facilities, Wooden / Parquet floor, Hairdryer, Bathrobe, Toilet, 
+Bathroom, Bath or Shower, Minibar<br />
+
+Room Size:  23 square metres<br />
+Bed Size(s): 2 Single or 1 Double<br />
+</p>
+ <p><h3>The Ixian Grand(INR 5000 Breakfast Included)</h3>  
+Ixia Beach, 85101 Ixia <br />
+     <img src="Images/Greece/greece-rhodes-ixiangrand1.jpg" />
+    <img src="Images/Greece/greece-rhodes-ixiangrand2.jpg" />
+     <img src="Images/Greece/greece-rhodes-ixiangrand3.jpg" />
+     <img src="Images/Greece/greece-rhodes-ixiangrand4.jpg" />
+     <img src="Images/Greece/greece-rhodes-ixiangrand5.jpg" />
+     <img src="Images/Greece/greece-rhodes-ixiangrand6.jpg" />
+     <img src="Images/Greece/greece-rhodes-ixiangrand7.jpg" />
+     <img src="Images/Greece/greece-rhodes-ixiangrand8.jpg" />
+           <img src="Images/Greece/greece-rhodes-ixiangrand9.jpg" />
+     <img src="Images/Greece/greece-rhodes-ixiangrand10.jpg" />
+           
+       <br />
+
+This magnificent beachfront resort hotel offers large outdoor pools with hydromassage and views of the 
+sea. The proud member of Great Hotels of the World is just minutes away from the Medieval City of 
+Rhodes.
+
+The Ixian Grand features contemporary rooms, as well as luxurious suites with private pools, surrounded
+ by landscaped gardens. Room rates include an American buffet-style breakfast.<br />
+
+Guests may enjoy excellent Mediterranean cuisine and traditional Greek dishes at the à la carte 
+poolside restaurant. The bar serves drinks and offers relaxing music with live performance twice weekly.
+
+
+The nearby Filerimos Hill and ancient city of Ialysos provide plenty of sightseeing opportunities for 
+those wishing to explore Rhodes Island.<br />
+
+Hotel Rooms: 280<br />
+
+Room Facilities: Balcony, Garden View, TV, Telephone, Satellite Channels, Flat-screen TV, Safety 
+Deposit Box, Air Conditioning, Sofa, Tiled / Marble floor, Wardrobe/Closet, Shower, Hairdryer, 
+Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Minibar, Wake Up Service<br />
+
+Room Size:  30 square metres<br />
+Bed Size(s): 1 Extra-large double, 1 Sofa bed.<br />
+</p>
+
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Rhodesstar3" runat="server" HeaderText="Rhodesstar3">
+<%--RhodesHotelsStar3Z Under 8k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">3Star
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          
+           <p><h3>Boutique 5(INR 7000 Breakfast Included)</h3>  
+Kiotari, 85109 Kiotari <br />
+               <img src="Images/Greece/greece-rhodes-boutique.jpg" />
+              <img src="Images/Greece/greece-rhodes-boutique1.jpg" />
+               <img src="Images/Greece/greece-rhodes-boutique2.jpg" />
+               <img src="Images/Greece/greece-rhodes-boutique3.jpg" />
+               <img src="Images/Greece/greece-rhodes-boutique4.jpg" />
+               <img src="Images/Greece/greece-rhodes-boutique5.jpg" />
+               <img src="Images/Greece/greece-rhodes-boutique6.jpg" />
+               
+
+       <br />
+
+The adults-only Boutique 5 is situated by Kiotari beach, less than 3 km from the town centre. 
+Featuring private pools and modern spa facilities, it offers rooms with panoramic sea views.
+
+The modern rooms offer a satellite LCD TV, minibar and a furnished balcony. They are very spacious, 
+dressed in earthy colours and fitted with quality furnishings. Complimentary slippers and bathrobes 
+are included.
+
+The spa facilities include a Turkish bath, indoor pool, hot tub and massage rooms, as well as a hair 
+salon and gym. A tennis court is also available on site. Umbrellas, towels and sundecks are at your 
+disposal around the swimming pools and at the beach.<br />
+
+The main restaurant serves early breakfast on request, American buffet breakfast and late breakfast. A 
+la carte lunch and dinner are also served, and lunch baskets can be provided for your days out. The 
+main bar serves drinks and coffee.
+
+Boutique 5 is 55 km from Rhodes Port and 58 km from the airport. Lindos is at 15 km, while Prasonisi 
+is at 28 km. Free public parking is available at a location nearby.
+<br />
+Hotel Rooms: 44
+<br />
+Room Facilities: Balcony, Sea View, Telephone, Satellite Channels, Cable Channels, Laptop Safe Box, 
+Flat-screen TV, Air Conditioning, Heating, Sofa, Wardrobe/Closet, Shower, Bath, Hairdryer, Bathrobe,
+ Free toiletries, Toilet, Bathroom, Slippers, Minibar, Wake Up Service
+ <br />
+Room Size:  25 square metres<br />
+Bed Size(s): 2 Single or 1 Double<br />
+</p>
+
+<p><h3>The Aquagrand of Lindos - Adults only(INR 6500 Breakfast Included)</h3>  
+Psaltos, 85107 Lindos <br />
+    <img src="Images/Greece/greece-rhodes-aquagrand1.jpg" />
+    <img src="Images/Greece/greece-rhodes-aquagrand2.jpg" />
+    <img src="Images/Greece/greece-rhodes-aquagrand3.jpg" />
+    <img src="Images/Greece/greece-rhodes-aquagrand4.jpg" />
+    <img src="Images/Greece/greece-rhodes-aquagrand5.jpg" />
+    <img src="Images/Greece/greece-rhodes-aquagrand6.jpg" />
+    <img src="Images/Greece/greece-rhodes-aquagrand7.jpg" />
+    <img src="Images/Greece/greece-rhodes-aquagrand8.jpg" />
+    
+           
+       <br />
+
+Located 1.5 km away from Lindos town, Aquagrand of Lindos - Adults only is a seafront hotel that 
+offers accommodation with Aegean Sea views. It includes a wellness centre, 3 swimming pools and 
+features a variety of fine dining options.
+
+The suites and rooms are elegantly decorated and feature a private balcony. Each air-conditioned unit 
+comes with a satellite 32” LCD TV, sofa and a mini bar. Some suites also include private pools.<br />
+
+The state-of the-art Aquasenses Spa offers extensive health and beauty treatments. Among others, it 
+includes 3 massage rooms, 2 saunas, a hot tub and a health bar.
+
+Greek cuisine and gourmet dishes made with fresh products are proposed by the resort’s chef. A pool 
+bar, a lounge bar with an impressive dome, and a beach bar with breathtaking views are featured.
+
+The city of Rhodes and its airport are around 50 km from Aquagrand of Lindos. Wi-Fi access and on-site
+ parking are available free of charge.<br />
+
+Hotel Rooms: 136<br />
+
+Room Facilities: Balcony, Garden View, Telephone, Satellite Channels, Flat-screen TV, Safety Deposit 
+Box, Air Conditioning, Desk, Seating Area, Sofa, Soundproofing, Tiled / Marble floor, Shower, Bath,
+ Hairdryer, Bathrobe, Free toiletries, Toilet, Bathroom, Slippers, Tea/Coffee Maker, Minibar, Electric
+  Kettle, Wake Up Service<br />
+
+Room Size:  44 square metres<br />
+Bed Size(s): 1 Extra-large double<br />
+</p>
+
+ 
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Rhodesstar4" runat="server" HeaderText="Rhodesstar4">
+<%--RhodesHotelsStar4Z Under 12k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">4Star</div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+          
+            <p><h3>Atrium Prestige Thalasso Spa Resort & Villas(INR 9000 Breakfast Included)</h3>  
+Main Street, 85109 Lakhania <br />
+                <img src="Images/Greece/greece-rhodes-atriumprestige1.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige2.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige3.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige4.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige5.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige6.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige7.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige8.jpg" />
+                <img src="Images/Greece/greece-rhodes-atriumprestige9.jpg" />
+                
+       <br />
+
+Boasting a stunning seaside location, this exclusive spa resort is close to Prassonisi and it offers 
+an infinity pool, ethnic restaurants, and rooms overlooking the sea or the hotel grounds.
+
+Atrium Prestige Thalasso Spa Resort & Villas offers gracious-size rooms with hand-painted ceilings,
+ bathrooms with panoramic windows for added view and mystic starlight ambience above the spa bath. 
+ Each is equipped with free Wi-Fi and 32-inch flat-screen satellite TV.
+ <br />
+The Atrium Prestige’s AnaNeosis Thalasso Spa enjoys breathtaking views of the Mediterranean Sea. 
+Guests can book hairstyling, manicure and professional make-up appointments, or indulge in 
+thalassotherapies, sauna and hammam services.
+
+The Atrium Prestige offers many dining outlets, including a Greek restaurant, the Prestigio restaurant 
+which serves authentic Italian cuisine, the Asian Restaurant which is located on the beachfront and 
+the à la carte Gourmet Restaurant Thalassa.
+<br />
+Children are sure to have fun on the playground or mini golf course. In the meantime, adults can make 
+the most of the pool or pay a visit to the fitness centre.
+
+The Atrium Prestige is a mere 18 km from Prasonisi and complimentary 2-way transfers are available from
+ the hotel.
+ <br />
+Hotel Rooms: 254<br />
+
+Room Facilities: Balcony, View, TV, Telephone, Radio, Satellite Channels, Flat-screen TV, Safety 
+Deposit Box, Air Conditioning, Desk, Seating Area, Tiled / Marble floor, Shower, Hairdryer, Bathrobe, 
+Spa Bath, Free toiletries, Toilet, Bathroom, Slippers, Tea/Coffee Maker, Minibar
+<br />
+Room Size:  38 square metres<br />
+Bed Size(s): 2 Single or 1 Extra-large double<br />
+</p>
+           
+           
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="Rhodesstar5" runat="server" HeaderText="Rhodesstar5">
+<%--RhodesHotelsStar5Z Under 20k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">5 Star
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+                  
+
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+        <ajaxToolkit:TabPanel ID="RhodesLuxurious" runat="server" HeaderText="Rhodesluxurious">
+<%--RhodesHotelsLuxurious above 20k--%>
+         <HeaderTemplate>
+          <div class="sublevel3tabs">Luxurious
+          </div>
+         </HeaderTemplate>
+         <ContentTemplate>
+          <div class="cities">
+
+          </div>
+         </ContentTemplate>
+        </ajaxToolkit:TabPanel>
+       </ajaxToolkit:TabContainer>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="RhodesRestaurants" runat="server" HeaderText="Rhodesrestaurants">
+<%--RhodesRestaurantsZ--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Restaurants
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+     
+
+
+     
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+    <ajaxToolkit:TabPanel ID="RhodesGettingAround" runat="server" HeaderText="RhodesGettingaround">
+<%--RhodesGettingaroundz--%>
+     <HeaderTemplate>
+      <div class="sublevel2tabs">Tours
+      </div>
+     </HeaderTemplate>
+     <ContentTemplate>
+      <div class="cities">
+    <p><h3>1. Lindos by Boat</h3>
+        <img src="Images/Greece/greecerhodeslindosbyboat.jpg" /><br />
+
+This is surely the best way to see the jewel in the island's crown. Heading off from Mandraki harbour, enjoy 
+a leisurely sail down the coast to this stunningly beautiful town enjoying wonderful views over its harbour 
+and whitewashed houses as you approach. Once ashore you'll have several hours to take in its sights.<br />
+
+Experience Includes<br />
+Return boat ride to Lindos<br />
+3 hours free time to explore the UNESCO World Heritage Town<br />
+20-minute swimming stop at Tsambika Beach or Stegna (weather permitting)<br />
+Hotel pick up and drop off from major resorts in the north of Rhodes<br />
+English-speaking escort<br />
+
+Overview<br />
+Depart from Mandraki Harbour at 9.00am and enjoy a leisurely 2 hour sail down the coast to this UNESCO World
+ Heritage Town, enjoying wonderful views over its harbour and whitewashed houses as you approach. 
+
+The lovely village of Lindos is one of the most attractive and beautiful villages of Rhodes. Set on the slope 
+of a hill, it is dominated by the acropolis and overlooks a picturesque bay. Here you will find whitewashed 
+houses with pebble-paved courtyards, narrow alleys and buildings influenced by Byzantine, medieval, Arab and 
+Rhodian architecture.<br />
+
+Once in Lindos, you are free time to explore at your own pace. Wander through the narrow, picturesque streets 
+of the town, perhaps indulging in some shopping at the various shops, or enjoy the local cafés and tavernas.
+ Attractions include the beautiful acropolis (€6 per person entrance fee, payable locally) that can be reached 
+ by foot or donkey, the old theatre of Lindos, carved from a rock, and the Doric sanctuary of Athena Lindia.<br />
+
+
+At around 2.30pm, the tour departs to Lindos and heads to Tsambika Beach or Stegna for a short swimming stop 
+(subject to weather) before heading back to Mandraki Harbour and on to your hotel. <br />
+
+PLEASE NOTE: This tour is only available from the following resorts in the North of Rhodes: Tholos,Trianta, 
+Ixia, Rhodes Town, Kalithea, Faliraki and Afantou.<br />
+
+Details<br />
+Departure Location:<br />
+This tour picks up from the following resorts: Tholos,Trianta, Ixia, Rhodes Town, Kalithea, Faliraki and 
+Afantou<br /><br />
+Departs:<br />
+Tuesdays, Thursdays and Sundays from 25 May to 10 October.<br />
+Start Times:<br />
+9.00am; pick-ups commence up to 90 minutes before the tour departure time. You will be informed of your pick 
+up time upon re-confirmation of your booking.<br />
+Duration:<br />
+Around 8 hours including 3 hours in Lindos.<br />
+Experience Exclusions<br />
+Optional gratuities<br />
+Refreshments<br />
+Acropoils entrance fee (€6 per person entrance fee, payable locally)<br /><br />
+ 
+
+Dress Code/What to Bring<br />
+A comfortable pair of shoes is recommended. Don't forget your swimming costume if you wish to go for a swim.<br />
+
+Additional Information<br />
+You will be collected you from your accommodation or nearest pick up point if it is not possible to pick-up from your hotel.<br /> 
+
+Adult £28.00<br />
+Child (2 - 11 years) £14.00<br />
+
+
+
+<h3>2.Rhodes Underwater Safari Tour</h3>
+        <img src="Images/Greece/greecerhodesunderwatersafari.jpg" /><br />
+
+Experience a magical undersea world in waters around the island of Rhodes. Spend the day diving in the 
+Kallithea Bay’s shallow waters, among colourful fish, keeping an eye out for octopus or even barracuda. Non 
+divers are also welcome on this day trip you can snorkel or swim in crystal clear waters or simply bask in the
+ sun. <br />
+Experience Includes<br />
+Boat trip to the beautiful Bay of Kallithea where you can dive, swim and snorkel.<br />
+Use of diving equipment<br />
+Hotel pick up and drop off from major resorts in the north and south of Rhodes<br />
+English-speaking escort<br />
+Air-conditioned transportation<br />
+
+Overview<br />
+Your trip begins with hotel pick-up followed by a bus ride to Mandraki harbour where you board a dive boat 
+for the short 45-minute sailing to the beautiful Bay of Kallithea. The boat is fully equipped with the latest 
+machines for deep sea diving, and all measures have been taken so as to insure the safety of customers. The 
+boat also has an underwater photo and video service and sandwiches and drinks can be purchased on board.<br />
+
+On arrival in Kalithea Bay, experience the thrills of scuba diving in the crystalline waters. Swim among 
+schools of colourful fish and take in the beauty of the underwater world in this full-day aquatic adventure.
+
+Those who have purchased a non-diver ticket can swim or snorkel in the turquoise waters of the bay or bask in 
+the sun.<br />
+
+Details<br />
+Departure Location:<br />
+This tour picks up from the following resorts: Tholos, Trianta, Ixia, Rhodes Town, Kalithea, Faliraki, 
+Kolymbia, Lindos, Lardos and Kiotari.<br />
+Departs:<br />
+Thursdays 25 May to 10 October.<br />
+Start Times:<br />
+9.00am. Hotel pick-ups commence up to 90 minutes before the scheduled departure time. Your exact pick-up time
+ will be advised when you reconfirm locally.<br />
+Duration:<br />
+Around 8 hours.<br />
+Experience Exclusions<br />
+Refreshments – these can be purchased on board the boat<br />
+Optional gratuities<br />
+Dress Code/What to Bring<br />
+Casual. Don’t forget your swimming costume, towel and sun cream. A bottle of water is also recommended.<br />
+
+Additional Information<br />
+Please note: For diving you need to be a minimum of 10 years old – for snorkelling you need to be a minimum 
+of 8 years old.<br />
+
+You will be collected you from your accommodation or nearest pick up point if it is not possible to pick-up 
+from your hotel.<br />
+
+Diver(from 11 years) £46.00<br />
+Non Diver (Adult) £30.00<br />
+Non Diver (Child) (2 - 11 years) £15.00<br />
+
+
+<h3>3.Sunshine Cruise from the North</h3>
+        <img src="Images/Greece/greecerhodessunshinecruisetonorth.jpg" /><br />
+
+
+Gently cruise along the turquoise blue waters of the island’s east coast on this relaxing boat trip which 
+combines numerous stops on golden beaches for swimming and with plenty of time to bask in the sun and top up 
+the tan. A barbecue lunch rounds off this first class trip.<br />
+Experience Includes<br />
+Leisurely boat cruise along the East coast of the Island<br />
+Swimming breaks at numerous beaches along the way<br />
+Barbecue Lunch<br />
+Hotel pick up and drop off from major resorts in the north of Rhodes<br />
+English-speaking escort<br />
+Overview<br />
+After you’ve joined your boat and the crew hoists the anchor, you’ll sail out from port into the open seas 
+and bob gently along the island’s east coast. You’ll pass by golden beaches, hidden bays and harbour ports, 
+so it’s worth keeping your camera ready to record the views. Or simply sit back on deck, slap on the sun 
+lotion and brush up your tan as the sea breezes waft over you. After a while, you’ll moor in a picturesque 
+bay, where you’ll get some time free to sunbathe on the beach or take a swim or snorkel. And along the way, 
+your crew will sizzle up a barbecue lunch for everyone to dig into. After that, it’s time to sail back to port,
+ giving you even more opportunity to take in more of the seascapes and relax in the sunshine.<br />
+
+Your boat will visit the following beaches (timings are approximate and depend on local weather conditions):<br />
+
+Anthony Quinn Bay – 15 minutes<br />
+Tsambika Beach – 30 minutes<br />
+Stegna Beach - 2.5 hours<br />
+Afandou Beach – 20 minutes<br />
+Kallithea Beach – 20 minutes<br />
+PLEASE NOTE: This tour is only available from the following resorts in the North of Rhodes: Tholos, Trianta, 
+Ixia, Rhodes Town, Kalithea, Faliraki and Afantou.<br />
+
+Details<br />
+Departure Location:<br />
+This tour picks up from the following resorts: Tholos, Trianta, Ixia, Rhodes Town, Kalithea, Faliraki and
+ Afantou.<br />
+Departs:<br />
+Sundays 25 May to 10 October.<br />
+Start Times:<br />
+9.00am. Hotel pick-ups commence up to 90 minutes before the scheduled departure time. Your exact pick-up time 
+will be advised when you reconfirm locally.<br />
+Duration:<br />
+Around 8 hours.<br />
+Experience Exclusions<br />
+Optional gratuities<br />
+Dress Code/What to Bring:
+Casual. Don’t forget your swimming costume, towel sunscreen and hat.<br />
+
+Additional Information<br />
+You will be collected you from your accommodation or nearest pick up point if it is not possible to pick-up 
+from your hotel.<br />
+
+Adult £37.00<br />
+Child (2 - 11 years) £20.00<br />
+
+<h3>4.Symi Island Tour from Rhodes</h3>
+        <img src="Images/Greece/greecerhodessymiislandfromrhodes.jpg" /><br />
+
+
+Fancy a spot of island hopping? Then set sail for the island of Symi, one of the most stunningly beautiful of
+ all the Greek Islands. <br />
+Experience Includes<br />
+Boat Cruise to Symi and Panormitis<br />
+Free time to explore both islands, shop or take a swim in the crystal clear sea<br />
+Hotel pick up and drop off from major resorts in the north and south of Rhodes<br />
+Overview<br />
+After being picked-up from your hotel, you will be met to Rhodes Harbour for the 2 hour boat trip to Symi, one 
+of the most beautiful picture-postcard Venetian villages with neo classical white and pastel yellow houses.<br />
+
+Tranquil Symi lies just 23 miles north of Rhodes, nestling inside a claw that juts out from Turkey, its nearest 
+neighbour, less than 4 miles across the sea. Symi town lies at the end of a deep-water harbour - its pastel 
+coloured houses spill down the steep hillside from Chorio - the high town, dominated by a church - and spread
+ around the harbour area of Yialos, making an open circle of light reflected in the deepest blue of the harbour.
+  It is as near perfect a setting as can be imagined.  There are some excellent shops selling herbs, sponges, 
+  traditional rugs, pottery and jewellery. Once you arrive a Symi, you are free to explore the island at your 
+  own leisure for around 3 hours.
+  <br />
+After lunch the boat sets sail for Panormitis, hereyou have around an hour to see the Monastery of St. Michael,
+ swimming and sunbathing before returning to Rhodes.<br />
+
+
+Details<br />
+Departs:<br />
+Mondays and Thursdays from 25 May to to 10 October.<br />
+Start Times:<br />
+9.00am. Hotel pick-ups commence up to 90 minutes before the sheduled departure time. You will be informed of
+ your pick up time upon re-confirmation of your booking.<br />
+Duration:<br />
+Around 9 hours.<br />
+Hotel Pick up:<br />
+This tour picks up from the following resorts: Tholos, Trianta, Ixia, Rhodes Town, Kalithea, Faliraki, 
+Kolymbia, Lindos, Lardos and Kiotari.<br />
+Experience Exclusions<br />
+Optional gratuities<br />
+Lunch<br />
+Dress Code/What to Bring<br />
+Casual. A comfortable pair of shoes is recommended. Don’t forget your swimming costume, towel and sun cream.<br />
+
+Additional Information<br />
+You will be collected you from your accommodation or nearest pick up point if it is not possible to pick-up 
+from your hotel. <br />
+
+Adult £35.00<br />
+Child (2 - 11 years) £17.00<br />
+</p>
+      </div>
+     </ContentTemplate>
+    </ajaxToolkit:TabPanel>
+        
+   </ajaxToolkit:TabContainer>
+  </div>
+ </ContentTemplate>
+</ajaxToolkit:TabPanel>
                 </ajaxToolkit:TabContainer>
             </div>
         </ContentTemplate>
@@ -4980,6 +9427,8 @@ In "Panorama" serve dishes which bear diet and calories.
         <ContentTemplate>
             <div class="countryinfo">
             Useful Information
+            ferriesingreece.com
+            intickets.gr
             </div>
         </ContentTemplate>
     </ajaxToolkit:TabPanel>
